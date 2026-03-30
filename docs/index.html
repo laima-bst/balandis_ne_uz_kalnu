@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Strava Competition Dashboard</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <style>
+    :root {
+      --bg:       #f5f5f5;
+      --card:     #ffffff;
+      --primary:  #fc4c02;   /* Strava orange */
+      --text:     #1a1a1a;
+      --muted:    #666;
+      --border:   #e5e5e5;
+      --gold:     #f5a623;
+      --silver:   #9b9b9b;
+      --bronze:   #c47a3a;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+    }
+
+    /* ---- Header ---- */
+    header {
+      background: var(--primary);
+      color: white;
+      padding: 1.5rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+    header h1 { font-size: 1.5rem; font-weight: 700; }
+    header .meta { font-size: 0.8rem; opacity: 0.85; text-align: right; }
+
+    /* ---- Layout ---- */
+    main {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 2rem 1rem;
+      display: grid;
+      gap: 1.5rem;
+    }
+
+    /* ---- Cards ---- */
+    .card {
+      background: var(--card);
+      border-radius: 12px;
+      border: 1px solid var(--border);
+      padding: 1.25rem 1.5rem;
+      box-shadow: 0 1px 4px rgba(0,0,0,.05);
+    }
+    .card h2 {
+      font-size: 1rem;
+      font-weight: 600;
+      margin-bottom: 1rem;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: .05em;
+    }
+
+    /* ---- Leaderboard ---- */
+    .leaderboard { width: 100%; border-collapse: collapse; }
+    .leaderboard th {
+      text-align: left;
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: var(--muted);
+      text-transform: uppercase;
+      padding: 0.5rem 0.75rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .leaderboard td {
+      padding: 0.75rem 0.75rem;
+      border-bottom: 1px solid var(--border);
+      font-size: 0.95rem;
+    }
+    .leaderboard tr:last-child td { border-bottom: none; }
+    .leaderboard tr:hover td { background: #fafafa; }
+    .rank-1 .rank-badge { color: var(--gold); }
+    .rank-2 .rank-badge { color: var(--silver); }
+    .rank-3 .rank-badge { color: var(--bronze); }
+    .rank-badge { font-size: 1.1rem; font-weight: 700; }
+    .points-cell { font-weight: 700; color: var(--primary); }
+    .athlete-name { font-weight: 600; cursor: pointer; }
+    .athlete-name:hover { text-decoration: underline; color: var(--primary); }
+
+    /* ---- Chart row ---- */
+    .charts-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.5rem;
+    }
+    @media (max-width: 640px) { .charts-row { grid-template-columns: 1fr; } }
+    .chart-wrap { position: relative; height: 260px; }
+
+    /* ---- Activity feed ---- */
+    .feed { list-style: none; }
+    .feed li {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      padding: 0.7rem 0;
+      border-bottom: 1px solid var(--border);
+      font-size: 0.9rem;
+    }
+    .feed li:last-child { border-bottom: none; }
+    .feed .sport-icon {
+      width: 2.2rem;
+      height: 2.2rem;
+      border-radius: 50%;
+      background: var(--primary);
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1rem;
+      flex-shrink: 0;
+    }
+    .feed .act-details { flex: 1; }
+    .feed .act-name { font-weight: 600; }
+    .feed .act-meta { color: var(--muted); font-size: 0.8rem; margin-top: 2px; }
+    .feed .act-pts { font-weight: 700; color: var(--primary); white-space: nowrap; }
+
+    /* ---- Athlete detail modal ---- */
+    .modal-overlay {
+      display: none;
+      position: fixed; inset: 0;
+      background: rgba(0,0,0,.4);
+      z-index: 100;
+      align-items: center;
+      justify-content: center;
+      padding: 1rem;
+    }
+    .modal-overlay.open { display: flex; }
+    .modal {
+      background: var(--card);
+      border-radius: 14px;
+      padding: 1.5rem;
+      max-width: 480px;
+      width: 100%;
+      max-height: 80vh;
+      overflow-y: auto;
+      position: relative;
+    }
+    .modal h3 { font-size: 1.2rem; margin-bottom: 1rem; }
+    .modal .close-btn {
+      position: absolute; top: 1rem; right: 1rem;
+      background: none; border: none; font-size: 1.4rem;
+      cursor: pointer; color: var(--muted);
+    }
+    .modal table { width: 100%; border-collapse: collapse; margin-top: .5rem; }
+    .modal table td { padding: .4rem .5rem; border-bottom: 1px solid var(--border); font-size: .9rem; }
+    .modal table td:last-child { text-align: right; font-weight: 600; }
+    .modal table tr:last-child td { border-bottom: none; }
+
+    /* ---- Misc ---- */
+    .updated { font-size: 0.75rem; color: var(--muted); text-align: right; margin-top: .5rem; }
+    #loading { text-align: center; padding: 4rem; color: var(--muted); }
+    #error { text-align: center; padding: 4rem; color: #c0392b; display: none; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1 id="comp-name">Competition Dashboard</h1>
+  <div class="meta" id="comp-dates"></div>
+</header>
+
+<main id="app">
+  <div id="loading">Loading data...</div>
+  <div id="error">Failed to load data.json. Make sure to run <code>scripts/fetch_and_update.py</code> first.</div>
+</main>
+
+<!-- Athlete detail modal -->
+<div class="modal-overlay" id="modal">
+  <div class="modal">
+    <button class="close-btn" onclick="closeModal()">&#x2715;</button>
+    <h3 id="modal-name"></h3>
+    <table id="modal-table"></table>
+  </div>
+</div>
+
+<script>
+const SPORT_ICONS = {
+  Run: "🏃", Ride: "🚴", Swim: "🏊", Walk: "🚶", Hike: "🥾",
+  VirtualRide: "🚴", VirtualRun: "🏃", NordicSki: "⛷️",
+  AlpineSki: "🎿", WeightTraining: "🏋️", Yoga: "🧘", default: "⚡"
+};
+
+function sportIcon(type) {
+  return SPORT_ICONS[type] || SPORT_ICONS.default;
+}
+
+function fmtTime(seconds) {
+  const h = Math.floor(seconds / 3600);
+  const m = Math.floor((seconds % 3600) / 60);
+  return h > 0 ? `${h}h ${m}m` : `${m}m`;
+}
+
+function fmtDate(iso) {
+  return new Date(iso).toLocaleDateString(undefined, { month: "short", day: "numeric" });
+}
+
+let athleteData = {};
+
+function openModal(key) {
+  const a = athleteData[key];
+  if (!a) return;
+  document.getElementById("modal-name").textContent = a.name;
+  const rows = Object.entries(a.by_type).sort((x,y) => y[1].points - x[1].points)
+    .map(([type, s]) =>
+      `<tr><td>${sportIcon(type)} ${type}</td><td>${s.count} activities</td><td>${s.distance_km.toFixed(1)} km</td><td>${s.points} pts</td></tr>`
+    ).join("");
+  document.getElementById("modal-table").innerHTML =
+    `<tr style="font-weight:600;color:var(--muted)"><td>Type</td><td>Count</td><td>Distance</td><td>Points</td></tr>` + rows;
+  document.getElementById("modal").classList.add("open");
+}
+
+function closeModal() {
+  document.getElementById("modal").classList.remove("open");
+}
+document.getElementById("modal").addEventListener("click", e => {
+  if (e.target === e.currentTarget) closeModal();
+});
+
+// ---- Build leaderboard table ----
+function buildLeaderboard(leaderboard) {
+  const rows = leaderboard.map(a => {
+    const rankClass = a.rank <= 3 ? `rank-${a.rank}` : "";
+    const medal = a.rank === 1 ? "🥇" : a.rank === 2 ? "🥈" : a.rank === 3 ? "🥉" : a.rank;
+    return `
+      <tr class="${rankClass}">
+        <td><span class="rank-badge">${medal}</span></td>
+        <td><span class="athlete-name" onclick="openModal('${a.name.toLowerCase().replace(/ /g,'_')}')">${a.name}</span></td>
+        <td class="points-cell">${a.total_points}</td>
+        <td>${a.activity_count}</td>
+        <td>${a.total_distance_km.toFixed(1)} km</td>
+        <td>${a.total_elevation_m.toFixed(0)} m</td>
+      </tr>`;
+  }).join("");
+
+  return `
+    <div class="card">
+      <h2>Leaderboard</h2>
+      <table class="leaderboard">
+        <thead>
+          <tr>
+            <th>#</th><th>Athlete</th><th>Points</th><th>Activities</th><th>Distance</th><th>Elevation</th>
+          </tr>
+        </thead>
+        <tbody>${rows}</tbody>
+      </table>
+    </div>`;
+}
+
+// ---- Build charts ----
+function buildCharts(leaderboard) {
+  const names  = leaderboard.map(a => a.name.split(" ")[0]);
+  const points = leaderboard.map(a => a.total_points);
+  const COLORS = leaderboard.map((_, i) => `hsl(${(i * 37) % 360},70%,55%)`);
+
+  return `
+    <div class="charts-row">
+      <div class="card">
+        <h2>Points</h2>
+        <div class="chart-wrap"><canvas id="chart-points"></canvas></div>
+      </div>
+      <div class="card">
+        <h2>Activities by type</h2>
+        <div class="chart-wrap"><canvas id="chart-types"></canvas></div>
+      </div>
+    </div>`;
+}
+
+function initCharts(leaderboard, activities) {
+  const names  = leaderboard.map(a => a.name.split(" ")[0]);
+  const points = leaderboard.map(a => a.total_points);
+
+  new Chart(document.getElementById("chart-points"), {
+    type: "bar",
+    data: {
+      labels: names,
+      datasets: [{
+        label: "Points",
+        data: points,
+        backgroundColor: "#fc4c02",
+        borderRadius: 6,
+      }]
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      plugins: { legend: { display: false } },
+      scales: { y: { beginAtZero: true } }
+    }
+  });
+
+  // Count by sport type across all activities
+  const typeCounts = {};
+  activities.forEach(a => {
+    typeCounts[a.sport_type] = (typeCounts[a.sport_type] || 0) + 1;
+  });
+  const typeLabels = Object.keys(typeCounts);
+  const typeData   = typeLabels.map(t => typeCounts[t]);
+  const typeColors = typeLabels.map((_, i) => `hsl(${(i * 53) % 360},65%,55%)`);
+
+  new Chart(document.getElementById("chart-types"), {
+    type: "doughnut",
+    data: {
+      labels: typeLabels.map(t => `${sportIcon(t)} ${t}`),
+      datasets: [{ data: typeData, backgroundColor: typeColors }]
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      plugins: { legend: { position: "bottom", labels: { boxWidth: 12 } } }
+    }
+  });
+}
+
+// ---- Build activity feed ----
+function buildFeed(activities) {
+  const items = activities.slice(0, 30).map(a => `
+    <li>
+      <div class="sport-icon">${sportIcon(a.sport_type)}</div>
+      <div class="act-details">
+        <div class="act-name">${a.name || a.sport_type}</div>
+        <div class="act-meta">${a.athlete_name} · ${fmtDate(a.start_date)} · ${a.distance_km} km · ${fmtTime(a.moving_time_s)}</div>
+      </div>
+      <div class="act-pts">+${a.points} pts</div>
+    </li>`).join("");
+
+  return `
+    <div class="card">
+      <h2>Recent Activities</h2>
+      <ul class="feed">${items}</ul>
+    </div>`;
+}
+
+// ---- Main ----
+async function init() {
+  try {
+    const resp = await fetch("data.json");
+    if (!resp.ok) throw new Error("HTTP " + resp.status);
+    const data = await resp.json();
+
+    // Store athlete data for modal lookups
+    data.leaderboard.forEach(a => {
+      athleteData[a.name.toLowerCase().replace(/ /g, "_")] = a;
+    });
+
+    // Update header
+    document.getElementById("comp-name").textContent = data.competition.name;
+    document.getElementById("comp-dates").innerHTML =
+      `${data.competition.start_date} → ${data.competition.end_date}<br>Updated: ${new Date(data.generated_at).toLocaleString()}`;
+
+    // Render
+    const app = document.getElementById("app");
+    app.innerHTML =
+      buildLeaderboard(data.leaderboard) +
+      buildCharts(data.leaderboard, data.activities) +
+      buildFeed(data.activities);
+
+    initCharts(data.leaderboard, data.activities);
+
+  } catch (err) {
+    document.getElementById("loading").style.display = "none";
+    document.getElementById("error").style.display = "block";
+    console.error(err);
+  }
+}
+
+init();
+</script>
+</body>
+</html>
