@@ -9,6 +9,45 @@ competition:
   end_date:   "2026-12-31"
   name: "Balandis ne uz kalnu 2026"
 
+# Team definitions — assign athletes to teams by their exact display name.
+teams:
+  - name: "Team A"
+    members:
+      - "Andrius A."
+      - "Viktorija M."
+      - "Liudas S."
+      - "Edvinas V."
+      - "Tautvydas Ž."
+      - "Sandra M."
+  - name: "Team B"
+    members:
+      - "Donatas J."
+      - "Lina K."
+      - "Arūnas M."
+      - "Aurelija S."
+      - "Gintarė B."
+  - name: "Team C"
+    members:
+      - "Paulius R."
+      - "Greta N."
+      - "Deivydas Ž."
+      - "Antanas R."
+      - "Gertrūda G."
+  - name: "Team D"
+    members:
+      - "Žilvinas P."
+      - "Daina G."
+      - "Matas A."
+      - "Ieva Š."
+      - "Dominykas Č."
+  - name: "Team E"
+    members:
+      - "Augustinas T."
+      - "Augustė J."
+      - "Ąžuolas Š."
+      - "Valentinas A."
+      - "Artūras K."
+
 # Activity types to include (Strava sport_type values).
 # Everything NOT listed here is ignored entirely.
 # Common types: Run, Ride, Swim, Walk, Hike, VirtualRide, VirtualRun,
