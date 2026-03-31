@@ -390,8 +390,8 @@ async function init() {
     const app = document.getElementById("app");
     app.innerHTML =
       buildTeams(data.teams) +
-      buildLeaderboard(data.leaderboard) +
       buildCharts(data.leaderboard, data.activities) +
+      buildLeaderboard(data.leaderboard) +
       buildFeed(data.activities);
 
     initCharts(data.leaderboard, data.activities);

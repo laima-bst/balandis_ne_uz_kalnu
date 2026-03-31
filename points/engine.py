@@ -75,8 +75,22 @@ class PointsEngine:
             a["by_type"][sport]["points"] += activity["points"]
             a["by_type"][sport]["distance_km"] += activity["distance_km"]
 
+        # Build set of all assigned athlete keys from teams config
+        teams_config = self.rules.get("teams", [])
+        assigned_keys = {
+            m.lower().replace(" ", "_")
+            for team in teams_config
+            for m in team.get("members", [])
+        }
+
+        # If teams are defined, only include assigned athletes in the leaderboard
+        athletes_to_rank = {
+            k: v for k, v in athletes.items()
+            if not assigned_keys or k in assigned_keys
+        }
+
         leaderboard = sorted(
-            athletes.values(), key=lambda x: x["total_points"], reverse=True
+            athletes_to_rank.values(), key=lambda x: x["total_points"], reverse=True
         )
         # Add rank
         for i, entry in enumerate(leaderboard, start=1):
