@@ -88,6 +88,34 @@ class PointsEngine:
         # Sort activity feed newest-first
         scored.sort(key=lambda a: a["start_date"] or "", reverse=True)
 
+        # Aggregate per team
+        teams_config = self.rules.get("teams", [])
+        team_totals = []
+        for team in teams_config:
+            team_name = team["name"]
+            member_keys = {m.lower().replace(" ", "_") for m in team.get("members", [])}
+            team_points = 0.0
+            team_distance = 0.0
+            team_activities = 0
+            team_members = []
+            for athlete in athletes.values():
+                key = athlete["name"].lower().replace(" ", "_")
+                if key in member_keys:
+                    team_points += athlete["total_points"]
+                    team_distance += athlete["total_distance_km"]
+                    team_activities += athlete["activity_count"]
+                    team_members.append(athlete["name"])
+            team_totals.append({
+                "name": team_name,
+                "total_points": round(team_points, 1),
+                "total_distance_km": round(team_distance, 2),
+                "activity_count": team_activities,
+                "members": team_members,
+            })
+        team_totals.sort(key=lambda t: t["total_points"], reverse=True)
+        for i, t in enumerate(team_totals, start=1):
+            t["rank"] = i
+
         comp = self.rules["competition"]
         return {
             "competition": {
@@ -95,6 +123,7 @@ class PointsEngine:
                 "start_date": comp["start_date"],
                 "end_date": comp["end_date"],
             },
+            "teams": team_totals,
             "leaderboard": leaderboard,
             "activities": scored,
             "generated_at": datetime.now(timezone.utc).isoformat(),

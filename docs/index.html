@@ -230,6 +230,33 @@ document.getElementById("modal").addEventListener("click", e => {
   if (e.target === e.currentTarget) closeModal();
 });
 
+// ---- Build team leaderboard ----
+function buildTeams(teams) {
+  if (!teams || teams.length === 0) return "";
+  const medal = r => r === 1 ? "🥇" : r === 2 ? "🥈" : r === 3 ? "🥉" : r;
+  const rows = teams.map(t => `
+    <tr class="${t.rank <= 3 ? `rank-${t.rank}` : ""}">
+      <td><span class="rank-badge">${medal(t.rank)}</span></td>
+      <td style="font-weight:700">${t.name}</td>
+      <td class="points-cell">${t.total_points}</td>
+      <td>${t.activity_count}</td>
+      <td>${t.total_distance_km.toFixed(1)} km</td>
+      <td style="color:var(--muted);font-size:0.85rem">${t.members.join(", ")}</td>
+    </tr>`).join("");
+  return `
+    <div class="card">
+      <h2>Team Leaderboard</h2>
+      <table class="leaderboard">
+        <thead>
+          <tr>
+            <th>#</th><th>Team</th><th>Points</th><th>Activities</th><th>Distance</th><th>Members</th>
+          </tr>
+        </thead>
+        <tbody>${rows}</tbody>
+      </table>
+    </div>`;
+}
+
 // ---- Build leaderboard table ----
 function buildLeaderboard(leaderboard) {
   const rows = leaderboard.map(a => {
@@ -362,6 +389,7 @@ async function init() {
     // Render
     const app = document.getElementById("app");
     app.innerHTML =
+      buildTeams(data.teams) +
       buildLeaderboard(data.leaderboard) +
       buildCharts(data.leaderboard, data.activities) +
       buildFeed(data.activities);
