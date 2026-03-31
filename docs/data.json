@@ -4,6 +4,63 @@
     "start_date": "2026-03-01",
     "end_date": "2026-12-31"
   },
+  "teams": [
+    {
+      "name": "Team A",
+      "total_points": 1419.5,
+      "total_distance_km": 523.73,
+      "activity_count": 42,
+      "members": [
+        "Andrius A.",
+        "Tautvydas Ž.",
+        "Sandra M.",
+        "Liudas S."
+      ],
+      "rank": 1
+    },
+    {
+      "name": "Team E",
+      "total_points": 831.1,
+      "total_distance_km": 697.72,
+      "activity_count": 22,
+      "members": [
+        "Augustinas T.",
+        "Valentinas A."
+      ],
+      "rank": 2
+    },
+    {
+      "name": "Team D",
+      "total_points": 583.0,
+      "total_distance_km": 385.01,
+      "activity_count": 16,
+      "members": [
+        "Žilvinas P.",
+        "Matas A."
+      ],
+      "rank": 3
+    },
+    {
+      "name": "Team B",
+      "total_points": 381.4,
+      "total_distance_km": 342.21,
+      "activity_count": 11,
+      "members": [
+        "Donatas J."
+      ],
+      "rank": 4
+    },
+    {
+      "name": "Team C",
+      "total_points": 329.2,
+      "total_distance_km": 109.75,
+      "activity_count": 9,
+      "members": [
+        "Paulius R."
+      ],
+      "rank": 5
+    }
+  ],
   "leaderboard": [
     {
       "name": "Andrius A.",
@@ -2049,5 +2106,5 @@
       "points": 34.7
     }
   ],
-  "generated_at": "2026-03-31T12:05:01.894588+00:00"
+  "generated_at": "2026-03-31T12:18:24.409261+00:00"
 }
