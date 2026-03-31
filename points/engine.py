@@ -99,7 +99,8 @@ class PointsEngine:
             entry["total_distance_km"] = round(entry["total_distance_km"], 2)
             entry["total_elevation_m"] = round(entry["total_elevation_m"], 0)
 
-        # Sort activity feed newest-first
+        # Filter activities to assigned athletes only, then sort newest-first
+        scored = [a for a in scored if not assigned_keys or a["athlete_key"] in assigned_keys]
         scored.sort(key=lambda a: a["start_date"] or "", reverse=True)
 
         # Aggregate per team

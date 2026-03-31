@@ -160,6 +160,23 @@
     .modal table td:last-child { text-align: right; font-weight: 600; }
     .modal table tr:last-child td { border-bottom: none; }
 
+    /* ---- Expandable activity rows ---- */
+    .athlete-row { cursor: pointer; }
+    .athlete-row td { transition: background 0.15s; }
+    .athlete-row:hover td { background: #fafafa; }
+    .athlete-row .toggle-arrow { display: inline-block; margin-right: 0.4rem; transition: transform 0.2s; color: var(--muted); font-size: 0.8rem; }
+    .athlete-row.open .toggle-arrow { transform: rotate(90deg); }
+    .activities-expand { display: none; }
+    .activities-expand.open { display: table-row; }
+    .activities-expand td { padding: 0 0.75rem 0.75rem; background: #fafafa; border-bottom: 1px solid var(--border); }
+    .act-list { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; }
+    .act-list li { display: flex; align-items: center; gap: 0.75rem; font-size: 0.875rem; padding: 0.35rem 0.5rem; border-radius: 6px; background: white; border: 1px solid var(--border); }
+    .act-list .act-icon { font-size: 1rem; width: 1.5rem; text-align: center; flex-shrink: 0; }
+    .act-list .act-info { flex: 1; }
+    .act-list .act-title { font-weight: 600; }
+    .act-list .act-sub { color: var(--muted); font-size: 0.78rem; margin-top: 1px; }
+    .act-list .act-pts { font-weight: 700; color: var(--primary); white-space: nowrap; }
+
     /* ---- Misc ---- */
     .updated { font-size: 0.75rem; color: var(--muted); text-align: right; margin-top: .5rem; }
     #loading { text-align: center; padding: 4rem; color: var(--muted); }
@@ -257,25 +274,54 @@ function buildTeams(teams) {
     </div>`;
 }
 
-// ---- Build leaderboard table ----
-function buildLeaderboard(leaderboard) {
+// ---- Toggle athlete activity expand ----
+function toggleAthlete(key) {
+  const row = document.getElementById(`row-${key}`);
+  const expand = document.getElementById(`expand-${key}`);
+  row.classList.toggle("open");
+  expand.classList.toggle("open");
+}
+
+// ---- Build leaderboard table with expandable activities ----
+function buildLeaderboard(leaderboard, activities) {
+  // Group activities by athlete_key
+  const byAthlete = {};
+  activities.forEach(a => {
+    if (!byAthlete[a.athlete_key]) byAthlete[a.athlete_key] = [];
+    byAthlete[a.athlete_key].push(a);
+  });
+
   const rows = leaderboard.map(a => {
+    const key = a.name.toLowerCase().replace(/ /g, "_");
     const rankClass = a.rank <= 3 ? `rank-${a.rank}` : "";
     const medal = a.rank === 1 ? "🥇" : a.rank === 2 ? "🥈" : a.rank === 3 ? "🥉" : a.rank;
+    const acts = (byAthlete[key] || []).map(act => `
+      <li>
+        <span class="act-icon">${sportIcon(act.sport_type)}</span>
+        <span class="act-info">
+          <div class="act-title">${act.name || act.sport_type}</div>
+          <div class="act-sub">${act.start_date ? fmtDate(act.start_date) : "—"} · ${act.distance_km} km · ${fmtTime(act.moving_time_s)}</div>
+        </span>
+        <span class="act-pts">+${act.points} pts</span>
+      </li>`).join("");
+
     return `
-      <tr class="${rankClass}">
+      <tr class="athlete-row ${rankClass}" id="row-${key}" onclick="toggleAthlete('${key}')">
         <td><span class="rank-badge">${medal}</span></td>
-        <td><span class="athlete-name" onclick="openModal('${a.name.toLowerCase().replace(/ /g,'_')}')">${a.name}</span></td>
+        <td><span class="toggle-arrow">▶</span><strong>${a.name}</strong></td>
         <td class="points-cell">${a.total_points}</td>
         <td>${a.activity_count}</td>
         <td>${a.total_distance_km.toFixed(1)} km</td>
         <td>${a.total_elevation_m.toFixed(0)} m</td>
+      </tr>
+      <tr class="activities-expand" id="expand-${key}">
+        <td colspan="6"><ul class="act-list">${acts}</ul></td>
       </tr>`;
   }).join("");
 
   return `
     <div class="card">
-      <h2>Leaderboard</h2>
+      <h2>Individual Leaderboard</h2>
       <table class="leaderboard">
         <thead>
           <tr>
@@ -391,8 +437,7 @@ async function init() {
     app.innerHTML =
       buildTeams(data.teams) +
       buildCharts(data.leaderboard, data.activities) +
-      buildLeaderboard(data.leaderboard) +
-      buildFeed(data.activities);
+      buildLeaderboard(data.leaderboard, data.activities);
 
     initCharts(data.leaderboard, data.activities);
 
