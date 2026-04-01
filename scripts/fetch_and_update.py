@@ -14,6 +14,7 @@ import hashlib
 import json
 import os
 import sys
+from datetime import date
 
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
 
@@ -60,11 +61,13 @@ def merge_archive(archive: dict, fetched: list[dict]) -> int:
     new_activities = []
     new_fingerprints = []
 
+    today = date.today().isoformat()
     for activity in fetched:
         fp = fingerprint(activity)
         if fp in known:
             # Reached activities we've already archived — stop here
             break
+        activity["_fetched_date"] = today
         new_activities.append(activity)
         new_fingerprints.append(fp)
 

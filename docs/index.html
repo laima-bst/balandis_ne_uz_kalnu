@@ -160,6 +160,9 @@
     .modal table td:last-child { text-align: right; font-weight: 600; }
     .modal table tr:last-child td { border-bottom: none; }
 
+    /* ---- Bump chart ---- */
+    .bump-wrap { position: relative; height: 320px; }
+
     /* ---- Expandable activity rows ---- */
     .athlete-row { cursor: pointer; }
     .athlete-row td { transition: background 0.15s; }
@@ -225,7 +228,22 @@ function fmtDate(iso) {
   return new Date(iso).toLocaleDateString(undefined, { month: "short", day: "numeric" });
 }
 
+// ---- Team colours ----
+const TEAM_COLORS = ["#e74c3c", "#3498db", "#2ecc71", "#9b59b6", "#f39c12",
+                     "#1abc9c", "#e67e22", "#34495e", "#e91e63", "#00bcd4"];
+
 let athleteData = {};
+let athleteColorMap = {};  // athlete_key → team color
+
+function buildColorMaps(teams) {
+  teams.forEach((t, i) => {
+    const color = TEAM_COLORS[i % TEAM_COLORS.length];
+    t.color = color;
+    (t.members || []).forEach(name => {
+      athleteColorMap[name.toLowerCase().replace(/ /g, "_")] = color;
+    });
+  });
+}
 
 function openModal(key) {
   const a = athleteData[key];
@@ -254,7 +272,10 @@ function buildTeams(teams) {
   const rows = teams.map(t => `
     <tr class="${t.rank <= 3 ? `rank-${t.rank}` : ""}">
       <td><span class="rank-badge">${medal(t.rank)}</span></td>
-      <td style="font-weight:700">${t.name}</td>
+      <td>
+        <span style="display:inline-block;width:12px;height:12px;border-radius:3px;background:${t.color};margin-right:8px;vertical-align:middle;"></span>
+        <strong>${t.name}</strong>
+      </td>
       <td class="points-cell">${t.total_points}</td>
       <td>${t.activity_count}</td>
       <td>${t.total_distance_km.toFixed(1)} km</td>
@@ -272,6 +293,87 @@ function buildTeams(teams) {
         <tbody>${rows}</tbody>
       </table>
     </div>`;
+}
+
+// ---- Build bump chart (team rankings over time) ----
+function aprilDates() {
+  const dates = [];
+  for (let d = 1; d <= 30; d++) {
+    dates.push(`2026-04-${String(d).padStart(2, "0")}`);
+  }
+  return dates;
+}
+
+function buildBumpChart(dailyRankings, teams) {
+  if (!dailyRankings || dailyRankings.length === 0) return "";
+  return `
+    <div class="card">
+      <h2>Team Points Over Time</h2>
+      <div class="bump-wrap"><canvas id="chart-bump"></canvas></div>
+    </div>`;
+}
+
+function initBumpChart(dailyRankings, teams) {
+  if (!dailyRankings || dailyRankings.length === 0) return;
+  const numTeams = teams.length;
+  const allDates = aprilDates();
+
+  // Index daily rankings by date for quick lookup
+  const rankByDate = {};
+  dailyRankings.forEach(d => { rankByDate[d.date] = d.rankings; });
+
+  // Index daily points by date for quick lookup
+  const pointsByDate = {};
+  dailyRankings.forEach(d => { pointsByDate[d.date] = d.points; });
+
+  const datasets = teams.map(t => ({
+    label: t.name,
+    data: allDates.map(date => pointsByDate[date]?.[t.name] ?? null),
+    borderColor: t.color,
+    backgroundColor: t.color,
+    borderWidth: 3,
+    pointRadius: 6,
+    pointHoverRadius: 9,
+    pointBackgroundColor: t.color,
+    tension: 0.3,
+    fill: false,
+    spanGaps: false,
+  }));
+
+  new Chart(document.getElementById("chart-bump"), {
+    type: "line",
+    data: {
+      labels: allDates.map(d => {
+        const day = parseInt(d.split("-")[2]);
+        return `Apr ${day}`;
+      }),
+      datasets
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      scales: {
+        y: {
+          beginAtZero: true,
+          ticks: { callback: v => `${v} pts` },
+          grid: { color: "#f0f0f0" },
+        },
+        x: {
+          grid: { display: false },
+          ticks: { maxTicksLimit: 10 },
+        },
+      },
+      plugins: {
+        legend: { position: "bottom", labels: { boxWidth: 12 } },
+        tooltip: {
+          filter: item => item.parsed.y !== null,
+          callbacks: {
+            label: ctx => ` ${ctx.dataset.label}: ${ctx.parsed.y} pts`,
+          }
+        }
+      }
+    }
+  });
 }
 
 // ---- Toggle athlete activity expand ----
@@ -305,9 +407,10 @@ function buildLeaderboard(leaderboard, activities) {
         <span class="act-pts">+${act.points} pts</span>
       </li>`).join("");
 
+    const teamColor = athleteColorMap[key] || "#ccc";
     return `
       <tr class="athlete-row ${rankClass}" id="row-${key}" onclick="toggleAthlete('${key}')">
-        <td><span class="rank-badge">${medal}</span></td>
+        <td style="border-left:4px solid ${teamColor}"><span class="rank-badge">${medal}</span></td>
         <td><span class="toggle-arrow">▶</span><strong>${a.name}</strong></td>
         <td class="points-cell">${a.total_points}</td>
         <td>${a.activity_count}</td>
@@ -315,7 +418,7 @@ function buildLeaderboard(leaderboard, activities) {
         <td>${a.total_elevation_m.toFixed(0)} m</td>
       </tr>
       <tr class="activities-expand" id="expand-${key}">
-        <td colspan="6"><ul class="act-list">${acts}</ul></td>
+        <td colspan="6" style="border-left:4px solid ${teamColor}"><ul class="act-list">${acts}</ul></td>
       </tr>`;
   }).join("");
 
@@ -355,6 +458,7 @@ function buildCharts(leaderboard) {
 function initCharts(leaderboard, activities) {
   const names  = leaderboard.map(a => a.name.split(" ")[0]);
   const points = leaderboard.map(a => a.total_points);
+  const barColors = leaderboard.map(a => athleteColorMap[a.name.toLowerCase().replace(/ /g, "_")] || "#fc4c02");
 
   new Chart(document.getElementById("chart-points"), {
     type: "bar",
@@ -363,7 +467,7 @@ function initCharts(leaderboard, activities) {
       datasets: [{
         label: "Points",
         data: points,
-        backgroundColor: "#fc4c02",
+        backgroundColor: barColors,
         borderRadius: 6,
       }]
     },
@@ -422,6 +526,9 @@ async function init() {
     if (!resp.ok) throw new Error("HTTP " + resp.status);
     const data = await resp.json();
 
+    // Build colour maps before rendering
+    buildColorMaps(data.teams || []);
+
     // Store athlete data for modal lookups
     data.leaderboard.forEach(a => {
       athleteData[a.name.toLowerCase().replace(/ /g, "_")] = a;
@@ -436,9 +543,11 @@ async function init() {
     const app = document.getElementById("app");
     app.innerHTML =
       buildTeams(data.teams) +
+      buildBumpChart(data.daily_rankings, data.teams) +
       buildCharts(data.leaderboard, data.activities) +
       buildLeaderboard(data.leaderboard, data.activities);
 
+    initBumpChart(data.daily_rankings, data.teams);
     initCharts(data.leaderboard, data.activities);
 
   } catch (err) {

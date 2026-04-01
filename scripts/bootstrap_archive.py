@@ -13,6 +13,7 @@ import os
 import sys
 import hashlib
 import argparse
+from datetime import date
 
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
 
@@ -49,6 +50,9 @@ def main():
     print(f"  → {len(activities)} fetched")
 
     selected = activities[: args.count]
+    today = date.today().isoformat()
+    for a in selected:
+        a["_fetched_date"] = today
 
     archive = {
         "fingerprints": [fingerprint(a) for a in selected],
