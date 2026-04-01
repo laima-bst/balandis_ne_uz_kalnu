@@ -7,22 +7,23 @@
   "teams": [
     {
       "name": "Team A",
-      "total_points": 1461.7,
-      "total_distance_km": 537.79,
+      "total_points": 1405.1,
+      "total_distance_km": 523.49,
       "activity_count": 43,
       "members": [
+        "Edvinas V.",
+        "Sandra M.",
         "Andrius A.",
         "Tautvydas Ž.",
-        "Sandra M.",
         "Liudas S."
       ],
       "rank": 1
     },
     {
       "name": "Team E",
-      "total_points": 831.1,
-      "total_distance_km": 697.72,
-      "activity_count": 23,
+      "total_points": 796.4,
+      "total_distance_km": 662.99,
+      "activity_count": 22,
       "members": [
         "Augustinas T.",
         "Valentinas A."
@@ -31,10 +32,11 @@
     },
     {
       "name": "Team D",
-      "total_points": 555.1,
-      "total_distance_km": 375.72,
-      "activity_count": 15,
+      "total_points": 562.4,
+      "total_distance_km": 378.14,
+      "activity_count": 16,
       "members": [
+        "Daina G.",
         "Žilvinas P.",
         "Matas A."
       ],
@@ -42,11 +44,12 @@
     },
     {
       "name": "Team B",
-      "total_points": 381.4,
-      "total_distance_km": 342.21,
-      "activity_count": 11,
+      "total_points": 376.6,
+      "total_distance_km": 340.63,
+      "activity_count": 12,
       "members": [
-        "Donatas J."
+        "Donatas J.",
+        "Gintarė B."
       ],
       "rank": 4
     },
@@ -64,30 +67,30 @@
   "leaderboard": [
     {
       "name": "Andrius A.",
-      "total_points": 1233.7,
-      "activity_count": 31,
-      "total_distance_km": 411.15,
-      "total_elevation_m": 2667.0,
+      "total_points": 1194.5,
+      "activity_count": 30,
+      "total_distance_km": 398.07,
+      "total_elevation_m": 2553.0,
       "by_type": {
         "Run": {
-          "count": 31,
-          "points": 1233.7,
-          "distance_km": 411.15
+          "count": 30,
+          "points": 1194.5,
+          "distance_km": 398.07000000000005
         }
       },
       "rank": 1
     },
     {
       "name": "Augustinas T.",
-      "total_points": 685.4,
-      "activity_count": 21,
-      "total_distance_km": 552.08,
-      "total_elevation_m": 11783.0,
+      "total_points": 650.7,
+      "activity_count": 20,
+      "total_distance_km": 517.35,
+      "total_elevation_m": 11028.0,
       "by_type": {
         "Ride": {
-          "count": 14,
-          "points": 485.20000000000005,
-          "distance_km": 485.35
+          "count": 13,
+          "points": 450.50000000000006,
+          "distance_km": 450.62
         },
         "Hike": {
           "count": 7,
@@ -119,20 +122,20 @@
     },
     {
       "name": "Donatas J.",
-      "total_points": 381.4,
+      "total_points": 372.8,
       "activity_count": 11,
-      "total_distance_km": 342.21,
-      "total_elevation_m": 2760.0,
+      "total_distance_km": 339.35,
+      "total_elevation_m": 2742.0,
       "by_type": {
+        "Walk": {
+          "count": 5,
+          "points": 50.3,
+          "distance_km": 16.740000000000002
+        },
         "Ride": {
           "count": 6,
           "points": 322.5,
           "distance_km": 322.61
-        },
-        "Walk": {
-          "count": 5,
-          "points": 58.9,
-          "distance_km": 19.6
         }
       },
       "rank": 4
@@ -183,16 +186,31 @@
       "rank": 7
     },
     {
-      "name": "Liudas S.",
-      "total_points": 90.7,
+      "name": "Sandra M.",
+      "total_points": 80.5,
       "activity_count": 6,
-      "total_distance_km": 30.21,
-      "total_elevation_m": 364.0,
+      "total_distance_km": 80.5,
+      "total_elevation_m": 598.0,
+      "by_type": {
+        "Ride": {
+          "count": 6,
+          "points": 80.5,
+          "distance_km": 80.5
+        }
+      },
+      "rank": 8
+    },
+    {
+      "name": "Liudas S.",
+      "total_points": 66.5,
+      "activity_count": 5,
+      "total_distance_km": 22.15,
+      "total_elevation_m": 299.0,
       "by_type": {
         "Run": {
-          "count": 3,
-          "points": 90.7,
-          "distance_km": 30.21
+          "count": 2,
+          "points": 66.5,
+          "distance_km": 22.15
         },
         "Ride": {
           "count": 2,
@@ -203,21 +221,6 @@
           "count": 1,
           "points": 0.0,
           "distance_km": 0.0
-        }
-      },
-      "rank": 8
-    },
-    {
-      "name": "Sandra M.",
-      "total_points": 76.0,
-      "activity_count": 5,
-      "total_distance_km": 76.0,
-      "total_elevation_m": 526.0,
-      "by_type": {
-        "Ride": {
-          "count": 5,
-          "points": 76.0,
-          "distance_km": 76.0
         }
       },
       "rank": 9
@@ -236,9 +239,120 @@
         }
       },
       "rank": 10
+    },
+    {
+      "name": "Daina G.",
+      "total_points": 7.3,
+      "activity_count": 1,
+      "total_distance_km": 2.42,
+      "total_elevation_m": 43.0,
+      "by_type": {
+        "Walk": {
+          "count": 1,
+          "points": 7.3,
+          "distance_km": 2.42
+        }
+      },
+      "rank": 11
+    },
+    {
+      "name": "Gintarė B.",
+      "total_points": 3.8,
+      "activity_count": 1,
+      "total_distance_km": 1.28,
+      "total_elevation_m": 0.0,
+      "by_type": {
+        "Walk": {
+          "count": 1,
+          "points": 3.8,
+          "distance_km": 1.28
+        }
+      },
+      "rank": 12
+    },
+    {
+      "name": "Edvinas V.",
+      "total_points": 2.3,
+      "activity_count": 1,
+      "total_distance_km": 2.34,
+      "total_elevation_m": 0.0,
+      "by_type": {
+        "Ride": {
+          "count": 1,
+          "points": 2.3,
+          "distance_km": 2.34
+        }
+      },
+      "rank": 13
     }
   ],
   "activities": [
+    {
+      "athlete_key": "donatas_j.",
+      "athlete_name": "Donatas J.",
+      "name": "Labai rimtas balandžio iššūkio atidarymas",
+      "sport_type": "Walk",
+      "start_date": null,
+      "distance_km": 1.18,
+      "elevation_m": 5.0,
+      "moving_time_s": 1057,
+      "points": 3.5
+    },
+    {
+      "athlete_key": "edvinas_v.",
+      "athlete_name": "Edvinas V.",
+      "name": "Morning Ride",
+      "sport_type": "Ride",
+      "start_date": null,
+      "distance_km": 2.34,
+      "elevation_m": 0,
+      "moving_time_s": 511,
+      "points": 2.3
+    },
+    {
+      "athlete_key": "daina_g.",
+      "athlete_name": "Daina G.",
+      "name": "Morning Walk",
+      "sport_type": "Walk",
+      "start_date": null,
+      "distance_km": 2.42,
+      "elevation_m": 43.0,
+      "moving_time_s": 1489,
+      "points": 7.3
+    },
+    {
+      "athlete_key": "sandra_m.",
+      "athlete_name": "Sandra M.",
+      "name": "Morning Ride",
+      "sport_type": "Ride",
+      "start_date": null,
+      "distance_km": 4.5,
+      "elevation_m": 72.0,
+      "moving_time_s": 887,
+      "points": 4.5
+    },
+    {
+      "athlete_key": "gintarė_b.",
+      "athlete_name": "Gintarė B.",
+      "name": "Pirmas (testinis) km",
+      "sport_type": "Walk",
+      "start_date": null,
+      "distance_km": 1.28,
+      "elevation_m": 0,
+      "moving_time_s": 752,
+      "points": 3.8
+    },
+    {
+      "athlete_key": "andrius_a.",
+      "athlete_name": "Andrius A.",
+      "name": "Morning Run",
+      "sport_type": "Run",
+      "start_date": null,
+      "distance_km": 9.16,
+      "elevation_m": 57.0,
+      "moving_time_s": 2974,
+      "points": 27.5
+    },
     {
       "athlete_key": "paulius_r.",
       "athlete_name": "Paulius R.",
@@ -251,15 +365,15 @@
       "points": 38.9
     },
     {
-      "athlete_key": "augustinas_t.",
-      "athlete_name": "Augustinas T.",
-      "name": "Evening Ride",
-      "sport_type": "Ride",
+      "athlete_key": "andrius_a.",
+      "athlete_name": "Andrius A.",
+      "name": "Morning Run",
+      "sport_type": "Run",
       "start_date": null,
-      "distance_km": 0.0,
-      "elevation_m": 0,
-      "moving_time_s": 3004,
-      "points": 0.0
+      "distance_km": 8.73,
+      "elevation_m": 58.0,
+      "moving_time_s": 2802,
+      "points": 26.2
     },
     {
       "athlete_key": "andrius_a.",
@@ -273,15 +387,15 @@
       "points": 42.2
     },
     {
-      "athlete_key": "andrius_a.",
-      "athlete_name": "Andrius A.",
-      "name": "Morning Run",
-      "sport_type": "Run",
+      "athlete_key": "augustinas_t.",
+      "athlete_name": "Augustinas T.",
+      "name": "Evening Ride",
+      "sport_type": "Ride",
       "start_date": null,
-      "distance_km": 8.73,
-      "elevation_m": 58.0,
-      "moving_time_s": 2802,
-      "points": 26.2
+      "distance_km": 0.0,
+      "elevation_m": 0,
+      "moving_time_s": 3004,
+      "points": 0.0
     },
     {
       "athlete_key": "žilvinas_p.",
@@ -440,17 +554,6 @@
     {
       "athlete_key": "andrius_a.",
       "athlete_name": "Andrius A.",
-      "name": "Morning Run",
-      "sport_type": "Run",
-      "start_date": null,
-      "distance_km": 8.05,
-      "elevation_m": 48.0,
-      "moving_time_s": 2575,
-      "points": 24.2
-    },
-    {
-      "athlete_key": "andrius_a.",
-      "athlete_name": "Andrius A.",
       "name": "Afternoon Run",
       "sport_type": "Run",
       "start_date": null,
@@ -458,6 +561,17 @@
       "elevation_m": 96.0,
       "moving_time_s": 4008,
       "points": 38.9
+    },
+    {
+      "athlete_key": "andrius_a.",
+      "athlete_name": "Andrius A.",
+      "name": "Morning Run",
+      "sport_type": "Run",
+      "start_date": null,
+      "distance_km": 8.05,
+      "elevation_m": 48.0,
+      "moving_time_s": 2575,
+      "points": 24.2
     },
     {
       "athlete_key": "andrius_a.",
@@ -493,26 +607,15 @@
       "points": 144.3
     },
     {
-      "athlete_key": "andrius_a.",
-      "athlete_name": "Andrius A.",
-      "name": "Morning Run",
-      "sport_type": "Run",
-      "start_date": null,
-      "distance_km": 8.91,
-      "elevation_m": 48.0,
-      "moving_time_s": 2795,
-      "points": 26.7
-    },
-    {
       "athlete_key": "sandra_m.",
       "athlete_name": "Sandra M.",
-      "name": "Morning Ride",
+      "name": "Afternoon Ride",
       "sport_type": "Ride",
       "start_date": null,
-      "distance_km": 3.55,
-      "elevation_m": 33.0,
-      "moving_time_s": 660,
-      "points": 3.6
+      "distance_km": 4.12,
+      "elevation_m": 56.0,
+      "moving_time_s": 955,
+      "points": 4.1
     },
     {
       "athlete_key": "andrius_a.",
@@ -528,13 +631,24 @@
     {
       "athlete_key": "sandra_m.",
       "athlete_name": "Sandra M.",
-      "name": "Afternoon Ride",
+      "name": "Morning Ride",
       "sport_type": "Ride",
       "start_date": null,
-      "distance_km": 4.12,
-      "elevation_m": 56.0,
-      "moving_time_s": 955,
-      "points": 4.1
+      "distance_km": 3.55,
+      "elevation_m": 33.0,
+      "moving_time_s": 660,
+      "points": 3.6
+    },
+    {
+      "athlete_key": "andrius_a.",
+      "athlete_name": "Andrius A.",
+      "name": "Morning Run",
+      "sport_type": "Run",
+      "start_date": null,
+      "distance_km": 8.91,
+      "elevation_m": 48.0,
+      "moving_time_s": 2795,
+      "points": 26.7
     },
     {
       "athlete_key": "paulius_r.",
@@ -581,17 +695,6 @@
       "points": 21.8
     },
     {
-      "athlete_key": "andrius_a.",
-      "athlete_name": "Andrius A.",
-      "name": "Afternoon Run",
-      "sport_type": "Run",
-      "start_date": null,
-      "distance_km": 13.32,
-      "elevation_m": 119.0,
-      "moving_time_s": 4476,
-      "points": 40.0
-    },
-    {
       "athlete_key": "sandra_m.",
       "athlete_name": "Sandra M.",
       "name": "Afternoon Ride",
@@ -601,6 +704,17 @@
       "elevation_m": 72.0,
       "moving_time_s": 1499,
       "points": 9.0
+    },
+    {
+      "athlete_key": "andrius_a.",
+      "athlete_name": "Andrius A.",
+      "name": "Afternoon Run",
+      "sport_type": "Run",
+      "start_date": null,
+      "distance_km": 13.32,
+      "elevation_m": 119.0,
+      "moving_time_s": 4476,
+      "points": 40.0
     },
     {
       "athlete_key": "sandra_m.",
@@ -814,17 +928,6 @@
     {
       "athlete_key": "andrius_a.",
       "athlete_name": "Andrius A.",
-      "name": "Afternoon Run",
-      "sport_type": "Run",
-      "start_date": null,
-      "distance_km": 12.45,
-      "elevation_m": 91.0,
-      "moving_time_s": 3968,
-      "points": 37.4
-    },
-    {
-      "athlete_key": "andrius_a.",
-      "athlete_name": "Andrius A.",
       "name": "Morning Run",
       "sport_type": "Run",
       "start_date": null,
@@ -832,6 +935,17 @@
       "elevation_m": 45.0,
       "moving_time_s": 2665,
       "points": 24.8
+    },
+    {
+      "athlete_key": "andrius_a.",
+      "athlete_name": "Andrius A.",
+      "name": "Afternoon Run",
+      "sport_type": "Run",
+      "start_date": null,
+      "distance_km": 12.45,
+      "elevation_m": 91.0,
+      "moving_time_s": 3968,
+      "points": 37.4
     },
     {
       "athlete_key": "žilvinas_p.",
@@ -924,17 +1038,6 @@
     {
       "athlete_key": "andrius_a.",
       "athlete_name": "Andrius A.",
-      "name": "Morning Run",
-      "sport_type": "Run",
-      "start_date": null,
-      "distance_km": 9.09,
-      "elevation_m": 54.0,
-      "moving_time_s": 2954,
-      "points": 27.3
-    },
-    {
-      "athlete_key": "andrius_a.",
-      "athlete_name": "Andrius A.",
       "name": "Afternoon Run",
       "sport_type": "Run",
       "start_date": null,
@@ -942,6 +1045,17 @@
       "elevation_m": 112.0,
       "moving_time_s": 4512,
       "points": 40.7
+    },
+    {
+      "athlete_key": "andrius_a.",
+      "athlete_name": "Andrius A.",
+      "name": "Morning Run",
+      "sport_type": "Run",
+      "start_date": null,
+      "distance_km": 9.09,
+      "elevation_m": 54.0,
+      "moving_time_s": 2954,
+      "points": 27.3
     },
     {
       "athlete_key": "žilvinas_p.",
@@ -1199,17 +1313,6 @@
     {
       "athlete_key": "andrius_a.",
       "athlete_name": "Andrius A.",
-      "name": "Morning Run",
-      "sport_type": "Run",
-      "start_date": null,
-      "distance_km": 9.04,
-      "elevation_m": 50.0,
-      "moving_time_s": 2858,
-      "points": 27.1
-    },
-    {
-      "athlete_key": "andrius_a.",
-      "athlete_name": "Andrius A.",
       "name": "Afternoon Run",
       "sport_type": "Run",
       "start_date": null,
@@ -1217,6 +1320,17 @@
       "elevation_m": 86.0,
       "moving_time_s": 3997,
       "points": 38.5
+    },
+    {
+      "athlete_key": "andrius_a.",
+      "athlete_name": "Andrius A.",
+      "name": "Morning Run",
+      "sport_type": "Run",
+      "start_date": null,
+      "distance_km": 9.04,
+      "elevation_m": 50.0,
+      "moving_time_s": 2858,
+      "points": 27.1
     },
     {
       "athlete_key": "valentinas_a.",
@@ -1263,17 +1377,6 @@
       "points": 34.7
     },
     {
-      "athlete_key": "andrius_a.",
-      "athlete_name": "Andrius A.",
-      "name": "Morning Run",
-      "sport_type": "Run",
-      "start_date": null,
-      "distance_km": 7.6,
-      "elevation_m": 53.0,
-      "moving_time_s": 2480,
-      "points": 22.8
-    },
-    {
       "athlete_key": "sandra_m.",
       "athlete_name": "Sandra M.",
       "name": "Kovo 11 🇱🇹",
@@ -1283,6 +1386,17 @@
       "elevation_m": 326.0,
       "moving_time_s": 9901,
       "points": 55.6
+    },
+    {
+      "athlete_key": "andrius_a.",
+      "athlete_name": "Andrius A.",
+      "name": "Morning Run",
+      "sport_type": "Run",
+      "start_date": null,
+      "distance_km": 7.6,
+      "elevation_m": 53.0,
+      "moving_time_s": 2480,
+      "points": 22.8
     },
     {
       "athlete_key": "paulius_r.",
@@ -1296,17 +1410,6 @@
       "points": 45.1
     },
     {
-      "athlete_key": "liudas_s.",
-      "athlete_name": "Liudas S.",
-      "name": "Lunch Run",
-      "sport_type": "Run",
-      "start_date": null,
-      "distance_km": 8.06,
-      "elevation_m": 65.2,
-      "moving_time_s": 2907,
-      "points": 24.2
-    },
-    {
       "athlete_key": "augustinas_t.",
       "athlete_name": "Augustinas T.",
       "name": "Afternoon Ride",
@@ -1316,51 +1419,7 @@
       "elevation_m": 286.0,
       "moving_time_s": 3728,
       "points": 21.8
-    },
-    {
-      "athlete_key": "andrius_a.",
-      "athlete_name": "Andrius A.",
-      "name": "Afternoon Run",
-      "sport_type": "Run",
-      "start_date": null,
-      "distance_km": 14.22,
-      "elevation_m": 124.0,
-      "moving_time_s": 4693,
-      "points": 42.7
-    },
-    {
-      "athlete_key": "andrius_a.",
-      "athlete_name": "Andrius A.",
-      "name": "Morning Run",
-      "sport_type": "Run",
-      "start_date": null,
-      "distance_km": 8.02,
-      "elevation_m": 47.0,
-      "moving_time_s": 2543,
-      "points": 24.0
-    },
-    {
-      "athlete_key": "donatas_j.",
-      "athlete_name": "Donatas J.",
-      "name": "Afternoon Walk",
-      "sport_type": "Walk",
-      "start_date": null,
-      "distance_km": 4.04,
-      "elevation_m": 23.0,
-      "moving_time_s": 3305,
-      "points": 12.1
-    },
-    {
-      "athlete_key": "augustinas_t.",
-      "athlete_name": "Augustinas T.",
-      "name": "Afternoon Ride",
-      "sport_type": "Ride",
-      "start_date": null,
-      "distance_km": 34.73,
-      "elevation_m": 755.0,
-      "moving_time_s": 7893,
-      "points": 34.7
     }
   ],
-  "generated_at": "2026-04-01T01:13:20.002956+00:00"
+  "generated_at": "2026-04-01T07:05:39.183898+00:00"
 }
