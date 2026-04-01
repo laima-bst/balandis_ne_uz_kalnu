@@ -1,0 +1,354 @@
+{
+  "fingerprints": [
+    "feb7124ae3bfabe2988a332781f80516",
+    "38da8da21b080cc934851bb532ecac9a",
+    "2f2d8ccd9f54cf0cba3763b93a9a17ca",
+    "899e8e7855ebc9d1ee36fa54287371e1",
+    "615bd32955acfce77c1d67f3d4992f36",
+    "a1f14a71dd69b66f10329845c89fd4f3",
+    "c368af9cbd0f3c5926dd2c6f60e3941e",
+    "b469fc8589d450f9a240b12c1d6812ac",
+    "0f4f281905eea8f8a60f375aa7c87722",
+    "a2232b50bf50cec90dfdcd4ea6461d1d",
+    "d442c1d8e2346683ae40680487935f51",
+    "c01f61294e43fe33c0bd3458c82bbc99",
+    "4a7872455a6e87422daefb3ba7757ed6",
+    "968816ab4b00da1506311f7b25b1c8fe",
+    "3407b977808d0b5b2b9b5185cb9d68af",
+    "048a5cd2b6ad503b4eb5d6a834f12d75",
+    "725fdcef89528d48194d4ecedb697490",
+    "4c84c5c0c826e9163bc1e8ac0dba617f",
+    "24b08c39034542425502e50c44bb7067",
+    "c780ca004e71fd30d7182aa7c21829f2"
+  ],
+  "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Liudas",
+        "lastname": "S."
+      },
+      "name": "Afternoon Run",
+      "distance": 1095.5,
+      "moving_time": 343,
+      "elapsed_time": 343,
+      "total_elevation_gain": 6.0,
+      "type": "Run",
+      "sport_type": "Run",
+      "workout_type": null,
+      "device_name": "Samsung Galaxy Ultra"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Liudas",
+        "lastname": "S."
+      },
+      "name": "Afternoon Run",
+      "distance": 1118.5,
+      "moving_time": 352,
+      "elapsed_time": 352,
+      "total_elevation_gain": 5.2,
+      "type": "Run",
+      "sport_type": "Run",
+      "workout_type": null,
+      "device_name": "Samsung Galaxy Ultra"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Gertrūda",
+        "lastname": "G."
+      },
+      "name": "Pietų pasivaikščiojimas",
+      "distance": 2045.3,
+      "moving_time": 1308,
+      "elapsed_time": 2249,
+      "total_elevation_gain": 11.8,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Paulius",
+        "lastname": "R."
+      },
+      "name": "Lunch Walk",
+      "distance": 2917.0,
+      "moving_time": 1703,
+      "elapsed_time": 2059,
+      "total_elevation_gain": 17.6,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Wear OS by Google"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Viktorija",
+        "lastname": "M."
+      },
+      "name": "Lunch Walk",
+      "distance": 4415.8,
+      "moving_time": 2486,
+      "elapsed_time": 2486,
+      "total_elevation_gain": 21.9,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Donatas",
+        "lastname": "J."
+      },
+      "name": "Lunch Walk",
+      "distance": 2045.3,
+      "moving_time": 1705,
+      "elapsed_time": 2492,
+      "total_elevation_gain": 16.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin Forerunner 255 Music"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Donatas",
+        "lastname": "J."
+      },
+      "name": "Labai rimtas balandžio iššūkio atidarymas",
+      "distance": 1182.7,
+      "moving_time": 1057,
+      "elapsed_time": 1194,
+      "total_elevation_gain": 5.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin Forerunner 255 Music"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Laima",
+        "lastname": "A."
+      },
+      "name": "Morning Workout",
+      "distance": 0.0,
+      "moving_time": 5024,
+      "elapsed_time": 5024,
+      "total_elevation_gain": 0,
+      "type": "Workout",
+      "sport_type": "Workout",
+      "workout_type": null,
+      "device_name": "COROS PACE 2"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Andrius",
+        "lastname": "K."
+      },
+      "name": "Morning Run",
+      "distance": 6036.3,
+      "moving_time": 2425,
+      "elapsed_time": 2435,
+      "total_elevation_gain": 31.0,
+      "type": "Run",
+      "sport_type": "Run",
+      "workout_type": null,
+      "device_name": "Garmin fēnix 6 Pro"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Edvinas",
+        "lastname": "V."
+      },
+      "name": "Morning Ride",
+      "distance": 2343.9,
+      "moving_time": 511,
+      "elapsed_time": 550,
+      "total_elevation_gain": 0.0,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": 10,
+      "device_name": "Strava App"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Viktorija",
+        "lastname": "M."
+      },
+      "name": "Morning Walk",
+      "distance": 505.4,
+      "moving_time": 259,
+      "elapsed_time": 259,
+      "total_elevation_gain": 2.4,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Daina",
+        "lastname": "G."
+      },
+      "name": "Morning Walk",
+      "distance": 2423.4,
+      "moving_time": 1489,
+      "elapsed_time": 2789,
+      "total_elevation_gain": 43.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Andrius",
+        "lastname": "A."
+      },
+      "name": "Lunch Walk",
+      "distance": 2296.0,
+      "moving_time": 1532,
+      "elapsed_time": 1739,
+      "total_elevation_gain": 21.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin fēnix 7"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Gintarė",
+        "lastname": "B."
+      },
+      "name": "Lunch Walk",
+      "distance": 2507.5,
+      "moving_time": 1492,
+      "elapsed_time": 1612,
+      "total_elevation_gain": 10.9,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Samsung Health"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Ieva",
+        "lastname": "S."
+      },
+      "name": "Morning Walk",
+      "distance": 2024.2,
+      "moving_time": 1482,
+      "elapsed_time": 2161,
+      "total_elevation_gain": 64.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin Forerunner 255 Music"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Ieva",
+        "lastname": "S."
+      },
+      "name": "Morning Run",
+      "distance": 4367.2,
+      "moving_time": 1818,
+      "elapsed_time": 1821,
+      "total_elevation_gain": 23.0,
+      "type": "Run",
+      "sport_type": "Run",
+      "workout_type": null,
+      "device_name": "Garmin Forerunner 255 Music"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Greta",
+        "lastname": "N."
+      },
+      "name": "Pradedam balandžio iššūkį su 9+ kg",
+      "distance": 4550.5,
+      "moving_time": 4318,
+      "elapsed_time": 4951,
+      "total_elevation_gain": 47.1,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Sandra",
+        "lastname": "M."
+      },
+      "name": "Morning Ride",
+      "distance": 4497.6,
+      "moving_time": 887,
+      "elapsed_time": 1138,
+      "total_elevation_gain": 72.0,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": 10,
+      "device_name": "Garmin Venu 2 Plus"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Gintarė",
+        "lastname": "B."
+      },
+      "name": "Pirmas (testinis) km",
+      "distance": 1280.6,
+      "moving_time": 752,
+      "elapsed_time": 752,
+      "total_elevation_gain": 0.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Samsung Health"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Andrius",
+        "lastname": "A."
+      },
+      "name": "Morning Run",
+      "distance": 9157.2,
+      "moving_time": 2974,
+      "elapsed_time": 3081,
+      "total_elevation_gain": 57.0,
+      "type": "Run",
+      "sport_type": "Run",
+      "workout_type": null,
+      "device_name": "Garmin fēnix 7"
+    }
+  ]
+}
