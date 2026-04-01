@@ -1,5 +1,13 @@
 {
   "fingerprints": [
+    "4b583ac048ee4474e389ac13f9b310e1",
+    "25683924ae3158cee1cd22e4cfaee0cd",
+    "1a1ca42224ef1fb0efb570a488d07d95",
+    "2cf1c9da023db845d42a9f54183a010f",
+    "95969f2e1ac37dbef182181911fb1fc3",
+    "8b044ce237f7ccc030f65cf45109adf1",
+    "84846ac891000245cdc16ea76d27f4eb",
+    "d735d2eeeaffc4c692da82d8b436bcda",
     "c1f09d61296e8cfa7d81aaa2b96954c5",
     "dc8a35d63494ed7a59525ab6cf6ad5bf",
     "8dfb748286f3b867770564091ce4c1b3",
@@ -33,6 +41,147 @@
     "c780ca004e71fd30d7182aa7c21829f2"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Azuolas",
+        "lastname": "S."
+      },
+      "name": "Evening Run",
+      "distance": 6223.7,
+      "moving_time": 2273,
+      "elapsed_time": 2291,
+      "total_elevation_gain": 35.8,
+      "type": "Run",
+      "sport_type": "Run",
+      "workout_type": null,
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-01"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Liudas",
+        "lastname": "S."
+      },
+      "name": "From Gym",
+      "distance": 3841.4,
+      "moving_time": 858,
+      "elapsed_time": 897,
+      "total_elevation_gain": 13.9,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": null,
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-01"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Aurelija",
+        "lastname": "S."
+      },
+      "name": "Prasidėjo balandžio iššūkis, gal bus ne vien tenisas 🫠",
+      "distance": 2065.1,
+      "moving_time": 2026,
+      "elapsed_time": 2096,
+      "total_elevation_gain": 27.8,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin Venu 3S",
+      "_fetched_date": "2026-04-01"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Tautvydas",
+        "lastname": "Ž."
+      },
+      "name": "Evening Walk",
+      "distance": 2430.3,
+      "moving_time": 1400,
+      "elapsed_time": 1641,
+      "total_elevation_gain": 7.9,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-01"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Žilvinas",
+        "lastname": "P."
+      },
+      "name": "12 sav. iki HM / 10 savaitė",
+      "distance": 8167.7,
+      "moving_time": 2408,
+      "elapsed_time": 2451,
+      "total_elevation_gain": 39.0,
+      "type": "Run",
+      "sport_type": "Run",
+      "workout_type": null,
+      "device_name": "Garmin Forerunner 955",
+      "_fetched_date": "2026-04-01"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Benediktas",
+        "lastname": "B."
+      },
+      "name": "Evening Gravel Ride",
+      "distance": 40771.6,
+      "moving_time": 6481,
+      "elapsed_time": 6774,
+      "total_elevation_gain": 475.0,
+      "type": "Ride",
+      "sport_type": "GravelRide",
+      "workout_type": null,
+      "device_name": "Garmin Edge Explore 2",
+      "_fetched_date": "2026-04-01"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Liudas",
+        "lastname": "S."
+      },
+      "name": "Gym!!!",
+      "distance": 0.0,
+      "moving_time": 4500,
+      "elapsed_time": 4500,
+      "total_elevation_gain": 0,
+      "type": "Workout",
+      "sport_type": "Workout",
+      "workout_type": null,
+      "_fetched_date": "2026-04-01"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Donatas",
+        "lastname": "J."
+      },
+      "name": "Afternoon Ride",
+      "distance": 56365.9,
+      "moving_time": 8060,
+      "elapsed_time": 11424,
+      "total_elevation_gain": 399.0,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": null,
+      "device_name": "Garmin Forerunner 255 Music",
+      "_fetched_date": "2026-04-01"
+    },
     {
       "resource_state": 2,
       "athlete": {
