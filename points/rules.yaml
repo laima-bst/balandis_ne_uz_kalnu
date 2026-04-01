@@ -7,7 +7,7 @@
 competition:
   start_date: "2026-03-01"
   end_date:   "2026-12-31"
-  name: "Balandis ne uz kalnu 2026"
+  name: "Balandis ne už kalnų 2026"
 
 # Team definitions — assign athletes to teams by their exact display name.
 teams:
