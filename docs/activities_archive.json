@@ -1,5 +1,6 @@
 {
   "fingerprints": [
+    "e0c4adc14e58ce5a13c0e3dcf82741b3",
     "723c33c29e29a15af7240bae1bd017bb",
     "02e038ba721bcd84fbd45f1343c545d6",
     "4a9f119eb201e86d66b8a43ef6f2e40b",
@@ -27,6 +28,24 @@
     "c780ca004e71fd30d7182aa7c21829f2"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Tautvydas",
+        "lastname": "Ž."
+      },
+      "name": "Evening Run",
+      "distance": 6755.0,
+      "moving_time": 2135,
+      "elapsed_time": 2148,
+      "total_elevation_gain": 17.0,
+      "type": "Run",
+      "sport_type": "Run",
+      "workout_type": null,
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-01"
+    },
     {
       "resource_state": 2,
       "athlete": {

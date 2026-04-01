@@ -7,10 +7,11 @@
   "teams": [
     {
       "name": "Nemiegantys Balandžiai",
-      "total_points": 71.0,
-      "total_distance_km": 31.92,
-      "activity_count": 10,
+      "total_points": 91.3,
+      "total_distance_km": 38.67,
+      "activity_count": 11,
       "members": [
+        "Tautvydas Ž.",
         "Liudas S.",
         "Edvinas V.",
         "Viktorija M.",
@@ -74,7 +75,7 @@
         "Team E": 5
       },
       "points": {
-        "Nemiegantys Balandžiai": 71.0,
+        "Nemiegantys Balandžiai": 91.3,
         "Team D": 47.9,
         "Team C": 28.6,
         "Team B": 24.5,
@@ -119,6 +120,21 @@
       "rank": 2
     },
     {
+      "name": "Tautvydas Ž.",
+      "total_points": 20.3,
+      "activity_count": 1,
+      "total_distance_km": 6.75,
+      "total_elevation_m": 17.0,
+      "by_type": {
+        "Run": {
+          "count": 1,
+          "points": 20.3,
+          "distance_km": 6.75
+        }
+      },
+      "rank": 3
+    },
+    {
       "name": "Ieva S.",
       "total_points": 19.2,
       "activity_count": 2,
@@ -136,7 +152,7 @@
           "distance_km": 4.37
         }
       },
-      "rank": 3
+      "rank": 4
     },
     {
       "name": "Viktorija M.",
@@ -151,7 +167,7 @@
           "distance_km": 5.859999999999999
         }
       },
-      "rank": 4
+      "rank": 5
     },
     {
       "name": "Greta N.",
@@ -166,7 +182,7 @@
           "distance_km": 4.55
         }
       },
-      "rank": 5
+      "rank": 6
     },
     {
       "name": "Gintarė B.",
@@ -181,7 +197,7 @@
           "distance_km": 3.79
         }
       },
-      "rank": 6
+      "rank": 7
     },
     {
       "name": "Donatas J.",
@@ -196,7 +212,7 @@
           "distance_km": 3.2299999999999995
         }
       },
-      "rank": 7
+      "rank": 8
     },
     {
       "name": "Liudas S.",
@@ -216,7 +232,7 @@
           "distance_km": 2.22
         }
       },
-      "rank": 8
+      "rank": 9
     },
     {
       "name": "Paulius R.",
@@ -231,7 +247,7 @@
           "distance_km": 2.92
         }
       },
-      "rank": 9
+      "rank": 10
     },
     {
       "name": "Gertrūda G.",
@@ -246,7 +262,7 @@
           "distance_km": 2.05
         }
       },
-      "rank": 10
+      "rank": 11
     },
     {
       "name": "Edvinas V.",
@@ -261,7 +277,7 @@
           "distance_km": 5.41
         }
       },
-      "rank": 11
+      "rank": 12
     },
     {
       "name": "Sandra M.",
@@ -276,7 +292,7 @@
           "distance_km": 4.5
         }
       },
-      "rank": 12
+      "rank": 13
     },
     {
       "name": "Arunas M.",
@@ -291,10 +307,22 @@
           "distance_km": 1.19
         }
       },
-      "rank": 13
+      "rank": 14
     }
   ],
   "activities": [
+    {
+      "athlete_key": "tautvydas_ž.",
+      "athlete_name": "Tautvydas Ž.",
+      "name": "Evening Run",
+      "sport_type": "Run",
+      "start_date": null,
+      "_fetched_date": "2026-04-01",
+      "distance_km": 6.75,
+      "elevation_m": 17.0,
+      "moving_time_s": 2135,
+      "points": 20.3
+    },
     {
       "athlete_key": "liudas_s.",
       "athlete_name": "Liudas S.",
@@ -560,5 +588,5 @@
       "points": 27.5
     }
   ],
-  "generated_at": "2026-04-01T16:38:57.059563+00:00"
+  "generated_at": "2026-04-01T16:43:00.104177+00:00"
 }
