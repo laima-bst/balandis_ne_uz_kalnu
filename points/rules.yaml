@@ -11,7 +11,7 @@ competition:
 
 # Team definitions — assign athletes to teams by their exact display name.
 teams:
-  - name: "Team A"
+  - name: "Nemiegantys Balandžiai"
     members:
       - "Andrius A."
       - "Viktorija M."
@@ -23,7 +23,7 @@ teams:
     members:
       - "Donatas J."
       - "Lina K."
-      - "Arūnas M."
+      - "Arunas M."
       - "Aurelija S."
       - "Gintarė B."
   - name: "Team C"
@@ -38,7 +38,7 @@ teams:
       - "Žilvinas P."
       - "Daina G."
       - "Matas A."
-      - "Ieva Š."
+      - "Ieva S."
       - "Dominykas Č."
   - name: "Team E"
     members:

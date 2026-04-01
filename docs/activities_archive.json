@@ -1,5 +1,10 @@
 {
   "fingerprints": [
+    "723c33c29e29a15af7240bae1bd017bb",
+    "02e038ba721bcd84fbd45f1343c545d6",
+    "4a9f119eb201e86d66b8a43ef6f2e40b",
+    "9fc432b6b23f0ea80cee47082a2356a5",
+    "a93114e697eb61f3e039a46e2c57d420",
     "feb7124ae3bfabe2988a332781f80516",
     "38da8da21b080cc934851bb532ecac9a",
     "2f2d8ccd9f54cf0cba3763b93a9a17ca",
@@ -29,6 +34,93 @@
         "firstname": "Liudas",
         "lastname": "S."
       },
+      "name": "To gym",
+      "distance": 2469.1,
+      "moving_time": 523,
+      "elapsed_time": 623,
+      "total_elevation_gain": 2.1,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": null,
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-01"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Arunas",
+        "lastname": "M."
+      },
+      "name": "Pirmi taškai į įskaitą",
+      "distance": 1190.1,
+      "moving_time": 1246,
+      "elapsed_time": 2649,
+      "total_elevation_gain": 3.2,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-01"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Edvinas",
+        "lastname": "V."
+      },
+      "name": "Afternoon Ride",
+      "distance": 3065.3,
+      "moving_time": 657,
+      "elapsed_time": 683,
+      "total_elevation_gain": 22.9,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": 10,
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-01"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Viktorija",
+        "lastname": "M."
+      },
+      "name": "Afternoon Walk",
+      "distance": 1440.4,
+      "moving_time": 727,
+      "elapsed_time": 750,
+      "total_elevation_gain": 6.8,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-01"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Daina",
+        "lastname": "G."
+      },
+      "name": "Afternoon Walk",
+      "distance": 7139.4,
+      "moving_time": 2304,
+      "elapsed_time": 4104,
+      "total_elevation_gain": 48.7,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-01"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Liudas",
+        "lastname": "S."
+      },
       "name": "Afternoon Run",
       "distance": 1095.5,
       "moving_time": 343,
@@ -37,7 +129,8 @@
       "type": "Run",
       "sport_type": "Run",
       "workout_type": null,
-      "device_name": "Samsung Galaxy Ultra"
+      "device_name": "Samsung Galaxy Ultra",
+      "_fetched_date": "2026-04-01"
     },
     {
       "resource_state": 2,
@@ -54,7 +147,8 @@
       "type": "Run",
       "sport_type": "Run",
       "workout_type": null,
-      "device_name": "Samsung Galaxy Ultra"
+      "device_name": "Samsung Galaxy Ultra",
+      "_fetched_date": "2026-04-01"
     },
     {
       "resource_state": 2,
@@ -70,7 +164,8 @@
       "total_elevation_gain": 11.8,
       "type": "Walk",
       "sport_type": "Walk",
-      "device_name": "Strava App"
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-01"
     },
     {
       "resource_state": 2,
@@ -86,7 +181,8 @@
       "total_elevation_gain": 17.6,
       "type": "Walk",
       "sport_type": "Walk",
-      "device_name": "Wear OS by Google"
+      "device_name": "Wear OS by Google",
+      "_fetched_date": "2026-04-01"
     },
     {
       "resource_state": 2,
@@ -102,7 +198,8 @@
       "total_elevation_gain": 21.9,
       "type": "Walk",
       "sport_type": "Walk",
-      "device_name": "Strava App"
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-01"
     },
     {
       "resource_state": 2,
@@ -118,7 +215,8 @@
       "total_elevation_gain": 16.0,
       "type": "Walk",
       "sport_type": "Walk",
-      "device_name": "Garmin Forerunner 255 Music"
+      "device_name": "Garmin Forerunner 255 Music",
+      "_fetched_date": "2026-04-01"
     },
     {
       "resource_state": 2,
@@ -134,7 +232,8 @@
       "total_elevation_gain": 5.0,
       "type": "Walk",
       "sport_type": "Walk",
-      "device_name": "Garmin Forerunner 255 Music"
+      "device_name": "Garmin Forerunner 255 Music",
+      "_fetched_date": "2026-04-01"
     },
     {
       "resource_state": 2,
@@ -151,7 +250,8 @@
       "type": "Workout",
       "sport_type": "Workout",
       "workout_type": null,
-      "device_name": "COROS PACE 2"
+      "device_name": "COROS PACE 2",
+      "_fetched_date": "2026-04-01"
     },
     {
       "resource_state": 2,
@@ -168,7 +268,8 @@
       "type": "Run",
       "sport_type": "Run",
       "workout_type": null,
-      "device_name": "Garmin fēnix 6 Pro"
+      "device_name": "Garmin fēnix 6 Pro",
+      "_fetched_date": "2026-04-01"
     },
     {
       "resource_state": 2,
@@ -185,7 +286,8 @@
       "type": "Ride",
       "sport_type": "Ride",
       "workout_type": 10,
-      "device_name": "Strava App"
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-01"
     },
     {
       "resource_state": 2,
@@ -201,7 +303,8 @@
       "total_elevation_gain": 2.4,
       "type": "Walk",
       "sport_type": "Walk",
-      "device_name": "Strava App"
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-01"
     },
     {
       "resource_state": 2,
@@ -217,7 +320,8 @@
       "total_elevation_gain": 43.0,
       "type": "Walk",
       "sport_type": "Walk",
-      "device_name": "Strava App"
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-01"
     },
     {
       "resource_state": 2,
@@ -233,7 +337,8 @@
       "total_elevation_gain": 21.0,
       "type": "Walk",
       "sport_type": "Walk",
-      "device_name": "Garmin fēnix 7"
+      "device_name": "Garmin fēnix 7",
+      "_fetched_date": "2026-04-01"
     },
     {
       "resource_state": 2,
@@ -249,7 +354,8 @@
       "total_elevation_gain": 10.9,
       "type": "Walk",
       "sport_type": "Walk",
-      "device_name": "Samsung Health"
+      "device_name": "Samsung Health",
+      "_fetched_date": "2026-04-01"
     },
     {
       "resource_state": 2,
@@ -265,7 +371,8 @@
       "total_elevation_gain": 64.0,
       "type": "Walk",
       "sport_type": "Walk",
-      "device_name": "Garmin Forerunner 255 Music"
+      "device_name": "Garmin Forerunner 255 Music",
+      "_fetched_date": "2026-04-01"
     },
     {
       "resource_state": 2,
@@ -282,7 +389,8 @@
       "type": "Run",
       "sport_type": "Run",
       "workout_type": null,
-      "device_name": "Garmin Forerunner 255 Music"
+      "device_name": "Garmin Forerunner 255 Music",
+      "_fetched_date": "2026-04-01"
     },
     {
       "resource_state": 2,
@@ -298,7 +406,8 @@
       "total_elevation_gain": 47.1,
       "type": "Walk",
       "sport_type": "Walk",
-      "device_name": "Strava App"
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-01"
     },
     {
       "resource_state": 2,
@@ -315,7 +424,8 @@
       "type": "Ride",
       "sport_type": "Ride",
       "workout_type": 10,
-      "device_name": "Garmin Venu 2 Plus"
+      "device_name": "Garmin Venu 2 Plus",
+      "_fetched_date": "2026-04-01"
     },
     {
       "resource_state": 2,
@@ -331,7 +441,8 @@
       "total_elevation_gain": 0.0,
       "type": "Walk",
       "sport_type": "Walk",
-      "device_name": "Samsung Health"
+      "device_name": "Samsung Health",
+      "_fetched_date": "2026-04-01"
     },
     {
       "resource_state": 2,
@@ -348,7 +459,8 @@
       "type": "Run",
       "sport_type": "Run",
       "workout_type": null,
-      "device_name": "Garmin fēnix 7"
+      "device_name": "Garmin fēnix 7",
+      "_fetched_date": "2026-04-01"
     }
   ]
 }

@@ -131,6 +131,29 @@ class PointsEngine:
         for i, t in enumerate(team_totals, start=1):
             t["rank"] = i
 
+        # Build daily team rankings (cumulative, using _fetched_date)
+        daily_rankings = []
+        all_dates = sorted({
+            a["_fetched_date"] for a in scored if a.get("_fetched_date")
+        })
+        if all_dates:
+            for day in all_dates:
+                # Cumulative: all scored activities up to and including this day
+                acts_to_day = [a for a in scored if (a.get("_fetched_date") or "") <= day]
+                day_team_points: dict[str, float] = {}
+                for team in teams_config:
+                    team_name = team["name"]
+                    member_keys = {m.lower().replace(" ", "_") for m in team.get("members", [])}
+                    day_team_points[team_name] = round(
+                        sum(a["points"] for a in acts_to_day if a["athlete_key"] in member_keys), 1
+                    )
+                ranked_teams = sorted(day_team_points.items(), key=lambda x: x[1], reverse=True)
+                daily_rankings.append({
+                    "date": day,
+                    "rankings": {name: i + 1 for i, (name, _) in enumerate(ranked_teams)},
+                    "points": dict(ranked_teams),
+                })
+
         comp = self.rules["competition"]
         return {
             "competition": {
@@ -139,6 +162,7 @@ class PointsEngine:
                 "end_date": comp["end_date"],
             },
             "teams": team_totals,
+            "daily_rankings": daily_rankings,
             "leaderboard": leaderboard,
             "activities": scored,
             "generated_at": datetime.now(timezone.utc).isoformat(),
@@ -209,6 +233,7 @@ class PointsEngine:
             "name": raw.get("name", ""),
             "sport_type": sport_type,
             "start_date": start_date_str or None,
+            "_fetched_date": raw.get("_fetched_date"),
             "distance_km": round(distance_km, 2),
             "elevation_m": round(elevation_m, 1),
             "moving_time_s": moving_time,
