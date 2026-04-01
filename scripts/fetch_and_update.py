@@ -51,29 +51,42 @@ def merge_archive(archive: dict, fetched: list[dict]) -> int:
     """
     Prepend any new activities to the archive.
 
-    Walks fetched activities newest-first and stops as soon as it hits
-    a fingerprint already in the archive — this prevents pre-competition
-    activities from ever being added.
+    Finds the deepest position of any known activity in the fetched list,
+    then adds all unknown activities that appear before that position.
+    This handles cases where new activities are interspersed among known
+    ones (e.g. late Strava syncs), while still preventing pre-competition
+    activities (which sit below all known ones) from ever being added.
 
     Returns the number of newly added activities.
     """
     known = set(archive["fingerprints"])
+
+    # Find the index of the deepest known activity in the fetched list
+    last_known_pos = -1
+    fps = [fingerprint(a) for a in fetched]
+    for i, fp in enumerate(fps):
+        if fp in known:
+            last_known_pos = i
+
+    if last_known_pos == -1:
+        # No known activities found at all — don't add anything (safety guard)
+        return 0
+
+    # Add all unknown activities that appear before the last known position
+    today = date.today().isoformat()
     new_activities = []
     new_fingerprints = []
 
-    today = date.today().isoformat()
-    for activity in fetched:
-        fp = fingerprint(activity)
-        if fp in known:
-            # Reached activities we've already archived — stop here
-            break
-        activity["_fetched_date"] = today
-        new_activities.append(activity)
-        new_fingerprints.append(fp)
+    for i, activity in enumerate(fetched[:last_known_pos]):
+        fp = fps[i]
+        if fp not in known:
+            activity["_fetched_date"] = today
+            new_activities.append(activity)
+            new_fingerprints.append(fp)
 
     if new_activities:
-        archive["activities"]    = new_activities + archive["activities"]
-        archive["fingerprints"]  = new_fingerprints + archive["fingerprints"]
+        archive["activities"]   = new_activities + archive["activities"]
+        archive["fingerprints"] = new_fingerprints + archive["fingerprints"]
 
     return len(new_activities)
 
