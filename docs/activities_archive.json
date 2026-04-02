@@ -1,5 +1,9 @@
 {
   "fingerprints": [
+    "92744a43a30bc3633958dbb6d7ea12f7",
+    "6dfb17543f49db4faf2526f7e2c1b021",
+    "9bdf66e711cf3e3fefa3781d21bc1cf2",
+    "c1e1f1c2b25f8059803daf5cf71fa1c9",
     "895b54c09f14ff9dd1072a58b129a185",
     "e179ec46e60dc4622263b58d70ae94d5",
     "793f070a5ab34744ede7c80438765fd0",
@@ -71,6 +75,76 @@
     "2dc2e77cf6019fc6e9864979a7d486ea"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Edvinas",
+        "lastname": "V."
+      },
+      "name": "Afternoon Ride",
+      "distance": 5615.5,
+      "moving_time": 1297,
+      "elapsed_time": 1354,
+      "total_elevation_gain": 39.5,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": 10,
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-02"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Tautvydas",
+        "lastname": "Ž."
+      },
+      "name": "Lunch Walk",
+      "distance": 1725.5,
+      "moving_time": 1190,
+      "elapsed_time": 1190,
+      "total_elevation_gain": 9.2,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-02"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Andrius",
+        "lastname": "A."
+      },
+      "name": "Afternoon Run",
+      "distance": 17903.4,
+      "moving_time": 4967,
+      "elapsed_time": 5265,
+      "total_elevation_gain": 72.0,
+      "type": "Run",
+      "sport_type": "Run",
+      "workout_type": null,
+      "device_name": "Garmin fēnix 7",
+      "_fetched_date": "2026-04-02"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Gintarė",
+        "lastname": "B."
+      },
+      "name": "🐕",
+      "distance": 1262.4,
+      "moving_time": 1312,
+      "elapsed_time": 1413,
+      "total_elevation_gain": 7.6,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Samsung Health",
+      "_fetched_date": "2026-04-02"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -1273,6 +1347,36 @@
     }
   ],
   "run_log": [
+    {
+      "timestamp": "2026-04-02T14:58:22.950692+00:00",
+      "new_count": 4,
+      "activities": [
+        {
+          "athlete": "Edvinas V.",
+          "sport": "Ride",
+          "distance_km": 5.62,
+          "name": "Afternoon Ride"
+        },
+        {
+          "athlete": "Tautvydas Ž.",
+          "sport": "Walk",
+          "distance_km": 1.73,
+          "name": "Lunch Walk"
+        },
+        {
+          "athlete": "Andrius A.",
+          "sport": "Run",
+          "distance_km": 17.9,
+          "name": "Afternoon Run"
+        },
+        {
+          "athlete": "Gintarė B.",
+          "sport": "Walk",
+          "distance_km": 1.26,
+          "name": "🐕"
+        }
+      ]
+    },
     {
       "timestamp": "2026-04-02T13:23:47.592399+00:00",
       "new_count": 1,
