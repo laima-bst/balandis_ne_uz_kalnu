@@ -160,6 +160,7 @@ class PointsEngine:
             )
             team_totals.append({
                 "name": team_name,
+                "color": team.get("color", "#cccccc"),
                 "total_points": round(team_points, 1),
                 "total_distance_km": round(team_distance, 2),
                 "activity_count": team_activities,

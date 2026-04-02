@@ -343,7 +343,7 @@ let athleteColorMap = {};  // athlete_key → team color
 
 function buildColorMaps(teams) {
   teams.forEach((t, i) => {
-    const color = TEAM_COLORS[i % TEAM_COLORS.length];
+    const color = t.color || TEAM_COLORS[i % TEAM_COLORS.length];
     t.color = color;
     (t.members || []).forEach(name => {
       athleteColorMap[name.toLowerCase().replace(/ /g, "_")] = color;
