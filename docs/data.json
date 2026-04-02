@@ -1470,8 +1470,13 @@
       "points": 8.1
     }
   ],
-  "generated_at": "2026-04-02T12:18:09.163218+00:00",
+  "generated_at": "2026-04-02T12:21:38.214034+00:00",
   "run_log": [
+    {
+      "timestamp": "2026-04-02T12:21:38.204904+00:00",
+      "new_count": 0,
+      "activities": []
+    },
     {
       "timestamp": "2026-04-02T12:18:09.151985+00:00",
       "new_count": 0,
@@ -1484,20 +1489,8 @@
     },
     {
       "timestamp": "2026-04-02T12:12:35.373529+00:00",
-      "new_count": 3,
+      "new_count": 1,
       "activities": [
-        {
-          "athlete": "Liudas S.",
-          "sport": "Run",
-          "distance_km": 12.01,
-          "name": "Lunch Run"
-        },
-        {
-          "athlete": "Paulius R.",
-          "sport": "Run",
-          "distance_km": 31.24,
-          "name": "Vilniečiai saugokitės 😎"
-        },
         {
           "athlete": "Greta N.",
           "sport": "Walk",
