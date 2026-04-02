@@ -219,7 +219,19 @@
     .member-item { display: flex; align-items: center; justify-content: space-between; font-size: 0.85rem; padding: 0.3rem 0.6rem; border-radius: 5px; background: white; border: 1px solid var(--border); }
     .member-item .member-name { font-weight: 500; }
     .member-item .member-pts { font-weight: 700; color: var(--primary); }
+    .member-item .member-pct { font-size: 0.75rem; color: var(--muted); margin-left: 0.4rem; }
     .member-item.no-pts .member-pts { color: var(--muted); font-weight: 400; }
+
+    /* ---- Type leaderboards ---- */
+    .type-lb-tabs { display: flex; gap: 0.5rem; margin-bottom: 1rem; flex-wrap: wrap; }
+    .type-lb-tab {
+      border: none; border-radius: 20px; padding: 0.3rem 1rem;
+      font-size: 0.85rem; font-weight: 600; cursor: pointer;
+      background: #f0f0f0; color: var(--muted); transition: background 0.15s, color 0.15s;
+    }
+    .type-lb-tab.active { background: var(--primary); color: white; }
+    .type-lb-panel { display: none; }
+    .type-lb-panel.active { display: block; }
 
     /* ---- Expandable activity rows ---- */
     .athlete-row { cursor: pointer; }
@@ -367,7 +379,10 @@ function buildTeams(teams) {
     const membersHtml = (t.member_details || []).map(m => `
       <div class="member-item${m.points === 0 ? " no-pts" : ""}">
         <span class="member-name">${m.name}</span>
-        <span class="member-pts">${m.points > 0 ? m.points + " pts" : "—"}</span>
+        <span style="display:flex;align-items:baseline;gap:0.3rem">
+          <span class="member-pts">${m.points > 0 ? m.points + " pts" : "—"}</span>
+          ${m.points > 0 ? `<span class="member-pct">${m.pct_of_team}%</span>` : ""}
+        </span>
       </div>`).join("");
     return `
     <tr class="team-row${t.rank <= 3 ? ` rank-${t.rank}` : ""}" onclick="toggleTeam(this, 'team-expand-${i}')">
@@ -667,6 +682,71 @@ function buildFeed(activities) {
     </div>`;
 }
 
+// ---- Build type leaderboards ----
+const TYPE_GROUPS = [
+  { key: "run_walk", label: "🏃 Run & Walk" },
+  { key: "ride",     label: "🚴 Ride" },
+  { key: "swim",     label: "🏊 Swim" },
+];
+
+function buildTypeLeaderboards(leaderboard) {
+  if (!leaderboard || leaderboard.length === 0) return "";
+  const medal = r => r === 1 ? "🥇" : r === 2 ? "🥈" : r === 3 ? "🥉" : `${r}`;
+
+  const panels = TYPE_GROUPS.map((g, gi) => {
+    const filtered = leaderboard
+      .map(a => ({ ...a, grp_pts: a.points_by_group?.[g.key] || 0 }))
+      .filter(a => a.grp_pts > 0)
+      .sort((a, b) => b.grp_pts - a.grp_pts)
+      .map((a, i) => ({ ...a, grp_rank: i + 1 }));
+
+    if (filtered.length === 0) {
+      return `<div class="type-lb-panel${gi === 0 ? " active" : ""}" id="tlb-${g.key}">
+        <p style="color:var(--muted);font-style:italic;padding:0.5rem 0">No activities yet.</p>
+      </div>`;
+    }
+
+    const rows = filtered.map(a => `
+      <tr class="${a.grp_rank <= 3 ? `rank-${a.grp_rank}` : ""}">
+        <td><span class="rank-badge">${medal(a.grp_rank)}</span></td>
+        <td style="border-left:4px solid ${athleteColorMap[a.name.toLowerCase().replace(/ /g,'_')] || '#ccc'}; padding-left:0.75rem">
+          <strong>${a.name}</strong>
+        </td>
+        <td class="points-cell">${a.grp_pts}</td>
+        <td style="color:var(--muted);font-size:0.85rem">${a.activity_count}</td>
+        <td style="color:var(--muted);font-size:0.85rem">${a.total_distance_km} km</td>
+      </tr>`).join("");
+
+    return `
+      <div class="type-lb-panel${gi === 0 ? " active" : ""}" id="tlb-${g.key}">
+        <table class="leaderboard">
+          <thead><tr><th>#</th><th>Athlete</th><th>Points</th><th>Activities</th><th>Distance</th></tr></thead>
+          <tbody>${rows}</tbody>
+        </table>
+      </div>`;
+  }).join("");
+
+  const tabs = TYPE_GROUPS.map((g, gi) =>
+    `<button class="type-lb-tab${gi === 0 ? " active" : ""}" onclick="switchTypeTab('${g.key}')">${g.label}</button>`
+  ).join("");
+
+  return `
+    <div class="card">
+      <h2>Leaderboard by Activity Type</h2>
+      <div class="type-lb-tabs">${tabs}</div>
+      ${panels}
+    </div>`;
+}
+
+function switchTypeTab(key) {
+  document.querySelectorAll(".type-lb-tab").forEach(b =>
+    b.classList.toggle("active", b.getAttribute("onclick").includes(`'${key}'`))
+  );
+  document.querySelectorAll(".type-lb-panel").forEach(p =>
+    p.classList.toggle("active", p.id === `tlb-${key}`)
+  );
+}
+
 // ---- Build run log ----
 function buildRunLog(runLog) {
   if (!runLog || runLog.length === 0) return "";
@@ -718,6 +798,7 @@ function renderData(data) {
     buildBumpChart(data.daily_rankings, data.teams) +
     buildCharts(data.leaderboard, data.activities) +
     buildLeaderboard(data.leaderboard, data.activities) +
+    buildTypeLeaderboards(data.leaderboard) +
     buildRunLog(data.run_log);
 
   initBumpChart(data.daily_rankings, data.teams);
