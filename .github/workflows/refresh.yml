@@ -2,8 +2,8 @@ name: Refresh competition data
 
 on:
   schedule:
-    # 23:59 Lithuania summer time (EEST = UTC+3). Switch to "59 21 * * *" in winter (EET = UTC+2).
-    - cron: "59 20 * * *"
+    # Every hour at :59 — last run of the day lands at 23:59 Lithuania time (EEST, UTC+3)
+    - cron: "59 * * * *"
   workflow_dispatch:  # Also allows manual trigger from the GitHub UI
 
 jobs:
