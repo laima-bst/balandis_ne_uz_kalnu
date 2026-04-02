@@ -1,5 +1,10 @@
 {
   "fingerprints": [
+    "05a284512973fdfd8827c74b2d23d0fb",
+    "dd3e2e1bc8d67afe23733990424ddff3",
+    "3665913a01d6578c1a5df344d72bcc8b",
+    "bd9c6dba382b652372310bc65a9df789",
+    "3f12ffdf09889fbe9476f7107565c76c",
     "348010b1df77a49526ca75fef8cc49f2",
     "53a0967f572cdd2d3f37f7d7fcb6f64a",
     "0e5933114773a94afbd506dd062358f4",
@@ -53,6 +58,91 @@
     "a8bc307183c6ccd0ff4b604b123dd752"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Antanas",
+        "lastname": "R."
+      },
+      "name": "Lunch Walk",
+      "distance": 1061.5,
+      "moving_time": 643,
+      "elapsed_time": 643,
+      "total_elevation_gain": 5.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin fēnix 7",
+      "_fetched_date": "2026-04-02"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Greta",
+        "lastname": "N."
+      },
+      "name": "Taškas po taško.",
+      "distance": 1030.6,
+      "moving_time": 789,
+      "elapsed_time": 806,
+      "total_elevation_gain": 17.7,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-02"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Antanas",
+        "lastname": "R."
+      },
+      "name": "Evening Walk",
+      "distance": 1000.6,
+      "moving_time": 668,
+      "elapsed_time": 668,
+      "total_elevation_gain": 23.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin fēnix 7",
+      "_fetched_date": "2026-04-02"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Antanas",
+        "lastname": "R."
+      },
+      "name": "Evening Walk",
+      "distance": 1009.0,
+      "moving_time": 632,
+      "elapsed_time": 632,
+      "total_elevation_gain": 7.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin fēnix 7",
+      "_fetched_date": "2026-04-02"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Antanas",
+        "lastname": "R."
+      },
+      "name": "Afternoon Swim",
+      "distance": 2300.0,
+      "moving_time": 3159,
+      "elapsed_time": 3636,
+      "total_elevation_gain": 0,
+      "type": "Swim",
+      "sport_type": "Swim",
+      "device_name": "Garmin fēnix 7",
+      "_fetched_date": "2026-04-02"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -946,6 +1036,42 @@
     }
   ],
   "run_log": [
+    {
+      "timestamp": "2026-04-02T09:39:17.213841+00:00",
+      "new_count": 5,
+      "activities": [
+        {
+          "athlete": "Antanas R.",
+          "sport": "Walk",
+          "distance_km": 1.06,
+          "name": "Lunch Walk"
+        },
+        {
+          "athlete": "Greta N.",
+          "sport": "Walk",
+          "distance_km": 1.03,
+          "name": "Taškas po taško."
+        },
+        {
+          "athlete": "Antanas R.",
+          "sport": "Walk",
+          "distance_km": 1.0,
+          "name": "Evening Walk"
+        },
+        {
+          "athlete": "Antanas R.",
+          "sport": "Walk",
+          "distance_km": 1.01,
+          "name": "Evening Walk"
+        },
+        {
+          "athlete": "Antanas R.",
+          "sport": "Swim",
+          "distance_km": 2.3,
+          "name": "Afternoon Swim"
+        }
+      ]
+    },
     {
       "timestamp": "2026-04-02T09:22:45.136037+00:00",
       "new_count": 0,

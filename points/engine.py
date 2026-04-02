@@ -109,10 +109,16 @@ class PointsEngine:
         for team in teams_config:
             team_name = team["name"]
             member_keys = {m.lower().replace(" ", "_") for m in team.get("members", [])}
+            DIST_GROUPS = {
+                "run_walk": {"Run", "Walk", "Hike", "VirtualRun"},
+                "ride":     {"Ride", "VirtualRide", "GravelRide", "MountainBikeRide", "EBikeRide"},
+                "swim":     {"Swim"},
+            }
             team_points = 0.0
             team_distance = 0.0
             team_activities = 0
             team_members = []
+            team_dist_by_group = {g: 0.0 for g in DIST_GROUPS}
             for athlete in athletes.values():
                 key = athlete["name"].lower().replace(" ", "_")
                 if key in member_keys:
@@ -120,6 +126,10 @@ class PointsEngine:
                     team_distance += athlete["total_distance_km"]
                     team_activities += athlete["activity_count"]
                     team_members.append(athlete["name"])
+                    for group, sport_types in DIST_GROUPS.items():
+                        for sport, stats in athlete.get("by_type", {}).items():
+                            if sport in sport_types:
+                                team_dist_by_group[group] += stats.get("distance_km", 0.0)
             member_count = len(team.get("members", [])) or 1
             # All configured members with their points (0 if no scored activities)
             athlete_pts = {a["name"]: a["total_points"] for a in athletes.values()}
@@ -140,6 +150,7 @@ class PointsEngine:
                 "member_count": member_count,
                 "points_per_person": round(team_points / member_count, 1),
                 "member_details": member_details,
+                "distance_by_group": {g: round(v, 1) for g, v in team_dist_by_group.items()},
             })
         team_totals.sort(key=lambda t: t["points_per_person"], reverse=True)
         for i, t in enumerate(team_totals, start=1):

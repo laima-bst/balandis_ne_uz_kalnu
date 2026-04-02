@@ -381,7 +381,12 @@ function buildTeams(teams) {
       <td class="points-cell" style="font-size:0.9rem">${t.total_points}</td>
       <td style="color:var(--muted);font-size:0.85rem">${t.member_count}</td>
       <td>${t.activity_count}</td>
-      <td>${t.total_distance_km.toFixed(1)} km</td>
+      <td>
+        ${t.distance_by_group?.run_walk > 0 ? `<span title="Run / Walk">🏃 ${t.distance_by_group.run_walk} km</span><br>` : ""}
+        ${t.distance_by_group?.ride     > 0 ? `<span title="Ride">🚴 ${t.distance_by_group.ride} km</span><br>` : ""}
+        ${t.distance_by_group?.swim     > 0 ? `<span title="Swim">🏊 ${t.distance_by_group.swim} km</span>` : ""}
+        ${!t.distance_by_group || Object.values(t.distance_by_group).every(v => v === 0) ? `${t.total_distance_km.toFixed(1)} km` : ""}
+      </td>
     </tr>
     <tr class="team-expand" id="team-expand-${i}">
       <td colspan="7">
