@@ -1,5 +1,11 @@
 {
   "fingerprints": [
+    "edeba1a5c2ead3de5ae7ad358ef9e3f5",
+    "cfc9d9aac5fcb1a121505a0a1040cdd5",
+    "60a6d20938580c9a07828dabe89ef6e9",
+    "44143dbe80b16e501de6e4a50689a59a",
+    "620b3e66c26df083a0af9a8c77594e20",
+    "6758283e332eccb73721b83390944af6",
     "92744a43a30bc3633958dbb6d7ea12f7",
     "6dfb17543f49db4faf2526f7e2c1b021",
     "9bdf66e711cf3e3fefa3781d21bc1cf2",
@@ -75,6 +81,109 @@
     "2dc2e77cf6019fc6e9864979a7d486ea"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Arunas",
+        "lastname": "M."
+      },
+      "name": "Afternoon Walk",
+      "distance": 1472.2,
+      "moving_time": 709,
+      "elapsed_time": 3412,
+      "total_elevation_gain": 7.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-02"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Žilvinas",
+        "lastname": "P."
+      },
+      "name": "12 sav. iki HM / 10 savaitė",
+      "distance": 7022.1,
+      "moving_time": 2576,
+      "elapsed_time": 2579,
+      "total_elevation_gain": 41.0,
+      "type": "Run",
+      "sport_type": "Run",
+      "workout_type": null,
+      "device_name": "Garmin Forerunner 955",
+      "_fetched_date": "2026-04-02"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Tautvydas",
+        "lastname": "Ž."
+      },
+      "name": "Afternoon Walk",
+      "distance": 1059.7,
+      "moving_time": 681,
+      "elapsed_time": 784,
+      "total_elevation_gain": 7.3,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-02"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Viktorija",
+        "lastname": "M."
+      },
+      "name": "Afternoon Walk",
+      "distance": 12208.2,
+      "moving_time": 7163,
+      "elapsed_time": 7571,
+      "total_elevation_gain": 79.4,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-02"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Ieva",
+        "lastname": "S."
+      },
+      "name": "Evening Walk",
+      "distance": 1425.2,
+      "moving_time": 1892,
+      "elapsed_time": 2416,
+      "total_elevation_gain": 19.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin Forerunner 255 Music",
+      "_fetched_date": "2026-04-02"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Greta",
+        "lastname": "N."
+      },
+      "name": "Vakarinis",
+      "distance": 2130.9,
+      "moving_time": 1941,
+      "elapsed_time": 2265,
+      "total_elevation_gain": 19.8,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-02"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -1347,6 +1456,48 @@
     }
   ],
   "run_log": [
+    {
+      "timestamp": "2026-04-02T16:08:06.606894+00:00",
+      "new_count": 6,
+      "activities": [
+        {
+          "athlete": "Arunas M.",
+          "sport": "Walk",
+          "distance_km": 1.47,
+          "name": "Afternoon Walk"
+        },
+        {
+          "athlete": "Žilvinas P.",
+          "sport": "Run",
+          "distance_km": 7.02,
+          "name": "12 sav. iki HM / 10 savaitė"
+        },
+        {
+          "athlete": "Tautvydas Ž.",
+          "sport": "Walk",
+          "distance_km": 1.06,
+          "name": "Afternoon Walk"
+        },
+        {
+          "athlete": "Viktorija M.",
+          "sport": "Walk",
+          "distance_km": 12.21,
+          "name": "Afternoon Walk"
+        },
+        {
+          "athlete": "Ieva S.",
+          "sport": "Walk",
+          "distance_km": 1.43,
+          "name": "Evening Walk"
+        },
+        {
+          "athlete": "Greta N.",
+          "sport": "Walk",
+          "distance_km": 2.13,
+          "name": "Vakarinis"
+        }
+      ]
+    },
     {
       "timestamp": "2026-04-02T14:58:22.950692+00:00",
       "new_count": 4,
