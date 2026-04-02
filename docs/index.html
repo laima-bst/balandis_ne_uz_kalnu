@@ -587,15 +587,20 @@ function buildLeaderboard(leaderboard, activities) {
 
   return `
     <div class="card">
-      <h2>Individual Leaderboard</h2>
-      <table class="leaderboard">
-        <thead>
-          <tr>
-            <th>#</th><th>Athlete</th><th>Points</th><th>Activities</th><th>Distance</th><th>Elevation</th>
-          </tr>
-        </thead>
-        <tbody>${rows}</tbody>
-      </table>
+      <button class="log-toggle open" onclick="toggleLog(this)">
+        Individual Leaderboard
+        <span class="log-arrow">▼</span>
+      </button>
+      <div class="log-body open">
+        <table class="leaderboard">
+          <thead>
+            <tr>
+              <th>#</th><th>Athlete</th><th>Points</th><th>Activities</th><th>Distance</th><th>Elevation</th>
+            </tr>
+          </thead>
+          <tbody>${rows}</tbody>
+        </table>
+      </div>
     </div>`;
 }
 
@@ -691,13 +696,32 @@ const TYPE_GROUPS = [
 
 function buildTypeLeaderboards(leaderboard) {
   if (!leaderboard || leaderboard.length === 0) return "";
-  const medal = r => r === 1 ? "🥇" : r === 2 ? "🥈" : r === 3 ? "🥉" : `${r}`;
+  const medal = r => r === 1 ? "🥇" : r === 2 ? "🥈" : "🥉";
+
+  // SPORT_GROUPS mapping (mirrors engine.py)
+  const SPORT_GROUP_TYPES = {
+    run_walk: new Set(["Run","Walk","Hike","VirtualRun","TrailRun"]),
+    ride:     new Set(["Ride","VirtualRide","GravelRide","MountainBikeRide","EBikeRide","Velomobile"]),
+    swim:     new Set(["Swim"]),
+  };
 
   const panels = TYPE_GROUPS.map((g, gi) => {
     const filtered = leaderboard
-      .map(a => ({ ...a, grp_pts: a.points_by_group?.[g.key] || 0 }))
+      .map(a => {
+        const grp_pts = a.points_by_group?.[g.key] || 0;
+        // Sum distance and count for this group from by_type
+        let grp_dist = 0, grp_count = 0;
+        Object.entries(a.by_type || {}).forEach(([sport, stats]) => {
+          if (SPORT_GROUP_TYPES[g.key]?.has(sport)) {
+            grp_dist  += stats.distance_km || 0;
+            grp_count += stats.count       || 0;
+          }
+        });
+        return { ...a, grp_pts, grp_dist, grp_count };
+      })
       .filter(a => a.grp_pts > 0)
       .sort((a, b) => b.grp_pts - a.grp_pts)
+      .slice(0, 3)
       .map((a, i) => ({ ...a, grp_rank: i + 1 }));
 
     if (filtered.length === 0) {
@@ -707,14 +731,14 @@ function buildTypeLeaderboards(leaderboard) {
     }
 
     const rows = filtered.map(a => `
-      <tr class="${a.grp_rank <= 3 ? `rank-${a.grp_rank}` : ""}">
+      <tr class="rank-${a.grp_rank}">
         <td><span class="rank-badge">${medal(a.grp_rank)}</span></td>
         <td style="border-left:4px solid ${athleteColorMap[a.name.toLowerCase().replace(/ /g,'_')] || '#ccc'}; padding-left:0.75rem">
           <strong>${a.name}</strong>
         </td>
         <td class="points-cell">${a.grp_pts}</td>
-        <td style="color:var(--muted);font-size:0.85rem">${a.activity_count}</td>
-        <td style="color:var(--muted);font-size:0.85rem">${a.total_distance_km} km</td>
+        <td style="color:var(--muted);font-size:0.85rem">${a.grp_count}</td>
+        <td style="color:var(--muted);font-size:0.85rem">${a.grp_dist.toFixed(1)} km</td>
       </tr>`).join("");
 
     return `
@@ -732,9 +756,14 @@ function buildTypeLeaderboards(leaderboard) {
 
   return `
     <div class="card">
-      <h2>Leaderboard by Activity Type</h2>
-      <div class="type-lb-tabs">${tabs}</div>
-      ${panels}
+      <button class="log-toggle open" onclick="toggleLog(this)">
+        Leaderboard by Activity Type
+        <span class="log-arrow">▼</span>
+      </button>
+      <div class="log-body open">
+        <div class="type-lb-tabs">${tabs}</div>
+        ${panels}
+      </div>
     </div>`;
 }
 
