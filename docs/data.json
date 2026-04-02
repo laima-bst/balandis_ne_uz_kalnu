@@ -7,7 +7,7 @@
   "teams": [
     {
       "name": "Team Paulius",
-      "color": "#cccccc",
+      "color": "#2ecc71",
       "total_points": 208.1,
       "total_distance_km": 60.2,
       "activity_count": 13,
@@ -55,7 +55,7 @@
     },
     {
       "name": "Nemiegantys Balandžiai",
-      "color": "#cccccc",
+      "color": "#e74c3c",
       "total_points": 241.4,
       "total_distance_km": 103.87,
       "activity_count": 21,
@@ -110,7 +110,7 @@
     },
     {
       "name": "Balandžio dvasia",
-      "color": "#cccccc",
+      "color": "#3498db",
       "total_points": 159.0,
       "total_distance_km": 97.7,
       "activity_count": 15,
@@ -159,7 +159,7 @@
     },
     {
       "name": "Team Žilvinas",
-      "color": "#cccccc",
+      "color": "#9b59b6",
       "total_points": 122.0,
       "total_distance_km": 32.88,
       "activity_count": 8,
@@ -206,7 +206,7 @@
     },
     {
       "name": "Team Augustinas",
-      "color": "#cccccc",
+      "color": "#f39c12",
       "total_points": 38.9,
       "total_distance_km": 20.88,
       "activity_count": 4,
@@ -1487,10 +1487,10 @@
       "points": 8.1
     }
   ],
-  "generated_at": "2026-04-02T13:18:48.487677+00:00",
+  "generated_at": "2026-04-02T13:23:47.604039+00:00",
   "run_log": [
     {
-      "timestamp": "2026-04-02T13:18:48.481518+00:00",
+      "timestamp": "2026-04-02T13:23:47.592399+00:00",
       "new_count": 1,
       "activities": [
         {
@@ -1500,6 +1500,11 @@
           "name": "Afternoon Walk"
         }
       ]
+    },
+    {
+      "timestamp": "2026-04-02T12:27:37.317887+00:00",
+      "new_count": 0,
+      "activities": []
     },
     {
       "timestamp": "2026-04-02T12:21:38.204904+00:00",

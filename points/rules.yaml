@@ -12,6 +12,7 @@ competition:
 # Team definitions — assign athletes to teams by their exact display name.
 teams:
   - name: "Nemiegantys Balandžiai"
+    color: "#e74c3c"
     members:
       - "Andrius A."
       - "Viktorija M."
@@ -20,6 +21,7 @@ teams:
       - "Tautvydas Ž."
       - "Sandra M."
   - name: "Balandžio dvasia"
+    color: "#3498db"
     members:
       - "Donatas J."
       - "Ne L."
@@ -27,6 +29,7 @@ teams:
       - "Aurelija S."
       - "Gintarė B."
   - name: "Team Paulius"
+    color: "#2ecc71"
     members:
       - "Paulius R."
       - "Greta N."
@@ -34,6 +37,7 @@ teams:
       - "Antanas R."
       - "Gertrūda G."
   - name: "Team Žilvinas"
+    color: "#9b59b6"
     members:
       - "Žilvinas P."
       - "Daina G."
@@ -41,6 +45,7 @@ teams:
       - "Ieva S."
       - "Domas C."
   - name: "Team Augustinas"
+    color: "#f39c12"
     members:
       - "Augustinas T."
       - "Augustė J."
