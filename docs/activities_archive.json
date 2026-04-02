@@ -1,5 +1,7 @@
 {
   "fingerprints": [
+    "53a0967f572cdd2d3f37f7d7fcb6f64a",
+    "0e5933114773a94afbd506dd062358f4",
     "3f39d509784d74671626ed0084348904",
     "a778f50c618ec8e0fc6b970f4af2fbd2",
     "2f4a0c7709b7a687a8f274db703f2121",
@@ -50,6 +52,41 @@
     "a8bc307183c6ccd0ff4b604b123dd752"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Ne",
+        "lastname": "L."
+      },
+      "name": "Evening Walk",
+      "distance": 3098.9,
+      "moving_time": 2209,
+      "elapsed_time": 2290,
+      "total_elevation_gain": 20.7,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-02"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Ne",
+        "lastname": "L."
+      },
+      "name": "Afternoon Ride",
+      "distance": 10610.8,
+      "moving_time": 2061,
+      "elapsed_time": 2352,
+      "total_elevation_gain": 64.0,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": null,
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-02"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -888,6 +925,26 @@
       "workout_type": null,
       "device_name": "Garmin fēnix 7",
       "_fetched_date": "2026-04-01"
+    }
+  ],
+  "run_log": [
+    {
+      "timestamp": "2026-04-02T08:08:20.660500+00:00",
+      "new_count": 2,
+      "activities": [
+        {
+          "athlete": "Ne L.",
+          "sport": "Walk",
+          "distance_km": 3.1,
+          "name": "Evening Walk"
+        },
+        {
+          "athlete": "Ne L.",
+          "sport": "Ride",
+          "distance_km": 10.61,
+          "name": "Afternoon Ride"
+        }
+      ]
     }
   ]
 }

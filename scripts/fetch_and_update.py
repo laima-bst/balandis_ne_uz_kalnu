@@ -14,7 +14,7 @@ import hashlib
 import json
 import os
 import sys
-from datetime import date
+from datetime import date, datetime, timezone
 
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
 
@@ -45,7 +45,7 @@ def load_archive() -> dict:
     if os.path.exists(ARCHIVE_FILE):
         with open(ARCHIVE_FILE, encoding="utf-8") as f:
             return json.load(f)
-    return {"fingerprints": [], "activities": []}
+    return {"fingerprints": [], "activities": [], "run_log": []}
 
 
 def merge_archive(archive: dict, fetched: list[dict]) -> int:
@@ -89,7 +89,7 @@ def merge_archive(archive: dict, fetched: list[dict]) -> int:
         archive["activities"]   = new_activities + archive["activities"]
         archive["fingerprints"] = new_fingerprints + archive["fingerprints"]
 
-    return len(new_activities)
+    return new_activities
 
 
 def save_archive(archive: dict):
@@ -108,14 +108,36 @@ def main():
     fetched = client.get_club_activities()
     print(f"  → {len(fetched)} activities fetched")
 
-    new_count = merge_archive(archive, fetched)
+    new_activities = merge_archive(archive, fetched)
+    new_count = len(new_activities)
     print(f"  → {new_count} new activities added to archive")
+
+    # Build run log entry
+    run_entry = {
+        "timestamp": datetime.now(timezone.utc).isoformat(),
+        "new_count": new_count,
+        "activities": [
+            {
+                "athlete": f"{a.get('athlete', {}).get('firstname', '')} {a.get('athlete', {}).get('lastname', '')}".strip(),
+                "sport":   a.get("sport_type", ""),
+                "distance_km": round(a.get("distance", 0) / 1000, 2),
+                "name":    a.get("name", ""),
+            }
+            for a in new_activities
+        ],
+    }
+    if "run_log" not in archive:
+        archive["run_log"] = []
+    archive["run_log"].insert(0, run_entry)
+    archive["run_log"] = archive["run_log"][:50]  # keep last 50 runs
+
     save_archive(archive)
     print(f"  → Archive now holds {len(archive['activities'])} activities total")
 
     print("Calculating points...")
     engine = PointsEngine()
     data = engine.process(archive["activities"])
+    data["run_log"] = archive["run_log"]
 
     leaderboard = data["leaderboard"]
     print(f"  → {len(leaderboard)} athletes on the leaderboard")

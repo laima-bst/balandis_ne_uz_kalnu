@@ -203,6 +203,40 @@
     .updated { font-size: 0.75rem; color: var(--muted); text-align: right; margin-top: .5rem; }
     #loading { text-align: center; padding: 4rem; color: var(--muted); }
     #error { text-align: center; padding: 4rem; color: #c0392b; display: none; }
+
+    /* ---- Run log ---- */
+    .log-toggle {
+      width: 100%;
+      background: none;
+      border: none;
+      text-align: left;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0;
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: .05em;
+    }
+    .log-toggle .log-arrow { transition: transform 0.2s; font-size: 0.75rem; }
+    .log-toggle.open .log-arrow { transform: rotate(180deg); }
+    .log-body { display: none; margin-top: 1rem; }
+    .log-body.open { display: block; }
+    .log-entry {
+      border-left: 3px solid var(--border);
+      padding: 0.6rem 0 0.6rem 1rem;
+      margin-bottom: 0.75rem;
+      font-size: 0.875rem;
+    }
+    .log-entry:last-child { margin-bottom: 0; }
+    .log-entry .log-time { font-weight: 600; color: var(--text); }
+    .log-entry .log-count { color: var(--primary); font-weight: 700; margin-left: 0.5rem; }
+    .log-entry .log-acts { margin-top: 0.4rem; display: flex; flex-direction: column; gap: 0.2rem; }
+    .log-act { color: var(--muted); font-size: 0.8rem; }
+    .log-none { color: var(--muted); font-style: italic; }
   </style>
 </head>
 <body>
@@ -547,6 +581,38 @@ function buildFeed(activities) {
     </div>`;
 }
 
+// ---- Build run log ----
+function buildRunLog(runLog) {
+  if (!runLog || runLog.length === 0) return "";
+  const entries = runLog.map(entry => {
+    const time = new Date(entry.timestamp).toLocaleString("lt-LT");
+    const countLabel = entry.new_count === 0
+      ? `<span class="log-none">no new activities</span>`
+      : `<span class="log-count">+${entry.new_count} ${entry.new_count === 1 ? "activity" : "activities"}</span>`;
+    const acts = (entry.activities || []).map(a =>
+      `<div class="log-act">${sportIcon(a.sport)} ${a.athlete} · ${a.sport} · ${a.distance_km} km · <em>${a.name}</em></div>`
+    ).join("");
+    return `
+      <div class="log-entry">
+        <span class="log-time">${time}</span>${countLabel}
+        ${acts ? `<div class="log-acts">${acts}</div>` : ""}
+      </div>`;
+  }).join("");
+  return `
+    <div class="card">
+      <button class="log-toggle" onclick="toggleLog(this)">
+        Update log
+        <span class="log-arrow">▼</span>
+      </button>
+      <div class="log-body">${entries}</div>
+    </div>`;
+}
+
+function toggleLog(btn) {
+  btn.classList.toggle("open");
+  btn.nextElementSibling.classList.toggle("open");
+}
+
 // ---- Render helper ----
 function renderData(data) {
   buildColorMaps(data.teams || []);
@@ -565,7 +631,8 @@ function renderData(data) {
     buildTeams(data.teams) +
     buildBumpChart(data.daily_rankings, data.teams) +
     buildCharts(data.leaderboard, data.activities) +
-    buildLeaderboard(data.leaderboard, data.activities);
+    buildLeaderboard(data.leaderboard, data.activities) +
+    buildRunLog(data.run_log);
 
   initBumpChart(data.daily_rankings, data.teams);
   initCharts(data.leaderboard, data.activities);
