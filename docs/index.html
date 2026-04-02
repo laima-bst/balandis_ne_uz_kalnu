@@ -41,24 +41,9 @@
     header h1 { font-size: 1.4rem; font-weight: 700; flex: 1; min-width: 0; }
     header .meta { font-size: 0.8rem; opacity: 0.85; display: flex; flex-direction: column; align-items: flex-end; gap: 0.4rem; flex-shrink: 0; }
     #last-updated { opacity: 0.85; white-space: nowrap; }
-    #refresh-btn {
-      background: rgba(255,255,255,0.18);
-      color: white;
-      border: 1px solid rgba(255,255,255,0.45);
-      border-radius: 6px;
-      padding: 0.35rem 0.85rem;
-      font-size: 0.8rem;
-      font-weight: 600;
-      cursor: pointer;
-      transition: background 0.15s;
-      white-space: nowrap;
-    }
-    #refresh-btn:hover:not(:disabled) { background: rgba(255,255,255,0.28); }
-    #refresh-btn:disabled { opacity: 0.5; cursor: not-allowed; }
     @media (max-width: 480px) {
-      header { flex-direction: column; align-items: flex-start; gap: 0.6rem; }
+      header { flex-direction: column; align-items: flex-start; gap: 0.4rem; }
       header h1 { font-size: 1.15rem; }
-      header .meta { align-items: flex-start; width: 100%; flex-direction: row; justify-content: space-between; flex-wrap: wrap; }
       #last-updated { white-space: normal; }
     }
 
@@ -226,7 +211,6 @@
   <h1 id="comp-name">Competition Dashboard</h1>
   <div class="meta" id="comp-meta">
     <div id="last-updated"></div>
-    <button id="refresh-btn" onclick="handleRefresh()">↻ Refresh data</button>
   </div>
 </header>
 
@@ -563,89 +547,7 @@ function buildFeed(activities) {
     </div>`;
 }
 
-// ---- Refresh / rate-limit logic ----
-const GITHUB_REPO    = "laima-bst/balandis_ne_uz_kalnu";
-const WORKFLOW_ID    = "refresh.yml";
-const COOLDOWN_MS    = 15 * 60 * 1000; // 15 minutes
-let   _countdownTimer = null;
-
-function getLastRefreshTime() {
-  return parseInt(localStorage.getItem("lastRefresh") || "0", 10);
-}
-
-function updateRefreshButton() {
-  const btn = document.getElementById("refresh-btn");
-  if (!btn) return;
-  clearTimeout(_countdownTimer);
-  const remaining = COOLDOWN_MS - (Date.now() - getLastRefreshTime());
-  if (remaining > 0) {
-    const mins = Math.floor(remaining / 60000);
-    const secs = Math.floor((remaining % 60000) / 1000);
-    btn.disabled = true;
-    btn.textContent = `↻ Refresh data (${mins}:${String(secs).padStart(2,"0")})`;
-    _countdownTimer = setTimeout(updateRefreshButton, 1000);
-  } else {
-    btn.disabled = false;
-    btn.textContent = "↻ Refresh data";
-  }
-}
-
-async function handleRefresh() {
-  if (Date.now() - getLastRefreshTime() < COOLDOWN_MS) return;
-
-  let token = localStorage.getItem("githubToken") || "";
-  if (!token) {
-    token = prompt(
-      "Įveskite GitHub Personal Access Token (su 'workflow' teisėmis).\n" +
-      "Jis bus išsaugotas naršyklėje tolimesniam naudojimui.\n\n" +
-      "Enter your GitHub PAT with 'workflow' scope:"
-    );
-    if (!token) return;
-    localStorage.setItem("githubToken", token.trim());
-    token = token.trim();
-  }
-
-  const btn = document.getElementById("refresh-btn");
-  btn.disabled = true;
-  btn.textContent = "↻ Vykdoma…";
-
-  try {
-    const resp = await fetch(
-      `https://api.github.com/repos/${GITHUB_REPO}/actions/workflows/${WORKFLOW_ID}/dispatches`,
-      {
-        method: "POST",
-        headers: {
-          "Authorization": `Bearer ${token}`,
-          "Accept": "application/vnd.github+json",
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({ ref: "main" }),
-      }
-    );
-
-    if (resp.status === 204) {
-      localStorage.setItem("lastRefresh", Date.now().toString());
-      btn.textContent = "↻ Pipeline vykdomas (~1 min)…";
-      // After ~75 s the Actions job should be done; reload data
-      setTimeout(() => reloadData(), 75000);
-      updateRefreshButton();
-    } else if (resp.status === 401 || resp.status === 403) {
-      localStorage.removeItem("githubToken");
-      alert("Neteisingas token. Bandykite dar kartą.\n(Invalid token — please try again.)");
-      btn.disabled = false;
-      btn.textContent = "↻ Refresh data";
-    } else {
-      throw new Error(`GitHub API: ${resp.status}`);
-    }
-  } catch (err) {
-    console.error(err);
-    alert("Klaida: " + err.message);
-    btn.disabled = false;
-    btn.textContent = "↻ Refresh data";
-  }
-}
-
-// ---- Render helper (shared by init and reload) ----
+// ---- Render helper ----
 function renderData(data) {
   buildColorMaps(data.teams || []);
 
@@ -669,23 +571,12 @@ function renderData(data) {
   initCharts(data.leaderboard, data.activities);
 }
 
-async function reloadData() {
-  try {
-    const resp = await fetch(`data.json?t=${Date.now()}`);
-    if (!resp.ok) throw new Error("HTTP " + resp.status);
-    renderData(await resp.json());
-  } catch (err) {
-    console.error("Reload failed:", err);
-  }
-}
-
 // ---- Main ----
 async function init() {
   try {
     const resp = await fetch("data.json");
     if (!resp.ok) throw new Error("HTTP " + resp.status);
     renderData(await resp.json());
-    updateRefreshButton();
   } catch (err) {
     document.getElementById("loading").style.display = "none";
     document.getElementById("error").style.display = "block";
