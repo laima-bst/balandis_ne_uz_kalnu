@@ -81,6 +81,8 @@ elevation_bonus_per_100m: 0
 # Set to null to disable the cap.
 max_points_per_activity: null
 
-# Minimum activity duration in seconds to count (filters out accidental
-# 30-second "activities").
-min_duration_seconds: 300
+# Minimum distance (in km) required for an activity to count.
+# Activities below these thresholds are excluded from scoring.
+min_distance_km:
+  Swim: 0.1       # 100 m
+  default: 1.0    # 1 km for Run, Walk, Ride, Hike, etc.

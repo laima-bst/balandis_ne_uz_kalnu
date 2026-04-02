@@ -1,5 +1,7 @@
 {
   "fingerprints": [
+    "3f39d509784d74671626ed0084348904",
+    "a778f50c618ec8e0fc6b970f4af2fbd2",
     "2f4a0c7709b7a687a8f274db703f2121",
     "dae64316cbe2f3a35ce57d379676175d",
     "18b71ccfa8fd435694aad0db36e34572",
@@ -48,6 +50,40 @@
     "a8bc307183c6ccd0ff4b604b123dd752"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Donatas",
+        "lastname": "J."
+      },
+      "name": "Morning Walk",
+      "distance": 1000.3,
+      "moving_time": 912,
+      "elapsed_time": 1236,
+      "total_elevation_gain": 6.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin Forerunner 255 Music",
+      "_fetched_date": "2026-04-02"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Greta",
+        "lastname": "N."
+      },
+      "name": "Į Mummy&Kid sportą",
+      "distance": 4636.6,
+      "moving_time": 5155,
+      "elapsed_time": 5983,
+      "total_elevation_gain": 27.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-02"
+    },
     {
       "resource_state": 2,
       "athlete": {

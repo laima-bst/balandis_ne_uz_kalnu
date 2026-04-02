@@ -24,17 +24,17 @@
     },
     {
       "name": "Team Donatas",
-      "total_points": 99.5,
-      "total_distance_km": 70.79,
-      "activity_count": 8,
+      "total_points": 102.5,
+      "total_distance_km": 71.79,
+      "activity_count": 9,
       "members": [
+        "Donatas J.",
         "Gintarė B.",
         "Aurelija S.",
-        "Donatas J.",
         "Arunas M."
       ],
       "member_count": 5,
-      "points_per_person": 19.9,
+      "points_per_person": 20.5,
       "rank": 2
     },
     {
@@ -53,16 +53,16 @@
     },
     {
       "name": "Team Paulius",
-      "total_points": 35.4,
-      "total_distance_km": 11.79,
-      "activity_count": 4,
+      "total_points": 49.3,
+      "total_distance_km": 16.43,
+      "activity_count": 5,
       "members": [
         "Greta N.",
         "Gertrūda G.",
         "Paulius R."
       ],
       "member_count": 5,
-      "points_per_person": 7.1,
+      "points_per_person": 9.9,
       "rank": 4
     },
     {
@@ -114,15 +114,15 @@
       },
       "points": {
         "Nemiegantys Balandžiai": 185.1,
-        "Team Donatas": 99.5,
-        "Team Paulius": 35.4,
+        "Team Donatas": 102.5,
+        "Team Paulius": 49.3,
         "Team Žilvinas": 84.5,
         "Team Augustinas": 21.7
       },
       "points_per_person": {
         "Nemiegantys Balandžiai": 30.8,
-        "Team Donatas": 19.9,
-        "Team Paulius": 7.1,
+        "Team Donatas": 20.5,
+        "Team Paulius": 9.9,
         "Team Žilvinas": 16.9,
         "Team Augustinas": 4.3
       }
@@ -151,20 +151,20 @@
     },
     {
       "name": "Donatas J.",
-      "total_points": 66.0,
-      "activity_count": 3,
-      "total_distance_km": 59.6,
-      "total_elevation_m": 420.0,
+      "total_points": 69.0,
+      "activity_count": 4,
+      "total_distance_km": 60.6,
+      "total_elevation_m": 426.0,
       "by_type": {
+        "Walk": {
+          "count": 3,
+          "points": 12.6,
+          "distance_km": 4.2299999999999995
+        },
         "Ride": {
           "count": 1,
           "points": 56.4,
           "distance_km": 56.37
-        },
-        "Walk": {
-          "count": 2,
-          "points": 9.6,
-          "distance_km": 3.2299999999999995
         }
       },
       "rank": 2
@@ -185,6 +185,21 @@
       "rank": 3
     },
     {
+      "name": "Greta N.",
+      "total_points": 34.4,
+      "activity_count": 3,
+      "total_distance_km": 11.46,
+      "total_elevation_m": 97.0,
+      "by_type": {
+        "Walk": {
+          "count": 3,
+          "points": 34.4,
+          "distance_km": 11.46
+        }
+      },
+      "rank": 4
+    },
+    {
       "name": "Tautvydas Ž.",
       "total_points": 27.6,
       "activity_count": 2,
@@ -202,7 +217,7 @@
           "distance_km": 6.75
         }
       },
-      "rank": 4
+      "rank": 5
     },
     {
       "name": "Žilvinas P.",
@@ -217,7 +232,7 @@
           "distance_km": 8.17
         }
       },
-      "rank": 5
+      "rank": 6
     },
     {
       "name": "Gintarė B.",
@@ -232,7 +247,7 @@
           "distance_km": 7.93
         }
       },
-      "rank": 6
+      "rank": 7
     },
     {
       "name": "Azuolas S.",
@@ -250,21 +265,6 @@
           "count": 1,
           "points": 18.7,
           "distance_km": 6.22
-        }
-      },
-      "rank": 7
-    },
-    {
-      "name": "Greta N.",
-      "total_points": 20.5,
-      "activity_count": 2,
-      "total_distance_km": 6.82,
-      "total_elevation_m": 70.0,
-      "by_type": {
-        "Walk": {
-          "count": 2,
-          "points": 20.5,
-          "distance_km": 6.82
         }
       },
       "rank": 8
@@ -416,6 +416,30 @@
     }
   ],
   "activities": [
+    {
+      "athlete_key": "donatas_j.",
+      "athlete_name": "Donatas J.",
+      "name": "Morning Walk",
+      "sport_type": "Walk",
+      "start_date": null,
+      "_fetched_date": "2026-04-02",
+      "distance_km": 1.0,
+      "elevation_m": 6.0,
+      "moving_time_s": 912,
+      "points": 3.0
+    },
+    {
+      "athlete_key": "greta_n.",
+      "athlete_name": "Greta N.",
+      "name": "Į Mummy&Kid sportą",
+      "sport_type": "Walk",
+      "start_date": null,
+      "_fetched_date": "2026-04-02",
+      "distance_km": 4.64,
+      "elevation_m": 27.0,
+      "moving_time_s": 5155,
+      "points": 13.9
+    },
     {
       "athlete_key": "azuolas_s.",
       "athlete_name": "Azuolas S.",
@@ -873,5 +897,5 @@
       "points": 27.5
     }
   ],
-  "generated_at": "2026-04-02T06:23:56.061778+00:00"
+  "generated_at": "2026-04-02T08:00:58.561319+00:00"
 }

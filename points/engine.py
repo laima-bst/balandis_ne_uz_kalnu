@@ -206,15 +206,18 @@ class PointsEngine:
         if start_date is not None and not (self.start <= start_date <= self.end):
             return None
 
-        # Minimum duration filter
+        # Moving time (kept for output, no duration filter)
         moving_time = raw.get("moving_time", 0)
-        min_dur = self.rules.get("min_duration_seconds", 0)
-        if moving_time < min_dur:
-            return None
 
         # Distance (always in metres from Strava)
         distance_m = raw.get("distance", 0)
         distance_km = distance_m / 1000.0
+
+        # Minimum distance filter
+        min_dist_rules = self.rules.get("min_distance_km", {})
+        min_dist = min_dist_rules.get(sport_type, min_dist_rules.get("default", 0))
+        if distance_km < min_dist:
+            return None
 
         # Elevation
         elevation_m = raw.get("total_elevation_gain", 0) or 0
