@@ -39,14 +39,14 @@ teams:
       - "Daina G."
       - "Matas A."
       - "Ieva S."
-      - "Dominykas Č."
+      - "Domas C."
   - name: "Team Augustinas"
     members:
       - "Augustinas T."
       - "Augustė J."
       - "Azuolas S."
       - "Valentinas A."
-      - "Artūras K."
+      - "Arturas K."
 
 # Activity types to include (Strava sport_type values).
 # Everything NOT listed here is ignored entirely.

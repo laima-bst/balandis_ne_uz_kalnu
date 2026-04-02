@@ -116,7 +116,7 @@
           "points": 0.0
         },
         {
-          "name": "Dominykas Č.",
+          "name": "Domas C.",
           "points": 0.0
         }
       ],
@@ -186,7 +186,7 @@
           "points": 0.0
         },
         {
-          "name": "Artūras K.",
+          "name": "Arturas K.",
           "points": 0.0
         }
       ],
@@ -1073,8 +1073,13 @@
       "points": 27.5
     }
   ],
-  "generated_at": "2026-04-02T09:14:43.890195+00:00",
+  "generated_at": "2026-04-02T09:22:45.145686+00:00",
   "run_log": [
+    {
+      "timestamp": "2026-04-02T09:22:45.136037+00:00",
+      "new_count": 0,
+      "activities": []
+    },
     {
       "timestamp": "2026-04-02T09:14:43.881228+00:00",
       "new_count": 0,
