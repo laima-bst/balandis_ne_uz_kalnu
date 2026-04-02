@@ -103,17 +103,29 @@ class PointsEngine:
         scored = [a for a in scored if not assigned_keys or a["athlete_key"] in assigned_keys]
         scored.sort(key=lambda a: a["start_date"] or "", reverse=True)
 
+        # Sport-type groups (shared by athlete and team aggregations)
+        SPORT_GROUPS = {
+            "run_walk": {"Run", "Walk", "Hike", "VirtualRun"},
+            "ride":     {"Ride", "VirtualRide", "GravelRide", "MountainBikeRide", "EBikeRide"},
+            "swim":     {"Swim"},
+        }
+
+        # Add per-athlete points_by_group
+        for athlete in athletes.values():
+            pts_by_group: dict[str, float] = {g: 0.0 for g in SPORT_GROUPS}
+            for sport, stats in athlete.get("by_type", {}).items():
+                for group, sport_types in SPORT_GROUPS.items():
+                    if sport in sport_types:
+                        pts_by_group[group] += stats.get("points", 0.0)
+            athlete["points_by_group"] = {g: round(v, 1) for g, v in pts_by_group.items()}
+
         # Aggregate per team
         teams_config = self.rules.get("teams", [])
         team_totals = []
         for team in teams_config:
             team_name = team["name"]
             member_keys = {m.lower().replace(" ", "_") for m in team.get("members", [])}
-            DIST_GROUPS = {
-                "run_walk": {"Run", "Walk", "Hike", "VirtualRun"},
-                "ride":     {"Ride", "VirtualRide", "GravelRide", "MountainBikeRide", "EBikeRide"},
-                "swim":     {"Swim"},
-            }
+            DIST_GROUPS = SPORT_GROUPS
             team_points = 0.0
             team_distance = 0.0
             team_activities = 0
@@ -135,7 +147,12 @@ class PointsEngine:
             athlete_pts = {a["name"]: a["total_points"] for a in athletes.values()}
             member_details = sorted(
                 [
-                    {"name": m, "points": athlete_pts.get(m, 0.0)}
+                    {
+                        "name": m,
+                        "points": athlete_pts.get(m, 0.0),
+                        "pct_of_team": round(athlete_pts.get(m, 0.0) / team_points * 100, 1)
+                            if team_points > 0 else 0.0,
+                    }
                     for m in team.get("members", [])
                 ],
                 key=lambda x: x["points"],

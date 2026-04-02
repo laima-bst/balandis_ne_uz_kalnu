@@ -1,5 +1,8 @@
 {
   "fingerprints": [
+    "793f070a5ab34744ede7c80438765fd0",
+    "e179ec46e60dc4622263b58d70ae94d5",
+    "2dc2e77cf6019fc6e9864979a7d486ea",
     "a4658f795a249adac3d2d415018db78a",
     "6a2574c18d08b81ea44446fcd6882705",
     "6f798da3ded2156c3cf4d2f4aa4b0740",
@@ -67,6 +70,59 @@
     "a8bc307183c6ccd0ff4b604b123dd752"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Liudas",
+        "lastname": "S."
+      },
+      "name": "Lunch Run",
+      "distance": 12013.5,
+      "moving_time": 4368,
+      "elapsed_time": 4368,
+      "total_elevation_gain": 156.0,
+      "type": "Run",
+      "sport_type": "Run",
+      "workout_type": null,
+      "device_name": "Samsung Galaxy Ultra",
+      "_fetched_date": "2026-04-02"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Paulius",
+        "lastname": "R."
+      },
+      "name": "Vilniečiai saugokitės 😎",
+      "distance": 31236.1,
+      "moving_time": 10966,
+      "elapsed_time": 11019,
+      "total_elevation_gain": 186.5,
+      "type": "Run",
+      "sport_type": "Run",
+      "workout_type": 2,
+      "device_name": "Wear OS by Google",
+      "_fetched_date": "2026-04-02"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Greta",
+        "lastname": "N."
+      },
+      "name": "Pietų miegelis :)",
+      "distance": 2712.9,
+      "moving_time": 2535,
+      "elapsed_time": 2908,
+      "total_elevation_gain": 24.4,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-02"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -1199,6 +1255,30 @@
     }
   ],
   "run_log": [
+    {
+      "timestamp": "2026-04-02T12:12:35.373529+00:00",
+      "new_count": 3,
+      "activities": [
+        {
+          "athlete": "Liudas S.",
+          "sport": "Run",
+          "distance_km": 12.01,
+          "name": "Lunch Run"
+        },
+        {
+          "athlete": "Paulius R.",
+          "sport": "Run",
+          "distance_km": 31.24,
+          "name": "Vilniečiai saugokitės 😎"
+        },
+        {
+          "athlete": "Greta N.",
+          "sport": "Walk",
+          "distance_km": 2.71,
+          "name": "Pietų miegelis :)"
+        }
+      ]
+    },
     {
       "timestamp": "2026-04-02T10:27:19.394157+00:00",
       "new_count": 9,
