@@ -120,18 +120,25 @@ class PointsEngine:
                     team_distance += athlete["total_distance_km"]
                     team_activities += athlete["activity_count"]
                     team_members.append(athlete["name"])
+            member_count = len(team.get("members", [])) or 1
             team_totals.append({
                 "name": team_name,
                 "total_points": round(team_points, 1),
                 "total_distance_km": round(team_distance, 2),
                 "activity_count": team_activities,
                 "members": team_members,
+                "member_count": member_count,
+                "points_per_person": round(team_points / member_count, 1),
             })
-        team_totals.sort(key=lambda t: t["total_points"], reverse=True)
+        team_totals.sort(key=lambda t: t["points_per_person"], reverse=True)
         for i, t in enumerate(team_totals, start=1):
             t["rank"] = i
 
         # Build daily team rankings (cumulative, using _fetched_date)
+        team_member_counts = {
+            team["name"]: len(team.get("members", [])) or 1
+            for team in teams_config
+        }
         daily_rankings = []
         all_dates = sorted({
             a["_fetched_date"] for a in scored if a.get("_fetched_date")
@@ -141,17 +148,22 @@ class PointsEngine:
                 # Cumulative: all scored activities up to and including this day
                 acts_to_day = [a for a in scored if (a.get("_fetched_date") or "") <= day]
                 day_team_points: dict[str, float] = {}
+                day_team_ppp: dict[str, float] = {}
                 for team in teams_config:
                     team_name = team["name"]
                     member_keys = {m.lower().replace(" ", "_") for m in team.get("members", [])}
-                    day_team_points[team_name] = round(
+                    pts = round(
                         sum(a["points"] for a in acts_to_day if a["athlete_key"] in member_keys), 1
                     )
-                ranked_teams = sorted(day_team_points.items(), key=lambda x: x[1], reverse=True)
+                    day_team_points[team_name] = pts
+                    day_team_ppp[team_name] = round(pts / team_member_counts[team_name], 1)
+                # Rank by points_per_person
+                ranked_teams = sorted(day_team_ppp.items(), key=lambda x: x[1], reverse=True)
                 daily_rankings.append({
                     "date": day,
                     "rankings": {name: i + 1 for i, (name, _) in enumerate(ranked_teams)},
-                    "points": dict(ranked_teams),
+                    "points": day_team_points,
+                    "points_per_person": day_team_ppp,
                 })
 
         comp = self.rules["competition"]

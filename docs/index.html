@@ -111,6 +111,17 @@
     .rank-3 .rank-badge { color: var(--bronze); }
     .rank-badge { font-size: 1.1rem; font-weight: 700; }
     .points-cell { font-weight: 700; color: var(--primary); }
+    .ppp-header {
+      background: rgba(252, 76, 2, 0.08);
+      color: var(--primary) !important;
+      font-weight: 700 !important;
+    }
+    .ppp-cell {
+      font-weight: 800;
+      font-size: 1.05rem;
+      color: var(--primary);
+      background: rgba(252, 76, 2, 0.06);
+    }
     .athlete-name { font-weight: 600; cursor: pointer; }
     .athlete-name:hover { text-decoration: underline; color: var(--primary); }
 
@@ -302,10 +313,11 @@ function buildTeams(teams) {
         <span style="display:inline-block;width:12px;height:12px;border-radius:3px;background:${t.color};margin-right:8px;vertical-align:middle;"></span>
         <strong>${t.name}</strong>
       </td>
-      <td class="points-cell">${t.total_points}</td>
+      <td class="ppp-cell">${t.points_per_person}</td>
+      <td class="points-cell" style="font-size:0.9rem">${t.total_points}</td>
+      <td style="color:var(--muted);font-size:0.85rem">${t.member_count}</td>
       <td>${t.activity_count}</td>
       <td>${t.total_distance_km.toFixed(1)} km</td>
-      <td style="color:var(--muted);font-size:0.85rem">${t.members.join(", ")}</td>
     </tr>`).join("");
   return `
     <div class="card">
@@ -313,7 +325,13 @@ function buildTeams(teams) {
       <table class="leaderboard">
         <thead>
           <tr>
-            <th>#</th><th>Team</th><th>Points</th><th>Activities</th><th>Distance</th><th>Members</th>
+            <th>#</th>
+            <th>Team</th>
+            <th class="ppp-header">Pts / Person ↓</th>
+            <th>Total pts</th>
+            <th>Members</th>
+            <th>Activities</th>
+            <th>Distance</th>
           </tr>
         </thead>
         <tbody>${rows}</tbody>

@@ -18,6 +18,8 @@
         "Tautvydas Ž.",
         "Viktorija M."
       ],
+      "member_count": 6,
+      "points_per_person": 30.8,
       "rank": 1
     },
     {
@@ -30,6 +32,8 @@
         "Žilvinas P.",
         "Ieva S."
       ],
+      "member_count": 5,
+      "points_per_person": 21.8,
       "rank": 2
     },
     {
@@ -43,6 +47,8 @@
         "Donatas J.",
         "Arunas M."
       ],
+      "member_count": 5,
+      "points_per_person": 19.9,
       "rank": 3
     },
     {
@@ -55,6 +61,8 @@
         "Gertrūda G.",
         "Paulius R."
       ],
+      "member_count": 5,
+      "points_per_person": 7.1,
       "rank": 4
     },
     {
@@ -65,6 +73,8 @@
       "members": [
         "Azuolas S."
       ],
+      "member_count": 5,
+      "points_per_person": 4.3,
       "rank": 5
     }
   ],
@@ -80,10 +90,17 @@
       },
       "points": {
         "Nemiegantys Balandžiai": 150.9,
-        "Team D": 96.9,
         "Team B": 87.1,
         "Team C": 35.4,
+        "Team D": 96.9,
         "Team E": 18.7
+      },
+      "points_per_person": {
+        "Nemiegantys Balandžiai": 25.2,
+        "Team B": 17.4,
+        "Team C": 7.1,
+        "Team D": 19.4,
+        "Team E": 3.7
       }
     },
     {
@@ -97,10 +114,17 @@
       },
       "points": {
         "Nemiegantys Balandžiai": 185.1,
-        "Team D": 109.0,
         "Team B": 99.5,
         "Team C": 35.4,
+        "Team D": 109.0,
         "Team E": 21.7
+      },
+      "points_per_person": {
+        "Nemiegantys Balandžiai": 30.8,
+        "Team B": 19.9,
+        "Team C": 7.1,
+        "Team D": 21.8,
+        "Team E": 4.3
       }
     }
   ],
@@ -861,5 +885,5 @@
       "points": 27.5
     }
   ],
-  "generated_at": "2026-04-02T06:00:31.119115+00:00"
+  "generated_at": "2026-04-02T06:07:07.627504+00:00"
 }
