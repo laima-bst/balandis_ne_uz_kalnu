@@ -18,13 +18,13 @@
       --bronze:   #c47a3a;
     }
     * { box-sizing: border-box; margin: 0; padding: 0; }
-    html { overflow-x: hidden; }
     body {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
       background: var(--bg);
       color: var(--text);
       min-height: 100vh;
-      overflow-x: hidden;
+      display: inline-block;
+      min-width: 100%;
     }
 
     /* ---- Header ---- */
@@ -118,17 +118,6 @@
     }
     @media (max-width: 640px) { .charts-row { grid-template-columns: 1fr; } }
     .chart-wrap { position: relative; height: 260px; }
-
-    /* ---- Mobile responsive ---- */
-    .table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; width: 100%; }
-    @media (max-width: 640px) {
-      main { padding: 0.75rem 0.5rem; gap: 1rem; }
-      .card { padding: 0.9rem 0.75rem; }
-      .bump-wrap { height: 240px; }
-      .leaderboard th { padding: 0.4rem 0.5rem; font-size: 0.7rem; }
-      .leaderboard td { padding: 0.55rem 0.5rem; font-size: 0.85rem; }
-      .ppp-cell { font-size: 0.95rem; }
-    }
 
     /* ---- Activity feed ---- */
     .feed { list-style: none; }
@@ -423,22 +412,20 @@ function buildTeams(teams) {
   return `
     <div class="card">
       <h2>Team Leaderboard</h2>
-      <div class="table-wrap">
-        <table class="leaderboard">
-          <thead>
-            <tr>
-              <th>#</th>
-              <th>Team</th>
-              <th class="ppp-header">Pts / Person ↓</th>
-              <th>Total pts</th>
-              <th>Members</th>
-              <th>Activities</th>
-              <th>Distance</th>
-            </tr>
-          </thead>
-          <tbody>${rows}</tbody>
-        </table>
-      </div>
+      <table class="leaderboard">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Team</th>
+            <th class="ppp-header">Pts / Person ↓</th>
+            <th>Total pts</th>
+            <th>Members</th>
+            <th>Activities</th>
+            <th>Distance</th>
+          </tr>
+        </thead>
+        <tbody>${rows}</tbody>
+      </table>
     </div>`;
 }
 
@@ -605,16 +592,14 @@ function buildLeaderboard(leaderboard, activities) {
         <span class="log-arrow">▼</span>
       </button>
       <div class="log-body open">
-        <div class="table-wrap">
-          <table class="leaderboard">
-            <thead>
-              <tr>
-                <th>#</th><th>Athlete</th><th>Points</th><th>Activities</th><th>Distance</th><th>Elevation</th>
-              </tr>
-            </thead>
-            <tbody>${rows}</tbody>
-          </table>
-        </div>
+        <table class="leaderboard">
+          <thead>
+            <tr>
+              <th>#</th><th>Athlete</th><th>Points</th><th>Activities</th><th>Distance</th><th>Elevation</th>
+            </tr>
+          </thead>
+          <tbody>${rows}</tbody>
+        </table>
       </div>
     </div>`;
 }
@@ -758,12 +743,10 @@ function buildTypeLeaderboards(leaderboard) {
 
     return `
       <div class="type-lb-panel${gi === 0 ? " active" : ""}" id="tlb-${g.key}">
-        <div class="table-wrap">
-          <table class="leaderboard">
-            <thead><tr><th>#</th><th>Athlete</th><th>Points</th><th>Activities</th><th>Distance</th></tr></thead>
-            <tbody>${rows}</tbody>
-          </table>
-        </div>
+        <table class="leaderboard">
+          <thead><tr><th>#</th><th>Athlete</th><th>Points</th><th>Activities</th><th>Distance</th></tr></thead>
+          <tbody>${rows}</tbody>
+        </table>
       </div>`;
   }).join("");
 
