@@ -54,6 +54,48 @@
       "rank": 1
     },
     {
+      "name": "Team Paulius",
+      "total_points": 200.0,
+      "total_distance_km": 57.49,
+      "activity_count": 12,
+      "members": [
+        "Paulius R.",
+        "Gertrūda G.",
+        "Antanas R.",
+        "Greta N."
+      ],
+      "member_count": 5,
+      "points_per_person": 40.0,
+      "member_details": [
+        {
+          "name": "Paulius R.",
+          "points": 102.5
+        },
+        {
+          "name": "Antanas R.",
+          "points": 43.7
+        },
+        {
+          "name": "Greta N.",
+          "points": 37.5
+        },
+        {
+          "name": "Gertrūda G.",
+          "points": 16.3
+        },
+        {
+          "name": "Deivydas Ž.",
+          "points": 0.0
+        }
+      ],
+      "distance_by_group": {
+        "run_walk": 55.2,
+        "ride": 0.0,
+        "swim": 2.3
+      },
+      "rank": 2
+    },
+    {
       "name": "Balandžio dvasia",
       "total_points": 159.0,
       "total_distance_km": 97.7,
@@ -94,7 +136,7 @@
         "ride": 67.0,
         "swim": 0.0
       },
-      "rank": 2
+      "rank": 3
     },
     {
       "name": "Team Žilvinas",
@@ -134,48 +176,6 @@
         "run_walk": 30.9,
         "ride": 0.0,
         "swim": 1.9
-      },
-      "rank": 3
-    },
-    {
-      "name": "Team Paulius",
-      "total_points": 106.3,
-      "total_distance_km": 26.25,
-      "activity_count": 11,
-      "members": [
-        "Gertrūda G.",
-        "Antanas R.",
-        "Greta N.",
-        "Paulius R."
-      ],
-      "member_count": 5,
-      "points_per_person": 21.3,
-      "member_details": [
-        {
-          "name": "Antanas R.",
-          "points": 43.7
-        },
-        {
-          "name": "Greta N.",
-          "points": 37.5
-        },
-        {
-          "name": "Gertrūda G.",
-          "points": 16.3
-        },
-        {
-          "name": "Paulius R.",
-          "points": 8.8
-        },
-        {
-          "name": "Deivydas Ž.",
-          "points": 0.0
-        }
-      ],
-      "distance_by_group": {
-        "run_walk": 23.9,
-        "ride": 0.0,
-        "swim": 2.3
       },
       "rank": 4
     },
@@ -249,22 +249,22 @@
       "date": "2026-04-02",
       "rankings": {
         "Nemiegantys Balandžiai": 1,
-        "Balandžio dvasia": 2,
-        "Team Žilvinas": 3,
-        "Team Paulius": 4,
+        "Team Paulius": 2,
+        "Balandžio dvasia": 3,
+        "Team Žilvinas": 4,
         "Team Augustinas": 5
       },
       "points": {
         "Nemiegantys Balandžiai": 241.4,
         "Balandžio dvasia": 159.0,
-        "Team Paulius": 106.3,
+        "Team Paulius": 200.0,
         "Team Žilvinas": 122.0,
         "Team Augustinas": 33.6
       },
       "points_per_person": {
         "Nemiegantys Balandžiai": 40.2,
         "Balandžio dvasia": 31.8,
-        "Team Paulius": 21.3,
+        "Team Paulius": 40.0,
         "Team Žilvinas": 24.4,
         "Team Augustinas": 6.7
       }
@@ -292,6 +292,26 @@
       "rank": 1
     },
     {
+      "name": "Paulius R.",
+      "total_points": 102.5,
+      "activity_count": 2,
+      "total_distance_km": 34.16,
+      "total_elevation_m": 204.0,
+      "by_type": {
+        "Run": {
+          "count": 1,
+          "points": 93.7,
+          "distance_km": 31.24
+        },
+        "Walk": {
+          "count": 1,
+          "points": 8.8,
+          "distance_km": 2.92
+        }
+      },
+      "rank": 2
+    },
+    {
       "name": "Donatas J.",
       "total_points": 75.4,
       "activity_count": 5,
@@ -309,7 +329,7 @@
           "distance_km": 56.37
         }
       },
-      "rank": 2
+      "rank": 3
     },
     {
       "name": "Daina G.",
@@ -324,7 +344,7 @@
           "distance_km": 16.369999999999997
         }
       },
-      "rank": 3
+      "rank": 4
     },
     {
       "name": "Liudas S.",
@@ -344,7 +364,7 @@
           "distance_km": 6.3100000000000005
         }
       },
-      "rank": 4
+      "rank": 5
     },
     {
       "name": "Ieva S.",
@@ -369,7 +389,7 @@
           "distance_km": 4.37
         }
       },
-      "rank": 5
+      "rank": 6
     },
     {
       "name": "Antanas R.",
@@ -389,7 +409,7 @@
           "distance_km": 2.3
         }
       },
-      "rank": 6
+      "rank": 7
     },
     {
       "name": "Greta N.",
@@ -404,7 +424,7 @@
           "distance_km": 12.489999999999998
         }
       },
-      "rank": 7
+      "rank": 8
     },
     {
       "name": "Gintarė B.",
@@ -419,7 +439,7 @@
           "distance_km": 11.139999999999999
         }
       },
-      "rank": 8
+      "rank": 9
     },
     {
       "name": "Viktorija M.",
@@ -434,7 +454,7 @@
           "distance_km": 10.06
         }
       },
-      "rank": 9
+      "rank": 10
     },
     {
       "name": "Ne L.",
@@ -454,7 +474,7 @@
           "distance_km": 10.61
         }
       },
-      "rank": 10
+      "rank": 11
     },
     {
       "name": "Tautvydas Ž.",
@@ -474,7 +494,7 @@
           "distance_km": 6.75
         }
       },
-      "rank": 11
+      "rank": 12
     },
     {
       "name": "Žilvinas P.",
@@ -489,7 +509,7 @@
           "distance_km": 8.17
         }
       },
-      "rank": 12
+      "rank": 13
     },
     {
       "name": "Azuolas S.",
@@ -509,7 +529,7 @@
           "distance_km": 6.22
         }
       },
-      "rank": 13
+      "rank": 14
     },
     {
       "name": "Sandra M.",
@@ -524,7 +544,7 @@
           "distance_km": 20.34
         }
       },
-      "rank": 14
+      "rank": 15
     },
     {
       "name": "Gertrūda G.",
@@ -539,7 +559,7 @@
           "distance_km": 5.47
         }
       },
-      "rank": 15
+      "rank": 16
     },
     {
       "name": "Arunas M.",
@@ -554,7 +574,7 @@
           "distance_km": 5.02
         }
       },
-      "rank": 16
+      "rank": 17
     },
     {
       "name": "Arturas K.",
@@ -567,21 +587,6 @@
           "count": 1,
           "points": 11.9,
           "distance_km": 11.9
-        }
-      },
-      "rank": 17
-    },
-    {
-      "name": "Paulius R.",
-      "total_points": 8.8,
-      "activity_count": 1,
-      "total_distance_km": 2.92,
-      "total_elevation_m": 18.0,
-      "by_type": {
-        "Walk": {
-          "count": 1,
-          "points": 8.8,
-          "distance_km": 2.92
         }
       },
       "rank": 18
@@ -618,6 +623,18 @@
     }
   ],
   "activities": [
+    {
+      "athlete_key": "paulius_r.",
+      "athlete_name": "Paulius R.",
+      "name": "Vilniečiai saugokitės 😎",
+      "sport_type": "Run",
+      "start_date": null,
+      "_fetched_date": "2026-04-02",
+      "distance_km": 31.24,
+      "elevation_m": 186.5,
+      "moving_time_s": 10966,
+      "points": 93.7
+    },
     {
       "athlete_key": "liudas_s.",
       "athlete_name": "Liudas S.",
@@ -1315,8 +1332,20 @@
       "points": 27.5
     }
   ],
-  "generated_at": "2026-04-02T10:53:14.608345+00:00",
+  "generated_at": "2026-04-02T11:48:27.253476+00:00",
   "run_log": [
+    {
+      "timestamp": "2026-04-02T11:48:27.247505+00:00",
+      "new_count": 1,
+      "activities": [
+        {
+          "athlete": "Paulius R.",
+          "sport": "Run",
+          "distance_km": 31.24,
+          "name": "Vilniečiai saugokitės 😎"
+        }
+      ]
+    },
     {
       "timestamp": "2026-04-02T10:53:14.602299+00:00",
       "new_count": 1,
