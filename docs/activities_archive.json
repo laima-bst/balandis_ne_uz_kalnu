@@ -1,5 +1,13 @@
 {
   "fingerprints": [
+    "21bc4699e19a66034e321ec2a868b6f9",
+    "44da5287498fb89d3cd2b08e57e0357c",
+    "94ffbc36bc674b36e88a6f9558b94fcb",
+    "b20927f783f9705c10599e724fe159fa",
+    "047fcf3042975b51076def337467f3fe",
+    "a5c198dff1aa16e47e4c73f39cbb91f6",
+    "0ce73498de2532676daa66cb505b306d",
+    "5fa6374960e0387e3441a26a261ba8ab",
     "4b583ac048ee4474e389ac13f9b310e1",
     "25683924ae3158cee1cd22e4cfaee0cd",
     "1a1ca42224ef1fb0efb570a488d07d95",
@@ -41,6 +49,146 @@
     "c780ca004e71fd30d7182aa7c21829f2"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Azuolas",
+        "lastname": "S."
+      },
+      "name": "Morning Walk",
+      "distance": 1004.7,
+      "moving_time": 619,
+      "elapsed_time": 640,
+      "total_elevation_gain": 0.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-02"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Edvinas",
+        "lastname": "V."
+      },
+      "name": "Morning Ride",
+      "distance": 3066.7,
+      "moving_time": 601,
+      "elapsed_time": 610,
+      "total_elevation_gain": 0.0,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": 10,
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-02"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Saule",
+        "lastname": "S."
+      },
+      "name": "Natation dans l'après-midi",
+      "distance": 401.0,
+      "moving_time": 1247,
+      "elapsed_time": 1247,
+      "total_elevation_gain": 0.0,
+      "type": "Swim",
+      "sport_type": "Swim",
+      "device_name": "Garmin fēnix 6S",
+      "_fetched_date": "2026-04-02"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Daina",
+        "lastname": "G."
+      },
+      "name": "Morning Walk",
+      "distance": 4029.6,
+      "moving_time": 1524,
+      "elapsed_time": 3125,
+      "total_elevation_gain": 42.8,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-02"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Sandra",
+        "lastname": "M."
+      },
+      "name": "Morning Ride",
+      "distance": 6775.2,
+      "moving_time": 1296,
+      "elapsed_time": 1408,
+      "total_elevation_gain": 81.0,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": 10,
+      "device_name": "Garmin Venu 2 Plus",
+      "_fetched_date": "2026-04-02"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Andrius",
+        "lastname": "A."
+      },
+      "name": "Morning Run",
+      "distance": 8099.4,
+      "moving_time": 2615,
+      "elapsed_time": 2746,
+      "total_elevation_gain": 44.0,
+      "type": "Run",
+      "sport_type": "Run",
+      "workout_type": null,
+      "device_name": "Garmin fēnix 7",
+      "_fetched_date": "2026-04-02"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Gerda",
+        "lastname": "K."
+      },
+      "name": "Morning Run",
+      "distance": 10106.3,
+      "moving_time": 3279,
+      "elapsed_time": 3383,
+      "total_elevation_gain": 60.0,
+      "type": "Run",
+      "sport_type": "Run",
+      "workout_type": null,
+      "device_name": "Garmin Forerunner 955",
+      "_fetched_date": "2026-04-02"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Gintarė",
+        "lastname": "B."
+      },
+      "name": "Prieš miegelį",
+      "distance": 4139.1,
+      "moving_time": 2897,
+      "elapsed_time": 2931,
+      "total_elevation_gain": 29.7,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Samsung Health",
+      "_fetched_date": "2026-04-02"
+    },
     {
       "resource_state": 2,
       "athlete": {
