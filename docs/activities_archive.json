@@ -1,5 +1,13 @@
 {
   "fingerprints": [
+    "a409d38f737a31b69b30da282f1443c9",
+    "bd5542850c6a958a5518db403a9e294c",
+    "25ba855e12d7693e48fd22b808871191",
+    "862eaa8471206faccedee5db57eb6775",
+    "d626a32e63937daa12b52c0eb03d19e1",
+    "8de93e5b57f51d1aee0bbcb23a16a6fe",
+    "a41ead0987e85ffdc761b16f452e40a7",
+    "6858dba96654acf527a57e1c48e8da09",
     "edeba1a5c2ead3de5ae7ad358ef9e3f5",
     "cfc9d9aac5fcb1a121505a0a1040cdd5",
     "60a6d20938580c9a07828dabe89ef6e9",
@@ -81,6 +89,147 @@
     "2dc2e77cf6019fc6e9864979a7d486ea"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Edvinas",
+        "lastname": "V."
+      },
+      "name": "Evening Walk",
+      "distance": 3401.1,
+      "moving_time": 2357,
+      "elapsed_time": 2455,
+      "total_elevation_gain": 30.3,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-02"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Gertrūda",
+        "lastname": "G."
+      },
+      "name": "Bėgimas lauke",
+      "distance": 2760.0,
+      "moving_time": 1244,
+      "elapsed_time": 1244,
+      "total_elevation_gain": 0,
+      "type": "Run",
+      "sport_type": "Run",
+      "workout_type": null,
+      "_fetched_date": "2026-04-02"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Stasius",
+        "lastname": "F."
+      },
+      "name": "Evening Run",
+      "distance": 5659.6,
+      "moving_time": 2428,
+      "elapsed_time": 4086,
+      "total_elevation_gain": 52.0,
+      "type": "Run",
+      "sport_type": "Run",
+      "workout_type": null,
+      "device_name": "Garmin Forerunner 255 Music",
+      "_fetched_date": "2026-04-02"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Arturas",
+        "lastname": "K."
+      },
+      "name": "Evening Ride",
+      "distance": 15173.9,
+      "moving_time": 3932,
+      "elapsed_time": 4465,
+      "total_elevation_gain": 117.0,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": null,
+      "device_name": "Garmin Epix Gen2",
+      "_fetched_date": "2026-04-02"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Tautvydas",
+        "lastname": "Ž."
+      },
+      "name": "Evening Run",
+      "distance": 4322.0,
+      "moving_time": 1512,
+      "elapsed_time": 1678,
+      "total_elevation_gain": 22.2,
+      "type": "Run",
+      "sport_type": "Run",
+      "workout_type": null,
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-02"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Donatas",
+        "lastname": "J."
+      },
+      "name": "Afternoon Ride",
+      "distance": 50807.8,
+      "moving_time": 7231,
+      "elapsed_time": 9481,
+      "total_elevation_gain": 432.0,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": null,
+      "device_name": "Garmin Forerunner 255 Music",
+      "_fetched_date": "2026-04-02"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Antanas",
+        "lastname": "R."
+      },
+      "name": "Afternoon Swim",
+      "distance": 2400.0,
+      "moving_time": 3188,
+      "elapsed_time": 3492,
+      "total_elevation_gain": 0,
+      "type": "Swim",
+      "sport_type": "Swim",
+      "device_name": "Garmin fēnix 7",
+      "_fetched_date": "2026-04-02"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Sandra",
+        "lastname": "M."
+      },
+      "name": "Afternoon Ride",
+      "distance": 30152.0,
+      "moving_time": 5793,
+      "elapsed_time": 6199,
+      "total_elevation_gain": 221.0,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": null,
+      "device_name": "Garmin Venu 2 Plus",
+      "_fetched_date": "2026-04-02"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -1456,6 +1605,60 @@
     }
   ],
   "run_log": [
+    {
+      "timestamp": "2026-04-02T17:51:33.038172+00:00",
+      "new_count": 8,
+      "activities": [
+        {
+          "athlete": "Edvinas V.",
+          "sport": "Walk",
+          "distance_km": 3.4,
+          "name": "Evening Walk"
+        },
+        {
+          "athlete": "Gertrūda G.",
+          "sport": "Run",
+          "distance_km": 2.76,
+          "name": "Bėgimas lauke"
+        },
+        {
+          "athlete": "Stasius F.",
+          "sport": "Run",
+          "distance_km": 5.66,
+          "name": "Evening Run"
+        },
+        {
+          "athlete": "Arturas K.",
+          "sport": "Ride",
+          "distance_km": 15.17,
+          "name": "Evening Ride"
+        },
+        {
+          "athlete": "Tautvydas Ž.",
+          "sport": "Run",
+          "distance_km": 4.32,
+          "name": "Evening Run"
+        },
+        {
+          "athlete": "Donatas J.",
+          "sport": "Ride",
+          "distance_km": 50.81,
+          "name": "Afternoon Ride"
+        },
+        {
+          "athlete": "Antanas R.",
+          "sport": "Swim",
+          "distance_km": 2.4,
+          "name": "Afternoon Swim"
+        },
+        {
+          "athlete": "Sandra M.",
+          "sport": "Ride",
+          "distance_km": 30.15,
+          "name": "Afternoon Ride"
+        }
+      ]
+    },
     {
       "timestamp": "2026-04-02T16:08:06.606894+00:00",
       "new_count": 6,
