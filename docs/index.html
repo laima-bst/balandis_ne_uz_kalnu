@@ -181,6 +181,30 @@
 
     /* ---- Bump chart ---- */
     .bump-wrap { position: relative; height: 320px; }
+    .chart-toggle {
+      display: inline-flex;
+      background: #f0f0f0;
+      border-radius: 20px;
+      padding: 3px;
+      gap: 2px;
+      margin-bottom: 0.75rem;
+    }
+    .chart-toggle button {
+      border: none;
+      background: none;
+      border-radius: 16px;
+      padding: 0.3rem 0.9rem;
+      font-size: 0.8rem;
+      font-weight: 600;
+      cursor: pointer;
+      color: var(--muted);
+      transition: background 0.15s, color 0.15s;
+    }
+    .chart-toggle button.active {
+      background: white;
+      color: var(--primary);
+      box-shadow: 0 1px 3px rgba(0,0,0,.12);
+    }
 
     /* ---- Expandable team member rows ---- */
     .team-row { cursor: pointer; }
@@ -404,26 +428,55 @@ function buildBumpChart(dailyRankings, teams) {
   return `
     <div class="card">
       <h2>Team Points Over Time</h2>
+      <div class="chart-toggle">
+        <button id="bump-btn-ppp" class="active" onclick="setBumpMode('ppp')">Pts / person</button>
+        <button id="bump-btn-total" onclick="setBumpMode('total')">Total pts</button>
+      </div>
       <div class="bump-wrap"><canvas id="chart-bump"></canvas></div>
     </div>`;
 }
 
+let _bumpChart = null;
+let _bumpData  = {};
+
+function setBumpMode(mode) {
+  if (!_bumpChart) return;
+  const isPpp = mode === "ppp";
+  document.getElementById("bump-btn-total").classList.toggle("active", !isPpp);
+  document.getElementById("bump-btn-ppp").classList.toggle("active",  isPpp);
+  const key = isPpp ? "ppp" : "total";
+  _bumpChart.data.datasets.forEach((ds, i) => {
+    ds.data = _bumpData[key][i];
+  });
+  _bumpChart.options.scales.y.ticks.callback = v => isPpp ? `${v} pts/p` : `${v} pts`;
+  _bumpChart.options.plugins.tooltip.callbacks.label =
+    ctx => ` ${ctx.dataset.label}: ${ctx.parsed.y} ${isPpp ? "pts/p" : "pts"}`;
+  _bumpChart.update();
+}
+
 function initBumpChart(dailyRankings, teams) {
   if (!dailyRankings || dailyRankings.length === 0) return;
-  const numTeams = teams.length;
   const allDates = aprilDates();
 
-  // Index daily rankings by date for quick lookup
-  const rankByDate = {};
-  dailyRankings.forEach(d => { rankByDate[d.date] = d.rankings; });
-
-  // Index daily points by date for quick lookup
   const pointsByDate = {};
-  dailyRankings.forEach(d => { pointsByDate[d.date] = d.points; });
+  const pppByDate    = {};
+  dailyRankings.forEach(d => {
+    pointsByDate[d.date] = d.points;
+    pppByDate[d.date]    = d.points_per_person || {};
+  });
 
-  const datasets = teams.map(t => ({
+  const makeDatasets = (lookup) => teams.map(t =>
+    allDates.map(date => lookup[date]?.[t.name] ?? null)
+  );
+
+  _bumpData = {
+    total: makeDatasets(pointsByDate),
+    ppp:   makeDatasets(pppByDate),
+  };
+
+  const datasets = teams.map((t, i) => ({
     label: t.name,
-    data: allDates.map(date => pointsByDate[date]?.[t.name] ?? null),
+    data: _bumpData.ppp[i],
     borderColor: t.color,
     backgroundColor: t.color,
     borderWidth: 3,
@@ -435,14 +488,11 @@ function initBumpChart(dailyRankings, teams) {
     spanGaps: false,
   }));
 
-  new Chart(document.getElementById("chart-bump"), {
+  _bumpChart = new Chart(document.getElementById("chart-bump"), {
     type: "line",
     data: {
-      labels: allDates.map(d => {
-        const day = parseInt(d.split("-")[2]);
-        return `Apr ${day}`;
-      }),
-      datasets
+      labels: allDates.map(d => `Apr ${parseInt(d.split("-")[2])}`),
+      datasets,
     },
     options: {
       responsive: true,
@@ -450,7 +500,7 @@ function initBumpChart(dailyRankings, teams) {
       scales: {
         y: {
           beginAtZero: true,
-          ticks: { callback: v => `${v} pts` },
+          ticks: { callback: v => `${v} pts/p` },
           grid: { color: "#f0f0f0" },
         },
         x: {
@@ -462,12 +512,10 @@ function initBumpChart(dailyRankings, teams) {
         legend: { position: "bottom", labels: { boxWidth: 12 } },
         tooltip: {
           filter: item => item.parsed.y !== null,
-          callbacks: {
-            label: ctx => ` ${ctx.dataset.label}: ${ctx.parsed.y} pts`,
-          }
-        }
-      }
-    }
+          callbacks: { label: ctx => ` ${ctx.dataset.label}: ${ctx.parsed.y} pts/p` },
+        },
+      },
+    },
   });
 }
 
