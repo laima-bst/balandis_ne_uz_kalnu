@@ -182,6 +182,21 @@
     /* ---- Bump chart ---- */
     .bump-wrap { position: relative; height: 320px; }
 
+    /* ---- Expandable team member rows ---- */
+    .team-row { cursor: pointer; }
+    .team-row td { transition: background 0.15s; }
+    .team-row:hover td { background: #fafafa; }
+    .team-row .toggle-arrow { display: inline-block; margin-right: 0.4rem; transition: transform 0.2s; color: var(--muted); font-size: 0.8rem; }
+    .team-row.open .toggle-arrow { transform: rotate(90deg); }
+    .team-expand { display: none; }
+    .team-expand.open { display: table-row; }
+    .team-expand td { padding: 0 0.75rem 0.75rem; background: #fafafa; border-bottom: 1px solid var(--border); }
+    .member-list { display: flex; flex-direction: column; gap: 0.3rem; }
+    .member-item { display: flex; align-items: center; justify-content: space-between; font-size: 0.85rem; padding: 0.3rem 0.6rem; border-radius: 5px; background: white; border: 1px solid var(--border); }
+    .member-item .member-name { font-weight: 500; }
+    .member-item .member-pts { font-weight: 700; color: var(--primary); }
+    .member-item.no-pts .member-pts { color: var(--muted); font-weight: 400; }
+
     /* ---- Expandable activity rows ---- */
     .athlete-row { cursor: pointer; }
     .athlete-row td { transition: background 0.15s; }
@@ -324,11 +339,18 @@ document.getElementById("modal").addEventListener("click", e => {
 function buildTeams(teams) {
   if (!teams || teams.length === 0) return "";
   const medal = r => r === 1 ? "🥇" : r === 2 ? "🥈" : r === 3 ? "🥉" : r;
-  const rows = teams.map(t => `
-    <tr class="${t.rank <= 3 ? `rank-${t.rank}` : ""}">
+  const rows = teams.map((t, i) => {
+    const membersHtml = (t.member_details || []).map(m => `
+      <div class="member-item${m.points === 0 ? " no-pts" : ""}">
+        <span class="member-name">${m.name}</span>
+        <span class="member-pts">${m.points > 0 ? m.points + " pts" : "—"}</span>
+      </div>`).join("");
+    return `
+    <tr class="team-row${t.rank <= 3 ? ` rank-${t.rank}` : ""}" onclick="toggleTeam(this, 'team-expand-${i}')">
       <td><span class="rank-badge">${medal(t.rank)}</span></td>
       <td>
-        <span style="display:inline-block;width:12px;height:12px;border-radius:3px;background:${t.color};margin-right:8px;vertical-align:middle;"></span>
+        <span class="toggle-arrow">▶</span>
+        <span style="display:inline-block;width:12px;height:12px;border-radius:3px;background:${t.color};margin-right:6px;vertical-align:middle;"></span>
         <strong>${t.name}</strong>
       </td>
       <td class="ppp-cell">${t.points_per_person}</td>
@@ -336,7 +358,13 @@ function buildTeams(teams) {
       <td style="color:var(--muted);font-size:0.85rem">${t.member_count}</td>
       <td>${t.activity_count}</td>
       <td>${t.total_distance_km.toFixed(1)} km</td>
-    </tr>`).join("");
+    </tr>
+    <tr class="team-expand" id="team-expand-${i}">
+      <td colspan="7">
+        <div class="member-list">${membersHtml}</div>
+      </td>
+    </tr>`;
+  }).join("");
   return `
     <div class="card">
       <h2>Team Leaderboard</h2>
@@ -355,6 +383,11 @@ function buildTeams(teams) {
         <tbody>${rows}</tbody>
       </table>
     </div>`;
+}
+
+function toggleTeam(row, expandId) {
+  row.classList.toggle("open");
+  document.getElementById(expandId).classList.toggle("open");
 }
 
 // ---- Build bump chart (team rankings over time) ----

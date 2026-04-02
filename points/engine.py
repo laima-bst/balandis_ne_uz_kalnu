@@ -121,6 +121,16 @@ class PointsEngine:
                     team_activities += athlete["activity_count"]
                     team_members.append(athlete["name"])
             member_count = len(team.get("members", [])) or 1
+            # All configured members with their points (0 if no scored activities)
+            athlete_pts = {a["name"]: a["total_points"] for a in athletes.values()}
+            member_details = sorted(
+                [
+                    {"name": m, "points": athlete_pts.get(m, 0.0)}
+                    for m in team.get("members", [])
+                ],
+                key=lambda x: x["points"],
+                reverse=True,
+            )
             team_totals.append({
                 "name": team_name,
                 "total_points": round(team_points, 1),
@@ -129,6 +139,7 @@ class PointsEngine:
                 "members": team_members,
                 "member_count": member_count,
                 "points_per_person": round(team_points / member_count, 1),
+                "member_details": member_details,
             })
         team_totals.sort(key=lambda t: t["points_per_person"], reverse=True)
         for i, t in enumerate(team_totals, start=1):
