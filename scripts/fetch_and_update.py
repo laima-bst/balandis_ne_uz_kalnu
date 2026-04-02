@@ -26,12 +26,13 @@ ARCHIVE_FILE = os.path.join(os.path.dirname(__file__), "..", "docs", "activities
 
 
 def fingerprint(a: dict) -> str:
-    """Stable unique key for an activity (no ID exposed by club endpoint)."""
+    """Stable unique key for an activity (no ID exposed by club endpoint).
+    Name is intentionally excluded so renamed activities are not double-counted.
+    """
     athlete = a.get("athlete", {})
     key = "|".join([
         athlete.get("firstname", ""),
         athlete.get("lastname", ""),
-        a.get("name", ""),
         str(a.get("distance", 0)),
         str(a.get("moving_time", 0)),
         a.get("sport_type", "") or a.get("type", ""),

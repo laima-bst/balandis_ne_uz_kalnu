@@ -23,20 +23,6 @@
       "rank": 1
     },
     {
-      "name": "Team D",
-      "total_points": 109.0,
-      "total_distance_km": 36.32,
-      "activity_count": 7,
-      "members": [
-        "Daina G.",
-        "Žilvinas P.",
-        "Ieva S."
-      ],
-      "member_count": 5,
-      "points_per_person": 21.8,
-      "rank": 2
-    },
-    {
       "name": "Team B",
       "total_points": 99.5,
       "total_distance_km": 70.79,
@@ -49,6 +35,20 @@
       ],
       "member_count": 5,
       "points_per_person": 19.9,
+      "rank": 2
+    },
+    {
+      "name": "Team D",
+      "total_points": 84.5,
+      "total_distance_km": 28.15,
+      "activity_count": 6,
+      "members": [
+        "Daina G.",
+        "Žilvinas P.",
+        "Ieva S."
+      ],
+      "member_count": 5,
+      "points_per_person": 16.9,
       "rank": 3
     },
     {
@@ -83,8 +83,8 @@
       "date": "2026-04-01",
       "rankings": {
         "Nemiegantys Balandžiai": 1,
-        "Team D": 2,
-        "Team B": 3,
+        "Team B": 2,
+        "Team D": 3,
         "Team C": 4,
         "Team E": 5
       },
@@ -92,14 +92,14 @@
         "Nemiegantys Balandžiai": 150.9,
         "Team B": 87.1,
         "Team C": 35.4,
-        "Team D": 96.9,
+        "Team D": 72.4,
         "Team E": 18.7
       },
       "points_per_person": {
         "Nemiegantys Balandžiai": 25.2,
         "Team B": 17.4,
         "Team C": 7.1,
-        "Team D": 19.4,
+        "Team D": 14.5,
         "Team E": 3.7
       }
     },
@@ -107,8 +107,8 @@
       "date": "2026-04-02",
       "rankings": {
         "Nemiegantys Balandžiai": 1,
-        "Team D": 2,
-        "Team B": 3,
+        "Team B": 2,
+        "Team D": 3,
         "Team C": 4,
         "Team E": 5
       },
@@ -116,14 +116,14 @@
         "Nemiegantys Balandžiai": 185.1,
         "Team B": 99.5,
         "Team C": 35.4,
-        "Team D": 109.0,
+        "Team D": 84.5,
         "Team E": 21.7
       },
       "points_per_person": {
         "Nemiegantys Balandžiai": 30.8,
         "Team B": 19.9,
         "Team C": 7.1,
-        "Team D": 21.8,
+        "Team D": 16.9,
         "Team E": 4.3
       }
     }
@@ -170,21 +170,6 @@
       "rank": 2
     },
     {
-      "name": "Žilvinas P.",
-      "total_points": 49.0,
-      "activity_count": 2,
-      "total_distance_km": 16.34,
-      "total_elevation_m": 78.0,
-      "by_type": {
-        "Run": {
-          "count": 2,
-          "points": 49.0,
-          "distance_km": 16.34
-        }
-      },
-      "rank": 3
-    },
-    {
       "name": "Daina G.",
       "total_points": 40.8,
       "activity_count": 3,
@@ -197,7 +182,7 @@
           "distance_km": 13.59
         }
       },
-      "rank": 4
+      "rank": 3
     },
     {
       "name": "Tautvydas Ž.",
@@ -215,6 +200,21 @@
           "count": 1,
           "points": 20.3,
           "distance_km": 6.75
+        }
+      },
+      "rank": 4
+    },
+    {
+      "name": "Žilvinas P.",
+      "total_points": 24.5,
+      "activity_count": 1,
+      "total_distance_km": 8.17,
+      "total_elevation_m": 39.0,
+      "by_type": {
+        "Run": {
+          "count": 1,
+          "points": 24.5,
+          "distance_km": 8.17
         }
       },
       "rank": 5
@@ -561,18 +561,6 @@
       "points": 56.4
     },
     {
-      "athlete_key": "žilvinas_p.",
-      "athlete_name": "Žilvinas P.",
-      "name": "Evening Run",
-      "sport_type": "Run",
-      "start_date": null,
-      "_fetched_date": "2026-04-01",
-      "distance_km": 8.17,
-      "elevation_m": 39.0,
-      "moving_time_s": 2408,
-      "points": 24.5
-    },
-    {
       "athlete_key": "greta_n.",
       "athlete_name": "Greta N.",
       "name": "Taškus renkam tryse",
@@ -885,5 +873,5 @@
       "points": 27.5
     }
   ],
-  "generated_at": "2026-04-02T06:07:07.627504+00:00"
+  "generated_at": "2026-04-02T06:14:22.618645+00:00"
 }
