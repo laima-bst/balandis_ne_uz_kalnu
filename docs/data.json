@@ -23,7 +23,7 @@
       "rank": 1
     },
     {
-      "name": "Team B",
+      "name": "Team Donatas",
       "total_points": 99.5,
       "total_distance_km": 70.79,
       "activity_count": 8,
@@ -38,7 +38,7 @@
       "rank": 2
     },
     {
-      "name": "Team D",
+      "name": "Team Žilvinas",
       "total_points": 84.5,
       "total_distance_km": 28.15,
       "activity_count": 6,
@@ -52,7 +52,7 @@
       "rank": 3
     },
     {
-      "name": "Team C",
+      "name": "Team Paulius",
       "total_points": 35.4,
       "total_distance_km": 11.79,
       "activity_count": 4,
@@ -66,7 +66,7 @@
       "rank": 4
     },
     {
-      "name": "Team E",
+      "name": "Team Augustinas",
       "total_points": 21.7,
       "total_distance_km": 7.22,
       "activity_count": 2,
@@ -83,48 +83,48 @@
       "date": "2026-04-01",
       "rankings": {
         "Nemiegantys Balandžiai": 1,
-        "Team B": 2,
-        "Team D": 3,
-        "Team C": 4,
-        "Team E": 5
+        "Team Donatas": 2,
+        "Team Žilvinas": 3,
+        "Team Paulius": 4,
+        "Team Augustinas": 5
       },
       "points": {
         "Nemiegantys Balandžiai": 150.9,
-        "Team B": 87.1,
-        "Team C": 35.4,
-        "Team D": 72.4,
-        "Team E": 18.7
+        "Team Donatas": 87.1,
+        "Team Paulius": 35.4,
+        "Team Žilvinas": 72.4,
+        "Team Augustinas": 18.7
       },
       "points_per_person": {
         "Nemiegantys Balandžiai": 25.2,
-        "Team B": 17.4,
-        "Team C": 7.1,
-        "Team D": 14.5,
-        "Team E": 3.7
+        "Team Donatas": 17.4,
+        "Team Paulius": 7.1,
+        "Team Žilvinas": 14.5,
+        "Team Augustinas": 3.7
       }
     },
     {
       "date": "2026-04-02",
       "rankings": {
         "Nemiegantys Balandžiai": 1,
-        "Team B": 2,
-        "Team D": 3,
-        "Team C": 4,
-        "Team E": 5
+        "Team Donatas": 2,
+        "Team Žilvinas": 3,
+        "Team Paulius": 4,
+        "Team Augustinas": 5
       },
       "points": {
         "Nemiegantys Balandžiai": 185.1,
-        "Team B": 99.5,
-        "Team C": 35.4,
-        "Team D": 84.5,
-        "Team E": 21.7
+        "Team Donatas": 99.5,
+        "Team Paulius": 35.4,
+        "Team Žilvinas": 84.5,
+        "Team Augustinas": 21.7
       },
       "points_per_person": {
         "Nemiegantys Balandžiai": 30.8,
-        "Team B": 19.9,
-        "Team C": 7.1,
-        "Team D": 16.9,
-        "Team E": 4.3
+        "Team Donatas": 19.9,
+        "Team Paulius": 7.1,
+        "Team Žilvinas": 16.9,
+        "Team Augustinas": 4.3
       }
     }
   ],
@@ -873,5 +873,5 @@
       "points": 27.5
     }
   ],
-  "generated_at": "2026-04-02T06:14:22.618645+00:00"
+  "generated_at": "2026-04-02T06:23:56.061778+00:00"
 }
