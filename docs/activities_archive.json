@@ -2083,9 +2083,570 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-03T12:48:21.004586+00:00",
+      "new_count": 0,
+      "activities": []
+    },
+    {
       "timestamp": "2026-04-03T12:32:50.376948+00:00",
       "new_count": 0,
       "activities": []
+    },
+    {
+      "timestamp": "2026-04-03T13:56:38+03:00",
+      "new_count": 8,
+      "activities": [
+        {
+          "athlete": "Liudas S.",
+          "sport": "Ride",
+          "distance_km": 3.65,
+          "name": "From gym"
+        },
+        {
+          "athlete": "Arunas M.",
+          "sport": "Walk",
+          "distance_km": 3.15,
+          "name": "Lunch Walk"
+        },
+        {
+          "athlete": "Liudas S.",
+          "sport": "Ride",
+          "distance_km": 0.0,
+          "name": "Gym"
+        },
+        {
+          "athlete": "Augustinas T.",
+          "sport": "Walk",
+          "distance_km": 1.35,
+          "name": "Morning Walk"
+        },
+        {
+          "athlete": "Ieva S.",
+          "sport": "Run",
+          "distance_km": 4.05,
+          "name": "Lunch Run"
+        },
+        {
+          "athlete": "Greta N.",
+          "sport": "Walk",
+          "distance_km": 3.26,
+          "name": "Lunch Walk"
+        },
+        {
+          "athlete": "Andrius A.",
+          "sport": "Walk",
+          "distance_km": 2.69,
+          "name": "Lunch Walk"
+        },
+        {
+          "athlete": "Sandra M.",
+          "sport": "Walk",
+          "distance_km": 3.19,
+          "name": "Lunch Walk"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-04-03T12:58:31+03:00",
+      "new_count": 4,
+      "activities": [
+        {
+          "athlete": "Viktorija M.",
+          "sport": "Walk",
+          "distance_km": 1.53,
+          "name": "Lunch Walk"
+        },
+        {
+          "athlete": "Donatas J.",
+          "sport": "Walk",
+          "distance_km": 2.15,
+          "name": "Lunch Walk"
+        },
+        {
+          "athlete": "Gertrūda G.",
+          "sport": "Walk",
+          "distance_km": 3.34,
+          "name": "Lunch Walk"
+        },
+        {
+          "athlete": "Liudas S.",
+          "sport": "Ride",
+          "distance_km": 4.66,
+          "name": "To gym!"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-04-03T11:57:32+03:00",
+      "new_count": 0,
+      "activities": []
+    },
+    {
+      "timestamp": "2026-04-03T10:13:06+03:00",
+      "new_count": 1,
+      "activities": [
+        {
+          "athlete": "Donatas J.",
+          "sport": "Walk",
+          "distance_km": 1.19,
+          "name": "Morning Walk"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-04-03T08:34:50+03:00",
+      "new_count": 0,
+      "activities": []
+    },
+    {
+      "timestamp": "2026-04-03T08:33:22+03:00",
+      "new_count": 1,
+      "activities": [
+        {
+          "athlete": "Edvinas V.",
+          "sport": "Ride",
+          "distance_km": 1.34,
+          "name": "Morning Ride"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-04-03T08:06:54+03:00",
+      "new_count": 5,
+      "activities": [
+        {
+          "athlete": "Edvinas V.",
+          "sport": "Ride",
+          "distance_km": 2.32,
+          "name": "Morning Ride"
+        },
+        {
+          "athlete": "Daina G.",
+          "sport": "Walk",
+          "distance_km": 2.43,
+          "name": "Morning Walk"
+        },
+        {
+          "athlete": "Sandra M.",
+          "sport": "Ride",
+          "distance_km": 7.15,
+          "name": "Morning Ride"
+        },
+        {
+          "athlete": "Gintarė B.",
+          "sport": "Walk",
+          "distance_km": 4.2,
+          "name": "Morning Walk"
+        },
+        {
+          "athlete": "Andrius A.",
+          "sport": "Run",
+          "distance_km": 8.24,
+          "name": "Morning Run"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-04-03T05:33:47+03:00",
+      "new_count": 0,
+      "activities": []
+    },
+    {
+      "timestamp": "2026-04-03T02:37:30+03:00",
+      "new_count": 0,
+      "activities": []
+    },
+    {
+      "timestamp": "2026-04-03T01:33:44+03:00",
+      "new_count": 0,
+      "activities": []
+    },
+    {
+      "timestamp": "2026-04-03T00:40:50+03:00",
+      "new_count": 0,
+      "activities": []
+    },
+    {
+      "timestamp": "2026-04-02T23:37:51+03:00",
+      "new_count": 0,
+      "activities": []
+    },
+    {
+      "timestamp": "2026-04-02T21:59:51+03:00",
+      "new_count": 6,
+      "activities": [
+        {
+          "athlete": "Azuolas S.",
+          "sport": "Run",
+          "distance_km": 5.18,
+          "name": "Evening Run"
+        },
+        {
+          "athlete": "Augustė J.",
+          "sport": "Walk",
+          "distance_km": 3.02,
+          "name": "Running errands"
+        },
+        {
+          "athlete": "Paulius R.",
+          "sport": "Walk",
+          "distance_km": 9.75,
+          "name": "Evening Walk"
+        },
+        {
+          "athlete": "Aurelija S.",
+          "sport": "Tennis",
+          "distance_km": 0.29,
+          "name": "Evening Tennis 🎾"
+        },
+        {
+          "athlete": "Sandra M.",
+          "sport": "Walk",
+          "distance_km": 2.83,
+          "name": "Night Walk"
+        },
+        {
+          "athlete": "Antanas R.",
+          "sport": "Walk",
+          "distance_km": 1.0,
+          "name": "Evening Walk"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-04-02T20:51:33+03:00",
+      "new_count": 8,
+      "activities": [
+        {
+          "athlete": "Edvinas V.",
+          "sport": "Walk",
+          "distance_km": 3.4,
+          "name": "Evening Walk"
+        },
+        {
+          "athlete": "Gertrūda G.",
+          "sport": "Run",
+          "distance_km": 2.76,
+          "name": "Bėgimas lauke"
+        },
+        {
+          "athlete": "Stasius F.",
+          "sport": "Run",
+          "distance_km": 5.66,
+          "name": "Evening Run"
+        },
+        {
+          "athlete": "Arturas K.",
+          "sport": "Ride",
+          "distance_km": 15.17,
+          "name": "Evening Ride"
+        },
+        {
+          "athlete": "Tautvydas Ž.",
+          "sport": "Run",
+          "distance_km": 4.32,
+          "name": "Evening Run"
+        },
+        {
+          "athlete": "Donatas J.",
+          "sport": "Ride",
+          "distance_km": 50.81,
+          "name": "Afternoon Ride"
+        },
+        {
+          "athlete": "Antanas R.",
+          "sport": "Swim",
+          "distance_km": 2.4,
+          "name": "Afternoon Swim"
+        },
+        {
+          "athlete": "Sandra M.",
+          "sport": "Ride",
+          "distance_km": 30.15,
+          "name": "Afternoon Ride"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-04-02T19:08:06+03:00",
+      "new_count": 6,
+      "activities": [
+        {
+          "athlete": "Arunas M.",
+          "sport": "Walk",
+          "distance_km": 1.47,
+          "name": "Afternoon Walk"
+        },
+        {
+          "athlete": "Žilvinas P.",
+          "sport": "Run",
+          "distance_km": 7.02,
+          "name": "12 sav. iki HM / 10 savaitė"
+        },
+        {
+          "athlete": "Tautvydas Ž.",
+          "sport": "Walk",
+          "distance_km": 1.06,
+          "name": "Afternoon Walk"
+        },
+        {
+          "athlete": "Viktorija M.",
+          "sport": "Walk",
+          "distance_km": 12.21,
+          "name": "Afternoon Walk"
+        },
+        {
+          "athlete": "Ieva S.",
+          "sport": "Walk",
+          "distance_km": 1.43,
+          "name": "Evening Walk"
+        },
+        {
+          "athlete": "Greta N.",
+          "sport": "Walk",
+          "distance_km": 2.13,
+          "name": "Vakarinis"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-04-02T17:58:22+03:00",
+      "new_count": 4,
+      "activities": [
+        {
+          "athlete": "Edvinas V.",
+          "sport": "Ride",
+          "distance_km": 5.62,
+          "name": "Afternoon Ride"
+        },
+        {
+          "athlete": "Tautvydas Ž.",
+          "sport": "Walk",
+          "distance_km": 1.73,
+          "name": "Lunch Walk"
+        },
+        {
+          "athlete": "Andrius A.",
+          "sport": "Run",
+          "distance_km": 17.9,
+          "name": "Afternoon Run"
+        },
+        {
+          "athlete": "Gintarė B.",
+          "sport": "Walk",
+          "distance_km": 1.26,
+          "name": "🐕"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-04-02T16:23:47+03:00",
+      "new_count": 1,
+      "activities": [
+        {
+          "athlete": "Azuolas S.",
+          "sport": "Walk",
+          "distance_km": 1.76,
+          "name": "Afternoon Walk"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-04-02T15:27:37+03:00",
+      "new_count": 0,
+      "activities": []
+    },
+    {
+      "timestamp": "2026-04-02T15:21:38+03:00",
+      "new_count": 0,
+      "activities": []
+    },
+    {
+      "timestamp": "2026-04-02T15:18:09+03:00",
+      "new_count": 0,
+      "activities": []
+    },
+    {
+      "timestamp": "2026-04-02T15:17:11+03:00",
+      "new_count": 0,
+      "activities": []
+    },
+    {
+      "timestamp": "2026-04-02T15:12:35+03:00",
+      "new_count": 1,
+      "activities": [
+        {
+          "athlete": "Greta N.",
+          "sport": "Walk",
+          "distance_km": 2.71,
+          "name": "Pietų miegelis :)"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-04-02T14:48:27+03:00",
+      "new_count": 1,
+      "activities": [
+        {
+          "athlete": "Paulius R.",
+          "sport": "Run",
+          "distance_km": 31.24,
+          "name": "Vilniečiai saugokitės 😎"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-04-02T13:53:14+03:00",
+      "new_count": 1,
+      "activities": [
+        {
+          "athlete": "Liudas S.",
+          "sport": "Run",
+          "distance_km": 12.01,
+          "name": "Lunch Run"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-04-02T13:27:19+03:00",
+      "new_count": 9,
+      "activities": [
+        {
+          "athlete": "Ne L.",
+          "sport": "Walk",
+          "distance_km": 3.02,
+          "name": "Lunch Walk"
+        },
+        {
+          "athlete": "Arunas M.",
+          "sport": "Walk",
+          "distance_km": 3.83,
+          "name": "Lunch Walk"
+        },
+        {
+          "athlete": "Daina G.",
+          "sport": "Walk",
+          "distance_km": 2.78,
+          "name": "Spurgos"
+        },
+        {
+          "athlete": "Gertrūda G.",
+          "sport": "Walk",
+          "distance_km": 3.42,
+          "name": "Lunch Walk"
+        },
+        {
+          "athlete": "Donatas J.",
+          "sport": "Walk",
+          "distance_km": 2.14,
+          "name": "Lunch Walk"
+        },
+        {
+          "athlete": "Viktorija M.",
+          "sport": "Walk",
+          "distance_km": 4.2,
+          "name": "Lunch Walk"
+        },
+        {
+          "athlete": "Arturas K.",
+          "sport": "Ride",
+          "distance_km": 11.9,
+          "name": "Lunch Ride"
+        },
+        {
+          "athlete": "Andrius A.",
+          "sport": "Walk",
+          "distance_km": 2.57,
+          "name": "Lunch Walk"
+        },
+        {
+          "athlete": "Gintarė B.",
+          "sport": "Walk",
+          "distance_km": 3.21,
+          "name": "Iki parduotuvės"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-04-02T12:39:17+03:00",
+      "new_count": 5,
+      "activities": [
+        {
+          "athlete": "Antanas R.",
+          "sport": "Walk",
+          "distance_km": 1.06,
+          "name": "Lunch Walk"
+        },
+        {
+          "athlete": "Greta N.",
+          "sport": "Walk",
+          "distance_km": 1.03,
+          "name": "Taškas po taško."
+        },
+        {
+          "athlete": "Antanas R.",
+          "sport": "Walk",
+          "distance_km": 1.0,
+          "name": "Evening Walk"
+        },
+        {
+          "athlete": "Antanas R.",
+          "sport": "Walk",
+          "distance_km": 1.01,
+          "name": "Evening Walk"
+        },
+        {
+          "athlete": "Antanas R.",
+          "sport": "Swim",
+          "distance_km": 2.3,
+          "name": "Afternoon Swim"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-04-02T12:22:45+03:00",
+      "new_count": 0,
+      "activities": []
+    },
+    {
+      "timestamp": "2026-04-02T12:14:43+03:00",
+      "new_count": 0,
+      "activities": []
+    },
+    {
+      "timestamp": "2026-04-02T12:10:34+03:00",
+      "new_count": 0,
+      "activities": []
+    },
+    {
+      "timestamp": "2026-04-02T12:03:10+03:00",
+      "new_count": 1,
+      "activities": [
+        {
+          "athlete": "Ieva S.",
+          "sport": "Swim",
+          "distance_km": 1.95,
+          "name": "Morning Swim"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-04-02T11:08:20+03:00",
+      "new_count": 2,
+      "activities": [
+        {
+          "athlete": "Ne L.",
+          "sport": "Walk",
+          "distance_km": 3.1,
+          "name": "Evening Walk"
+        },
+        {
+          "athlete": "Ne L.",
+          "sport": "Ride",
+          "distance_km": 10.61,
+          "name": "Afternoon Ride"
+        }
+      ]
     }
   ]
 }
