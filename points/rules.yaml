@@ -28,7 +28,7 @@ teams:
       - "Arunas M."
       - "Aurelija S."
       - "Gintarė B."
-  - name: "Team Paulius"
+  - name: "Tardigrada"
     color: "#2ecc71"
     members:
       - "Paulius R."
@@ -36,7 +36,7 @@ teams:
       - "Deivydas Ž."
       - "Antanas R."
       - "Gertrūda G."
-  - name: "Team Žilvinas"
+  - name: "Sūkuriai"
     color: "#9b59b6"
     members:
       - "Žilvinas P."
@@ -44,7 +44,7 @@ teams:
       - "Matas A."
       - "Ieva S."
       - "Domas C."
-  - name: "Team Augustinas"
+  - name: "Nešam Kudašių"
     color: "#f39c12"
     members:
       - "Augustinas T."

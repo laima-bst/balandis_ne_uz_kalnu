@@ -8,9 +8,9 @@
     {
       "name": "Nemiegantys Balandžiai",
       "color": "#e74c3c",
-      "total_points": 441.8,
-      "total_distance_km": 200.8,
-      "activity_count": 33,
+      "total_points": 443.1,
+      "total_distance_km": 202.14,
+      "activity_count": 34,
       "members": [
         "Edvinas V.",
         "Sandra M.",
@@ -20,12 +20,12 @@
         "Liudas S."
       ],
       "member_count": 6,
-      "points_per_person": 73.6,
+      "points_per_person": 73.8,
       "member_details": [
         {
           "name": "Andrius A.",
           "points": 184.2,
-          "pct_of_team": 41.7
+          "pct_of_team": 41.6
         },
         {
           "name": "Viktorija M.",
@@ -49,19 +49,19 @@
         },
         {
           "name": "Edvinas V.",
-          "points": 26.6,
-          "pct_of_team": 6.0
+          "points": 27.9,
+          "pct_of_team": 6.3
         }
       ],
       "distance_by_group": {
         "run_walk": 120.4,
-        "ride": 80.4,
+        "ride": 81.7,
         "swim": 0.0
       },
       "rank": 1
     },
     {
-      "name": "Team Paulius",
+      "name": "Tardigrada",
       "color": "#2ecc71",
       "total_points": 291.1,
       "total_distance_km": 78.24,
@@ -158,7 +158,7 @@
       "rank": 3
     },
     {
-      "name": "Team Žilvinas",
+      "name": "Sūkuriai",
       "color": "#9b59b6",
       "total_points": 154.7,
       "total_distance_km": 43.76,
@@ -205,7 +205,7 @@
       "rank": 4
     },
     {
-      "name": "Team Augustinas",
+      "name": "Nešam Kudašių",
       "color": "#f39c12",
       "total_points": 78.7,
       "total_distance_km": 44.25,
@@ -258,71 +258,71 @@
       "rankings": {
         "Nemiegantys Balandžiai": 1,
         "Balandžio dvasia": 2,
-        "Team Žilvinas": 3,
-        "Team Paulius": 4,
-        "Team Augustinas": 5
+        "Sūkuriai": 3,
+        "Tardigrada": 4,
+        "Nešam Kudašių": 5
       },
       "points": {
         "Nemiegantys Balandžiai": 150.9,
         "Balandžio dvasia": 87.1,
-        "Team Paulius": 35.4,
-        "Team Žilvinas": 72.4,
-        "Team Augustinas": 18.7
+        "Tardigrada": 35.4,
+        "Sūkuriai": 72.4,
+        "Nešam Kudašių": 18.7
       },
       "points_per_person": {
         "Nemiegantys Balandžiai": 25.2,
         "Balandžio dvasia": 17.4,
-        "Team Paulius": 7.1,
-        "Team Žilvinas": 14.5,
-        "Team Augustinas": 3.7
+        "Tardigrada": 7.1,
+        "Sūkuriai": 14.5,
+        "Nešam Kudašių": 3.7
       }
     },
     {
       "date": "2026-04-02",
       "rankings": {
         "Nemiegantys Balandžiai": 1,
-        "Team Paulius": 2,
+        "Tardigrada": 2,
         "Balandžio dvasia": 3,
-        "Team Žilvinas": 4,
-        "Team Augustinas": 5
+        "Sūkuriai": 4,
+        "Nešam Kudašių": 5
       },
       "points": {
         "Nemiegantys Balandžiai": 407.6,
         "Balandžio dvasia": 218.0,
-        "Team Paulius": 291.1,
-        "Team Žilvinas": 147.4,
-        "Team Augustinas": 78.7
+        "Tardigrada": 291.1,
+        "Sūkuriai": 147.4,
+        "Nešam Kudašių": 78.7
       },
       "points_per_person": {
         "Nemiegantys Balandžiai": 67.9,
         "Balandžio dvasia": 43.6,
-        "Team Paulius": 58.2,
-        "Team Žilvinas": 29.5,
-        "Team Augustinas": 15.7
+        "Tardigrada": 58.2,
+        "Sūkuriai": 29.5,
+        "Nešam Kudašių": 15.7
       }
     },
     {
       "date": "2026-04-03",
       "rankings": {
         "Nemiegantys Balandžiai": 1,
-        "Team Paulius": 2,
+        "Tardigrada": 2,
         "Balandžio dvasia": 3,
-        "Team Žilvinas": 4,
-        "Team Augustinas": 5
+        "Sūkuriai": 4,
+        "Nešam Kudašių": 5
       },
       "points": {
-        "Nemiegantys Balandžiai": 441.8,
+        "Nemiegantys Balandžiai": 443.1,
         "Balandžio dvasia": 230.6,
-        "Team Paulius": 291.1,
-        "Team Žilvinas": 154.7,
-        "Team Augustinas": 78.7
+        "Tardigrada": 291.1,
+        "Sūkuriai": 154.7,
+        "Nešam Kudašių": 78.7
       },
       "points_per_person": {
-        "Nemiegantys Balandžiai": 73.6,
+        "Nemiegantys Balandžiai": 73.9,
         "Balandžio dvasia": 46.1,
-        "Team Paulius": 58.2,
-        "Team Žilvinas": 30.9,
-        "Team Augustinas": 15.7
+        "Tardigrada": 58.2,
+        "Sūkuriai": 30.9,
+        "Nešam Kudašių": 15.7
       }
     }
   ],
@@ -683,6 +683,31 @@
       }
     },
     {
+      "name": "Edvinas V.",
+      "total_points": 27.9,
+      "activity_count": 7,
+      "total_distance_km": 21.16,
+      "total_elevation_m": 93.0,
+      "by_type": {
+        "Ride": {
+          "count": 6,
+          "points": 17.7,
+          "distance_km": 17.76
+        },
+        "Walk": {
+          "count": 1,
+          "points": 10.2,
+          "distance_km": 3.4
+        }
+      },
+      "rank": 16,
+      "points_by_group": {
+        "run_walk": 10.2,
+        "ride": 17.7,
+        "swim": 0.0
+      }
+    },
+    {
       "name": "Arturas K.",
       "total_points": 27.1,
       "activity_count": 2,
@@ -695,35 +720,10 @@
           "distance_km": 27.07
         }
       },
-      "rank": 16,
+      "rank": 17,
       "points_by_group": {
         "run_walk": 0.0,
         "ride": 27.1,
-        "swim": 0.0
-      }
-    },
-    {
-      "name": "Edvinas V.",
-      "total_points": 26.6,
-      "activity_count": 6,
-      "total_distance_km": 19.82,
-      "total_elevation_m": 93.0,
-      "by_type": {
-        "Ride": {
-          "count": 5,
-          "points": 16.4,
-          "distance_km": 16.42
-        },
-        "Walk": {
-          "count": 1,
-          "points": 10.2,
-          "distance_km": 3.4
-        }
-      },
-      "rank": 17,
-      "points_by_group": {
-        "run_walk": 10.2,
-        "ride": 16.4,
         "swim": 0.0
       }
     },
@@ -814,6 +814,18 @@
     }
   ],
   "activities": [
+    {
+      "athlete_key": "edvinas_v.",
+      "athlete_name": "Edvinas V.",
+      "name": "Morning Ride",
+      "sport_type": "Ride",
+      "start_date": null,
+      "_fetched_date": "2026-04-03",
+      "distance_km": 1.34,
+      "elevation_m": 0,
+      "moving_time_s": 304,
+      "points": 1.3
+    },
     {
       "athlete_key": "edvinas_v.",
       "athlete_name": "Edvinas V.",
@@ -1871,8 +1883,25 @@
       "points": 8.1
     }
   ],
-  "generated_at": "2026-04-03T05:06:54.734563+00:00",
+  "generated_at": "2026-04-03T05:34:50.534385+00:00",
   "run_log": [
+    {
+      "timestamp": "2026-04-03T05:34:50.523922+00:00",
+      "new_count": 0,
+      "activities": []
+    },
+    {
+      "timestamp": "2026-04-03T05:33:22.323290+00:00",
+      "new_count": 1,
+      "activities": [
+        {
+          "athlete": "Edvinas V.",
+          "sport": "Ride",
+          "distance_km": 1.34,
+          "name": "Morning Ride"
+        }
+      ]
+    },
     {
       "timestamp": "2026-04-03T05:06:54.727158+00:00",
       "new_count": 5,
