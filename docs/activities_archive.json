@@ -1,5 +1,10 @@
 {
   "fingerprints": [
+    "499ed2ba9d8b3bb9e3bed004ee6320fa",
+    "48c9f96fa84dbb8b8859e76cc01a8ab7",
+    "fabf2ebf5e45e8791ac4082b3aabbcea",
+    "fc5923219b9e35e601334afceaef2c10",
+    "e38f4d40f5b7b667894fb4f4ad5e6a2c",
     "e723bcbcb02052c3ee29ea9e5b433e16",
     "04a62904d8a2652c419c4fa88e5b73da",
     "44f54f776e331adfd475ba19e51487bd",
@@ -95,6 +100,94 @@
     "2dc2e77cf6019fc6e9864979a7d486ea"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Edvinas",
+        "lastname": "V."
+      },
+      "name": "Morning Ride",
+      "distance": 2321.6,
+      "moving_time": 511,
+      "elapsed_time": 564,
+      "total_elevation_gain": 0.0,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": 10,
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-03"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Daina",
+        "lastname": "G."
+      },
+      "name": "Morning Walk",
+      "distance": 2432.5,
+      "moving_time": 1483,
+      "elapsed_time": 3039,
+      "total_elevation_gain": 43.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-03"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Sandra",
+        "lastname": "M."
+      },
+      "name": "Morning Ride",
+      "distance": 7152.0,
+      "moving_time": 1413,
+      "elapsed_time": 1642,
+      "total_elevation_gain": 101.0,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": 10,
+      "device_name": "Garmin Venu 2 Plus",
+      "_fetched_date": "2026-04-03"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Gintarė",
+        "lastname": "B."
+      },
+      "name": "Morning Walk",
+      "distance": 4199.5,
+      "moving_time": 2394,
+      "elapsed_time": 2431,
+      "total_elevation_gain": 13.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Samsung Health",
+      "_fetched_date": "2026-04-03"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Andrius",
+        "lastname": "A."
+      },
+      "name": "Morning Run",
+      "distance": 8239.5,
+      "moving_time": 2672,
+      "elapsed_time": 2779,
+      "total_elevation_gain": 49.0,
+      "type": "Run",
+      "sport_type": "Run",
+      "workout_type": null,
+      "device_name": "Garmin fēnix 7",
+      "_fetched_date": "2026-04-03"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -1715,6 +1808,42 @@
     }
   ],
   "run_log": [
+    {
+      "timestamp": "2026-04-03T05:06:54.727158+00:00",
+      "new_count": 5,
+      "activities": [
+        {
+          "athlete": "Edvinas V.",
+          "sport": "Ride",
+          "distance_km": 2.32,
+          "name": "Morning Ride"
+        },
+        {
+          "athlete": "Daina G.",
+          "sport": "Walk",
+          "distance_km": 2.43,
+          "name": "Morning Walk"
+        },
+        {
+          "athlete": "Sandra M.",
+          "sport": "Ride",
+          "distance_km": 7.15,
+          "name": "Morning Ride"
+        },
+        {
+          "athlete": "Gintarė B.",
+          "sport": "Walk",
+          "distance_km": 4.2,
+          "name": "Morning Walk"
+        },
+        {
+          "athlete": "Andrius A.",
+          "sport": "Run",
+          "distance_km": 8.24,
+          "name": "Morning Run"
+        }
+      ]
+    },
     {
       "timestamp": "2026-04-03T02:33:47.523276+00:00",
       "new_count": 0,
