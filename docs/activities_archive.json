@@ -1,5 +1,8 @@
 {
   "fingerprints": [
+    "22723d2f76e051a9f5a27f18b86bd8da",
+    "10339f2183c04fc5aa0e3a8ccfad2a5c",
+    "8657a0d452d644c1cd2d528bf166db23",
     "f7040d2056a33eac0966e8dcb51ffb65",
     "6956ff79e8fa55ea8f83d76cdb0c97df",
     "bd1e64a953fc4fc004aeb53809625fcf",
@@ -201,6 +204,58 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Liudas",
+        "lastname": "S."
+      },
+      "name": "Evening Walk",
+      "distance": 2626.1,
+      "moving_time": 2009,
+      "elapsed_time": 2087,
+      "total_elevation_gain": 7.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-03"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Paulius",
+        "lastname": "R."
+      },
+      "name": "Evening Walk",
+      "distance": 11304.4,
+      "moving_time": 7055,
+      "elapsed_time": 7153,
+      "total_elevation_gain": 15.6,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Wear OS by Google",
+      "_fetched_date": "2026-04-03"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Benediktas",
+        "lastname": "B."
+      },
+      "name": "Afternoon Gravel Ride",
+      "distance": 67236.6,
+      "moving_time": 10425,
+      "elapsed_time": 11451,
+      "total_elevation_gain": 715.0,
+      "type": "Ride",
+      "sport_type": "GravelRide",
+      "workout_type": null,
+      "device_name": "Garmin Edge Explore 2",
+      "_fetched_date": "2026-04-03"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -2376,6 +2431,30 @@
     }
   ],
   "run_log": [
+    {
+      "timestamp": "2026-04-03T18:51:39.041394+00:00",
+      "new_count": 3,
+      "activities": [
+        {
+          "athlete": "Liudas S.",
+          "sport": "Walk",
+          "distance_km": 2.63,
+          "name": "Evening Walk"
+        },
+        {
+          "athlete": "Paulius R.",
+          "sport": "Walk",
+          "distance_km": 11.3,
+          "name": "Evening Walk"
+        },
+        {
+          "athlete": "Benediktas B.",
+          "sport": "GravelRide",
+          "distance_km": 67.24,
+          "name": "Afternoon Gravel Ride"
+        }
+      ]
+    },
     {
       "timestamp": "2026-04-03T17:36:11.928951+00:00",
       "new_count": 2,
