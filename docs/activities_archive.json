@@ -1,5 +1,6 @@
 {
   "fingerprints": [
+    "0d0f53c0538b5b8e5c9eca49ef624998",
     "22723d2f76e051a9f5a27f18b86bd8da",
     "10339f2183c04fc5aa0e3a8ccfad2a5c",
     "8657a0d452d644c1cd2d528bf166db23",
@@ -204,6 +205,23 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Azuolas",
+        "lastname": "S."
+      },
+      "name": "Night Walk",
+      "distance": 4566.9,
+      "moving_time": 2997,
+      "elapsed_time": 3129,
+      "total_elevation_gain": 0.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-03"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -2431,6 +2449,18 @@
     }
   ],
   "run_log": [
+    {
+      "timestamp": "2026-04-03T20:38:54.262142+00:00",
+      "new_count": 1,
+      "activities": [
+        {
+          "athlete": "Azuolas S.",
+          "sport": "Walk",
+          "distance_km": 4.57,
+          "name": "Night Walk"
+        }
+      ]
+    },
     {
       "timestamp": "2026-04-03T19:39:13.224883+00:00",
       "new_count": 0,
