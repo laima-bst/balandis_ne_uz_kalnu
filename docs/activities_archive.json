@@ -1,1160 +1,190 @@
 {
   "fingerprints": [
-    "6fd7b936953d7988e8890dc070320a4d",
-    "f83ec3f78815f8e66d5e5161707f8a46",
-    "cc304d64912adbb204e6a25727697bea",
-    "d4f56be8ab8d0a8e4295a0a81645745d",
-    "f82d62a2afadfa382b41571e03cdab89",
-    "c1d80bd4b8bfbe1ed949c32e5908300d",
-    "e2ddc188bac5084936dd41e4d34263ef",
-    "542b25962517fed8120f68266c746a3b",
-    "336c12ddb28778e9dd583ed815550bf2",
-    "38d2bc685a85b286a3454eef0c25970a",
-    "0bd98d482aa1713edff3449ee17e224e",
-    "082f0bb99baf89200cfaa4e330cf17f3",
-    "0226f108840894e99abd698ad8b96ff4",
-    "1a479c82b055bdcbcb649bbe31fc542c",
-    "e67088ecb783a8cee858084631f6c20f",
-    "560faee5a2ce3df8e25e8d03b044294f",
-    "403a7270558a6728ff903356f4612250",
-    "a7f03e5eb13d65ef0f30c9ef98da1b79",
-    "90e5787e1b11e4125bd5a5fb80146596",
-    "5ae45a051ed30588560ced2cb1e34617",
-    "9f9e55affef003dc90fc981cdf743870",
-    "a430661ae0c0abf26de882f927b2ef18",
-    "98f9dda62a57cdb5d39bf1d78458c933",
-    "45b7f2a1ea25df4f5ab54b228fa4b390",
-    "67c2dd05292c4b818ad66ddb00196d77",
-    "1249e64489ecef9984637d5e9b441d55",
-    "92b8cc7069e8b4308e71a1fda77fa246",
-    "c4dff912e1fde3f803842588e22e1d44",
-    "8162c2378ad13187fed20aabfa81504d",
-    "d9dc4706d0ab0541e152c897ac6b309f",
-    "09b329b5048ca6f13c41da49e8dff3ae",
-    "dbc6a93a79adaab0d0b89ae154eafab7",
-    "aecd8a496ffb5766e55b1499dd2c1203",
-    "3d44c124b5b7e69a7970463445e20ce7",
-    "22a4bbb0e2f941baa1a20cc7a1a7f14e",
-    "7e4b26b0027da93cc0ab82cee0a48f2e",
-    "a15460151e7db464a8a8973b9ebb8568",
-    "40b8adecab76e4b983e77d019d145ff4",
-    "42a6de1002a62cb5c575ca0f5fcbc120",
-    "decb86167045d60da6d41c4c37783f13",
-    "601ce0bd54b15b7c44c2a8e143f2af43",
-    "5c1a0fa02bced9d2e51d23c91e95405c",
-    "68555f19b6ea4d6e4ef4e489d6682e2a",
-    "c966dcd765177cb1b40fba5323a866c3",
-    "489fbcbe051e0bdde1fdc12525da6cc4",
-    "a35f19b3bf9cbfb5baac6ed948e5149a",
-    "1baa4ce6c5cd14fada26821b7604d7ca",
-    "4e9e38ff4545beded7a3b5be32c29992",
-    "de70fdc126e4fb1789b483f41a6f5f11",
-    "8c454896592fdec6413af4817115012e",
-    "c92dec44ff7ba054a0864bb3ef1ae812",
-    "8d9b03cf06a567e617abd9a5dbe1e8a6",
-    "56ec79b134f50a19902029886e8c867b",
-    "eec97d48803dc8ea8b30220dee2f6f3a",
-    "017b5696c4253d6e17f28be070c34ac6",
-    "c925de3e3000429448a885ef4418ad70",
-    "e9b339502942774006922a68a069ff16",
-    "d2a9694550c9f3f01d9e8a51283a9e17",
-    "108a14ae1f349888afab1de9d51f28e1",
-    "95e01152251c6103f576d10f828970d8",
-    "1b97b63cf0c87d78b75d232b3da1da11",
-    "7c0d1ddb97b7f848bd0d30bb659d0086",
-    "8c9b21ad8112d32d379d09317247b2e4",
-    "dc2c4b16f7bda30fbdedeb3ab4cefc63",
-    "82a0660006396dda68e6658deae1fb31",
-    "df17fe590098471edfbf2c50e1ebcf23",
-    "66247d2a8d0233e7b413934fba7b3244",
-    "3c90872a07a0f928a833b80d0a6481a2",
-    "faba693840db2bad76afbc88e696f8ba",
-    "499ed2ba9d8b3bb9e3bed004ee6320fa",
-    "48c9f96fa84dbb8b8859e76cc01a8ab7",
-    "fabf2ebf5e45e8791ac4082b3aabbcea",
-    "fc5923219b9e35e601334afceaef2c10",
-    "e38f4d40f5b7b667894fb4f4ad5e6a2c",
-    "e723bcbcb02052c3ee29ea9e5b433e16",
-    "04a62904d8a2652c419c4fa88e5b73da",
     "44f54f776e331adfd475ba19e51487bd",
-    "e2e7e1b7c38ee396533751ee8857defd",
-    "a66785011dc0ec24dd74e74fbafe8de6",
-    "edcee34b82df8c83328b2bc21a80d3f4",
-    "a409d38f737a31b69b30da282f1443c9",
-    "bd5542850c6a958a5518db403a9e294c",
-    "25ba855e12d7693e48fd22b808871191",
-    "862eaa8471206faccedee5db57eb6775",
-    "d626a32e63937daa12b52c0eb03d19e1",
-    "8de93e5b57f51d1aee0bbcb23a16a6fe",
-    "a41ead0987e85ffdc761b16f452e40a7",
-    "6858dba96654acf527a57e1c48e8da09",
-    "edeba1a5c2ead3de5ae7ad358ef9e3f5",
-    "cfc9d9aac5fcb1a121505a0a1040cdd5",
-    "60a6d20938580c9a07828dabe89ef6e9",
-    "44143dbe80b16e501de6e4a50689a59a",
-    "620b3e66c26df083a0af9a8c77594e20",
-    "6758283e332eccb73721b83390944af6",
-    "92744a43a30bc3633958dbb6d7ea12f7",
-    "6dfb17543f49db4faf2526f7e2c1b021",
-    "9bdf66e711cf3e3fefa3781d21bc1cf2",
-    "c1e1f1c2b25f8059803daf5cf71fa1c9",
-    "895b54c09f14ff9dd1072a58b129a185",
+    "98f9dda62a57cdb5d39bf1d78458c933",
+    "1249e64489ecef9984637d5e9b441d55",
     "e179ec46e60dc4622263b58d70ae94d5",
-    "793f070a5ab34744ede7c80438765fd0",
-    "a4658f795a249adac3d2d415018db78a",
-    "6a2574c18d08b81ea44446fcd6882705",
-    "6f798da3ded2156c3cf4d2f4aa4b0740",
-    "ce303129fb3e62eaf1396335764e6453",
-    "3c10009755997b3331f9997e6072ffdf",
-    "a485cd6e4ddc2bc02d1778f7763ab760",
-    "faf0cd5211209bfba5d7b62954296ea4",
-    "234786e561e149918bd7feff6a4a42e3",
-    "88639c998338d331b9d3f1abcfc9bbe2",
+    "cfc9d9aac5fcb1a121505a0a1040cdd5",
+    "862eaa8471206faccedee5db57eb6775",
     "05a284512973fdfd8827c74b2d23d0fb",
-    "dd3e2e1bc8d67afe23733990424ddff3",
-    "3665913a01d6578c1a5df344d72bcc8b",
-    "bd9c6dba382b652372310bc65a9df789",
-    "3f12ffdf09889fbe9476f7107565c76c",
-    "348010b1df77a49526ca75fef8cc49f2",
-    "53a0967f572cdd2d3f37f7d7fcb6f64a",
-    "0e5933114773a94afbd506dd062358f4",
-    "3f39d509784d74671626ed0084348904",
-    "a778f50c618ec8e0fc6b970f4af2fbd2",
-    "2f4a0c7709b7a687a8f274db703f2121",
-    "dae64316cbe2f3a35ce57d379676175d",
-    "18b71ccfa8fd435694aad0db36e34572",
-    "415c7b949178f8787660ae3e73e2d48f",
-    "d36d861119022f93b9e8be4ee2b2a513",
-    "420adc447058f2af8d3dd9ca5d84024c",
-    "b098780ba13a983458ba457a95e3e67f",
-    "4a46effb9e49f2bb34a0af7f66067858",
-    "c7d9fe6f9666032d9b962bf99f910f7c",
-    "3c8db3e78acf370a1dd724f1d995847b",
-    "3d1639f414d61aa91dbef5e7626e96b6",
-    "30ca583117407b7f6f53eae457d6b460",
-    "b3d3272d7f4d552e0aa4124807c6ee88",
-    "6c76c51560914b6e2880e128565033b3",
-    "10e28d2e7e413a5ac76771f25885a39d",
-    "8b0602a36e45cdfbbfce439fd89220da",
-    "b5f19d5705f98b925a9bfe2ab51d3933",
-    "bdd6b4cbe640a4b0faa7c70951c04563",
-    "f2d14149f1fe07dec1918f25d3fa7275",
-    "ea8255ba29aba5960acc26836d223a43",
-    "74b319b0ec73a711b538493b42754ea4",
-    "f1a879c0d9f125f5b923f3bab8c5ed30",
-    "766eb7e4b0f5a041f640aaaf902cfe8d",
-    "dbffde79d98336b00b052bc982aac2be",
-    "0f12a94ef1cbb10991a909deece16803",
-    "01ff2e83a78b5ff394af07dbb20bf1fa",
-    "5249eab26a9ced1cfbdf6c4f87af90bf",
-    "ed0a2567bcd0ca80f9b8ce6a4447a109",
-    "686d2920640af00bd44b8c74186b3e47",
+    "c4dff912e1fde3f803842588e22e1d44",
+    "601ce0bd54b15b7c44c2a8e143f2af43",
+    "09b329b5048ca6f13c41da49e8dff3ae",
+    "a0dc0a6aa5f6bb02b55478020f506cc8",
+    "ce303129fb3e62eaf1396335764e6453",
+    "dd8a9868a714e1538a36ac403f7a8529",
+    "cd1b2fa8a4de516c385985f98d8458ce",
+    "edcee34b82df8c83328b2bc21a80d3f4",
+    "7e4b26b0027da93cc0ab82cee0a48f2e",
+    "df17fe590098471edfbf2c50e1ebcf23",
+    "793f070a5ab34744ede7c80438765fd0",
     "d38b8f83cf5f8b1a1644df37c945da06",
-    "abca5ff68364490e8607efc2adbd8c6d",
-    "b213864377463230c5542db998c4ea33",
-    "bfd7cdeed53e99f0ed7715d93d8eb402",
-    "66fe171f41d1f39c448ca5cd865c1af9",
-    "7200f121e3cd8711a4b02d3be5985fe5",
-    "e9fcf6264306b518bc4fabefdda8b065",
-    "5b06027b33882401b03fd3f308d76eb8",
-    "ddaca919c19ff1271a1fe45de5c8594d",
-    "b10a52ba98fe6bae899d0befef3b4195",
-    "5905dd8bcb2d5a181f8cdaa771b0b478",
-    "5f2604cf0a04959a4f23ddb986f3ffbd",
-    "2094d4e8858e20d1d7446b386c364bba",
+    "30ca583117407b7f6f53eae457d6b460",
+    "ea8255ba29aba5960acc26836d223a43",
+    "dbc6a93a79adaab0d0b89ae154eafab7",
     "cc4b3f01327c6e96122a96c5fd3678ce",
+    "e2e7e1b7c38ee396533751ee8857defd",
+    "a8aa21b4361de4ea27b54c1c8eda072d",
+    "686d2920640af00bd44b8c74186b3e47",
+    "fabf2ebf5e45e8791ac4082b3aabbcea",
+    "e2ddc188bac5084936dd41e4d34263ef",
+    "45b7f2a1ea25df4f5ab54b228fa4b390",
+    "25ba855e12d7693e48fd22b808871191",
     "6a8fdf7e806ae8e118a7e40fa60cec3a",
+    "3d1639f414d61aa91dbef5e7626e96b6",
+    "c966dcd765177cb1b40fba5323a866c3",
+    "f0ac96bb8701c53e83a74d26abdd8fb5",
+    "5c1a0fa02bced9d2e51d23c91e95405c",
+    "8d9b03cf06a567e617abd9a5dbe1e8a6",
+    "53a0967f572cdd2d3f37f7d7fcb6f64a",
     "8dcf31d57fcdc583d465526ba32a930a",
+    "766eb7e4b0f5a041f640aaaf902cfe8d",
+    "6858dba96654acf527a57e1c48e8da09",
+    "5f2604cf0a04959a4f23ddb986f3ffbd",
+    "8b0602a36e45cdfbbfce439fd89220da",
+    "3f12ffdf09889fbe9476f7107565c76c",
+    "92b8cc7069e8b4308e71a1fda77fa246",
+    "cc304d64912adbb204e6a25727697bea",
+    "a409d38f737a31b69b30da282f1443c9",
+    "e9b339502942774006922a68a069ff16",
+    "c1e1f1c2b25f8059803daf5cf71fa1c9",
+    "5b06027b33882401b03fd3f308d76eb8",
+    "bd9c6dba382b652372310bc65a9df789",
+    "40470e9487a9e5a753e8fd4fb2f60636",
+    "7c0d1ddb97b7f848bd0d30bb659d0086",
+    "3665913a01d6578c1a5df344d72bcc8b",
+    "1317e87fe17b154c0994efb35699f873",
+    "5905dd8bcb2d5a181f8cdaa771b0b478",
+    "1a479c82b055bdcbcb649bbe31fc542c",
+    "2094d4e8858e20d1d7446b386c364bba",
+    "3c8db3e78acf370a1dd724f1d995847b",
+    "6c76c51560914b6e2880e128565033b3",
+    "415c7b949178f8787660ae3e73e2d48f",
+    "40b8adecab76e4b983e77d019d145ff4",
+    "b213864377463230c5542db998c4ea33",
+    "82a0660006396dda68e6658deae1fb31",
+    "bdd6b4cbe640a4b0faa7c70951c04563",
+    "542b25962517fed8120f68266c746a3b",
+    "0bd98d482aa1713edff3449ee17e224e",
+    "1b27b61876ecac65805f2b51734c3cf9",
+    "dd3e2e1bc8d67afe23733990424ddff3",
+    "a4658f795a249adac3d2d415018db78a",
+    "420adc447058f2af8d3dd9ca5d84024c",
+    "0f12a94ef1cbb10991a909deece16803",
+    "c8f1eb0ef5931f62f6416f0eafc21899",
+    "8de93e5b57f51d1aee0bbcb23a16a6fe",
+    "e9fcf6264306b518bc4fabefdda8b065",
+    "4656b5bca1ac28b0a42fa9eb657d8bcb",
+    "8c9b21ad8112d32d379d09317247b2e4",
+    "7200f121e3cd8711a4b02d3be5985fe5",
+    "b3d3272d7f4d552e0aa4124807c6ee88",
+    "2dc2e77cf6019fc6e9864979a7d486ea",
+    "f2d14149f1fe07dec1918f25d3fa7275",
+    "a485cd6e4ddc2bc02d1778f7763ab760",
+    "a430661ae0c0abf26de882f927b2ef18",
+    "c7d9fe6f9666032d9b962bf99f910f7c",
+    "90e5787e1b11e4125bd5a5fb80146596",
+    "5249eab26a9ced1cfbdf6c4f87af90bf",
+    "6f798da3ded2156c3cf4d2f4aa4b0740",
+    "e723bcbcb02052c3ee29ea9e5b433e16",
+    "ddaca919c19ff1271a1fe45de5c8594d",
+    "8162c2378ad13187fed20aabfa81504d",
+    "6fd7b936953d7988e8890dc070320a4d",
+    "bd5542850c6a958a5518db403a9e294c",
+    "3f39d509784d74671626ed0084348904",
+    "4a46effb9e49f2bb34a0af7f66067858",
+    "560faee5a2ce3df8e25e8d03b044294f",
+    "6dfb17543f49db4faf2526f7e2c1b021",
+    "1baa4ce6c5cd14fada26821b7604d7ca",
+    "edeba1a5c2ead3de5ae7ad358ef9e3f5",
+    "0e5933114773a94afbd506dd062358f4",
+    "ed0a2567bcd0ca80f9b8ce6a4447a109",
+    "082f0bb99baf89200cfaa4e330cf17f3",
+    "f82d62a2afadfa382b41571e03cdab89",
+    "e5c7139f68ba9b19026bc1b86fb3d698",
+    "e85babca5c5cd47b8f8a6e790079ffa2",
     "a8bc307183c6ccd0ff4b604b123dd752",
-    "2dc2e77cf6019fc6e9864979a7d486ea"
+    "dbffde79d98336b00b052bc982aac2be",
+    "d2a9694550c9f3f01d9e8a51283a9e17",
+    "895b54c09f14ff9dd1072a58b129a185",
+    "fc5923219b9e35e601334afceaef2c10",
+    "66247d2a8d0233e7b413934fba7b3244",
+    "67c2dd05292c4b818ad66ddb00196d77",
+    "aecd8a496ffb5766e55b1499dd2c1203",
+    "f83ec3f78815f8e66d5e5161707f8a46",
+    "2f4a0c7709b7a687a8f274db703f2121",
+    "6758283e332eccb73721b83390944af6",
+    "c925de3e3000429448a885ef4418ad70",
+    "e38f4d40f5b7b667894fb4f4ad5e6a2c",
+    "56ec79b134f50a19902029886e8c867b",
+    "403a7270558a6728ff903356f4612250",
+    "01ff2e83a78b5ff394af07dbb20bf1fa",
+    "dc2c4b16f7bda30fbdedeb3ab4cefc63",
+    "a7f03e5eb13d65ef0f30c9ef98da1b79",
+    "66fe171f41d1f39c448ca5cd865c1af9",
+    "44143dbe80b16e501de6e4a50689a59a",
+    "faba693840db2bad76afbc88e696f8ba",
+    "bfd7cdeed53e99f0ed7715d93d8eb402",
+    "ca5134fb41ec70e3db894f4da504fd85",
+    "95e01152251c6103f576d10f828970d8",
+    "a15460151e7db464a8a8973b9ebb8568",
+    "d4f56be8ab8d0a8e4295a0a81645745d",
+    "9bdf66e711cf3e3fefa3781d21bc1cf2",
+    "a35f19b3bf9cbfb5baac6ed948e5149a",
+    "348010b1df77a49526ca75fef8cc49f2",
+    "3d44c124b5b7e69a7970463445e20ce7",
+    "88639c998338d331b9d3f1abcfc9bbe2",
+    "b10a52ba98fe6bae899d0befef3b4195",
+    "f2c9fa05026772f5db9a62050afcd483",
+    "38d2bc685a85b286a3454eef0c25970a",
+    "59008a4add4dce46c2222b98edb4ba82",
+    "14f6265ed88bb11d11d0b8fdcbab2fef",
+    "74b319b0ec73a711b538493b42754ea4",
+    "108a14ae1f349888afab1de9d51f28e1",
+    "abca5ff68364490e8607efc2adbd8c6d",
+    "234786e561e149918bd7feff6a4a42e3",
+    "a778f50c618ec8e0fc6b970f4af2fbd2",
+    "a41ead0987e85ffdc761b16f452e40a7",
+    "3c10009755997b3331f9997e6072ffdf",
+    "48c9f96fa84dbb8b8859e76cc01a8ab7",
+    "eec97d48803dc8ea8b30220dee2f6f3a",
+    "22a4bbb0e2f941baa1a20cc7a1a7f14e",
+    "5ae45a051ed30588560ced2cb1e34617",
+    "decb86167045d60da6d41c4c37783f13",
+    "489fbcbe051e0bdde1fdc12525da6cc4",
+    "de70fdc126e4fb1789b483f41a6f5f11",
+    "4e9e38ff4545beded7a3b5be32c29992",
+    "8c454896592fdec6413af4817115012e",
+    "a66785011dc0ec24dd74e74fbafe8de6",
+    "d626a32e63937daa12b52c0eb03d19e1",
+    "e67088ecb783a8cee858084631f6c20f",
+    "6a2574c18d08b81ea44446fcd6882705",
+    "1b97b63cf0c87d78b75d232b3da1da11",
+    "499ed2ba9d8b3bb9e3bed004ee6320fa",
+    "60a6d20938580c9a07828dabe89ef6e9",
+    "dae64316cbe2f3a35ce57d379676175d",
+    "10e28d2e7e413a5ac76771f25885a39d",
+    "f1a879c0d9f125f5b923f3bab8c5ed30",
+    "ee237a50be3a5e739726c94671f2ee7c",
+    "9f9e55affef003dc90fc981cdf743870",
+    "3c90872a07a0f928a833b80d0a6481a2",
+    "42a6de1002a62cb5c575ca0f5fcbc120",
+    "c92dec44ff7ba054a0864bb3ef1ae812",
+    "d36d861119022f93b9e8be4ee2b2a513",
+    "d9dc4706d0ab0541e152c897ac6b309f",
+    "68555f19b6ea4d6e4ef4e489d6682e2a",
+    "92744a43a30bc3633958dbb6d7ea12f7",
+    "c1d80bd4b8bfbe1ed949c32e5908300d",
+    "ad47f0777008ba8121e9d6862de6a40a",
+    "620b3e66c26df083a0af9a8c77594e20",
+    "0226f108840894e99abd698ad8b96ff4",
+    "04a62904d8a2652c419c4fa88e5b73da",
+    "336c12ddb28778e9dd583ed815550bf2",
+    "017b5696c4253d6e17f28be070c34ac6",
+    "faf0cd5211209bfba5d7b62954296ea4",
+    "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
-    {
-      "resource_state": 2,
-      "athlete": {
-        "resource_state": 2,
-        "firstname": "Paulius",
-        "lastname": "R."
-      },
-      "name": "Evening Run",
-      "distance": 12972.9,
-      "moving_time": 4617,
-      "elapsed_time": 5537,
-      "total_elevation_gain": 58.3,
-      "type": "Run",
-      "sport_type": "Run",
-      "workout_type": null,
-      "device_name": "Wear OS by Google",
-      "_fetched_date": "2026-04-03"
-    },
-    {
-      "resource_state": 2,
-      "athlete": {
-        "resource_state": 2,
-        "firstname": "Augustinas",
-        "lastname": "T."
-      },
-      "name": "Evening Ride",
-      "distance": 0.0,
-      "moving_time": 3004,
-      "elapsed_time": 3004,
-      "total_elevation_gain": 0,
-      "type": "Ride",
-      "sport_type": "Ride",
-      "workout_type": null,
-      "device_name": "Wahoo ELEMNT ROAM",
-      "_fetched_date": "2026-04-03"
-    },
-    {
-      "resource_state": 2,
-      "athlete": {
-        "resource_state": 2,
-        "firstname": "Andrius",
-        "lastname": "A."
-      },
-      "name": "Afternoon Run",
-      "distance": 14063.3,
-      "moving_time": 4660,
-      "elapsed_time": 4982,
-      "total_elevation_gain": 131.0,
-      "type": "Run",
-      "sport_type": "Run",
-      "workout_type": null,
-      "device_name": "Garmin fēnix 7",
-      "_fetched_date": "2026-04-03"
-    },
-    {
-      "resource_state": 2,
-      "athlete": {
-        "resource_state": 2,
-        "firstname": "Andrius",
-        "lastname": "A."
-      },
-      "name": "Morning Run",
-      "distance": 8734.7,
-      "moving_time": 2802,
-      "elapsed_time": 2890,
-      "total_elevation_gain": 58.0,
-      "type": "Run",
-      "sport_type": "Run",
-      "workout_type": null,
-      "device_name": "Garmin fēnix 7",
-      "_fetched_date": "2026-04-03"
-    },
-    {
-      "resource_state": 2,
-      "athlete": {
-        "resource_state": 2,
-        "firstname": "Benediktas",
-        "lastname": "B."
-      },
-      "name": "Evening Gravel Ride",
-      "distance": 32086.9,
-      "moving_time": 5700,
-      "elapsed_time": 6265,
-      "total_elevation_gain": 437.0,
-      "type": "Ride",
-      "sport_type": "GravelRide",
-      "workout_type": null,
-      "device_name": "Garmin Edge Explore 2",
-      "_fetched_date": "2026-04-03"
-    },
-    {
-      "resource_state": 2,
-      "athlete": {
-        "resource_state": 2,
-        "firstname": "Žilvinas",
-        "lastname": "P."
-      },
-      "name": "12 sav. iki HM / 10 savaitė",
-      "distance": 5897.6,
-      "moving_time": 2011,
-      "elapsed_time": 2014,
-      "total_elevation_gain": 27.0,
-      "type": "Run",
-      "sport_type": "Run",
-      "workout_type": null,
-      "device_name": "Garmin Forerunner 955",
-      "_fetched_date": "2026-04-03"
-    },
-    {
-      "resource_state": 2,
-      "athlete": {
-        "resource_state": 2,
-        "firstname": "Augustinas",
-        "lastname": "T."
-      },
-      "name": "Evening Ride",
-      "distance": 0.0,
-      "moving_time": 2705,
-      "elapsed_time": 2705,
-      "total_elevation_gain": 0,
-      "type": "Ride",
-      "sport_type": "Ride",
-      "workout_type": null,
-      "device_name": "Wahoo ELEMNT ROAM",
-      "_fetched_date": "2026-04-03"
-    },
-    {
-      "resource_state": 2,
-      "athlete": {
-        "resource_state": 2,
-        "firstname": "Aurelija",
-        "lastname": "S."
-      },
-      "name": "Evening Tennis 🎾",
-      "distance": 490.7,
-      "moving_time": 4719,
-      "elapsed_time": 4719,
-      "total_elevation_gain": 0,
-      "type": "Workout",
-      "sport_type": "Tennis",
-      "workout_type": null,
-      "device_name": "Garmin Venu 3S",
-      "_fetched_date": "2026-04-03"
-    },
-    {
-      "resource_state": 2,
-      "athlete": {
-        "resource_state": 2,
-        "firstname": "Žilvinas",
-        "lastname": "P."
-      },
-      "name": "12 sav. iki HM / 9 savaitė",
-      "distance": 10620.3,
-      "moving_time": 4033,
-      "elapsed_time": 4127,
-      "total_elevation_gain": 73.0,
-      "type": "Run",
-      "sport_type": "Run",
-      "workout_type": null,
-      "device_name": "Garmin Forerunner 955",
-      "_fetched_date": "2026-04-03"
-    },
-    {
-      "resource_state": 2,
-      "athlete": {
-        "resource_state": 2,
-        "firstname": "Ne",
-        "lastname": "L."
-      },
-      "name": "Afternoon Ride",
-      "distance": 8455.2,
-      "moving_time": 2133,
-      "elapsed_time": 5542,
-      "total_elevation_gain": 57.2,
-      "type": "Ride",
-      "sport_type": "Ride",
-      "workout_type": null,
-      "device_name": "Strava App",
-      "_fetched_date": "2026-04-03"
-    },
-    {
-      "resource_state": 2,
-      "athlete": {
-        "resource_state": 2,
-        "firstname": "Benediktas",
-        "lastname": "B."
-      },
-      "name": "Afternoon Gravel Ride",
-      "distance": 86110.2,
-      "moving_time": 15249,
-      "elapsed_time": 17229,
-      "total_elevation_gain": 795.0,
-      "type": "Ride",
-      "sport_type": "Ride",
-      "workout_type": null,
-      "device_name": "Garmin Edge Explore 2",
-      "_fetched_date": "2026-04-03"
-    },
-    {
-      "resource_state": 2,
-      "athlete": {
-        "resource_state": 2,
-        "firstname": "Paulius",
-        "lastname": "R."
-      },
-      "name": "Morning Run",
-      "distance": 17156.4,
-      "moving_time": 6316,
-      "elapsed_time": 6949,
-      "total_elevation_gain": 335.9,
-      "type": "Run",
-      "sport_type": "Run",
-      "workout_type": null,
-      "device_name": "Google Pixel Watch 4",
-      "_fetched_date": "2026-04-03"
-    },
-    {
-      "resource_state": 2,
-      "athlete": {
-        "resource_state": 2,
-        "firstname": "Paulius",
-        "lastname": "R."
-      },
-      "name": "Morning Run",
-      "distance": 2939.9,
-      "moving_time": 908,
-      "elapsed_time": 964,
-      "total_elevation_gain": 5.6,
-      "type": "Run",
-      "sport_type": "Run",
-      "workout_type": null,
-      "device_name": "Google Pixel Watch 4",
-      "_fetched_date": "2026-04-03"
-    },
-    {
-      "resource_state": 2,
-      "athlete": {
-        "resource_state": 2,
-        "firstname": "Augustinas",
-        "lastname": "T."
-      },
-      "name": "Afternoon Ride",
-      "distance": 0.0,
-      "moving_time": 2707,
-      "elapsed_time": 2707,
-      "total_elevation_gain": 0,
-      "type": "Ride",
-      "sport_type": "Ride",
-      "workout_type": null,
-      "device_name": "Wahoo ELEMNT ROAM",
-      "_fetched_date": "2026-04-03"
-    },
-    {
-      "resource_state": 2,
-      "athlete": {
-        "resource_state": 2,
-        "firstname": "Andrius",
-        "lastname": "A."
-      },
-      "name": "Lunch Run",
-      "distance": 33009.9,
-      "moving_time": 8938,
-      "elapsed_time": 9058,
-      "total_elevation_gain": 255.0,
-      "type": "Run",
-      "sport_type": "Run",
-      "workout_type": null,
-      "device_name": "Garmin fēnix 7",
-      "_fetched_date": "2026-04-03"
-    },
-    {
-      "resource_state": 2,
-      "athlete": {
-        "resource_state": 2,
-        "firstname": "Ne",
-        "lastname": "L."
-      },
-      "name": "Afternoon Inline Skate",
-      "distance": 10982.5,
-      "moving_time": 3619,
-      "elapsed_time": 4785,
-      "total_elevation_gain": 43.4,
-      "type": "InlineSkate",
-      "sport_type": "InlineSkate",
-      "device_name": "Strava App",
-      "_fetched_date": "2026-04-03"
-    },
-    {
-      "resource_state": 2,
-      "athlete": {
-        "resource_state": 2,
-        "firstname": "Benediktas",
-        "lastname": "B."
-      },
-      "name": "Afternoon Walk",
-      "distance": 20176.9,
-      "moving_time": 17019,
-      "elapsed_time": 19537,
-      "total_elevation_gain": 171.0,
-      "type": "Walk",
-      "sport_type": "Walk",
-      "device_name": "Garmin Venu 3",
-      "_fetched_date": "2026-04-03"
-    },
-    {
-      "resource_state": 2,
-      "athlete": {
-        "resource_state": 2,
-        "firstname": "Matas",
-        "lastname": "A."
-      },
-      "name": "Afternoon Ride",
-      "distance": 30366.8,
-      "moving_time": 5090,
-      "elapsed_time": 6175,
-      "total_elevation_gain": 134.8,
-      "type": "Ride",
-      "sport_type": "Ride",
-      "workout_type": null,
-      "device_name": "Strava App",
-      "_fetched_date": "2026-04-03"
-    },
-    {
-      "resource_state": 2,
-      "athlete": {
-        "resource_state": 2,
-        "firstname": "Anton",
-        "lastname": "S."
-      },
-      "name": "Afternoon Ride",
-      "distance": 30233.4,
-      "moving_time": 5259,
-      "elapsed_time": 5587,
-      "total_elevation_gain": 165.9,
-      "type": "Ride",
-      "sport_type": "Ride",
-      "workout_type": null,
-      "device_name": "Fitbit Inspire 3",
-      "_fetched_date": "2026-04-03"
-    },
-    {
-      "resource_state": 2,
-      "athlete": {
-        "resource_state": 2,
-        "firstname": "Anton",
-        "lastname": "S."
-      },
-      "name": "Afternoon Ride",
-      "distance": 372.2,
-      "moving_time": 237,
-      "elapsed_time": 430,
-      "total_elevation_gain": 0.0,
-      "type": "Ride",
-      "sport_type": "Ride",
-      "workout_type": null,
-      "device_name": "Fitbit Inspire 3",
-      "_fetched_date": "2026-04-03"
-    },
-    {
-      "resource_state": 2,
-      "athlete": {
-        "resource_state": 2,
-        "firstname": "Riskman",
-        "lastname": "G."
-      },
-      "name": "Aplink rajoną su svoriais. 11+7",
-      "distance": 23302.8,
-      "moving_time": 16975,
-      "elapsed_time": 26857,
-      "total_elevation_gain": 258.8,
-      "type": "Hike",
-      "sport_type": "Hike",
-      "device_name": "Strava App",
-      "_fetched_date": "2026-04-03"
-    },
-    {
-      "resource_state": 2,
-      "athlete": {
-        "resource_state": 2,
-        "firstname": "Tautvydas",
-        "lastname": "Ž."
-      },
-      "name": "Lunch Hike",
-      "distance": 20430.7,
-      "moving_time": 16162,
-      "elapsed_time": 22729,
-      "total_elevation_gain": 167.3,
-      "type": "Hike",
-      "sport_type": "Hike",
-      "device_name": "Strava App",
-      "_fetched_date": "2026-04-03"
-    },
-    {
-      "resource_state": 2,
-      "athlete": {
-        "resource_state": 2,
-        "firstname": "Žilvinas",
-        "lastname": "P."
-      },
-      "name": "Lunch Ride",
-      "distance": 60739.8,
-      "moving_time": 10207,
-      "elapsed_time": 14298,
-      "total_elevation_gain": 442.0,
-      "type": "Ride",
-      "sport_type": "Ride",
-      "workout_type": null,
-      "device_name": "Garmin Forerunner 955",
-      "_fetched_date": "2026-04-03"
-    },
-    {
-      "resource_state": 2,
-      "athlete": {
-        "resource_state": 2,
-        "firstname": "Donatas",
-        "lastname": "J."
-      },
-      "name": "Lunch Ride",
-      "distance": 61400.0,
-      "moving_time": 9048,
-      "elapsed_time": 10459,
-      "total_elevation_gain": 393.0,
-      "type": "Ride",
-      "sport_type": "Ride",
-      "workout_type": null,
-      "device_name": "Garmin Forerunner 255 Music",
-      "_fetched_date": "2026-04-03"
-    },
-    {
-      "resource_state": 2,
-      "athlete": {
-        "resource_state": 2,
-        "firstname": "Andrius",
-        "lastname": "A."
-      },
-      "name": "Morning Run",
-      "distance": 12506.5,
-      "moving_time": 3975,
-      "elapsed_time": 4061,
-      "total_elevation_gain": 97.0,
-      "type": "Run",
-      "sport_type": "Run",
-      "workout_type": null,
-      "device_name": "Garmin fēnix 7",
-      "_fetched_date": "2026-04-03"
-    },
-    {
-      "resource_state": 2,
-      "athlete": {
-        "resource_state": 2,
-        "firstname": "Paulius",
-        "lastname": "R."
-      },
-      "name": "Evening Run",
-      "distance": 8397.3,
-      "moving_time": 2277,
-      "elapsed_time": 2277,
-      "total_elevation_gain": 49.1,
-      "type": "Run",
-      "sport_type": "Run",
-      "workout_type": null,
-      "device_name": "Strava App",
-      "_fetched_date": "2026-04-03"
-    },
-    {
-      "resource_state": 2,
-      "athlete": {
-        "resource_state": 2,
-        "firstname": "Žilvinas",
-        "lastname": "P."
-      },
-      "name": "12 sav. iki HM / 9 savaitė",
-      "distance": 11656.0,
-      "moving_time": 4290,
-      "elapsed_time": 4447,
-      "total_elevation_gain": 64.0,
-      "type": "Run",
-      "sport_type": "Run",
-      "workout_type": null,
-      "device_name": "Garmin Forerunner 955",
-      "_fetched_date": "2026-04-03"
-    },
-    {
-      "resource_state": 2,
-      "athlete": {
-        "resource_state": 2,
-        "firstname": "Benediktas",
-        "lastname": "B."
-      },
-      "name": "Afternoon Ride",
-      "distance": 45743.6,
-      "moving_time": 7313,
-      "elapsed_time": 7911,
-      "total_elevation_gain": 536.0,
-      "type": "Ride",
-      "sport_type": "Ride",
-      "workout_type": null,
-      "device_name": "Garmin Edge Explore 2",
-      "_fetched_date": "2026-04-03"
-    },
-    {
-      "resource_state": 2,
-      "athlete": {
-        "resource_state": 2,
-        "firstname": "Laima",
-        "lastname": "A."
-      },
-      "name": "Morning Workout",
-      "distance": 0.0,
-      "moving_time": 5589,
-      "elapsed_time": 5589,
-      "total_elevation_gain": 0,
-      "type": "Workout",
-      "sport_type": "Workout",
-      "workout_type": null,
-      "device_name": "COROS PACE 2",
-      "_fetched_date": "2026-04-03"
-    },
-    {
-      "resource_state": 2,
-      "athlete": {
-        "resource_state": 2,
-        "firstname": "Andrius",
-        "lastname": "A."
-      },
-      "name": "Afternoon Run",
-      "distance": 12973.1,
-      "moving_time": 4008,
-      "elapsed_time": 4136,
-      "total_elevation_gain": 96.0,
-      "type": "Run",
-      "sport_type": "Run",
-      "workout_type": null,
-      "device_name": "Garmin fēnix 7",
-      "_fetched_date": "2026-04-03"
-    },
-    {
-      "resource_state": 2,
-      "athlete": {
-        "resource_state": 2,
-        "firstname": "Andrius",
-        "lastname": "A."
-      },
-      "name": "Morning Run",
-      "distance": 8054.4,
-      "moving_time": 2575,
-      "elapsed_time": 2740,
-      "total_elevation_gain": 48.0,
-      "type": "Run",
-      "sport_type": "Run",
-      "workout_type": null,
-      "device_name": "Garmin fēnix 7",
-      "_fetched_date": "2026-04-03"
-    },
-    {
-      "resource_state": 2,
-      "athlete": {
-        "resource_state": 2,
-        "firstname": "Benediktas",
-        "lastname": "B."
-      },
-      "name": "Evening Ride",
-      "distance": 20495.5,
-      "moving_time": 3185,
-      "elapsed_time": 3185,
-      "total_elevation_gain": 214.0,
-      "type": "Ride",
-      "sport_type": "Ride",
-      "workout_type": null,
-      "device_name": "Garmin Edge Explore 2",
-      "_fetched_date": "2026-04-03"
-    },
-    {
-      "resource_state": 2,
-      "athlete": {
-        "resource_state": 2,
-        "firstname": "Andrius",
-        "lastname": "A."
-      },
-      "name": "Morning Run",
-      "distance": 8054.0,
-      "moving_time": 2540,
-      "elapsed_time": 2729,
-      "total_elevation_gain": 46.0,
-      "type": "Run",
-      "sport_type": "Run",
-      "workout_type": null,
-      "device_name": "Garmin fēnix 7",
-      "_fetched_date": "2026-04-03"
-    },
-    {
-      "resource_state": 2,
-      "athlete": {
-        "resource_state": 2,
-        "firstname": "Andrius",
-        "lastname": "A."
-      },
-      "name": "Afternoon Run",
-      "distance": 19361.5,
-      "moving_time": 5296,
-      "elapsed_time": 5754,
-      "total_elevation_gain": 57.0,
-      "type": "Run",
-      "sport_type": "Run",
-      "workout_type": null,
-      "device_name": "Garmin fēnix 7",
-      "_fetched_date": "2026-04-03"
-    },
-    {
-      "resource_state": 2,
-      "athlete": {
-        "resource_state": 2,
-        "firstname": "Aurelija",
-        "lastname": "S."
-      },
-      "name": "Evening Tennis 🎾",
-      "distance": 454.5,
-      "moving_time": 6104,
-      "elapsed_time": 6104,
-      "total_elevation_gain": 0,
-      "type": "Workout",
-      "sport_type": "Tennis",
-      "workout_type": null,
-      "device_name": "Garmin Venu 3S",
-      "_fetched_date": "2026-04-03"
-    },
-    {
-      "resource_state": 2,
-      "athlete": {
-        "resource_state": 2,
-        "firstname": "Benediktas",
-        "lastname": "B."
-      },
-      "name": "Afternoon Ride",
-      "distance": 36663.1,
-      "moving_time": 6091,
-      "elapsed_time": 6608,
-      "total_elevation_gain": 540.0,
-      "type": "Ride",
-      "sport_type": "Ride",
-      "workout_type": null,
-      "device_name": "Garmin Edge Explore 2",
-      "_fetched_date": "2026-04-03"
-    },
-    {
-      "resource_state": 2,
-      "athlete": {
-        "resource_state": 2,
-        "firstname": "Laima",
-        "lastname": "A."
-      },
-      "name": "Morning Workout",
-      "distance": 0.0,
-      "moving_time": 5197,
-      "elapsed_time": 5197,
-      "total_elevation_gain": 0,
-      "type": "Workout",
-      "sport_type": "Workout",
-      "workout_type": null,
-      "device_name": "COROS PACE 2",
-      "_fetched_date": "2026-04-03"
-    },
-    {
-      "resource_state": 2,
-      "athlete": {
-        "resource_state": 2,
-        "firstname": "Augustinas",
-        "lastname": "T."
-      },
-      "name": "Morning Ride",
-      "distance": 144319.0,
-      "moving_time": 27083,
-      "elapsed_time": 31285,
-      "total_elevation_gain": 3061.0,
-      "type": "Ride",
-      "sport_type": "Ride",
-      "workout_type": null,
-      "device_name": "Wahoo ELEMNT ROAM",
-      "_fetched_date": "2026-04-03"
-    },
-    {
-      "resource_state": 2,
-      "athlete": {
-        "resource_state": 2,
-        "firstname": "Sandra",
-        "lastname": "M."
-      },
-      "name": "Afternoon Ride",
-      "distance": 4116.3,
-      "moving_time": 955,
-      "elapsed_time": 1273,
-      "total_elevation_gain": 56.0,
-      "type": "Ride",
-      "sport_type": "Ride",
-      "workout_type": 10,
-      "device_name": "Garmin Venu 2 Plus",
-      "_fetched_date": "2026-04-03"
-    },
-    {
-      "resource_state": 2,
-      "athlete": {
-        "resource_state": 2,
-        "firstname": "Andrius",
-        "lastname": "A."
-      },
-      "name": "Afternoon Run",
-      "distance": 11430.0,
-      "moving_time": 3462,
-      "elapsed_time": 3988,
-      "total_elevation_gain": 115.0,
-      "type": "Run",
-      "sport_type": "Run",
-      "workout_type": null,
-      "device_name": "Garmin fēnix 7",
-      "_fetched_date": "2026-04-03"
-    },
-    {
-      "resource_state": 2,
-      "athlete": {
-        "resource_state": 2,
-        "firstname": "Sandra",
-        "lastname": "M."
-      },
-      "name": "Morning Ride",
-      "distance": 3551.3,
-      "moving_time": 660,
-      "elapsed_time": 785,
-      "total_elevation_gain": 33.0,
-      "type": "Ride",
-      "sport_type": "Ride",
-      "workout_type": 10,
-      "device_name": "Garmin Venu 2 Plus",
-      "_fetched_date": "2026-04-03"
-    },
-    {
-      "resource_state": 2,
-      "athlete": {
-        "resource_state": 2,
-        "firstname": "Andrius",
-        "lastname": "A."
-      },
-      "name": "Morning Run",
-      "distance": 8911.1,
-      "moving_time": 2795,
-      "elapsed_time": 2868,
-      "total_elevation_gain": 48.0,
-      "type": "Run",
-      "sport_type": "Run",
-      "workout_type": null,
-      "device_name": "Garmin fēnix 7",
-      "_fetched_date": "2026-04-03"
-    },
-    {
-      "resource_state": 2,
-      "athlete": {
-        "resource_state": 2,
-        "firstname": "Azuolas",
-        "lastname": "S."
-      },
-      "name": "Evening Run",
-      "distance": 2897.1,
-      "moving_time": 1209,
-      "elapsed_time": 1215,
-      "total_elevation_gain": 18.1,
-      "type": "Run",
-      "sport_type": "Run",
-      "workout_type": null,
-      "device_name": "Strava App",
-      "_fetched_date": "2026-04-03"
-    },
-    {
-      "resource_state": 2,
-      "athlete": {
-        "resource_state": 2,
-        "firstname": "Paulius",
-        "lastname": "R."
-      },
-      "name": "Evening Run",
-      "distance": 7542.2,
-      "moving_time": 3109,
-      "elapsed_time": 5577,
-      "total_elevation_gain": 153.1,
-      "type": "Run",
-      "sport_type": "Run",
-      "workout_type": null,
-      "device_name": "Strava App",
-      "_fetched_date": "2026-04-03"
-    },
-    {
-      "resource_state": 2,
-      "athlete": {
-        "resource_state": 2,
-        "firstname": "Arunas",
-        "lastname": "M."
-      },
-      "name": "Išvažiavimas su ožiukais",
-      "distance": 2449.4,
-      "moving_time": 1419,
-      "elapsed_time": 4886,
-      "total_elevation_gain": 9.2,
-      "type": "Ride",
-      "sport_type": "Ride",
-      "workout_type": null,
-      "device_name": "Strava App",
-      "_fetched_date": "2026-04-03"
-    },
-    {
-      "resource_state": 2,
-      "athlete": {
-        "resource_state": 2,
-        "firstname": "Žilvinas",
-        "lastname": "P."
-      },
-      "name": "12 sav. iki HM / 9 savaitė",
-      "distance": 10743.4,
-      "moving_time": 3223,
-      "elapsed_time": 3236,
-      "total_elevation_gain": 65.0,
-      "type": "Run",
-      "sport_type": "Run",
-      "workout_type": null,
-      "device_name": "Garmin Forerunner 955",
-      "_fetched_date": "2026-04-03"
-    },
-    {
-      "resource_state": 2,
-      "athlete": {
-        "resource_state": 2,
-        "firstname": "Riskman",
-        "lastname": "G."
-      },
-      "name": "Afternoon Ride",
-      "distance": 16852.0,
-      "moving_time": 3765,
-      "elapsed_time": 4243,
-      "total_elevation_gain": 145.4,
-      "type": "Ride",
-      "sport_type": "Ride",
-      "workout_type": null,
-      "device_name": "Strava App",
-      "_fetched_date": "2026-04-03"
-    },
-    {
-      "resource_state": 2,
-      "athlete": {
-        "resource_state": 2,
-        "firstname": "Liudas",
-        "lastname": "S."
-      },
-      "name": "Lunch Run",
-      "distance": 12063.9,
-      "moving_time": 4300,
-      "elapsed_time": 4300,
-      "total_elevation_gain": 161.2,
-      "type": "Run",
-      "sport_type": "Run",
-      "workout_type": null,
-      "device_name": "Samsung Galaxy Ultra",
-      "_fetched_date": "2026-04-03"
-    },
-    {
-      "resource_state": 2,
-      "athlete": {
-        "resource_state": 2,
-        "firstname": "Augustinas",
-        "lastname": "T."
-      },
-      "name": "Morning Ride",
-      "distance": 21834.5,
-      "moving_time": 4301,
-      "elapsed_time": 5981,
-      "total_elevation_gain": 207.0,
-      "type": "Ride",
-      "sport_type": "Ride",
-      "workout_type": null,
-      "device_name": "Wahoo ELEMNT ROAM",
-      "_fetched_date": "2026-04-03"
-    },
-    {
-      "resource_state": 2,
-      "athlete": {
-        "resource_state": 2,
-        "firstname": "Sandra",
-        "lastname": "M."
-      },
-      "name": "Afternoon Ride",
-      "distance": 9027.9,
-      "moving_time": 1499,
-      "elapsed_time": 1621,
-      "total_elevation_gain": 72.0,
-      "type": "Ride",
-      "sport_type": "Ride",
-      "workout_type": 10,
-      "device_name": "Garmin Venu 2 Plus",
-      "_fetched_date": "2026-04-03"
-    },
-    {
-      "resource_state": 2,
-      "athlete": {
-        "resource_state": 2,
-        "firstname": "Andrius",
-        "lastname": "A."
-      },
-      "name": "Afternoon Run",
-      "distance": 13324.5,
-      "moving_time": 4476,
-      "elapsed_time": 4735,
-      "total_elevation_gain": 119.0,
-      "type": "Run",
-      "sport_type": "Run",
-      "workout_type": null,
-      "device_name": "Garmin fēnix 7",
-      "_fetched_date": "2026-04-03"
-    },
-    {
-      "resource_state": 2,
-      "athlete": {
-        "resource_state": 2,
-        "firstname": "Sandra",
-        "lastname": "M."
-      },
-      "name": "Morning Ride",
-      "distance": 3713.7,
-      "moving_time": 655,
-      "elapsed_time": 855,
-      "total_elevation_gain": 39.0,
-      "type": "Ride",
-      "sport_type": "Ride",
-      "workout_type": 10,
-      "device_name": "Garmin Venu 2 Plus",
-      "_fetched_date": "2026-04-03"
-    },
-    {
-      "resource_state": 2,
-      "athlete": {
-        "resource_state": 2,
-        "firstname": "Andrius",
-        "lastname": "A."
-      },
-      "name": "Morning Run",
-      "distance": 8750.9,
-      "moving_time": 2809,
-      "elapsed_time": 2880,
-      "total_elevation_gain": 57.0,
-      "type": "Run",
-      "sport_type": "Run",
-      "workout_type": null,
-      "device_name": "Garmin fēnix 7",
-      "_fetched_date": "2026-04-03"
-    },
-    {
-      "resource_state": 2,
-      "athlete": {
-        "resource_state": 2,
-        "firstname": "Azuolas",
-        "lastname": "S."
-      },
-      "name": "Saulėtekis #3",
-      "distance": 6114.5,
-      "moving_time": 2212,
-      "elapsed_time": 2215,
-      "total_elevation_gain": 33.1,
-      "type": "Run",
-      "sport_type": "Run",
-      "workout_type": null,
-      "device_name": "Strava App",
-      "_fetched_date": "2026-04-03"
-    },
-    {
-      "resource_state": 2,
-      "athlete": {
-        "resource_state": 2,
-        "firstname": "Benediktas",
-        "lastname": "B."
-      },
-      "name": "Evening Ride",
-      "distance": 23136.5,
-      "moving_time": 3236,
-      "elapsed_time": 3256,
-      "total_elevation_gain": 253.0,
-      "type": "Ride",
-      "sport_type": "Ride",
-      "workout_type": null,
-      "device_name": "Garmin Edge Explore 2",
-      "_fetched_date": "2026-04-03"
-    },
     {
       "resource_state": 2,
       "athlete": {
@@ -1177,126 +207,6 @@
       "resource_state": 2,
       "athlete": {
         "resource_state": 2,
-        "firstname": "Arunas",
-        "lastname": "M."
-      },
-      "name": "Lunch Walk",
-      "distance": 3150.3,
-      "moving_time": 2084,
-      "elapsed_time": 2136,
-      "total_elevation_gain": 20.2,
-      "type": "Walk",
-      "sport_type": "Walk",
-      "device_name": "Strava App",
-      "_fetched_date": "2026-04-03"
-    },
-    {
-      "resource_state": 2,
-      "athlete": {
-        "resource_state": 2,
-        "firstname": "Liudas",
-        "lastname": "S."
-      },
-      "name": "Gym",
-      "distance": 0.0,
-      "moving_time": 3600,
-      "elapsed_time": 3600,
-      "total_elevation_gain": 0,
-      "type": "Ride",
-      "sport_type": "Ride",
-      "workout_type": null,
-      "_fetched_date": "2026-04-03"
-    },
-    {
-      "resource_state": 2,
-      "athlete": {
-        "resource_state": 2,
-        "firstname": "Augustinas",
-        "lastname": "T."
-      },
-      "name": "Morning Walk",
-      "distance": 1353.7,
-      "moving_time": 1455,
-      "elapsed_time": 4748,
-      "total_elevation_gain": 5.0,
-      "type": "Walk",
-      "sport_type": "Walk",
-      "device_name": "COROS APEX 4",
-      "_fetched_date": "2026-04-03"
-    },
-    {
-      "resource_state": 2,
-      "athlete": {
-        "resource_state": 2,
-        "firstname": "Ieva",
-        "lastname": "S."
-      },
-      "name": "Lunch Run",
-      "distance": 4050.8,
-      "moving_time": 1680,
-      "elapsed_time": 1686,
-      "total_elevation_gain": 29.0,
-      "type": "Run",
-      "sport_type": "Run",
-      "workout_type": null,
-      "device_name": "Garmin Forerunner 255 Music",
-      "_fetched_date": "2026-04-03"
-    },
-    {
-      "resource_state": 2,
-      "athlete": {
-        "resource_state": 2,
-        "firstname": "Greta",
-        "lastname": "N."
-      },
-      "name": "Lunch Walk",
-      "distance": 3260.1,
-      "moving_time": 3110,
-      "elapsed_time": 3262,
-      "total_elevation_gain": 9.5,
-      "type": "Walk",
-      "sport_type": "Walk",
-      "device_name": "Strava App",
-      "_fetched_date": "2026-04-03"
-    },
-    {
-      "resource_state": 2,
-      "athlete": {
-        "resource_state": 2,
-        "firstname": "Andrius",
-        "lastname": "A."
-      },
-      "name": "Lunch Walk",
-      "distance": 2693.9,
-      "moving_time": 1782,
-      "elapsed_time": 6139,
-      "total_elevation_gain": 18.0,
-      "type": "Walk",
-      "sport_type": "Walk",
-      "device_name": "Garmin fēnix 7",
-      "_fetched_date": "2026-04-03"
-    },
-    {
-      "resource_state": 2,
-      "athlete": {
-        "resource_state": 2,
-        "firstname": "Sandra",
-        "lastname": "M."
-      },
-      "name": "Lunch Walk",
-      "distance": 3191.8,
-      "moving_time": 2065,
-      "elapsed_time": 2065,
-      "total_elevation_gain": 28.0,
-      "type": "Walk",
-      "sport_type": "Walk",
-      "device_name": "Garmin Venu 2 Plus",
-      "_fetched_date": "2026-04-03"
-    },
-    {
-      "resource_state": 2,
-      "athlete": {
-        "resource_state": 2,
         "firstname": "Viktorija",
         "lastname": "M."
       },
@@ -1305,6 +215,23 @@
       "moving_time": 1193,
       "elapsed_time": 1231,
       "total_elevation_gain": 6.8,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-03"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Arunas",
+        "lastname": "M."
+      },
+      "name": "Lunch Walk",
+      "distance": 3150.3,
+      "moving_time": 2084,
+      "elapsed_time": 2136,
+      "total_elevation_gain": 20.2,
       "type": "Walk",
       "sport_type": "Walk",
       "device_name": "Strava App",
@@ -1342,6 +269,23 @@
       "type": "Walk",
       "sport_type": "Walk",
       "device_name": "Strava App",
+      "_fetched_date": "2026-04-03"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Liudas",
+        "lastname": "S."
+      },
+      "name": "Gym",
+      "distance": 0.0,
+      "moving_time": 3600,
+      "elapsed_time": 3600,
+      "total_elevation_gain": 0,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": null,
       "_fetched_date": "2026-04-03"
     },
     {
@@ -1436,6 +380,75 @@
       "resource_state": 2,
       "athlete": {
         "resource_state": 2,
+        "firstname": "Augustinas",
+        "lastname": "T."
+      },
+      "name": "Morning Walk",
+      "distance": 1353.7,
+      "moving_time": 1455,
+      "elapsed_time": 4748,
+      "total_elevation_gain": 5.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "COROS APEX 4",
+      "_fetched_date": "2026-04-03"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Ieva",
+        "lastname": "S."
+      },
+      "name": "Lunch Run",
+      "distance": 4050.8,
+      "moving_time": 1680,
+      "elapsed_time": 1686,
+      "total_elevation_gain": 29.0,
+      "type": "Run",
+      "sport_type": "Run",
+      "workout_type": null,
+      "device_name": "Garmin Forerunner 255 Music",
+      "_fetched_date": "2026-04-03"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Greta",
+        "lastname": "N."
+      },
+      "name": "Lunch Walk",
+      "distance": 3260.1,
+      "moving_time": 3110,
+      "elapsed_time": 3262,
+      "total_elevation_gain": 9.5,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-03"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Andrius",
+        "lastname": "A."
+      },
+      "name": "Lunch Walk",
+      "distance": 2693.9,
+      "moving_time": 1782,
+      "elapsed_time": 6139,
+      "total_elevation_gain": 18.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin fēnix 7",
+      "_fetched_date": "2026-04-03"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
         "firstname": "Sandra",
         "lastname": "M."
       },
@@ -1489,6 +502,23 @@
       "resource_state": 2,
       "athlete": {
         "resource_state": 2,
+        "firstname": "Sandra",
+        "lastname": "M."
+      },
+      "name": "Lunch Walk",
+      "distance": 3191.8,
+      "moving_time": 2065,
+      "elapsed_time": 2065,
+      "total_elevation_gain": 28.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin Venu 2 Plus",
+      "_fetched_date": "2026-04-03"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
         "firstname": "Azuolas",
         "lastname": "S."
       },
@@ -1524,6 +554,23 @@
       "resource_state": 2,
       "athlete": {
         "resource_state": 2,
+        "firstname": "Edvinas",
+        "lastname": "V."
+      },
+      "name": "Evening Walk",
+      "distance": 3401.1,
+      "moving_time": 2357,
+      "elapsed_time": 2455,
+      "total_elevation_gain": 30.3,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-02"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
         "firstname": "Paulius",
         "lastname": "R."
       },
@@ -1535,6 +582,23 @@
       "type": "Walk",
       "sport_type": "Walk",
       "device_name": "Wear OS by Google",
+      "_fetched_date": "2026-04-02"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Gertrūda",
+        "lastname": "G."
+      },
+      "name": "Bėgimas lauke",
+      "distance": 2760.0,
+      "moving_time": 1244,
+      "elapsed_time": 1244,
+      "total_elevation_gain": 0,
+      "type": "Run",
+      "sport_type": "Run",
+      "workout_type": null,
       "_fetched_date": "2026-04-02"
     },
     {
@@ -1553,74 +617,6 @@
       "sport_type": "Tennis",
       "workout_type": null,
       "device_name": "Garmin Venu 3S",
-      "_fetched_date": "2026-04-02"
-    },
-    {
-      "resource_state": 2,
-      "athlete": {
-        "resource_state": 2,
-        "firstname": "Sandra",
-        "lastname": "M."
-      },
-      "name": "Night Walk",
-      "distance": 2831.9,
-      "moving_time": 1834,
-      "elapsed_time": 1857,
-      "total_elevation_gain": 33.0,
-      "type": "Walk",
-      "sport_type": "Walk",
-      "device_name": "Garmin Venu 2 Plus",
-      "_fetched_date": "2026-04-02"
-    },
-    {
-      "resource_state": 2,
-      "athlete": {
-        "resource_state": 2,
-        "firstname": "Antanas",
-        "lastname": "R."
-      },
-      "name": "Evening Walk",
-      "distance": 1001.9,
-      "moving_time": 615,
-      "elapsed_time": 615,
-      "total_elevation_gain": 14.0,
-      "type": "Walk",
-      "sport_type": "Walk",
-      "device_name": "Garmin fēnix 7",
-      "_fetched_date": "2026-04-02"
-    },
-    {
-      "resource_state": 2,
-      "athlete": {
-        "resource_state": 2,
-        "firstname": "Edvinas",
-        "lastname": "V."
-      },
-      "name": "Evening Walk",
-      "distance": 3401.1,
-      "moving_time": 2357,
-      "elapsed_time": 2455,
-      "total_elevation_gain": 30.3,
-      "type": "Walk",
-      "sport_type": "Walk",
-      "device_name": "Strava App",
-      "_fetched_date": "2026-04-02"
-    },
-    {
-      "resource_state": 2,
-      "athlete": {
-        "resource_state": 2,
-        "firstname": "Gertrūda",
-        "lastname": "G."
-      },
-      "name": "Bėgimas lauke",
-      "distance": 2760.0,
-      "moving_time": 1244,
-      "elapsed_time": 1244,
-      "total_elevation_gain": 0,
-      "type": "Run",
-      "sport_type": "Run",
-      "workout_type": null,
       "_fetched_date": "2026-04-02"
     },
     {
@@ -1681,59 +677,6 @@
       "resource_state": 2,
       "athlete": {
         "resource_state": 2,
-        "firstname": "Donatas",
-        "lastname": "J."
-      },
-      "name": "Afternoon Ride",
-      "distance": 50807.8,
-      "moving_time": 7231,
-      "elapsed_time": 9481,
-      "total_elevation_gain": 432.0,
-      "type": "Ride",
-      "sport_type": "Ride",
-      "workout_type": null,
-      "device_name": "Garmin Forerunner 255 Music",
-      "_fetched_date": "2026-04-02"
-    },
-    {
-      "resource_state": 2,
-      "athlete": {
-        "resource_state": 2,
-        "firstname": "Antanas",
-        "lastname": "R."
-      },
-      "name": "Afternoon Swim",
-      "distance": 2400.0,
-      "moving_time": 3188,
-      "elapsed_time": 3492,
-      "total_elevation_gain": 0,
-      "type": "Swim",
-      "sport_type": "Swim",
-      "device_name": "Garmin fēnix 7",
-      "_fetched_date": "2026-04-02"
-    },
-    {
-      "resource_state": 2,
-      "athlete": {
-        "resource_state": 2,
-        "firstname": "Sandra",
-        "lastname": "M."
-      },
-      "name": "Afternoon Ride",
-      "distance": 30152.0,
-      "moving_time": 5793,
-      "elapsed_time": 6199,
-      "total_elevation_gain": 221.0,
-      "type": "Ride",
-      "sport_type": "Ride",
-      "workout_type": null,
-      "device_name": "Garmin Venu 2 Plus",
-      "_fetched_date": "2026-04-02"
-    },
-    {
-      "resource_state": 2,
-      "athlete": {
-        "resource_state": 2,
         "firstname": "Arunas",
         "lastname": "M."
       },
@@ -1744,6 +687,24 @@
       "total_elevation_gain": 7.0,
       "type": "Walk",
       "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-02"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Edvinas",
+        "lastname": "V."
+      },
+      "name": "Afternoon Ride",
+      "distance": 5615.5,
+      "moving_time": 1297,
+      "elapsed_time": 1354,
+      "total_elevation_gain": 39.5,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": 10,
       "device_name": "Strava App",
       "_fetched_date": "2026-04-02"
     },
@@ -1786,6 +747,24 @@
       "resource_state": 2,
       "athlete": {
         "resource_state": 2,
+        "firstname": "Donatas",
+        "lastname": "J."
+      },
+      "name": "Afternoon Ride",
+      "distance": 50807.8,
+      "moving_time": 7231,
+      "elapsed_time": 9481,
+      "total_elevation_gain": 432.0,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": null,
+      "device_name": "Garmin Forerunner 255 Music",
+      "_fetched_date": "2026-04-02"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
         "firstname": "Viktorija",
         "lastname": "M."
       },
@@ -1803,110 +782,6 @@
       "resource_state": 2,
       "athlete": {
         "resource_state": 2,
-        "firstname": "Ieva",
-        "lastname": "S."
-      },
-      "name": "Evening Walk",
-      "distance": 1425.2,
-      "moving_time": 1892,
-      "elapsed_time": 2416,
-      "total_elevation_gain": 19.0,
-      "type": "Walk",
-      "sport_type": "Walk",
-      "device_name": "Garmin Forerunner 255 Music",
-      "_fetched_date": "2026-04-02"
-    },
-    {
-      "resource_state": 2,
-      "athlete": {
-        "resource_state": 2,
-        "firstname": "Greta",
-        "lastname": "N."
-      },
-      "name": "Vakarinis",
-      "distance": 2130.9,
-      "moving_time": 1941,
-      "elapsed_time": 2265,
-      "total_elevation_gain": 19.8,
-      "type": "Walk",
-      "sport_type": "Walk",
-      "device_name": "Strava App",
-      "_fetched_date": "2026-04-02"
-    },
-    {
-      "resource_state": 2,
-      "athlete": {
-        "resource_state": 2,
-        "firstname": "Edvinas",
-        "lastname": "V."
-      },
-      "name": "Afternoon Ride",
-      "distance": 5615.5,
-      "moving_time": 1297,
-      "elapsed_time": 1354,
-      "total_elevation_gain": 39.5,
-      "type": "Ride",
-      "sport_type": "Ride",
-      "workout_type": 10,
-      "device_name": "Strava App",
-      "_fetched_date": "2026-04-02"
-    },
-    {
-      "resource_state": 2,
-      "athlete": {
-        "resource_state": 2,
-        "firstname": "Tautvydas",
-        "lastname": "Ž."
-      },
-      "name": "Lunch Walk",
-      "distance": 1725.5,
-      "moving_time": 1190,
-      "elapsed_time": 1190,
-      "total_elevation_gain": 9.2,
-      "type": "Walk",
-      "sport_type": "Walk",
-      "device_name": "Strava App",
-      "_fetched_date": "2026-04-02"
-    },
-    {
-      "resource_state": 2,
-      "athlete": {
-        "resource_state": 2,
-        "firstname": "Andrius",
-        "lastname": "A."
-      },
-      "name": "Afternoon Run",
-      "distance": 17903.4,
-      "moving_time": 4967,
-      "elapsed_time": 5265,
-      "total_elevation_gain": 72.0,
-      "type": "Run",
-      "sport_type": "Run",
-      "workout_type": null,
-      "device_name": "Garmin fēnix 7",
-      "_fetched_date": "2026-04-02"
-    },
-    {
-      "resource_state": 2,
-      "athlete": {
-        "resource_state": 2,
-        "firstname": "Gintarė",
-        "lastname": "B."
-      },
-      "name": "🐕",
-      "distance": 1262.4,
-      "moving_time": 1312,
-      "elapsed_time": 1413,
-      "total_elevation_gain": 7.6,
-      "type": "Walk",
-      "sport_type": "Walk",
-      "device_name": "Samsung Health",
-      "_fetched_date": "2026-04-02"
-    },
-    {
-      "resource_state": 2,
-      "athlete": {
-        "resource_state": 2,
         "firstname": "Azuolas",
         "lastname": "S."
       },
@@ -1918,42 +793,6 @@
       "type": "Walk",
       "sport_type": "Walk",
       "device_name": "Strava App",
-      "_fetched_date": "2026-04-02"
-    },
-    {
-      "resource_state": 2,
-      "athlete": {
-        "resource_state": 2,
-        "firstname": "Paulius",
-        "lastname": "R."
-      },
-      "name": "Vilniečiai saugokitės 😎",
-      "distance": 31236.1,
-      "moving_time": 10966,
-      "elapsed_time": 11019,
-      "total_elevation_gain": 186.5,
-      "type": "Run",
-      "sport_type": "Run",
-      "workout_type": 2,
-      "device_name": "Wear OS by Google",
-      "_fetched_date": "2026-04-02"
-    },
-    {
-      "resource_state": 2,
-      "athlete": {
-        "resource_state": 2,
-        "firstname": "Liudas",
-        "lastname": "S."
-      },
-      "name": "Lunch Run",
-      "distance": 12013.5,
-      "moving_time": 4368,
-      "elapsed_time": 4368,
-      "total_elevation_gain": 156.0,
-      "type": "Run",
-      "sport_type": "Run",
-      "workout_type": null,
-      "device_name": "Samsung Galaxy Ultra",
       "_fetched_date": "2026-04-02"
     },
     {
@@ -2011,6 +850,23 @@
       "resource_state": 2,
       "athlete": {
         "resource_state": 2,
+        "firstname": "Tautvydas",
+        "lastname": "Ž."
+      },
+      "name": "Lunch Walk",
+      "distance": 1725.5,
+      "moving_time": 1190,
+      "elapsed_time": 1190,
+      "total_elevation_gain": 9.2,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-02"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
         "firstname": "Gertrūda",
         "lastname": "G."
       },
@@ -2022,6 +878,23 @@
       "type": "Walk",
       "sport_type": "Walk",
       "device_name": "Strava App",
+      "_fetched_date": "2026-04-02"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Antanas",
+        "lastname": "R."
+      },
+      "name": "Lunch Walk",
+      "distance": 1061.5,
+      "moving_time": 643,
+      "elapsed_time": 643,
+      "total_elevation_gain": 5.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin fēnix 7",
       "_fetched_date": "2026-04-02"
     },
     {
@@ -2062,6 +935,24 @@
       "resource_state": 2,
       "athlete": {
         "resource_state": 2,
+        "firstname": "Liudas",
+        "lastname": "S."
+      },
+      "name": "Lunch Run",
+      "distance": 12013.5,
+      "moving_time": 4368,
+      "elapsed_time": 4368,
+      "total_elevation_gain": 156.0,
+      "type": "Run",
+      "sport_type": "Run",
+      "workout_type": null,
+      "device_name": "Samsung Galaxy Ultra",
+      "_fetched_date": "2026-04-02"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
         "firstname": "Arturas",
         "lastname": "K."
       },
@@ -2080,171 +971,18 @@
       "resource_state": 2,
       "athlete": {
         "resource_state": 2,
-        "firstname": "Andrius",
-        "lastname": "A."
-      },
-      "name": "Lunch Walk",
-      "distance": 2570.1,
-      "moving_time": 1981,
-      "elapsed_time": 1999,
-      "total_elevation_gain": 16.0,
-      "type": "Walk",
-      "sport_type": "Walk",
-      "device_name": "Garmin fēnix 7",
-      "_fetched_date": "2026-04-02"
-    },
-    {
-      "resource_state": 2,
-      "athlete": {
-        "resource_state": 2,
-        "firstname": "Gintarė",
-        "lastname": "B."
-      },
-      "name": "Iki parduotuvės",
-      "distance": 3212.3,
-      "moving_time": 2110,
-      "elapsed_time": 2642,
-      "total_elevation_gain": 19.3,
-      "type": "Walk",
-      "sport_type": "Walk",
-      "device_name": "Strava App",
-      "_fetched_date": "2026-04-02"
-    },
-    {
-      "resource_state": 2,
-      "athlete": {
-        "resource_state": 2,
-        "firstname": "Antanas",
+        "firstname": "Paulius",
         "lastname": "R."
       },
-      "name": "Lunch Walk",
-      "distance": 1061.5,
-      "moving_time": 643,
-      "elapsed_time": 643,
-      "total_elevation_gain": 5.0,
-      "type": "Walk",
-      "sport_type": "Walk",
-      "device_name": "Garmin fēnix 7",
-      "_fetched_date": "2026-04-02"
-    },
-    {
-      "resource_state": 2,
-      "athlete": {
-        "resource_state": 2,
-        "firstname": "Greta",
-        "lastname": "N."
-      },
-      "name": "Taškas po taško.",
-      "distance": 1030.6,
-      "moving_time": 789,
-      "elapsed_time": 806,
-      "total_elevation_gain": 17.7,
-      "type": "Walk",
-      "sport_type": "Walk",
-      "device_name": "Strava App",
-      "_fetched_date": "2026-04-02"
-    },
-    {
-      "resource_state": 2,
-      "athlete": {
-        "resource_state": 2,
-        "firstname": "Antanas",
-        "lastname": "R."
-      },
-      "name": "Evening Walk",
-      "distance": 1000.6,
-      "moving_time": 668,
-      "elapsed_time": 668,
-      "total_elevation_gain": 23.0,
-      "type": "Walk",
-      "sport_type": "Walk",
-      "device_name": "Garmin fēnix 7",
-      "_fetched_date": "2026-04-02"
-    },
-    {
-      "resource_state": 2,
-      "athlete": {
-        "resource_state": 2,
-        "firstname": "Antanas",
-        "lastname": "R."
-      },
-      "name": "Evening Walk",
-      "distance": 1009.0,
-      "moving_time": 632,
-      "elapsed_time": 632,
-      "total_elevation_gain": 7.0,
-      "type": "Walk",
-      "sport_type": "Walk",
-      "device_name": "Garmin fēnix 7",
-      "_fetched_date": "2026-04-02"
-    },
-    {
-      "resource_state": 2,
-      "athlete": {
-        "resource_state": 2,
-        "firstname": "Antanas",
-        "lastname": "R."
-      },
-      "name": "Afternoon Swim",
-      "distance": 2300.0,
-      "moving_time": 3159,
-      "elapsed_time": 3636,
-      "total_elevation_gain": 0,
-      "type": "Swim",
-      "sport_type": "Swim",
-      "device_name": "Garmin fēnix 7",
-      "_fetched_date": "2026-04-02"
-    },
-    {
-      "resource_state": 2,
-      "athlete": {
-        "resource_state": 2,
-        "firstname": "Ieva",
-        "lastname": "S."
-      },
-      "name": "Morning Swim",
-      "distance": 1950.0,
-      "moving_time": 3374,
-      "elapsed_time": 3582,
-      "total_elevation_gain": 0,
-      "type": "Swim",
-      "sport_type": "Swim",
-      "device_name": "Garmin Forerunner 255 Music",
-      "_fetched_date": "2026-04-02"
-    },
-    {
-      "resource_state": 2,
-      "athlete": {
-        "resource_state": 2,
-        "firstname": "Ne",
-        "lastname": "L."
-      },
-      "name": "Evening Walk",
-      "distance": 3098.9,
-      "moving_time": 2209,
-      "elapsed_time": 2290,
-      "total_elevation_gain": 20.7,
-      "type": "Walk",
-      "sport_type": "Walk",
-      "device_name": "Strava App",
-      "_fetched_date": "2026-04-02"
-    },
-    {
-      "resource_state": 2,
-      "athlete": {
-        "resource_state": 2,
-        "firstname": "Ne",
-        "lastname": "L."
-      },
-      "name": "Afternoon Ride",
-      "distance": 10610.8,
-      "moving_time": 2061,
-      "elapsed_time": 2352,
-      "total_elevation_gain": 64.0,
-      "type": "Ride",
-      "sport_type": "Ride",
-      "workout_type": null,
-      "device_name": "Strava App",
+      "name": "Vilniečiai saugokitės 😎",
+      "distance": 31236.1,
+      "moving_time": 10966,
+      "elapsed_time": 11019,
+      "total_elevation_gain": 186.5,
+      "type": "Run",
+      "sport_type": "Run",
+      "workout_type": 2,
+      "device_name": "Wear OS by Google",
       "_fetched_date": "2026-04-02"
     },
     {
@@ -2262,23 +1000,6 @@
       "type": "Walk",
       "sport_type": "Walk",
       "device_name": "Garmin Forerunner 255 Music",
-      "_fetched_date": "2026-04-02"
-    },
-    {
-      "resource_state": 2,
-      "athlete": {
-        "resource_state": 2,
-        "firstname": "Greta",
-        "lastname": "N."
-      },
-      "name": "Į Mummy&Kid sportą",
-      "distance": 4636.6,
-      "moving_time": 5155,
-      "elapsed_time": 5983,
-      "total_elevation_gain": 27.0,
-      "type": "Walk",
-      "sport_type": "Walk",
-      "device_name": "Strava App",
       "_fetched_date": "2026-04-02"
     },
     {
@@ -2320,23 +1041,6 @@
       "resource_state": 2,
       "athlete": {
         "resource_state": 2,
-        "firstname": "Saule",
-        "lastname": "S."
-      },
-      "name": "Natation dans l'après-midi",
-      "distance": 401.0,
-      "moving_time": 1247,
-      "elapsed_time": 1247,
-      "total_elevation_gain": 0.0,
-      "type": "Swim",
-      "sport_type": "Swim",
-      "device_name": "Garmin fēnix 6S",
-      "_fetched_date": "2026-04-02"
-    },
-    {
-      "resource_state": 2,
-      "athlete": {
-        "resource_state": 2,
         "firstname": "Daina",
         "lastname": "G."
       },
@@ -2354,18 +1058,68 @@
       "resource_state": 2,
       "athlete": {
         "resource_state": 2,
-        "firstname": "Sandra",
-        "lastname": "M."
+        "firstname": "Andrius",
+        "lastname": "A."
       },
-      "name": "Morning Ride",
-      "distance": 6775.2,
-      "moving_time": 1296,
-      "elapsed_time": 1408,
-      "total_elevation_gain": 81.0,
-      "type": "Ride",
-      "sport_type": "Ride",
-      "workout_type": 10,
-      "device_name": "Garmin Venu 2 Plus",
+      "name": "Lunch Walk",
+      "distance": 2570.1,
+      "moving_time": 1981,
+      "elapsed_time": 1999,
+      "total_elevation_gain": 16.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin fēnix 7",
+      "_fetched_date": "2026-04-02"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Greta",
+        "lastname": "N."
+      },
+      "name": "Taškas po taško.",
+      "distance": 1030.6,
+      "moving_time": 789,
+      "elapsed_time": 806,
+      "total_elevation_gain": 17.7,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-02"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Ieva",
+        "lastname": "S."
+      },
+      "name": "Morning Swim",
+      "distance": 1950.0,
+      "moving_time": 3374,
+      "elapsed_time": 3582,
+      "total_elevation_gain": 0,
+      "type": "Swim",
+      "sport_type": "Swim",
+      "device_name": "Garmin Forerunner 255 Music",
+      "_fetched_date": "2026-04-02"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Greta",
+        "lastname": "N."
+      },
+      "name": "Į Mummy&Kid sportą",
+      "distance": 4636.6,
+      "moving_time": 5155,
+      "elapsed_time": 5983,
+      "total_elevation_gain": 27.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
       "_fetched_date": "2026-04-02"
     },
     {
@@ -2390,18 +1144,18 @@
       "resource_state": 2,
       "athlete": {
         "resource_state": 2,
-        "firstname": "Gerda",
-        "lastname": "K."
+        "firstname": "Sandra",
+        "lastname": "M."
       },
-      "name": "Morning Run",
-      "distance": 10106.3,
-      "moving_time": 3279,
-      "elapsed_time": 3383,
-      "total_elevation_gain": 60.0,
-      "type": "Run",
-      "sport_type": "Run",
-      "workout_type": null,
-      "device_name": "Garmin Forerunner 955",
+      "name": "Morning Ride",
+      "distance": 6775.2,
+      "moving_time": 1296,
+      "elapsed_time": 1408,
+      "total_elevation_gain": 81.0,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": 10,
+      "device_name": "Garmin Venu 2 Plus",
       "_fetched_date": "2026-04-02"
     },
     {
@@ -2411,14 +1165,169 @@
         "firstname": "Gintarė",
         "lastname": "B."
       },
-      "name": "Prieš miegelį",
-      "distance": 4139.1,
-      "moving_time": 2897,
-      "elapsed_time": 2931,
-      "total_elevation_gain": 29.7,
+      "name": "Iki parduotuvės",
+      "distance": 3212.3,
+      "moving_time": 2110,
+      "elapsed_time": 2642,
+      "total_elevation_gain": 19.3,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-02"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Greta",
+        "lastname": "N."
+      },
+      "name": "Pietų miegelis :)",
+      "distance": 2712.9,
+      "moving_time": 2535,
+      "elapsed_time": 2908,
+      "total_elevation_gain": 24.4,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-02"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Andrius",
+        "lastname": "A."
+      },
+      "name": "Afternoon Run",
+      "distance": 17903.4,
+      "moving_time": 4967,
+      "elapsed_time": 5265,
+      "total_elevation_gain": 72.0,
+      "type": "Run",
+      "sport_type": "Run",
+      "workout_type": null,
+      "device_name": "Garmin fēnix 7",
+      "_fetched_date": "2026-04-02"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Gintarė",
+        "lastname": "B."
+      },
+      "name": "🐕",
+      "distance": 1262.4,
+      "moving_time": 1312,
+      "elapsed_time": 1413,
+      "total_elevation_gain": 7.6,
       "type": "Walk",
       "sport_type": "Walk",
       "device_name": "Samsung Health",
+      "_fetched_date": "2026-04-02"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Ieva",
+        "lastname": "S."
+      },
+      "name": "Evening Walk",
+      "distance": 1425.2,
+      "moving_time": 1892,
+      "elapsed_time": 2416,
+      "total_elevation_gain": 19.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin Forerunner 255 Music",
+      "_fetched_date": "2026-04-02"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Greta",
+        "lastname": "N."
+      },
+      "name": "Vakarinis",
+      "distance": 2130.9,
+      "moving_time": 1941,
+      "elapsed_time": 2265,
+      "total_elevation_gain": 19.8,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-02"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Sandra",
+        "lastname": "M."
+      },
+      "name": "Afternoon Ride",
+      "distance": 30152.0,
+      "moving_time": 5793,
+      "elapsed_time": 6199,
+      "total_elevation_gain": 221.0,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": null,
+      "device_name": "Garmin Venu 2 Plus",
+      "_fetched_date": "2026-04-02"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Antanas",
+        "lastname": "R."
+      },
+      "name": "Afternoon Swim",
+      "distance": 2400.0,
+      "moving_time": 3188,
+      "elapsed_time": 3492,
+      "total_elevation_gain": 0,
+      "type": "Swim",
+      "sport_type": "Swim",
+      "device_name": "Garmin fēnix 7",
+      "_fetched_date": "2026-04-02"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Antanas",
+        "lastname": "R."
+      },
+      "name": "Evening Walk",
+      "distance": 1001.9,
+      "moving_time": 615,
+      "elapsed_time": 615,
+      "total_elevation_gain": 14.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin fēnix 7",
+      "_fetched_date": "2026-04-02"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Sandra",
+        "lastname": "M."
+      },
+      "name": "Night Walk",
+      "distance": 2831.9,
+      "moving_time": 1834,
+      "elapsed_time": 1857,
+      "total_elevation_gain": 33.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin Venu 2 Plus",
       "_fetched_date": "2026-04-02"
     },
     {
@@ -2438,6 +1347,23 @@
       "workout_type": null,
       "device_name": "Strava App",
       "_fetched_date": "2026-04-01"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Antanas",
+        "lastname": "R."
+      },
+      "name": "Evening Walk",
+      "distance": 1000.6,
+      "moving_time": 668,
+      "elapsed_time": 668,
+      "total_elevation_gain": 23.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin fēnix 7",
+      "_fetched_date": "2026-04-02"
     },
     {
       "resource_state": 2,
@@ -2495,6 +1421,41 @@
       "resource_state": 2,
       "athlete": {
         "resource_state": 2,
+        "firstname": "Antanas",
+        "lastname": "R."
+      },
+      "name": "Evening Walk",
+      "distance": 1009.0,
+      "moving_time": 632,
+      "elapsed_time": 632,
+      "total_elevation_gain": 7.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin fēnix 7",
+      "_fetched_date": "2026-04-02"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Tautvydas",
+        "lastname": "Ž."
+      },
+      "name": "Evening Run",
+      "distance": 6755.0,
+      "moving_time": 2135,
+      "elapsed_time": 2148,
+      "total_elevation_gain": 17.0,
+      "type": "Run",
+      "sport_type": "Run",
+      "workout_type": null,
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-01"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
         "firstname": "Žilvinas",
         "lastname": "P."
       },
@@ -2531,6 +1492,23 @@
       "resource_state": 2,
       "athlete": {
         "resource_state": 2,
+        "firstname": "Ne",
+        "lastname": "L."
+      },
+      "name": "Evening Walk",
+      "distance": 3098.9,
+      "moving_time": 2209,
+      "elapsed_time": 2290,
+      "total_elevation_gain": 20.7,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-02"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
         "firstname": "Liudas",
         "lastname": "S."
       },
@@ -2542,113 +1520,6 @@
       "type": "Workout",
       "sport_type": "Workout",
       "workout_type": null,
-      "_fetched_date": "2026-04-01"
-    },
-    {
-      "resource_state": 2,
-      "athlete": {
-        "resource_state": 2,
-        "firstname": "Donatas",
-        "lastname": "J."
-      },
-      "name": "Afternoon Ride",
-      "distance": 56365.9,
-      "moving_time": 8060,
-      "elapsed_time": 11424,
-      "total_elevation_gain": 399.0,
-      "type": "Ride",
-      "sport_type": "Ride",
-      "workout_type": null,
-      "device_name": "Garmin Forerunner 255 Music",
-      "_fetched_date": "2026-04-01"
-    },
-    {
-      "resource_state": 2,
-      "athlete": {
-        "resource_state": 2,
-        "firstname": "Gerda",
-        "lastname": "K."
-      },
-      "name": "Morning Run",
-      "distance": 12089.8,
-      "moving_time": 3974,
-      "elapsed_time": 4136,
-      "total_elevation_gain": 70.0,
-      "type": "Run",
-      "sport_type": "Run",
-      "workout_type": null,
-      "device_name": "Garmin Forerunner 955",
-      "_fetched_date": "2026-04-01"
-    },
-    {
-      "resource_state": 2,
-      "athlete": {
-        "resource_state": 2,
-        "firstname": "Greta",
-        "lastname": "N."
-      },
-      "name": "Taškus renkam tryse",
-      "distance": 2267.8,
-      "moving_time": 2217,
-      "elapsed_time": 2631,
-      "total_elevation_gain": 22.5,
-      "type": "Walk",
-      "sport_type": "Walk",
-      "device_name": "Strava App",
-      "_fetched_date": "2026-04-01"
-    },
-    {
-      "resource_state": 2,
-      "athlete": {
-        "resource_state": 2,
-        "firstname": "Sandra",
-        "lastname": "M."
-      },
-      "name": "Afternoon Ride",
-      "distance": 9056.3,
-      "moving_time": 1381,
-      "elapsed_time": 1422,
-      "total_elevation_gain": 63.0,
-      "type": "Ride",
-      "sport_type": "Ride",
-      "workout_type": null,
-      "device_name": "Garmin Venu 2 Plus",
-      "_fetched_date": "2026-04-01"
-    },
-    {
-      "resource_state": 2,
-      "athlete": {
-        "resource_state": 2,
-        "firstname": "Andrius",
-        "lastname": "A."
-      },
-      "name": "Afternoon Run",
-      "distance": 13138.2,
-      "moving_time": 3875,
-      "elapsed_time": 4226,
-      "total_elevation_gain": 78.0,
-      "type": "Run",
-      "sport_type": "Run",
-      "workout_type": null,
-      "device_name": "Garmin fēnix 7",
-      "_fetched_date": "2026-04-01"
-    },
-    {
-      "resource_state": 2,
-      "athlete": {
-        "resource_state": 2,
-        "firstname": "Tautvydas",
-        "lastname": "Ž."
-      },
-      "name": "Evening Run",
-      "distance": 6755.0,
-      "moving_time": 2135,
-      "elapsed_time": 2148,
-      "total_elevation_gain": 17.0,
-      "type": "Run",
-      "sport_type": "Run",
-      "workout_type": null,
-      "device_name": "Strava App",
       "_fetched_date": "2026-04-01"
     },
     {
@@ -2690,6 +1561,24 @@
       "resource_state": 2,
       "athlete": {
         "resource_state": 2,
+        "firstname": "Ne",
+        "lastname": "L."
+      },
+      "name": "Afternoon Ride",
+      "distance": 10610.8,
+      "moving_time": 2061,
+      "elapsed_time": 2352,
+      "total_elevation_gain": 64.0,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": null,
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-02"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
         "firstname": "Edvinas",
         "lastname": "V."
       },
@@ -2702,6 +1591,41 @@
       "sport_type": "Ride",
       "workout_type": 10,
       "device_name": "Strava App",
+      "_fetched_date": "2026-04-01"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Antanas",
+        "lastname": "R."
+      },
+      "name": "Afternoon Swim",
+      "distance": 2300.0,
+      "moving_time": 3159,
+      "elapsed_time": 3636,
+      "total_elevation_gain": 0,
+      "type": "Swim",
+      "sport_type": "Swim",
+      "device_name": "Garmin fēnix 7",
+      "_fetched_date": "2026-04-02"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Donatas",
+        "lastname": "J."
+      },
+      "name": "Afternoon Ride",
+      "distance": 56365.9,
+      "moving_time": 8060,
+      "elapsed_time": 11424,
+      "total_elevation_gain": 399.0,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": null,
+      "device_name": "Garmin Forerunner 255 Music",
       "_fetched_date": "2026-04-01"
     },
     {
@@ -2875,7 +1799,7 @@
       "sport_type": "Workout",
       "workout_type": null,
       "device_name": "COROS PACE 2",
-      "_fetched_date": "2026-04-01"
+      "_fetched_date": "2026-04-03"
     },
     {
       "resource_state": 2,
@@ -2893,7 +1817,7 @@
       "sport_type": "Run",
       "workout_type": null,
       "device_name": "Garmin fēnix 6 Pro",
-      "_fetched_date": "2026-04-01"
+      "_fetched_date": "2026-04-03"
     },
     {
       "resource_state": 2,
@@ -2911,7 +1835,7 @@
       "sport_type": "Ride",
       "workout_type": 10,
       "device_name": "Strava App",
-      "_fetched_date": "2026-04-01"
+      "_fetched_date": "2026-04-03"
     },
     {
       "resource_state": 2,
@@ -2928,7 +1852,7 @@
       "type": "Walk",
       "sport_type": "Walk",
       "device_name": "Strava App",
-      "_fetched_date": "2026-04-01"
+      "_fetched_date": "2026-04-03"
     },
     {
       "resource_state": 2,
@@ -2945,7 +1869,59 @@
       "type": "Walk",
       "sport_type": "Walk",
       "device_name": "Strava App",
-      "_fetched_date": "2026-04-01"
+      "_fetched_date": "2026-04-03"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Greta",
+        "lastname": "N."
+      },
+      "name": "Taškus renkam tryse",
+      "distance": 2267.8,
+      "moving_time": 2217,
+      "elapsed_time": 2631,
+      "total_elevation_gain": 22.5,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-03"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Gintarė",
+        "lastname": "B."
+      },
+      "name": "Prieš miegelį",
+      "distance": 4139.1,
+      "moving_time": 2897,
+      "elapsed_time": 2931,
+      "total_elevation_gain": 29.7,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Samsung Health",
+      "_fetched_date": "2026-04-03"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Sandra",
+        "lastname": "M."
+      },
+      "name": "Afternoon Ride",
+      "distance": 9056.3,
+      "moving_time": 1381,
+      "elapsed_time": 1422,
+      "total_elevation_gain": 63.0,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": null,
+      "device_name": "Garmin Venu 2 Plus",
+      "_fetched_date": "2026-04-03"
     },
     {
       "resource_state": 2,
@@ -2954,15 +1930,33 @@
         "firstname": "Andrius",
         "lastname": "A."
       },
-      "name": "Lunch Walk",
-      "distance": 2296.0,
-      "moving_time": 1532,
-      "elapsed_time": 1739,
-      "total_elevation_gain": 21.0,
+      "name": "Afternoon Run",
+      "distance": 13138.2,
+      "moving_time": 3875,
+      "elapsed_time": 4226,
+      "total_elevation_gain": 78.0,
+      "type": "Run",
+      "sport_type": "Run",
+      "workout_type": null,
+      "device_name": "Garmin fēnix 7",
+      "_fetched_date": "2026-04-03"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Greta",
+        "lastname": "N."
+      },
+      "name": "Pradedam balandžio iššūkį su 9+ kg",
+      "distance": 4550.5,
+      "moving_time": 4318,
+      "elapsed_time": 4951,
+      "total_elevation_gain": 47.1,
       "type": "Walk",
       "sport_type": "Walk",
-      "device_name": "Garmin fēnix 7",
-      "_fetched_date": "2026-04-01"
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-03"
     },
     {
       "resource_state": 2,
@@ -2979,7 +1973,24 @@
       "type": "Walk",
       "sport_type": "Walk",
       "device_name": "Samsung Health",
-      "_fetched_date": "2026-04-01"
+      "_fetched_date": "2026-04-03"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Andrius",
+        "lastname": "A."
+      },
+      "name": "Lunch Walk",
+      "distance": 2296.0,
+      "moving_time": 1532,
+      "elapsed_time": 1739,
+      "total_elevation_gain": 21.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin fēnix 7",
+      "_fetched_date": "2026-04-03"
     },
     {
       "resource_state": 2,
@@ -2996,7 +2007,7 @@
       "type": "Walk",
       "sport_type": "Walk",
       "device_name": "Garmin Forerunner 255 Music",
-      "_fetched_date": "2026-04-01"
+      "_fetched_date": "2026-04-03"
     },
     {
       "resource_state": 2,
@@ -3014,24 +2025,7 @@
       "sport_type": "Run",
       "workout_type": null,
       "device_name": "Garmin Forerunner 255 Music",
-      "_fetched_date": "2026-04-01"
-    },
-    {
-      "resource_state": 2,
-      "athlete": {
-        "resource_state": 2,
-        "firstname": "Greta",
-        "lastname": "N."
-      },
-      "name": "Pradedam balandžio iššūkį su 9+ kg",
-      "distance": 4550.5,
-      "moving_time": 4318,
-      "elapsed_time": 4951,
-      "total_elevation_gain": 47.1,
-      "type": "Walk",
-      "sport_type": "Walk",
-      "device_name": "Strava App",
-      "_fetched_date": "2026-04-01"
+      "_fetched_date": "2026-04-03"
     },
     {
       "resource_state": 2,
@@ -3049,7 +2043,7 @@
       "sport_type": "Ride",
       "workout_type": 10,
       "device_name": "Garmin Venu 2 Plus",
-      "_fetched_date": "2026-04-01"
+      "_fetched_date": "2026-04-03"
     },
     {
       "resource_state": 2,
@@ -3066,7 +2060,7 @@
       "type": "Walk",
       "sport_type": "Walk",
       "device_name": "Samsung Health",
-      "_fetched_date": "2026-04-01"
+      "_fetched_date": "2026-04-03"
     },
     {
       "resource_state": 2,
@@ -3084,918 +2078,14 @@
       "sport_type": "Run",
       "workout_type": null,
       "device_name": "Garmin fēnix 7",
-      "_fetched_date": "2026-04-01"
-    },
-    {
-      "resource_state": 2,
-      "athlete": {
-        "resource_state": 2,
-        "firstname": "Greta",
-        "lastname": "N."
-      },
-      "name": "Pietų miegelis :)",
-      "distance": 2712.9,
-      "moving_time": 2535,
-      "elapsed_time": 2908,
-      "total_elevation_gain": 24.4,
-      "type": "Walk",
-      "sport_type": "Walk",
-      "device_name": "Strava App",
-      "_fetched_date": "2026-04-02"
+      "_fetched_date": "2026-04-03"
     }
   ],
   "run_log": [
     {
-      "timestamp": "2026-04-03T11:45:31.717244+00:00",
-      "new_count": 55,
-      "activities": [
-        {
-          "athlete": "Paulius R.",
-          "sport": "Run",
-          "distance_km": 12.97,
-          "name": "Evening Run"
-        },
-        {
-          "athlete": "Augustinas T.",
-          "sport": "Ride",
-          "distance_km": 0.0,
-          "name": "Evening Ride"
-        },
-        {
-          "athlete": "Andrius A.",
-          "sport": "Run",
-          "distance_km": 14.06,
-          "name": "Afternoon Run"
-        },
-        {
-          "athlete": "Andrius A.",
-          "sport": "Run",
-          "distance_km": 8.73,
-          "name": "Morning Run"
-        },
-        {
-          "athlete": "Benediktas B.",
-          "sport": "GravelRide",
-          "distance_km": 32.09,
-          "name": "Evening Gravel Ride"
-        },
-        {
-          "athlete": "Žilvinas P.",
-          "sport": "Run",
-          "distance_km": 5.9,
-          "name": "12 sav. iki HM / 10 savaitė"
-        },
-        {
-          "athlete": "Augustinas T.",
-          "sport": "Ride",
-          "distance_km": 0.0,
-          "name": "Evening Ride"
-        },
-        {
-          "athlete": "Aurelija S.",
-          "sport": "Tennis",
-          "distance_km": 0.49,
-          "name": "Evening Tennis 🎾"
-        },
-        {
-          "athlete": "Žilvinas P.",
-          "sport": "Run",
-          "distance_km": 10.62,
-          "name": "12 sav. iki HM / 9 savaitė"
-        },
-        {
-          "athlete": "Ne L.",
-          "sport": "Ride",
-          "distance_km": 8.46,
-          "name": "Afternoon Ride"
-        },
-        {
-          "athlete": "Benediktas B.",
-          "sport": "Ride",
-          "distance_km": 86.11,
-          "name": "Afternoon Gravel Ride"
-        },
-        {
-          "athlete": "Paulius R.",
-          "sport": "Run",
-          "distance_km": 17.16,
-          "name": "Morning Run"
-        },
-        {
-          "athlete": "Paulius R.",
-          "sport": "Run",
-          "distance_km": 2.94,
-          "name": "Morning Run"
-        },
-        {
-          "athlete": "Augustinas T.",
-          "sport": "Ride",
-          "distance_km": 0.0,
-          "name": "Afternoon Ride"
-        },
-        {
-          "athlete": "Andrius A.",
-          "sport": "Run",
-          "distance_km": 33.01,
-          "name": "Lunch Run"
-        },
-        {
-          "athlete": "Ne L.",
-          "sport": "InlineSkate",
-          "distance_km": 10.98,
-          "name": "Afternoon Inline Skate"
-        },
-        {
-          "athlete": "Benediktas B.",
-          "sport": "Walk",
-          "distance_km": 20.18,
-          "name": "Afternoon Walk"
-        },
-        {
-          "athlete": "Matas A.",
-          "sport": "Ride",
-          "distance_km": 30.37,
-          "name": "Afternoon Ride"
-        },
-        {
-          "athlete": "Anton S.",
-          "sport": "Ride",
-          "distance_km": 30.23,
-          "name": "Afternoon Ride"
-        },
-        {
-          "athlete": "Anton S.",
-          "sport": "Ride",
-          "distance_km": 0.37,
-          "name": "Afternoon Ride"
-        },
-        {
-          "athlete": "Riskman G.",
-          "sport": "Hike",
-          "distance_km": 23.3,
-          "name": "Aplink rajoną su svoriais. 11+7"
-        },
-        {
-          "athlete": "Tautvydas Ž.",
-          "sport": "Hike",
-          "distance_km": 20.43,
-          "name": "Lunch Hike"
-        },
-        {
-          "athlete": "Žilvinas P.",
-          "sport": "Ride",
-          "distance_km": 60.74,
-          "name": "Lunch Ride"
-        },
-        {
-          "athlete": "Donatas J.",
-          "sport": "Ride",
-          "distance_km": 61.4,
-          "name": "Lunch Ride"
-        },
-        {
-          "athlete": "Andrius A.",
-          "sport": "Run",
-          "distance_km": 12.51,
-          "name": "Morning Run"
-        },
-        {
-          "athlete": "Paulius R.",
-          "sport": "Run",
-          "distance_km": 8.4,
-          "name": "Evening Run"
-        },
-        {
-          "athlete": "Žilvinas P.",
-          "sport": "Run",
-          "distance_km": 11.66,
-          "name": "12 sav. iki HM / 9 savaitė"
-        },
-        {
-          "athlete": "Benediktas B.",
-          "sport": "Ride",
-          "distance_km": 45.74,
-          "name": "Afternoon Ride"
-        },
-        {
-          "athlete": "Laima A.",
-          "sport": "Workout",
-          "distance_km": 0.0,
-          "name": "Morning Workout"
-        },
-        {
-          "athlete": "Andrius A.",
-          "sport": "Run",
-          "distance_km": 12.97,
-          "name": "Afternoon Run"
-        },
-        {
-          "athlete": "Andrius A.",
-          "sport": "Run",
-          "distance_km": 8.05,
-          "name": "Morning Run"
-        },
-        {
-          "athlete": "Benediktas B.",
-          "sport": "Ride",
-          "distance_km": 20.5,
-          "name": "Evening Ride"
-        },
-        {
-          "athlete": "Andrius A.",
-          "sport": "Run",
-          "distance_km": 8.05,
-          "name": "Morning Run"
-        },
-        {
-          "athlete": "Andrius A.",
-          "sport": "Run",
-          "distance_km": 19.36,
-          "name": "Afternoon Run"
-        },
-        {
-          "athlete": "Aurelija S.",
-          "sport": "Tennis",
-          "distance_km": 0.45,
-          "name": "Evening Tennis 🎾"
-        },
-        {
-          "athlete": "Benediktas B.",
-          "sport": "Ride",
-          "distance_km": 36.66,
-          "name": "Afternoon Ride"
-        },
-        {
-          "athlete": "Laima A.",
-          "sport": "Workout",
-          "distance_km": 0.0,
-          "name": "Morning Workout"
-        },
-        {
-          "athlete": "Augustinas T.",
-          "sport": "Ride",
-          "distance_km": 144.32,
-          "name": "Morning Ride"
-        },
-        {
-          "athlete": "Sandra M.",
-          "sport": "Ride",
-          "distance_km": 4.12,
-          "name": "Afternoon Ride"
-        },
-        {
-          "athlete": "Andrius A.",
-          "sport": "Run",
-          "distance_km": 11.43,
-          "name": "Afternoon Run"
-        },
-        {
-          "athlete": "Sandra M.",
-          "sport": "Ride",
-          "distance_km": 3.55,
-          "name": "Morning Ride"
-        },
-        {
-          "athlete": "Andrius A.",
-          "sport": "Run",
-          "distance_km": 8.91,
-          "name": "Morning Run"
-        },
-        {
-          "athlete": "Azuolas S.",
-          "sport": "Run",
-          "distance_km": 2.9,
-          "name": "Evening Run"
-        },
-        {
-          "athlete": "Paulius R.",
-          "sport": "Run",
-          "distance_km": 7.54,
-          "name": "Evening Run"
-        },
-        {
-          "athlete": "Arunas M.",
-          "sport": "Ride",
-          "distance_km": 2.45,
-          "name": "Išvažiavimas su ožiukais"
-        },
-        {
-          "athlete": "Žilvinas P.",
-          "sport": "Run",
-          "distance_km": 10.74,
-          "name": "12 sav. iki HM / 9 savaitė"
-        },
-        {
-          "athlete": "Riskman G.",
-          "sport": "Ride",
-          "distance_km": 16.85,
-          "name": "Afternoon Ride"
-        },
-        {
-          "athlete": "Liudas S.",
-          "sport": "Run",
-          "distance_km": 12.06,
-          "name": "Lunch Run"
-        },
-        {
-          "athlete": "Augustinas T.",
-          "sport": "Ride",
-          "distance_km": 21.83,
-          "name": "Morning Ride"
-        },
-        {
-          "athlete": "Sandra M.",
-          "sport": "Ride",
-          "distance_km": 9.03,
-          "name": "Afternoon Ride"
-        },
-        {
-          "athlete": "Andrius A.",
-          "sport": "Run",
-          "distance_km": 13.32,
-          "name": "Afternoon Run"
-        },
-        {
-          "athlete": "Sandra M.",
-          "sport": "Ride",
-          "distance_km": 3.71,
-          "name": "Morning Ride"
-        },
-        {
-          "athlete": "Andrius A.",
-          "sport": "Run",
-          "distance_km": 8.75,
-          "name": "Morning Run"
-        },
-        {
-          "athlete": "Azuolas S.",
-          "sport": "Run",
-          "distance_km": 6.11,
-          "name": "Saulėtekis #3"
-        },
-        {
-          "athlete": "Benediktas B.",
-          "sport": "Ride",
-          "distance_km": 23.14,
-          "name": "Evening Ride"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-03T10:56:38.224665+00:00",
-      "new_count": 8,
-      "activities": [
-        {
-          "athlete": "Liudas S.",
-          "sport": "Ride",
-          "distance_km": 3.65,
-          "name": "From gym"
-        },
-        {
-          "athlete": "Arunas M.",
-          "sport": "Walk",
-          "distance_km": 3.15,
-          "name": "Lunch Walk"
-        },
-        {
-          "athlete": "Liudas S.",
-          "sport": "Ride",
-          "distance_km": 0.0,
-          "name": "Gym"
-        },
-        {
-          "athlete": "Augustinas T.",
-          "sport": "Walk",
-          "distance_km": 1.35,
-          "name": "Morning Walk"
-        },
-        {
-          "athlete": "Ieva S.",
-          "sport": "Run",
-          "distance_km": 4.05,
-          "name": "Lunch Run"
-        },
-        {
-          "athlete": "Greta N.",
-          "sport": "Walk",
-          "distance_km": 3.26,
-          "name": "Lunch Walk"
-        },
-        {
-          "athlete": "Andrius A.",
-          "sport": "Walk",
-          "distance_km": 2.69,
-          "name": "Lunch Walk"
-        },
-        {
-          "athlete": "Sandra M.",
-          "sport": "Walk",
-          "distance_km": 3.19,
-          "name": "Lunch Walk"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-03T09:58:31.378074+00:00",
-      "new_count": 4,
-      "activities": [
-        {
-          "athlete": "Viktorija M.",
-          "sport": "Walk",
-          "distance_km": 1.53,
-          "name": "Lunch Walk"
-        },
-        {
-          "athlete": "Donatas J.",
-          "sport": "Walk",
-          "distance_km": 2.15,
-          "name": "Lunch Walk"
-        },
-        {
-          "athlete": "Gertrūda G.",
-          "sport": "Walk",
-          "distance_km": 3.34,
-          "name": "Lunch Walk"
-        },
-        {
-          "athlete": "Liudas S.",
-          "sport": "Ride",
-          "distance_km": 4.66,
-          "name": "To gym!"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-03T08:57:32.613257+00:00",
+      "timestamp": "2026-04-03T12:32:50.376948+00:00",
       "new_count": 0,
       "activities": []
-    },
-    {
-      "timestamp": "2026-04-03T07:13:06.592357+00:00",
-      "new_count": 1,
-      "activities": [
-        {
-          "athlete": "Donatas J.",
-          "sport": "Walk",
-          "distance_km": 1.19,
-          "name": "Morning Walk"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-03T05:34:50.523922+00:00",
-      "new_count": 0,
-      "activities": []
-    },
-    {
-      "timestamp": "2026-04-03T05:33:22.323290+00:00",
-      "new_count": 1,
-      "activities": [
-        {
-          "athlete": "Edvinas V.",
-          "sport": "Ride",
-          "distance_km": 1.34,
-          "name": "Morning Ride"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-03T05:06:54.727158+00:00",
-      "new_count": 5,
-      "activities": [
-        {
-          "athlete": "Edvinas V.",
-          "sport": "Ride",
-          "distance_km": 2.32,
-          "name": "Morning Ride"
-        },
-        {
-          "athlete": "Daina G.",
-          "sport": "Walk",
-          "distance_km": 2.43,
-          "name": "Morning Walk"
-        },
-        {
-          "athlete": "Sandra M.",
-          "sport": "Ride",
-          "distance_km": 7.15,
-          "name": "Morning Ride"
-        },
-        {
-          "athlete": "Gintarė B.",
-          "sport": "Walk",
-          "distance_km": 4.2,
-          "name": "Morning Walk"
-        },
-        {
-          "athlete": "Andrius A.",
-          "sport": "Run",
-          "distance_km": 8.24,
-          "name": "Morning Run"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-03T02:33:47.523276+00:00",
-      "new_count": 0,
-      "activities": []
-    },
-    {
-      "timestamp": "2026-04-02T23:37:30.336282+00:00",
-      "new_count": 0,
-      "activities": []
-    },
-    {
-      "timestamp": "2026-04-02T22:33:44.487758+00:00",
-      "new_count": 0,
-      "activities": []
-    },
-    {
-      "timestamp": "2026-04-02T21:40:50.313951+00:00",
-      "new_count": 0,
-      "activities": []
-    },
-    {
-      "timestamp": "2026-04-02T20:37:51.203239+00:00",
-      "new_count": 0,
-      "activities": []
-    },
-    {
-      "timestamp": "2026-04-02T18:59:51.101262+00:00",
-      "new_count": 6,
-      "activities": [
-        {
-          "athlete": "Azuolas S.",
-          "sport": "Run",
-          "distance_km": 5.18,
-          "name": "Evening Run"
-        },
-        {
-          "athlete": "Augustė J.",
-          "sport": "Walk",
-          "distance_km": 3.02,
-          "name": "Running errands"
-        },
-        {
-          "athlete": "Paulius R.",
-          "sport": "Walk",
-          "distance_km": 9.75,
-          "name": "Evening Walk"
-        },
-        {
-          "athlete": "Aurelija S.",
-          "sport": "Tennis",
-          "distance_km": 0.29,
-          "name": "Evening Tennis 🎾"
-        },
-        {
-          "athlete": "Sandra M.",
-          "sport": "Walk",
-          "distance_km": 2.83,
-          "name": "Night Walk"
-        },
-        {
-          "athlete": "Antanas R.",
-          "sport": "Walk",
-          "distance_km": 1.0,
-          "name": "Evening Walk"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-02T17:51:33.038172+00:00",
-      "new_count": 8,
-      "activities": [
-        {
-          "athlete": "Edvinas V.",
-          "sport": "Walk",
-          "distance_km": 3.4,
-          "name": "Evening Walk"
-        },
-        {
-          "athlete": "Gertrūda G.",
-          "sport": "Run",
-          "distance_km": 2.76,
-          "name": "Bėgimas lauke"
-        },
-        {
-          "athlete": "Stasius F.",
-          "sport": "Run",
-          "distance_km": 5.66,
-          "name": "Evening Run"
-        },
-        {
-          "athlete": "Arturas K.",
-          "sport": "Ride",
-          "distance_km": 15.17,
-          "name": "Evening Ride"
-        },
-        {
-          "athlete": "Tautvydas Ž.",
-          "sport": "Run",
-          "distance_km": 4.32,
-          "name": "Evening Run"
-        },
-        {
-          "athlete": "Donatas J.",
-          "sport": "Ride",
-          "distance_km": 50.81,
-          "name": "Afternoon Ride"
-        },
-        {
-          "athlete": "Antanas R.",
-          "sport": "Swim",
-          "distance_km": 2.4,
-          "name": "Afternoon Swim"
-        },
-        {
-          "athlete": "Sandra M.",
-          "sport": "Ride",
-          "distance_km": 30.15,
-          "name": "Afternoon Ride"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-02T16:08:06.606894+00:00",
-      "new_count": 6,
-      "activities": [
-        {
-          "athlete": "Arunas M.",
-          "sport": "Walk",
-          "distance_km": 1.47,
-          "name": "Afternoon Walk"
-        },
-        {
-          "athlete": "Žilvinas P.",
-          "sport": "Run",
-          "distance_km": 7.02,
-          "name": "12 sav. iki HM / 10 savaitė"
-        },
-        {
-          "athlete": "Tautvydas Ž.",
-          "sport": "Walk",
-          "distance_km": 1.06,
-          "name": "Afternoon Walk"
-        },
-        {
-          "athlete": "Viktorija M.",
-          "sport": "Walk",
-          "distance_km": 12.21,
-          "name": "Afternoon Walk"
-        },
-        {
-          "athlete": "Ieva S.",
-          "sport": "Walk",
-          "distance_km": 1.43,
-          "name": "Evening Walk"
-        },
-        {
-          "athlete": "Greta N.",
-          "sport": "Walk",
-          "distance_km": 2.13,
-          "name": "Vakarinis"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-02T14:58:22.950692+00:00",
-      "new_count": 4,
-      "activities": [
-        {
-          "athlete": "Edvinas V.",
-          "sport": "Ride",
-          "distance_km": 5.62,
-          "name": "Afternoon Ride"
-        },
-        {
-          "athlete": "Tautvydas Ž.",
-          "sport": "Walk",
-          "distance_km": 1.73,
-          "name": "Lunch Walk"
-        },
-        {
-          "athlete": "Andrius A.",
-          "sport": "Run",
-          "distance_km": 17.9,
-          "name": "Afternoon Run"
-        },
-        {
-          "athlete": "Gintarė B.",
-          "sport": "Walk",
-          "distance_km": 1.26,
-          "name": "🐕"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-02T13:23:47.592399+00:00",
-      "new_count": 1,
-      "activities": [
-        {
-          "athlete": "Azuolas S.",
-          "sport": "Walk",
-          "distance_km": 1.76,
-          "name": "Afternoon Walk"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-02T12:27:37.317887+00:00",
-      "new_count": 0,
-      "activities": []
-    },
-    {
-      "timestamp": "2026-04-02T12:21:38.204904+00:00",
-      "new_count": 0,
-      "activities": []
-    },
-    {
-      "timestamp": "2026-04-02T12:18:09.151985+00:00",
-      "new_count": 0,
-      "activities": []
-    },
-    {
-      "timestamp": "2026-04-02T12:17:11.446101+00:00",
-      "new_count": 0,
-      "activities": []
-    },
-    {
-      "timestamp": "2026-04-02T12:12:35.373529+00:00",
-      "new_count": 1,
-      "activities": [
-        {
-          "athlete": "Greta N.",
-          "sport": "Walk",
-          "distance_km": 2.71,
-          "name": "Pietų miegelis :)"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-02T11:48:27.247505+00:00",
-      "new_count": 1,
-      "activities": [
-        {
-          "athlete": "Paulius R.",
-          "sport": "Run",
-          "distance_km": 31.24,
-          "name": "Vilniečiai saugokitės 😎"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-02T10:53:14.602299+00:00",
-      "new_count": 1,
-      "activities": [
-        {
-          "athlete": "Liudas S.",
-          "sport": "Run",
-          "distance_km": 12.01,
-          "name": "Lunch Run"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-02T10:27:19.394157+00:00",
-      "new_count": 9,
-      "activities": [
-        {
-          "athlete": "Ne L.",
-          "sport": "Walk",
-          "distance_km": 3.02,
-          "name": "Lunch Walk"
-        },
-        {
-          "athlete": "Arunas M.",
-          "sport": "Walk",
-          "distance_km": 3.83,
-          "name": "Lunch Walk"
-        },
-        {
-          "athlete": "Daina G.",
-          "sport": "Walk",
-          "distance_km": 2.78,
-          "name": "Spurgos"
-        },
-        {
-          "athlete": "Gertrūda G.",
-          "sport": "Walk",
-          "distance_km": 3.42,
-          "name": "Lunch Walk"
-        },
-        {
-          "athlete": "Donatas J.",
-          "sport": "Walk",
-          "distance_km": 2.14,
-          "name": "Lunch Walk"
-        },
-        {
-          "athlete": "Viktorija M.",
-          "sport": "Walk",
-          "distance_km": 4.2,
-          "name": "Lunch Walk"
-        },
-        {
-          "athlete": "Arturas K.",
-          "sport": "Ride",
-          "distance_km": 11.9,
-          "name": "Lunch Ride"
-        },
-        {
-          "athlete": "Andrius A.",
-          "sport": "Walk",
-          "distance_km": 2.57,
-          "name": "Lunch Walk"
-        },
-        {
-          "athlete": "Gintarė B.",
-          "sport": "Walk",
-          "distance_km": 3.21,
-          "name": "Iki parduotuvės"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-02T09:39:17.213841+00:00",
-      "new_count": 5,
-      "activities": [
-        {
-          "athlete": "Antanas R.",
-          "sport": "Walk",
-          "distance_km": 1.06,
-          "name": "Lunch Walk"
-        },
-        {
-          "athlete": "Greta N.",
-          "sport": "Walk",
-          "distance_km": 1.03,
-          "name": "Taškas po taško."
-        },
-        {
-          "athlete": "Antanas R.",
-          "sport": "Walk",
-          "distance_km": 1.0,
-          "name": "Evening Walk"
-        },
-        {
-          "athlete": "Antanas R.",
-          "sport": "Walk",
-          "distance_km": 1.01,
-          "name": "Evening Walk"
-        },
-        {
-          "athlete": "Antanas R.",
-          "sport": "Swim",
-          "distance_km": 2.3,
-          "name": "Afternoon Swim"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-02T09:22:45.136037+00:00",
-      "new_count": 0,
-      "activities": []
-    },
-    {
-      "timestamp": "2026-04-02T09:14:43.881228+00:00",
-      "new_count": 0,
-      "activities": []
-    },
-    {
-      "timestamp": "2026-04-02T09:10:34.541333+00:00",
-      "new_count": 0,
-      "activities": []
-    },
-    {
-      "timestamp": "2026-04-02T09:03:10.428389+00:00",
-      "new_count": 1,
-      "activities": [
-        {
-          "athlete": "Ieva S.",
-          "sport": "Swim",
-          "distance_km": 1.95,
-          "name": "Morning Swim"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-02T08:08:20.660500+00:00",
-      "new_count": 2,
-      "activities": [
-        {
-          "athlete": "Ne L.",
-          "sport": "Walk",
-          "distance_km": 3.1,
-          "name": "Evening Walk"
-        },
-        {
-          "athlete": "Ne L.",
-          "sport": "Ride",
-          "distance_km": 10.61,
-          "name": "Afternoon Ride"
-        }
-      ]
     }
   ]
 }
