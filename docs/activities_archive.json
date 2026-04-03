@@ -1,5 +1,11 @@
 {
   "fingerprints": [
+    "d0c1fa380c57737c1401841d19d7aa80",
+    "7c1dc061bd4f32e96a94dad75aca9e72",
+    "d5fc33a6a13c7f8ac0ee11790cfebdc7",
+    "8534e86fd5379a8fb49b05615a5878c7",
+    "f64ff849c6dad965152e73a0e6b805ed",
+    "ecccbd37adccb14b5ede2d9d2d6bad46",
     "f4c7cf25b3d5160a022d9cf81a2766a3",
     "76b6e51384fa85f8af3595ccdf06236c",
     "92c15c2d84d1bdb9a7482112487ff2a6",
@@ -190,6 +196,110 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Liudas",
+        "lastname": "S."
+      },
+      "name": "Evening Walk",
+      "distance": 339.6,
+      "moving_time": 297,
+      "elapsed_time": 297,
+      "total_elevation_gain": 5.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Samsung Galaxy Ultra",
+      "_fetched_date": "2026-04-03"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Liudas",
+        "lastname": "S."
+      },
+      "name": "Evening Walk",
+      "distance": 364.3,
+      "moving_time": 395,
+      "elapsed_time": 429,
+      "total_elevation_gain": 0.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Samsung Galaxy Ultra",
+      "_fetched_date": "2026-04-03"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Edvinas",
+        "lastname": "V."
+      },
+      "name": "Afternoon Ride",
+      "distance": 10677.8,
+      "moving_time": 2318,
+      "elapsed_time": 3850,
+      "total_elevation_gain": 72.0,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": null,
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-03"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Augustinas",
+        "lastname": "T."
+      },
+      "name": "Afternoon Walk",
+      "distance": 2775.0,
+      "moving_time": 2811,
+      "elapsed_time": 4995,
+      "total_elevation_gain": 22.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "COROS APEX 4",
+      "_fetched_date": "2026-04-03"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Gintarė",
+        "lastname": "B."
+      },
+      "name": "Afternoon Walk",
+      "distance": 4516.6,
+      "moving_time": 2976,
+      "elapsed_time": 4099,
+      "total_elevation_gain": 38.7,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Samsung Health",
+      "_fetched_date": "2026-04-03"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Sandra",
+        "lastname": "M."
+      },
+      "name": "Afternoon Ride",
+      "distance": 22166.3,
+      "moving_time": 4488,
+      "elapsed_time": 5408,
+      "total_elevation_gain": 160.0,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": null,
+      "device_name": "Garmin Venu 2 Plus",
+      "_fetched_date": "2026-04-03"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -2173,6 +2283,48 @@
     }
   ],
   "run_log": [
+    {
+      "timestamp": "2026-04-03T15:40:19.216374+00:00",
+      "new_count": 6,
+      "activities": [
+        {
+          "athlete": "Liudas S.",
+          "sport": "Walk",
+          "distance_km": 0.34,
+          "name": "Evening Walk"
+        },
+        {
+          "athlete": "Liudas S.",
+          "sport": "Walk",
+          "distance_km": 0.36,
+          "name": "Evening Walk"
+        },
+        {
+          "athlete": "Edvinas V.",
+          "sport": "Ride",
+          "distance_km": 10.68,
+          "name": "Afternoon Ride"
+        },
+        {
+          "athlete": "Augustinas T.",
+          "sport": "Walk",
+          "distance_km": 2.77,
+          "name": "Afternoon Walk"
+        },
+        {
+          "athlete": "Gintarė B.",
+          "sport": "Walk",
+          "distance_km": 4.52,
+          "name": "Afternoon Walk"
+        },
+        {
+          "athlete": "Sandra M.",
+          "sport": "Ride",
+          "distance_km": 22.17,
+          "name": "Afternoon Ride"
+        }
+      ]
+    },
     {
       "timestamp": "2026-04-03T14:44:49.491169+00:00",
       "new_count": 5,
