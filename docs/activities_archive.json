@@ -2941,6 +2941,11 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-04T20:35:03.642785+00:00",
+      "new_count": 0,
+      "activities": []
+    },
+    {
       "timestamp": "2026-04-04T19:32:30.815098+00:00",
       "new_count": 0,
       "activities": []
@@ -3757,18 +3762,6 @@
       "timestamp": "2026-04-02T15:17:11+03:00",
       "new_count": 0,
       "activities": []
-    },
-    {
-      "timestamp": "2026-04-02T15:12:35+03:00",
-      "new_count": 1,
-      "activities": [
-        {
-          "athlete": "Greta N.",
-          "sport": "Walk",
-          "distance_km": 2.71,
-          "name": "Pietų miegelis :)"
-        }
-      ]
     }
   ]
 }
