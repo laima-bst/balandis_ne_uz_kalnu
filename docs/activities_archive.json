@@ -1,5 +1,7 @@
 {
   "fingerprints": [
+    "2b7df94bf4cff0ed8fdea80119bd9f44",
+    "1bc5df7f63137451c0c7ebc23031c26b",
     "cb1721dd167a3da368a5058cbd65ee17",
     "6d3a000609926ca173155ce64f1ac092",
     "c256d1ca0b5e9b47a469246fca8f149e",
@@ -230,6 +232,40 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Antanas",
+        "lastname": "R."
+      },
+      "name": "Evening Walk",
+      "distance": 1149.1,
+      "moving_time": 721,
+      "elapsed_time": 721,
+      "total_elevation_gain": 20.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin fēnix 7",
+      "_fetched_date": "2026-04-04"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Antanas",
+        "lastname": "R."
+      },
+      "name": "Evening Walk",
+      "distance": 1060.1,
+      "moving_time": 635,
+      "elapsed_time": 635,
+      "total_elevation_gain": 3.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin fēnix 7",
+      "_fetched_date": "2026-04-04"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -2905,6 +2941,24 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-04T18:46:11.464251+00:00",
+      "new_count": 2,
+      "activities": [
+        {
+          "athlete": "Antanas R.",
+          "sport": "Walk",
+          "distance_km": 1.15,
+          "name": "Evening Walk"
+        },
+        {
+          "athlete": "Antanas R.",
+          "sport": "Walk",
+          "distance_km": 1.06,
+          "name": "Evening Walk"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-04T17:33:50.765287+00:00",
       "new_count": 4,
       "activities": [
@@ -3720,18 +3774,6 @@
           "sport": "Run",
           "distance_km": 31.24,
           "name": "Vilniečiai saugokitės 😎"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-02T13:53:14+03:00",
-      "new_count": 1,
-      "activities": [
-        {
-          "athlete": "Liudas S.",
-          "sport": "Run",
-          "distance_km": 12.01,
-          "name": "Lunch Run"
         }
       ]
     }
