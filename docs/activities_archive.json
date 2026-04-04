@@ -2941,6 +2941,11 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-04T19:32:30.815098+00:00",
+      "new_count": 0,
+      "activities": []
+    },
+    {
       "timestamp": "2026-04-04T18:46:11.464251+00:00",
       "new_count": 2,
       "activities": [
@@ -3762,18 +3767,6 @@
           "sport": "Walk",
           "distance_km": 2.71,
           "name": "Pietų miegelis :)"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-02T14:48:27+03:00",
-      "new_count": 1,
-      "activities": [
-        {
-          "athlete": "Paulius R.",
-          "sport": "Run",
-          "distance_km": 31.24,
-          "name": "Vilniečiai saugokitės 😎"
         }
       ]
     }
