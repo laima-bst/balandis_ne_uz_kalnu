@@ -1,5 +1,8 @@
 {
   "fingerprints": [
+    "cb3030b0e8ff1755f9c0aca22601adc0",
+    "780e410a47cf1147702c458a6bd99107",
+    "1dcb1670437e12a50f55b1701b71e933",
     "33009debccd961d820ac8c97d844bb73",
     "5ccb20b42dab1e440828d31a3c070965",
     "a59e8eb917dd713c7992d547d83e3ab7",
@@ -223,6 +226,57 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Liudas",
+        "lastname": "S."
+      },
+      "name": "Evening Walk",
+      "distance": 1736.1,
+      "moving_time": 1249,
+      "elapsed_time": 1270,
+      "total_elevation_gain": 0.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Samsung Galaxy Ultra",
+      "_fetched_date": "2026-04-04"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Azuolas",
+        "lastname": "S."
+      },
+      "name": "Evening Walk",
+      "distance": 2205.3,
+      "moving_time": 1305,
+      "elapsed_time": 1393,
+      "total_elevation_gain": 10.8,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-04"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Donatas",
+        "lastname": "J."
+      },
+      "name": "Evening Walk",
+      "distance": 2008.4,
+      "moving_time": 2139,
+      "elapsed_time": 2761,
+      "total_elevation_gain": 67.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin Forerunner 255 Music",
+      "_fetched_date": "2026-04-04"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -2779,6 +2833,30 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-04T16:38:21.064521+00:00",
+      "new_count": 3,
+      "activities": [
+        {
+          "athlete": "Liudas S.",
+          "sport": "Walk",
+          "distance_km": 1.74,
+          "name": "Evening Walk"
+        },
+        {
+          "athlete": "Azuolas S.",
+          "sport": "Walk",
+          "distance_km": 2.21,
+          "name": "Evening Walk"
+        },
+        {
+          "athlete": "Donatas J.",
+          "sport": "Walk",
+          "distance_km": 2.01,
+          "name": "Evening Walk"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-04T15:35:00.447673+00:00",
       "new_count": 2,
       "activities": [
@@ -3612,42 +3690,6 @@
           "sport": "Walk",
           "distance_km": 3.21,
           "name": "Iki parduotuvės"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-02T12:39:17+03:00",
-      "new_count": 5,
-      "activities": [
-        {
-          "athlete": "Antanas R.",
-          "sport": "Walk",
-          "distance_km": 1.06,
-          "name": "Lunch Walk"
-        },
-        {
-          "athlete": "Greta N.",
-          "sport": "Walk",
-          "distance_km": 1.03,
-          "name": "Taškas po taško."
-        },
-        {
-          "athlete": "Antanas R.",
-          "sport": "Walk",
-          "distance_km": 1.0,
-          "name": "Evening Walk"
-        },
-        {
-          "athlete": "Antanas R.",
-          "sport": "Walk",
-          "distance_km": 1.01,
-          "name": "Evening Walk"
-        },
-        {
-          "athlete": "Antanas R.",
-          "sport": "Swim",
-          "distance_km": 2.3,
-          "name": "Afternoon Swim"
         }
       ]
     }
