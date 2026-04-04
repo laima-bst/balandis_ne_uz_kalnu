@@ -1,5 +1,6 @@
 {
   "fingerprints": [
+    "a59e8eb917dd713c7992d547d83e3ab7",
     "de58a90cd25dfaffdd30ba5083a5b8e2",
     "0a923cf89279cc742c10c0a7ea1e0af7",
     "7b5bdb4ff40b90b4e53a1c26bf2294f6",
@@ -220,6 +221,23 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Ieva",
+        "lastname": "S."
+      },
+      "name": "Afternoon Walk",
+      "distance": 4016.0,
+      "moving_time": 2733,
+      "elapsed_time": 2787,
+      "total_elevation_gain": 21.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin Forerunner 255 Music",
+      "_fetched_date": "2026-04-04"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -2724,6 +2742,18 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-04T14:35:14.724231+00:00",
+      "new_count": 1,
+      "activities": [
+        {
+          "athlete": "Ieva S.",
+          "sport": "Walk",
+          "distance_km": 4.02,
+          "name": "Afternoon Walk"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-04T13:00:21.493828+00:00",
       "new_count": 2,
       "activities": [
@@ -3568,11 +3598,6 @@
     },
     {
       "timestamp": "2026-04-02T12:22:45+03:00",
-      "new_count": 0,
-      "activities": []
-    },
-    {
-      "timestamp": "2026-04-02T12:14:43+03:00",
       "new_count": 0,
       "activities": []
     }

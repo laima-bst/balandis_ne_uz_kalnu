@@ -161,9 +161,9 @@
     {
       "name": "Sūkuriai",
       "color": "#9b59b6",
-      "total_points": 242.1,
-      "total_distance_km": 102.95,
-      "activity_count": 16,
+      "total_points": 254.1,
+      "total_distance_km": 106.97,
+      "activity_count": 17,
       "members": [
         "Ieva S.",
         "Matas A.",
@@ -171,27 +171,27 @@
         "Daina G."
       ],
       "member_count": 5,
-      "points_per_person": 48.4,
+      "points_per_person": 50.8,
       "member_details": [
         {
           "name": "Žilvinas P.",
           "points": 90.7,
-          "pct_of_team": 37.5
+          "pct_of_team": 35.7
         },
         {
           "name": "Ieva S.",
-          "points": 75.8,
-          "pct_of_team": 31.3
+          "points": 87.8,
+          "pct_of_team": 34.6
         },
         {
           "name": "Daina G.",
           "points": 71.5,
-          "pct_of_team": 29.5
+          "pct_of_team": 28.1
         },
         {
           "name": "Matas A.",
           "points": 4.1,
-          "pct_of_team": 1.7
+          "pct_of_team": 1.6
         },
         {
           "name": "Domas C.",
@@ -200,7 +200,7 @@
         }
       ],
       "distance_by_group": {
-        "run_walk": 55.9,
+        "run_walk": 59.9,
         "ride": 45.1,
         "swim": 1.9
       },
@@ -341,14 +341,14 @@
         "Nemiegantys Balandžiai": 568.5,
         "Balandžio dvasia": 418.7,
         "Tardigrada": 467.0,
-        "Sūkuriai": 242.1,
+        "Sūkuriai": 254.1,
         "Nešam Kudašių": 179.2
       },
       "points_per_person": {
         "Nemiegantys Balandžiai": 94.8,
         "Balandžio dvasia": 83.7,
         "Tardigrada": 93.4,
-        "Sūkuriai": 48.4,
+        "Sūkuriai": 50.8,
         "Nešam Kudašių": 35.8
       }
     }
@@ -505,6 +505,36 @@
       }
     },
     {
+      "name": "Ieva S.",
+      "total_points": 87.8,
+      "activity_count": 7,
+      "total_distance_km": 21.47,
+      "total_elevation_m": 187.0,
+      "by_type": {
+        "Walk": {
+          "count": 4,
+          "points": 33.3,
+          "distance_km": 11.1
+        },
+        "Run": {
+          "count": 2,
+          "points": 25.299999999999997,
+          "distance_km": 8.42
+        },
+        "Swim": {
+          "count": 1,
+          "points": 29.2,
+          "distance_km": 1.95
+        }
+      },
+      "rank": 7,
+      "points_by_group": {
+        "run_walk": 58.6,
+        "ride": 0.0,
+        "swim": 29.2
+      }
+    },
+    {
       "name": "Azuolas S.",
       "total_points": 86.4,
       "activity_count": 8,
@@ -522,41 +552,11 @@
           "distance_km": 16.419999999999998
         }
       },
-      "rank": 7,
+      "rank": 8,
       "points_by_group": {
         "run_walk": 86.4,
         "ride": 0.0,
         "swim": 0.0
-      }
-    },
-    {
-      "name": "Ieva S.",
-      "total_points": 75.8,
-      "activity_count": 6,
-      "total_distance_km": 17.45,
-      "total_elevation_m": 166.0,
-      "by_type": {
-        "Walk": {
-          "count": 3,
-          "points": 21.299999999999997,
-          "distance_km": 7.08
-        },
-        "Run": {
-          "count": 2,
-          "points": 25.299999999999997,
-          "distance_km": 8.42
-        },
-        "Swim": {
-          "count": 1,
-          "points": 29.2,
-          "distance_km": 1.95
-        }
-      },
-      "rank": 8,
-      "points_by_group": {
-        "run_walk": 46.6,
-        "ride": 0.0,
-        "swim": 29.2
       }
     },
     {
@@ -911,6 +911,18 @@
     }
   ],
   "activities": [
+    {
+      "athlete_key": "ieva_s.",
+      "athlete_name": "Ieva S.",
+      "name": "Afternoon Walk",
+      "sport_type": "Walk",
+      "start_date": null,
+      "_fetched_date": "2026-04-04",
+      "distance_km": 4.02,
+      "elevation_m": 21.0,
+      "moving_time_s": 2733,
+      "points": 12.0
+    },
     {
       "athlete_key": "paulius_r.",
       "athlete_name": "Paulius R.",
@@ -2496,8 +2508,20 @@
       "points": 27.5
     }
   ],
-  "generated_at": "2026-04-04T13:00:21.502626+00:00",
+  "generated_at": "2026-04-04T14:35:14.733110+00:00",
   "run_log": [
+    {
+      "timestamp": "2026-04-04T14:35:14.724231+00:00",
+      "new_count": 1,
+      "activities": [
+        {
+          "athlete": "Ieva S.",
+          "sport": "Walk",
+          "distance_km": 4.02,
+          "name": "Afternoon Walk"
+        }
+      ]
+    },
     {
       "timestamp": "2026-04-04T13:00:21.493828+00:00",
       "new_count": 2,
@@ -3343,11 +3367,6 @@
     },
     {
       "timestamp": "2026-04-02T12:22:45+03:00",
-      "new_count": 0,
-      "activities": []
-    },
-    {
-      "timestamp": "2026-04-02T12:14:43+03:00",
       "new_count": 0,
       "activities": []
     }
