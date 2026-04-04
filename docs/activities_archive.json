@@ -1,5 +1,12 @@
 {
   "fingerprints": [
+    "7b5bdb4ff40b90b4e53a1c26bf2294f6",
+    "07e61b6af0e16fc1433c3fd10e5789f5",
+    "038295ef14327ff8c8268996e247fd41",
+    "c207002f230b61aadb9e67ec10799745",
+    "48ba77a23f3f4dbae0f92b1cab8da424",
+    "a6e8cf9d444bfcc8c5d3452bdcee30fe",
+    "4bc6f204cdc2dd29f6899dbb9897ea38",
     "73b9e883703dffab47fd37504d88f623",
     "c37c88156a67ecea53a6d0e4613cbb02",
     "86c2933ad4a97c4eeab54fc4d46cb74e",
@@ -211,6 +218,126 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Arunas",
+        "lastname": "M."
+      },
+      "name": "Afternoon Walk",
+      "distance": 3409.2,
+      "moving_time": 1984,
+      "elapsed_time": 2047,
+      "total_elevation_gain": 4.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-04"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Aurelija",
+        "lastname": "S."
+      },
+      "name": "Bent kažkiek prisidėti prie komandos 🙂",
+      "distance": 2618.8,
+      "moving_time": 2278,
+      "elapsed_time": 7276,
+      "total_elevation_gain": 13.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin Venu 3S",
+      "_fetched_date": "2026-04-04"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Benediktas",
+        "lastname": "B."
+      },
+      "name": "Lunch Gravel Ride",
+      "distance": 57799.5,
+      "moving_time": 9133,
+      "elapsed_time": 10116,
+      "total_elevation_gain": 307.0,
+      "type": "Ride",
+      "sport_type": "GravelRide",
+      "workout_type": null,
+      "device_name": "Garmin Edge Explore 2",
+      "_fetched_date": "2026-04-04"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Antanas",
+        "lastname": "R."
+      },
+      "name": "Lunch Walk",
+      "distance": 1619.3,
+      "moving_time": 1079,
+      "elapsed_time": 1104,
+      "total_elevation_gain": 34.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin fēnix 7",
+      "_fetched_date": "2026-04-04"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Sandra",
+        "lastname": "M."
+      },
+      "name": "Morning Walk",
+      "distance": 3978.4,
+      "moving_time": 3206,
+      "elapsed_time": 10680,
+      "total_elevation_gain": 8.6,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-04"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Antanas",
+        "lastname": "R."
+      },
+      "name": "Morning Walk",
+      "distance": 1395.2,
+      "moving_time": 916,
+      "elapsed_time": 1041,
+      "total_elevation_gain": 9.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin fēnix 7",
+      "_fetched_date": "2026-04-04"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Antanas",
+        "lastname": "R."
+      },
+      "name": "Morning Swim",
+      "distance": 1500.0,
+      "moving_time": 2246,
+      "elapsed_time": 3237,
+      "total_elevation_gain": 0,
+      "type": "Swim",
+      "sport_type": "Swim",
+      "device_name": "Garmin fēnix 7",
+      "_fetched_date": "2026-04-04"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -2560,6 +2687,54 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-04T11:31:08.236159+00:00",
+      "new_count": 7,
+      "activities": [
+        {
+          "athlete": "Arunas M.",
+          "sport": "Walk",
+          "distance_km": 3.41,
+          "name": "Afternoon Walk"
+        },
+        {
+          "athlete": "Aurelija S.",
+          "sport": "Walk",
+          "distance_km": 2.62,
+          "name": "Bent kažkiek prisidėti prie komandos 🙂"
+        },
+        {
+          "athlete": "Benediktas B.",
+          "sport": "GravelRide",
+          "distance_km": 57.8,
+          "name": "Lunch Gravel Ride"
+        },
+        {
+          "athlete": "Antanas R.",
+          "sport": "Walk",
+          "distance_km": 1.62,
+          "name": "Lunch Walk"
+        },
+        {
+          "athlete": "Sandra M.",
+          "sport": "Walk",
+          "distance_km": 3.98,
+          "name": "Morning Walk"
+        },
+        {
+          "athlete": "Antanas R.",
+          "sport": "Walk",
+          "distance_km": 1.4,
+          "name": "Morning Walk"
+        },
+        {
+          "athlete": "Antanas R.",
+          "sport": "Swim",
+          "distance_km": 1.5,
+          "name": "Morning Swim"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-04T10:36:15.978709+00:00",
       "new_count": 0,
       "activities": []
@@ -3350,18 +3525,6 @@
       "timestamp": "2026-04-02T12:10:34+03:00",
       "new_count": 0,
       "activities": []
-    },
-    {
-      "timestamp": "2026-04-02T12:03:10+03:00",
-      "new_count": 1,
-      "activities": [
-        {
-          "athlete": "Ieva S.",
-          "sport": "Swim",
-          "distance_km": 1.95,
-          "name": "Morning Swim"
-        }
-      ]
     }
   ]
 }
