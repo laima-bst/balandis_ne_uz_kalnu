@@ -1,5 +1,6 @@
 {
   "fingerprints": [
+    "4e03b824d66b95282799807707d1a8a7",
     "372b46c85b965383e8ac2c1fb986dc12",
     "22a233612fc1132e5bd9fe1026d3a341",
     "0d0f53c0538b5b8e5c9eca49ef624998",
@@ -207,6 +208,24 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Azuolas",
+        "lastname": "S."
+      },
+      "name": "Morning Run",
+      "distance": 5016.9,
+      "moving_time": 1845,
+      "elapsed_time": 1865,
+      "total_elevation_gain": 19.4,
+      "type": "Run",
+      "sport_type": "Run",
+      "workout_type": null,
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-04"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -2485,6 +2504,18 @@
     }
   ],
   "run_log": [
+    {
+      "timestamp": "2026-04-04T07:13:14.781450+00:00",
+      "new_count": 1,
+      "activities": [
+        {
+          "athlete": "Azuolas S.",
+          "sport": "Run",
+          "distance_km": 5.02,
+          "name": "Morning Run"
+        }
+      ]
+    },
     {
       "timestamp": "2026-04-04T05:58:42.136129+00:00",
       "new_count": 2,
