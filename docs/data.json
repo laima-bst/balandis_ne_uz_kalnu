@@ -8,53 +8,53 @@
     {
       "name": "Nemiegantys Balandžiai",
       "color": "#e74c3c",
-      "total_points": 547.6,
-      "total_distance_km": 264.35,
-      "activity_count": 43,
+      "total_points": 556.6,
+      "total_distance_km": 267.36,
+      "activity_count": 44,
       "members": [
+        "Tautvydas Ž.",
         "Liudas S.",
         "Edvinas V.",
         "Sandra M.",
         "Andrius A.",
-        "Viktorija M.",
-        "Tautvydas Ž."
+        "Viktorija M."
       ],
       "member_count": 6,
-      "points_per_person": 91.3,
+      "points_per_person": 92.8,
       "member_details": [
         {
           "name": "Andrius A.",
           "points": 225.3,
-          "pct_of_team": 41.1
+          "pct_of_team": 40.5
         },
         {
           "name": "Sandra M.",
           "points": 98.1,
-          "pct_of_team": 17.9
+          "pct_of_team": 17.6
         },
         {
           "name": "Viktorija M.",
           "points": 71.3,
-          "pct_of_team": 13.0
+          "pct_of_team": 12.8
         },
         {
           "name": "Liudas S.",
           "points": 65.3,
-          "pct_of_team": 11.9
+          "pct_of_team": 11.7
         },
         {
           "name": "Tautvydas Ž.",
-          "points": 49.0,
-          "pct_of_team": 8.9
+          "points": 58.0,
+          "pct_of_team": 10.4
         },
         {
           "name": "Edvinas V.",
           "points": 38.6,
-          "pct_of_team": 7.0
+          "pct_of_team": 6.9
         }
       ],
       "distance_by_group": {
-        "run_walk": 141.5,
+        "run_walk": 144.5,
         "ride": 122.9,
         "swim": 0.0
       },
@@ -209,9 +209,9 @@
     {
       "name": "Nešam Kudašių",
       "color": "#f39c12",
-      "total_points": 127.6,
-      "total_distance_km": 75.72,
-      "activity_count": 11,
+      "total_points": 133.7,
+      "total_distance_km": 77.74,
+      "activity_count": 12,
       "members": [
         "Azuolas S.",
         "Arturas K.",
@@ -219,27 +219,27 @@
         "Augustė J."
       ],
       "member_count": 5,
-      "points_per_person": 25.5,
+      "points_per_person": 26.7,
       "member_details": [
         {
           "name": "Azuolas S.",
-          "points": 56.2,
-          "pct_of_team": 44.0
+          "points": 62.3,
+          "pct_of_team": 46.6
         },
         {
           "name": "Arturas K.",
           "points": 49.9,
-          "pct_of_team": 39.1
+          "pct_of_team": 37.3
         },
         {
           "name": "Augustinas T.",
           "points": 12.4,
-          "pct_of_team": 9.7
+          "pct_of_team": 9.3
         },
         {
           "name": "Augustė J.",
           "points": 9.1,
-          "pct_of_team": 7.1
+          "pct_of_team": 6.8
         },
         {
           "name": "Valentinas A.",
@@ -248,7 +248,7 @@
         }
       ],
       "distance_by_group": {
-        "run_walk": 25.9,
+        "run_walk": 27.9,
         "ride": 49.9,
         "swim": 0.0
       },
@@ -326,6 +326,30 @@
         "Tardigrada": 77.3,
         "Sūkuriai": 46.2,
         "Nešam Kudašių": 25.5
+      }
+    },
+    {
+      "date": "2026-04-04",
+      "rankings": {
+        "Nemiegantys Balandžiai": 1,
+        "Tardigrada": 2,
+        "Balandžio dvasia": 3,
+        "Sūkuriai": 4,
+        "Nešam Kudašių": 5
+      },
+      "points": {
+        "Nemiegantys Balandžiai": 556.6,
+        "Balandžio dvasia": 315.5,
+        "Tardigrada": 386.5,
+        "Sūkuriai": 231.2,
+        "Nešam Kudašių": 133.7
+      },
+      "points_per_person": {
+        "Nemiegantys Balandžiai": 92.8,
+        "Balandžio dvasia": 63.1,
+        "Tardigrada": 77.3,
+        "Sūkuriai": 46.2,
+        "Nešam Kudašių": 26.7
       }
     }
   ],
@@ -622,15 +646,15 @@
     },
     {
       "name": "Azuolas S.",
-      "total_points": 56.2,
-      "activity_count": 5,
-      "total_distance_km": 18.73,
-      "total_elevation_m": 98.0,
+      "total_points": 62.3,
+      "activity_count": 6,
+      "total_distance_km": 20.75,
+      "total_elevation_m": 101.0,
       "by_type": {
         "Walk": {
-          "count": 3,
-          "points": 22.0,
-          "distance_km": 7.33
+          "count": 4,
+          "points": 28.099999999999998,
+          "distance_km": 9.35
         },
         "Run": {
           "count": 2,
@@ -640,7 +664,32 @@
       },
       "rank": 13,
       "points_by_group": {
-        "run_walk": 56.2,
+        "run_walk": 62.3,
+        "ride": 0.0,
+        "swim": 0.0
+      }
+    },
+    {
+      "name": "Tautvydas Ž.",
+      "total_points": 58.0,
+      "activity_count": 6,
+      "total_distance_km": 19.3,
+      "total_elevation_m": 73.0,
+      "by_type": {
+        "Walk": {
+          "count": 4,
+          "points": 24.7,
+          "distance_km": 8.23
+        },
+        "Run": {
+          "count": 2,
+          "points": 33.3,
+          "distance_km": 11.07
+        }
+      },
+      "rank": 14,
+      "points_by_group": {
+        "run_walk": 58.0,
         "ride": 0.0,
         "swim": 0.0
       }
@@ -658,35 +707,10 @@
           "distance_km": 49.85
         }
       },
-      "rank": 14,
+      "rank": 15,
       "points_by_group": {
         "run_walk": 0.0,
         "ride": 49.9,
-        "swim": 0.0
-      }
-    },
-    {
-      "name": "Tautvydas Ž.",
-      "total_points": 49.0,
-      "activity_count": 5,
-      "total_distance_km": 16.29,
-      "total_elevation_m": 64.0,
-      "by_type": {
-        "Run": {
-          "count": 2,
-          "points": 33.3,
-          "distance_km": 11.07
-        },
-        "Walk": {
-          "count": 3,
-          "points": 15.7,
-          "distance_km": 5.220000000000001
-        }
-      },
-      "rank": 15,
-      "points_by_group": {
-        "run_walk": 49.0,
-        "ride": 0.0,
         "swim": 0.0
       }
     },
@@ -887,6 +911,30 @@
     }
   ],
   "activities": [
+    {
+      "athlete_key": "azuolas_s.",
+      "athlete_name": "Azuolas S.",
+      "name": "Morning Walk",
+      "sport_type": "Walk",
+      "start_date": null,
+      "_fetched_date": "2026-04-04",
+      "distance_km": 2.02,
+      "elevation_m": 2.5,
+      "moving_time_s": 1228,
+      "points": 6.1
+    },
+    {
+      "athlete_key": "tautvydas_ž.",
+      "athlete_name": "Tautvydas Ž.",
+      "name": "Morning Walk",
+      "sport_type": "Walk",
+      "start_date": null,
+      "_fetched_date": "2026-04-04",
+      "distance_km": 3.01,
+      "elevation_m": 9.8,
+      "moving_time_s": 2302,
+      "points": 9.0
+    },
     {
       "athlete_key": "azuolas_s.",
       "athlete_name": "Azuolas S.",
@@ -2304,8 +2352,26 @@
       "points": 27.5
     }
   ],
-  "generated_at": "2026-04-04T04:51:55.488029+00:00",
+  "generated_at": "2026-04-04T05:58:42.144468+00:00",
   "run_log": [
+    {
+      "timestamp": "2026-04-04T05:58:42.136129+00:00",
+      "new_count": 2,
+      "activities": [
+        {
+          "athlete": "Azuolas S.",
+          "sport": "Walk",
+          "distance_km": 2.02,
+          "name": "Morning Walk"
+        },
+        {
+          "athlete": "Tautvydas Ž.",
+          "sport": "Walk",
+          "distance_km": 3.01,
+          "name": "Morning Walk"
+        }
+      ]
+    },
     {
       "timestamp": "2026-04-04T04:51:55.479713+00:00",
       "new_count": 0,
