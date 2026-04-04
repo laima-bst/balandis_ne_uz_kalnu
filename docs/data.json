@@ -2400,8 +2400,13 @@
       "points": 27.5
     }
   ],
-  "generated_at": "2026-04-04T09:40:39.029670+00:00",
+  "generated_at": "2026-04-04T10:36:15.987133+00:00",
   "run_log": [
+    {
+      "timestamp": "2026-04-04T10:36:15.978709+00:00",
+      "new_count": 0,
+      "activities": []
+    },
     {
       "timestamp": "2026-04-04T09:40:39.021022+00:00",
       "new_count": 2,
@@ -3198,24 +3203,6 @@
           "sport": "Swim",
           "distance_km": 1.95,
           "name": "Morning Swim"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-02T11:08:20+03:00",
-      "new_count": 2,
-      "activities": [
-        {
-          "athlete": "Ne L.",
-          "sport": "Walk",
-          "distance_km": 3.1,
-          "name": "Evening Walk"
-        },
-        {
-          "athlete": "Ne L.",
-          "sport": "Ride",
-          "distance_km": 10.61,
-          "name": "Afternoon Ride"
         }
       ]
     }
