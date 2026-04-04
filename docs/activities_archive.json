@@ -1,5 +1,7 @@
 {
   "fingerprints": [
+    "33009debccd961d820ac8c97d844bb73",
+    "5ccb20b42dab1e440828d31a3c070965",
     "a59e8eb917dd713c7992d547d83e3ab7",
     "de58a90cd25dfaffdd30ba5083a5b8e2",
     "0a923cf89279cc742c10c0a7ea1e0af7",
@@ -221,6 +223,41 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Andrius",
+        "lastname": "A."
+      },
+      "name": "Afternoon Run",
+      "distance": 16545.6,
+      "moving_time": 4339,
+      "elapsed_time": 4339,
+      "total_elevation_gain": 144.0,
+      "type": "Run",
+      "sport_type": "Run",
+      "workout_type": null,
+      "device_name": "Garmin fēnix 7",
+      "_fetched_date": "2026-04-04"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Sandra",
+        "lastname": "M."
+      },
+      "name": "Afternoon Walk",
+      "distance": 1779.5,
+      "moving_time": 1356,
+      "elapsed_time": 2399,
+      "total_elevation_gain": 2.8,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-04"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -2742,6 +2779,24 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-04T15:35:00.447673+00:00",
+      "new_count": 2,
+      "activities": [
+        {
+          "athlete": "Andrius A.",
+          "sport": "Run",
+          "distance_km": 16.55,
+          "name": "Afternoon Run"
+        },
+        {
+          "athlete": "Sandra M.",
+          "sport": "Walk",
+          "distance_km": 1.78,
+          "name": "Afternoon Walk"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-04T14:35:14.724231+00:00",
       "new_count": 1,
       "activities": [
@@ -3595,11 +3650,6 @@
           "name": "Afternoon Swim"
         }
       ]
-    },
-    {
-      "timestamp": "2026-04-02T12:22:45+03:00",
-      "new_count": 0,
-      "activities": []
     }
   ]
 }
