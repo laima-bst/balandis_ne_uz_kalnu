@@ -1,5 +1,6 @@
 {
   "fingerprints": [
+    "4f74576fe1b7f239f64473f337b2a1ec",
     "2b7df94bf4cff0ed8fdea80119bd9f44",
     "1bc5df7f63137451c0c7ebc23031c26b",
     "cb1721dd167a3da368a5058cbd65ee17",
@@ -232,6 +233,23 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Paulius",
+        "lastname": "R."
+      },
+      "name": "Night Walk",
+      "distance": 7861.2,
+      "moving_time": 4542,
+      "elapsed_time": 4542,
+      "total_elevation_gain": 9.7,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Wear OS by Google",
+      "_fetched_date": "2026-04-04"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -2941,6 +2959,18 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-04T21:34:22.410826+00:00",
+      "new_count": 1,
+      "activities": [
+        {
+          "athlete": "Paulius R.",
+          "sport": "Walk",
+          "distance_km": 7.86,
+          "name": "Night Walk"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-04T20:35:03.642785+00:00",
       "new_count": 0,
       "activities": []
@@ -3755,11 +3785,6 @@
     },
     {
       "timestamp": "2026-04-02T15:18:09+03:00",
-      "new_count": 0,
-      "activities": []
-    },
-    {
-      "timestamp": "2026-04-02T15:17:11+03:00",
       "new_count": 0,
       "activities": []
     }
