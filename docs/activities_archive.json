@@ -1,5 +1,7 @@
 {
   "fingerprints": [
+    "de58a90cd25dfaffdd30ba5083a5b8e2",
+    "0a923cf89279cc742c10c0a7ea1e0af7",
     "7b5bdb4ff40b90b4e53a1c26bf2294f6",
     "07e61b6af0e16fc1433c3fd10e5789f5",
     "038295ef14327ff8c8268996e247fd41",
@@ -218,6 +220,41 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Paulius",
+        "lastname": "R."
+      },
+      "name": "Afternoon Run",
+      "distance": 16310.2,
+      "moving_time": 5535,
+      "elapsed_time": 5679,
+      "total_elevation_gain": 20.1,
+      "type": "Run",
+      "sport_type": "Run",
+      "workout_type": null,
+      "device_name": "Wear OS by Google",
+      "_fetched_date": "2026-04-04"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Augustinas",
+        "lastname": "T."
+      },
+      "name": "Morning Walk",
+      "distance": 7144.2,
+      "moving_time": 6209,
+      "elapsed_time": 13544,
+      "total_elevation_gain": 15.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "COROS APEX 4",
+      "_fetched_date": "2026-04-04"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -2687,6 +2724,24 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-04T13:00:21.493828+00:00",
+      "new_count": 2,
+      "activities": [
+        {
+          "athlete": "Paulius R.",
+          "sport": "Run",
+          "distance_km": 16.31,
+          "name": "Afternoon Run"
+        },
+        {
+          "athlete": "Augustinas T.",
+          "sport": "Walk",
+          "distance_km": 7.14,
+          "name": "Morning Walk"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-04T11:31:08.236159+00:00",
       "new_count": 7,
       "activities": [
@@ -3518,11 +3573,6 @@
     },
     {
       "timestamp": "2026-04-02T12:14:43+03:00",
-      "new_count": 0,
-      "activities": []
-    },
-    {
-      "timestamp": "2026-04-02T12:10:34+03:00",
       "new_count": 0,
       "activities": []
     }
