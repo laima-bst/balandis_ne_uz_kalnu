@@ -1,5 +1,9 @@
 {
   "fingerprints": [
+    "cb1721dd167a3da368a5058cbd65ee17",
+    "6d3a000609926ca173155ce64f1ac092",
+    "c256d1ca0b5e9b47a469246fca8f149e",
+    "e3d4af8d6a5adeab96689949cb788165",
     "cb3030b0e8ff1755f9c0aca22601adc0",
     "780e410a47cf1147702c458a6bd99107",
     "1dcb1670437e12a50f55b1701b71e933",
@@ -226,6 +230,74 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Ne",
+        "lastname": "L."
+      },
+      "name": "Evening Walk",
+      "distance": 1015.8,
+      "moving_time": 880,
+      "elapsed_time": 934,
+      "total_elevation_gain": 0.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-04"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Liudas",
+        "lastname": "S."
+      },
+      "name": "Evening Walk",
+      "distance": 1668.7,
+      "moving_time": 1179,
+      "elapsed_time": 1201,
+      "total_elevation_gain": 11.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Samsung Galaxy Ultra",
+      "_fetched_date": "2026-04-04"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Gertrūda",
+        "lastname": "G."
+      },
+      "name": "Bėgimas lauke",
+      "distance": 4040.0,
+      "moving_time": 1975,
+      "elapsed_time": 1975,
+      "total_elevation_gain": 0,
+      "type": "Run",
+      "sport_type": "Run",
+      "workout_type": null,
+      "_fetched_date": "2026-04-04"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Sandra",
+        "lastname": "M."
+      },
+      "name": "Evening Walk",
+      "distance": 2715.4,
+      "moving_time": 2264,
+      "elapsed_time": 2506,
+      "total_elevation_gain": 4.9,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-04"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -2833,6 +2905,36 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-04T17:33:50.765287+00:00",
+      "new_count": 4,
+      "activities": [
+        {
+          "athlete": "Ne L.",
+          "sport": "Walk",
+          "distance_km": 1.02,
+          "name": "Evening Walk"
+        },
+        {
+          "athlete": "Liudas S.",
+          "sport": "Walk",
+          "distance_km": 1.67,
+          "name": "Evening Walk"
+        },
+        {
+          "athlete": "Gertrūda G.",
+          "sport": "Run",
+          "distance_km": 4.04,
+          "name": "Bėgimas lauke"
+        },
+        {
+          "athlete": "Sandra M.",
+          "sport": "Walk",
+          "distance_km": 2.72,
+          "name": "Evening Walk"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-04T16:38:21.064521+00:00",
       "new_count": 3,
       "activities": [
@@ -3630,66 +3732,6 @@
           "sport": "Run",
           "distance_km": 12.01,
           "name": "Lunch Run"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-02T13:27:19+03:00",
-      "new_count": 9,
-      "activities": [
-        {
-          "athlete": "Ne L.",
-          "sport": "Walk",
-          "distance_km": 3.02,
-          "name": "Lunch Walk"
-        },
-        {
-          "athlete": "Arunas M.",
-          "sport": "Walk",
-          "distance_km": 3.83,
-          "name": "Lunch Walk"
-        },
-        {
-          "athlete": "Daina G.",
-          "sport": "Walk",
-          "distance_km": 2.78,
-          "name": "Spurgos"
-        },
-        {
-          "athlete": "Gertrūda G.",
-          "sport": "Walk",
-          "distance_km": 3.42,
-          "name": "Lunch Walk"
-        },
-        {
-          "athlete": "Donatas J.",
-          "sport": "Walk",
-          "distance_km": 2.14,
-          "name": "Lunch Walk"
-        },
-        {
-          "athlete": "Viktorija M.",
-          "sport": "Walk",
-          "distance_km": 4.2,
-          "name": "Lunch Walk"
-        },
-        {
-          "athlete": "Arturas K.",
-          "sport": "Ride",
-          "distance_km": 11.9,
-          "name": "Lunch Ride"
-        },
-        {
-          "athlete": "Andrius A.",
-          "sport": "Walk",
-          "distance_km": 2.57,
-          "name": "Lunch Walk"
-        },
-        {
-          "athlete": "Gintarė B.",
-          "sport": "Walk",
-          "distance_km": 3.21,
-          "name": "Iki parduotuvės"
         }
       ]
     }
