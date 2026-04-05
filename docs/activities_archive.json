@@ -3412,6 +3412,11 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-05T20:36:45.888123+00:00",
+      "new_count": 0,
+      "activities": []
+    },
+    {
       "timestamp": "2026-04-05T19:35:00.261148+00:00",
       "new_count": 0,
       "activities": []
@@ -4196,18 +4201,6 @@
       "timestamp": "2026-04-03T11:57:32+03:00",
       "new_count": 0,
       "activities": []
-    },
-    {
-      "timestamp": "2026-04-03T10:13:06+03:00",
-      "new_count": 1,
-      "activities": [
-        {
-          "athlete": "Donatas J.",
-          "sport": "Walk",
-          "distance_km": 1.19,
-          "name": "Morning Walk"
-        }
-      ]
     }
   ]
 }
