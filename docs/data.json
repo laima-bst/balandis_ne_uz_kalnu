@@ -2969,8 +2969,13 @@
       "points": 27.5
     }
   ],
-  "generated_at": "2026-04-05T21:34:45.191671+00:00",
+  "generated_at": "2026-04-05T22:34:02.093289+00:00",
   "run_log": [
+    {
+      "timestamp": "2026-04-05T22:34:02.083796+00:00",
+      "new_count": 0,
+      "activities": []
+    },
     {
       "timestamp": "2026-04-05T21:34:45.182307+00:00",
       "new_count": 0,
@@ -3729,36 +3734,6 @@
           "sport": "Walk",
           "distance_km": 3.19,
           "name": "Lunch Walk"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-03T12:58:31+03:00",
-      "new_count": 4,
-      "activities": [
-        {
-          "athlete": "Viktorija M.",
-          "sport": "Walk",
-          "distance_km": 1.53,
-          "name": "Lunch Walk"
-        },
-        {
-          "athlete": "Donatas J.",
-          "sport": "Walk",
-          "distance_km": 2.15,
-          "name": "Lunch Walk"
-        },
-        {
-          "athlete": "Gertrūda G.",
-          "sport": "Walk",
-          "distance_km": 3.34,
-          "name": "Lunch Walk"
-        },
-        {
-          "athlete": "Liudas S.",
-          "sport": "Ride",
-          "distance_km": 4.66,
-          "name": "To gym!"
         }
       ]
     }
