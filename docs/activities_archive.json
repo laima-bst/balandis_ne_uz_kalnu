@@ -1,5 +1,8 @@
 {
   "fingerprints": [
+    "1f1ed1495c6595975f1dc2fc6b10538c",
+    "cfddefcd2497bdb2399ed8337898cc71",
+    "72c9988be1e67f661694b90dec92ae30",
     "39247959bb60f229397908a43a05d788",
     "69ccce36f1d872e8cb06398b26cc440c",
     "2d7ec0d91c4bc75dcf5c06f94f43edb9",
@@ -238,6 +241,57 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Viktorija",
+        "lastname": "M."
+      },
+      "name": "Lunch Walk",
+      "distance": 1369.2,
+      "moving_time": 1806,
+      "elapsed_time": 2371,
+      "total_elevation_gain": 19.3,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-05"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Antanas",
+        "lastname": "R."
+      },
+      "name": "Morning Hike",
+      "distance": 10013.1,
+      "moving_time": 6207,
+      "elapsed_time": 6326,
+      "total_elevation_gain": 119.0,
+      "type": "Hike",
+      "sport_type": "Hike",
+      "device_name": "Garmin fēnix 7",
+      "_fetched_date": "2026-04-05"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Greta",
+        "lastname": "N."
+      },
+      "name": "Lunch Walk",
+      "distance": 2071.1,
+      "moving_time": 1976,
+      "elapsed_time": 2310,
+      "total_elevation_gain": 2.2,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-05"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -3051,6 +3105,30 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-05T10:36:40.713587+00:00",
+      "new_count": 3,
+      "activities": [
+        {
+          "athlete": "Viktorija M.",
+          "sport": "Walk",
+          "distance_km": 1.37,
+          "name": "Lunch Walk"
+        },
+        {
+          "athlete": "Antanas R.",
+          "sport": "Hike",
+          "distance_km": 10.01,
+          "name": "Morning Hike"
+        },
+        {
+          "athlete": "Greta N.",
+          "sport": "Walk",
+          "distance_km": 2.07,
+          "name": "Lunch Walk"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-05T09:40:57.420242+00:00",
       "new_count": 0,
       "activities": []
@@ -3752,48 +3830,6 @@
       "timestamp": "2026-04-02T23:37:51+03:00",
       "new_count": 0,
       "activities": []
-    },
-    {
-      "timestamp": "2026-04-02T21:59:51+03:00",
-      "new_count": 6,
-      "activities": [
-        {
-          "athlete": "Azuolas S.",
-          "sport": "Run",
-          "distance_km": 5.18,
-          "name": "Evening Run"
-        },
-        {
-          "athlete": "Augustė J.",
-          "sport": "Walk",
-          "distance_km": 3.02,
-          "name": "Running errands"
-        },
-        {
-          "athlete": "Paulius R.",
-          "sport": "Walk",
-          "distance_km": 9.75,
-          "name": "Evening Walk"
-        },
-        {
-          "athlete": "Aurelija S.",
-          "sport": "Tennis",
-          "distance_km": 0.29,
-          "name": "Evening Tennis 🎾"
-        },
-        {
-          "athlete": "Sandra M.",
-          "sport": "Walk",
-          "distance_km": 2.83,
-          "name": "Night Walk"
-        },
-        {
-          "athlete": "Antanas R.",
-          "sport": "Walk",
-          "distance_km": 1.0,
-          "name": "Evening Walk"
-        }
-      ]
     }
   ]
 }
