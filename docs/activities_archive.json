@@ -3412,6 +3412,11 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-05T23:36:26.655294+00:00",
+      "new_count": 0,
+      "activities": []
+    },
+    {
       "timestamp": "2026-04-05T22:34:02.083796+00:00",
       "new_count": 0,
       "activities": []
@@ -4122,60 +4127,6 @@
       "timestamp": "2026-04-03T12:32:50.376948+00:00",
       "new_count": 0,
       "activities": []
-    },
-    {
-      "timestamp": "2026-04-03T13:56:38+03:00",
-      "new_count": 8,
-      "activities": [
-        {
-          "athlete": "Liudas S.",
-          "sport": "Ride",
-          "distance_km": 3.65,
-          "name": "From gym"
-        },
-        {
-          "athlete": "Arunas M.",
-          "sport": "Walk",
-          "distance_km": 3.15,
-          "name": "Lunch Walk"
-        },
-        {
-          "athlete": "Liudas S.",
-          "sport": "Ride",
-          "distance_km": 0.0,
-          "name": "Gym"
-        },
-        {
-          "athlete": "Augustinas T.",
-          "sport": "Walk",
-          "distance_km": 1.35,
-          "name": "Morning Walk"
-        },
-        {
-          "athlete": "Ieva S.",
-          "sport": "Run",
-          "distance_km": 4.05,
-          "name": "Lunch Run"
-        },
-        {
-          "athlete": "Greta N.",
-          "sport": "Walk",
-          "distance_km": 3.26,
-          "name": "Lunch Walk"
-        },
-        {
-          "athlete": "Andrius A.",
-          "sport": "Walk",
-          "distance_km": 2.69,
-          "name": "Lunch Walk"
-        },
-        {
-          "athlete": "Sandra M.",
-          "sport": "Walk",
-          "distance_km": 3.19,
-          "name": "Lunch Walk"
-        }
-      ]
     }
   ]
 }
