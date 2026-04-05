@@ -1,5 +1,7 @@
 {
   "fingerprints": [
+    "9ed15de22ff8985792f4c4809a8ce15d",
+    "0ca18f28b7731d8fd9d12357baa8aa00",
     "a5d5e25623b12c9984259c5dfd5eb5ca",
     "9b4216a450e6500a2e25f1bf1dd997a7",
     "1f1ed1495c6595975f1dc2fc6b10538c",
@@ -243,6 +245,40 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Gertrūda",
+        "lastname": "G."
+      },
+      "name": "Pasivaikščiojimas lauke",
+      "distance": 3930.0,
+      "moving_time": 3296,
+      "elapsed_time": 3296,
+      "total_elevation_gain": 0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "_fetched_date": "2026-04-05"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Paulius",
+        "lastname": "R."
+      },
+      "name": "Afternoon Run",
+      "distance": 21361.2,
+      "moving_time": 7343,
+      "elapsed_time": 7343,
+      "total_elevation_gain": 21.8,
+      "type": "Run",
+      "sport_type": "Run",
+      "workout_type": null,
+      "device_name": "Wear OS by Google",
+      "_fetched_date": "2026-04-05"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -3141,6 +3177,24 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-05T13:02:35.321880+00:00",
+      "new_count": 2,
+      "activities": [
+        {
+          "athlete": "Gertrūda G.",
+          "sport": "Walk",
+          "distance_km": 3.93,
+          "name": "Pasivaikščiojimas lauke"
+        },
+        {
+          "athlete": "Paulius R.",
+          "sport": "Run",
+          "distance_km": 21.36,
+          "name": "Afternoon Run"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-05T11:32:22.629785+00:00",
       "new_count": 2,
       "activities": [
@@ -3872,11 +3926,6 @@
     },
     {
       "timestamp": "2026-04-03T01:33:44+03:00",
-      "new_count": 0,
-      "activities": []
-    },
-    {
-      "timestamp": "2026-04-03T00:40:50+03:00",
       "new_count": 0,
       "activities": []
     }
