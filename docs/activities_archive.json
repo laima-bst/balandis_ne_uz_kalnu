@@ -1,5 +1,6 @@
 {
   "fingerprints": [
+    "018defa00ed4bfd261b086cbc999369d",
     "4f74576fe1b7f239f64473f337b2a1ec",
     "2b7df94bf4cff0ed8fdea80119bd9f44",
     "1bc5df7f63137451c0c7ebc23031c26b",
@@ -233,6 +234,23 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Andrius",
+        "lastname": "A."
+      },
+      "name": "Morning Walk",
+      "distance": 1607.3,
+      "moving_time": 1111,
+      "elapsed_time": 1426,
+      "total_elevation_gain": 3.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin fēnix 7",
+      "_fetched_date": "2026-04-05"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -2959,6 +2977,18 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-05T05:14:15.952083+00:00",
+      "new_count": 1,
+      "activities": [
+        {
+          "athlete": "Andrius A.",
+          "sport": "Walk",
+          "distance_km": 1.61,
+          "name": "Morning Walk"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-05T02:40:48.377893+00:00",
       "new_count": 0,
       "activities": []
@@ -3773,18 +3803,6 @@
           "sport": "Walk",
           "distance_km": 1.26,
           "name": "🐕"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-02T16:23:47+03:00",
-      "new_count": 1,
-      "activities": [
-        {
-          "athlete": "Azuolas S.",
-          "sport": "Walk",
-          "distance_km": 1.76,
-          "name": "Afternoon Walk"
         }
       ]
     }
