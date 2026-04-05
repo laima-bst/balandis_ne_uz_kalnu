@@ -3051,6 +3051,11 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-05T09:40:57.420242+00:00",
+      "new_count": 0,
+      "activities": []
+    },
+    {
       "timestamp": "2026-04-05T08:47:10.376380+00:00",
       "new_count": 2,
       "activities": [
@@ -3787,60 +3792,6 @@
           "sport": "Walk",
           "distance_km": 1.0,
           "name": "Evening Walk"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-02T20:51:33+03:00",
-      "new_count": 8,
-      "activities": [
-        {
-          "athlete": "Edvinas V.",
-          "sport": "Walk",
-          "distance_km": 3.4,
-          "name": "Evening Walk"
-        },
-        {
-          "athlete": "Gertrūda G.",
-          "sport": "Run",
-          "distance_km": 2.76,
-          "name": "Bėgimas lauke"
-        },
-        {
-          "athlete": "Stasius F.",
-          "sport": "Run",
-          "distance_km": 5.66,
-          "name": "Evening Run"
-        },
-        {
-          "athlete": "Arturas K.",
-          "sport": "Ride",
-          "distance_km": 15.17,
-          "name": "Evening Ride"
-        },
-        {
-          "athlete": "Tautvydas Ž.",
-          "sport": "Run",
-          "distance_km": 4.32,
-          "name": "Evening Run"
-        },
-        {
-          "athlete": "Donatas J.",
-          "sport": "Ride",
-          "distance_km": 50.81,
-          "name": "Afternoon Ride"
-        },
-        {
-          "athlete": "Antanas R.",
-          "sport": "Swim",
-          "distance_km": 2.4,
-          "name": "Afternoon Swim"
-        },
-        {
-          "athlete": "Sandra M.",
-          "sport": "Ride",
-          "distance_km": 30.15,
-          "name": "Afternoon Ride"
         }
       ]
     }
