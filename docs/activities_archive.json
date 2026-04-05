@@ -1,5 +1,7 @@
 {
   "fingerprints": [
+    "a5d5e25623b12c9984259c5dfd5eb5ca",
+    "9b4216a450e6500a2e25f1bf1dd997a7",
     "1f1ed1495c6595975f1dc2fc6b10538c",
     "cfddefcd2497bdb2399ed8337898cc71",
     "72c9988be1e67f661694b90dec92ae30",
@@ -241,6 +243,40 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Donatas",
+        "lastname": "J."
+      },
+      "name": "Afternoon Walk",
+      "distance": 1295.0,
+      "moving_time": 1205,
+      "elapsed_time": 1290,
+      "total_elevation_gain": 21.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin Forerunner 255 Music",
+      "_fetched_date": "2026-04-05"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Sandra",
+        "lastname": "M."
+      },
+      "name": "Afternoon Walk",
+      "distance": 2137.5,
+      "moving_time": 1600,
+      "elapsed_time": 1672,
+      "total_elevation_gain": 11.2,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-05"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -3105,6 +3141,24 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-05T11:32:22.629785+00:00",
+      "new_count": 2,
+      "activities": [
+        {
+          "athlete": "Donatas J.",
+          "sport": "Walk",
+          "distance_km": 1.29,
+          "name": "Afternoon Walk"
+        },
+        {
+          "athlete": "Sandra M.",
+          "sport": "Walk",
+          "distance_km": 2.14,
+          "name": "Afternoon Walk"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-05T10:36:40.713587+00:00",
       "new_count": 3,
       "activities": [
@@ -3823,11 +3877,6 @@
     },
     {
       "timestamp": "2026-04-03T00:40:50+03:00",
-      "new_count": 0,
-      "activities": []
-    },
-    {
-      "timestamp": "2026-04-02T23:37:51+03:00",
       "new_count": 0,
       "activities": []
     }
