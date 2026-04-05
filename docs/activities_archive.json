@@ -1,5 +1,7 @@
 {
   "fingerprints": [
+    "50aa84dbadbb8aca1d5a33cf03b136c2",
+    "5ceba7ceb4eba5ac2ac50bf082c5a547",
     "c090bdc6d481a6e54e4c0ca5f18a864a",
     "846392cefb94540bd5ea3eebf99ad762",
     "9ee9f3466dd542cfba03e9108d1af9f0",
@@ -251,6 +253,40 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Paulius",
+        "lastname": "R."
+      },
+      "name": "Mūšos tyrelio takas",
+      "distance": 6568.3,
+      "moving_time": 4731,
+      "elapsed_time": 4862,
+      "total_elevation_gain": 5.7,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Wear OS by Google",
+      "_fetched_date": "2026-04-05"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Aurelija",
+        "lastname": "S."
+      },
+      "name": "Aplink Molėtus 🚶‍♀️",
+      "distance": 4336.5,
+      "moving_time": 3290,
+      "elapsed_time": 4166,
+      "total_elevation_gain": 30.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-05"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -3285,6 +3321,24 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-05T16:39:36.009892+00:00",
+      "new_count": 2,
+      "activities": [
+        {
+          "athlete": "Paulius R.",
+          "sport": "Walk",
+          "distance_km": 6.57,
+          "name": "Mūšos tyrelio takas"
+        },
+        {
+          "athlete": "Aurelija S.",
+          "sport": "Walk",
+          "distance_km": 4.34,
+          "name": "Aplink Molėtus 🚶‍♀️"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-05T15:35:54.232498+00:00",
       "new_count": 2,
       "activities": [
@@ -4069,11 +4123,6 @@
           "name": "Morning Run"
         }
       ]
-    },
-    {
-      "timestamp": "2026-04-03T05:33:47+03:00",
-      "new_count": 0,
-      "activities": []
     }
   ]
 }
