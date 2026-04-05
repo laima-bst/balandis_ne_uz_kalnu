@@ -1,5 +1,7 @@
 {
   "fingerprints": [
+    "39247959bb60f229397908a43a05d788",
+    "69ccce36f1d872e8cb06398b26cc440c",
     "2d7ec0d91c4bc75dcf5c06f94f43edb9",
     "036cb8453c67e72c2871e4ea9f9768c1",
     "018defa00ed4bfd261b086cbc999369d",
@@ -236,6 +238,42 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Žilvinas",
+        "lastname": "P."
+      },
+      "name": "12 sav. iki HM / 10 savaitė",
+      "distance": 19416.0,
+      "moving_time": 7328,
+      "elapsed_time": 7576,
+      "total_elevation_gain": 189.0,
+      "type": "Run",
+      "sport_type": "Run",
+      "workout_type": null,
+      "device_name": "Garmin Forerunner 955",
+      "_fetched_date": "2026-04-05"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Donatas",
+        "lastname": "J."
+      },
+      "name": "Morning Ride",
+      "distance": 51047.3,
+      "moving_time": 7754,
+      "elapsed_time": 8307,
+      "total_elevation_gain": 367.0,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": null,
+      "device_name": "Garmin Forerunner 255 Music",
+      "_fetched_date": "2026-04-05"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -3013,6 +3051,24 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-05T08:47:10.376380+00:00",
+      "new_count": 2,
+      "activities": [
+        {
+          "athlete": "Žilvinas P.",
+          "sport": "Run",
+          "distance_km": 19.42,
+          "name": "12 sav. iki HM / 10 savaitė"
+        },
+        {
+          "athlete": "Donatas J.",
+          "sport": "Ride",
+          "distance_km": 51.05,
+          "name": "Morning Ride"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-05T07:10:35.001238+00:00",
       "new_count": 2,
       "activities": [
@@ -3785,48 +3841,6 @@
           "sport": "Ride",
           "distance_km": 30.15,
           "name": "Afternoon Ride"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-02T19:08:06+03:00",
-      "new_count": 6,
-      "activities": [
-        {
-          "athlete": "Arunas M.",
-          "sport": "Walk",
-          "distance_km": 1.47,
-          "name": "Afternoon Walk"
-        },
-        {
-          "athlete": "Žilvinas P.",
-          "sport": "Run",
-          "distance_km": 7.02,
-          "name": "12 sav. iki HM / 10 savaitė"
-        },
-        {
-          "athlete": "Tautvydas Ž.",
-          "sport": "Walk",
-          "distance_km": 1.06,
-          "name": "Afternoon Walk"
-        },
-        {
-          "athlete": "Viktorija M.",
-          "sport": "Walk",
-          "distance_km": 12.21,
-          "name": "Afternoon Walk"
-        },
-        {
-          "athlete": "Ieva S.",
-          "sport": "Walk",
-          "distance_km": 1.43,
-          "name": "Evening Walk"
-        },
-        {
-          "athlete": "Greta N.",
-          "sport": "Walk",
-          "distance_km": 2.13,
-          "name": "Vakarinis"
         }
       ]
     }
