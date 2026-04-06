@@ -1,5 +1,8 @@
 {
   "fingerprints": [
+    "01a55618afbe50fd69086a1132fcf825",
+    "72d6fe37aa1268d0acb56712cf4c31f7",
+    "af43ceea66bc5fa228bc46e15fe9159b",
     "134edcb07b25b3f5c38840575d3152d0",
     "3e515e02f59622d6fd557b07e0855b28",
     "e1b297a665b48f7d32393fc6c962c15f",
@@ -260,6 +263,59 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Liudas",
+        "lastname": "S."
+      },
+      "name": "Lunch Walk",
+      "distance": 2815.0,
+      "moving_time": 1894,
+      "elapsed_time": 2250,
+      "total_elevation_gain": 8.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Samsung Galaxy Ultra",
+      "_fetched_date": "2026-04-06"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Donatas",
+        "lastname": "J."
+      },
+      "name": "Morning Ride",
+      "distance": 65064.6,
+      "moving_time": 9520,
+      "elapsed_time": 10199,
+      "total_elevation_gain": 661.0,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": null,
+      "device_name": "Garmin Forerunner 255 Music",
+      "_fetched_date": "2026-04-06"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Andrius",
+        "lastname": "A."
+      },
+      "name": "Morning Run",
+      "distance": 35022.3,
+      "moving_time": 9298,
+      "elapsed_time": 9385,
+      "total_elevation_gain": 217.0,
+      "type": "Run",
+      "sport_type": "Run",
+      "workout_type": null,
+      "device_name": "Garmin fēnix 7",
+      "_fetched_date": "2026-04-06"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -3448,6 +3504,30 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-06T10:59:30.522689+00:00",
+      "new_count": 3,
+      "activities": [
+        {
+          "athlete": "Liudas S.",
+          "sport": "Walk",
+          "distance_km": 2.81,
+          "name": "Lunch Walk"
+        },
+        {
+          "athlete": "Donatas J.",
+          "sport": "Ride",
+          "distance_km": 65.06,
+          "name": "Morning Ride"
+        },
+        {
+          "athlete": "Andrius A.",
+          "sport": "Run",
+          "distance_km": 35.02,
+          "name": "Morning Run"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-06T09:11:33.479822+00:00",
       "new_count": 0,
       "activities": []
@@ -4101,48 +4181,6 @@
           "sport": "Swim",
           "distance_km": 1.3,
           "name": "Afternoon Swim"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-03T15:40:19.216374+00:00",
-      "new_count": 6,
-      "activities": [
-        {
-          "athlete": "Liudas S.",
-          "sport": "Walk",
-          "distance_km": 0.34,
-          "name": "Evening Walk"
-        },
-        {
-          "athlete": "Liudas S.",
-          "sport": "Walk",
-          "distance_km": 0.36,
-          "name": "Evening Walk"
-        },
-        {
-          "athlete": "Edvinas V.",
-          "sport": "Ride",
-          "distance_km": 10.68,
-          "name": "Afternoon Ride"
-        },
-        {
-          "athlete": "Augustinas T.",
-          "sport": "Walk",
-          "distance_km": 2.77,
-          "name": "Afternoon Walk"
-        },
-        {
-          "athlete": "Gintarė B.",
-          "sport": "Walk",
-          "distance_km": 4.52,
-          "name": "Afternoon Walk"
-        },
-        {
-          "athlete": "Sandra M.",
-          "sport": "Ride",
-          "distance_km": 22.17,
-          "name": "Afternoon Ride"
         }
       ]
     }
