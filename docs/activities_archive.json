@@ -1,5 +1,7 @@
 {
   "fingerprints": [
+    "3f8b1810e21a217d7658eddde4e3fb23",
+    "9375442ee848be4a07f6dc2f0875ccdf",
     "4d31f6d1eb91b6403891f5d995dbebf4",
     "65bb2c84cb0ac15f7f61b38503d8a097",
     "98a8112d74b667c87b53e67434ce8a4f",
@@ -267,6 +269,40 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Viktorija",
+        "lastname": "M."
+      },
+      "name": "Afternoon Walk",
+      "distance": 1533.3,
+      "moving_time": 1123,
+      "elapsed_time": 1501,
+      "total_elevation_gain": 8.2,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-06"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Gertrūda",
+        "lastname": "G."
+      },
+      "name": "Afternoon Walk",
+      "distance": 4350.9,
+      "moving_time": 2896,
+      "elapsed_time": 3124,
+      "total_elevation_gain": 34.1,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-06"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -3577,6 +3613,24 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-06T15:50:58.060218+00:00",
+      "new_count": 2,
+      "activities": [
+        {
+          "athlete": "Viktorija M.",
+          "sport": "Walk",
+          "distance_km": 1.53,
+          "name": "Afternoon Walk"
+        },
+        {
+          "athlete": "Gertrūda G.",
+          "sport": "Walk",
+          "distance_km": 4.35,
+          "name": "Afternoon Walk"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-06T14:51:00.986293+00:00",
       "new_count": 2,
       "activities": [
@@ -4226,30 +4280,6 @@
       "timestamp": "2026-04-03T19:39:13.224883+00:00",
       "new_count": 0,
       "activities": []
-    },
-    {
-      "timestamp": "2026-04-03T18:51:39.041394+00:00",
-      "new_count": 3,
-      "activities": [
-        {
-          "athlete": "Liudas S.",
-          "sport": "Walk",
-          "distance_km": 2.63,
-          "name": "Evening Walk"
-        },
-        {
-          "athlete": "Paulius R.",
-          "sport": "Walk",
-          "distance_km": 11.3,
-          "name": "Evening Walk"
-        },
-        {
-          "athlete": "Benediktas B.",
-          "sport": "GravelRide",
-          "distance_km": 67.24,
-          "name": "Afternoon Gravel Ride"
-        }
-      ]
     }
   ]
 }
