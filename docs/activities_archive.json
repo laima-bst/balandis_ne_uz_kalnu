@@ -1,5 +1,7 @@
 {
   "fingerprints": [
+    "38a5352d3aa84e11285eee9f8019aa3c",
+    "55e08ada08ed52174ad86f8e36eb4fe8",
     "d4c3bb19b29c2b4bc09ea3d256a0fa39",
     "bc00b7e60b36938825a3ca82ceb0c33f",
     "4cc1adfaf7ae0c514030ccad274a0215",
@@ -274,6 +276,40 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Antanas",
+        "lastname": "R."
+      },
+      "name": "Evening Walk",
+      "distance": 1101.3,
+      "moving_time": 651,
+      "elapsed_time": 651,
+      "total_elevation_gain": 16.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin fēnix 7",
+      "_fetched_date": "2026-04-06"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Antanas",
+        "lastname": "R."
+      },
+      "name": "Evening Walk",
+      "distance": 1009.3,
+      "moving_time": 622,
+      "elapsed_time": 622,
+      "total_elevation_gain": 31.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin fēnix 7",
+      "_fetched_date": "2026-04-06"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -3705,6 +3741,24 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-06T19:04:13.433434+00:00",
+      "new_count": 2,
+      "activities": [
+        {
+          "athlete": "Antanas R.",
+          "sport": "Walk",
+          "distance_km": 1.1,
+          "name": "Evening Walk"
+        },
+        {
+          "athlete": "Antanas R.",
+          "sport": "Walk",
+          "distance_km": 1.01,
+          "name": "Evening Walk"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-06T17:47:58.263723+00:00",
       "new_count": 2,
       "activities": [
@@ -4390,11 +4444,6 @@
     },
     {
       "timestamp": "2026-04-03T22:35:58.263866+00:00",
-      "new_count": 0,
-      "activities": []
-    },
-    {
-      "timestamp": "2026-04-03T21:36:24.084218+00:00",
       "new_count": 0,
       "activities": []
     }

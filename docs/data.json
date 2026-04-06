@@ -8,33 +8,33 @@
     {
       "name": "Tardigrada",
       "color": "#2ecc71",
-      "total_points": 728.0,
-      "total_distance_km": 238.8,
-      "activity_count": 42,
+      "total_points": 734.3,
+      "total_distance_km": 240.91,
+      "activity_count": 44,
       "members": [
+        "Antanas R.",
         "Paulius R.",
         "Gertrūda G.",
-        "Antanas R.",
         "Greta N.",
         "Deivydas Ž."
       ],
       "member_count": 5,
-      "points_per_person": 145.6,
+      "points_per_person": 146.9,
       "member_details": [
         {
           "name": "Paulius R.",
           "points": 361.3,
-          "pct_of_team": 49.6
+          "pct_of_team": 49.2
         },
         {
           "name": "Antanas R.",
-          "points": 203.5,
-          "pct_of_team": 28.0
+          "points": 209.8,
+          "pct_of_team": 28.6
         },
         {
           "name": "Greta N.",
           "points": 85.1,
-          "pct_of_team": 11.7
+          "pct_of_team": 11.6
         },
         {
           "name": "Gertrūda G.",
@@ -48,7 +48,7 @@
         }
       ],
       "distance_by_group": {
-        "run_walk": 192.0,
+        "run_walk": 194.1,
         "ride": 39.3,
         "swim": 7.5
       },
@@ -389,14 +389,14 @@
       "points": {
         "Nemiegantys Balandžiai": 870.6,
         "Balandžio dvasia": 623.6,
-        "Tardigrada": 728.0,
+        "Tardigrada": 734.3,
         "Sūkuriai": 329.3,
         "Nešam Kudašių": 257.3
       },
       "points_per_person": {
         "Nemiegantys Balandžiai": 145.1,
         "Balandžio dvasia": 124.7,
-        "Tardigrada": 145.6,
+        "Tardigrada": 146.9,
         "Sūkuriai": 65.9,
         "Nešam Kudašių": 51.5
       }
@@ -485,11 +485,16 @@
     },
     {
       "name": "Antanas R.",
-      "total_points": 203.5,
-      "activity_count": 15,
-      "total_distance_km": 37.83,
-      "total_elevation_m": 365.0,
+      "total_points": 209.8,
+      "activity_count": 17,
+      "total_distance_km": 39.94,
+      "total_elevation_m": 412.0,
       "by_type": {
+        "Walk": {
+          "count": 11,
+          "points": 37.199999999999996,
+          "distance_km": 12.41
+        },
         "Run": {
           "count": 1,
           "points": 30.1,
@@ -500,11 +505,6 @@
           "points": 30.0,
           "distance_km": 10.01
         },
-        "Walk": {
-          "count": 9,
-          "points": 30.9,
-          "distance_km": 10.3
-        },
         "Swim": {
           "count": 4,
           "points": 112.5,
@@ -513,7 +513,7 @@
       },
       "rank": 4,
       "points_by_group": {
-        "run_walk": 91.0,
+        "run_walk": 97.3,
         "ride": 0.0,
         "swim": 112.5
       }
@@ -1000,6 +1000,30 @@
     }
   ],
   "activities": [
+    {
+      "athlete_key": "antanas_r.",
+      "athlete_name": "Antanas R.",
+      "name": "Evening Walk",
+      "sport_type": "Walk",
+      "start_date": null,
+      "_fetched_date": "2026-04-06",
+      "distance_km": 1.1,
+      "elevation_m": 16.0,
+      "moving_time_s": 651,
+      "points": 3.3
+    },
+    {
+      "athlete_key": "antanas_r.",
+      "athlete_name": "Antanas R.",
+      "name": "Evening Walk",
+      "sport_type": "Walk",
+      "start_date": null,
+      "_fetched_date": "2026-04-06",
+      "distance_km": 1.01,
+      "elevation_m": 31.0,
+      "moving_time_s": 622,
+      "points": 3.0
+    },
     {
       "athlete_key": "paulius_r.",
       "athlete_name": "Paulius R.",
@@ -3221,8 +3245,26 @@
       "points": 27.5
     }
   ],
-  "generated_at": "2026-04-06T17:47:58.273344+00:00",
+  "generated_at": "2026-04-06T19:04:13.443724+00:00",
   "run_log": [
+    {
+      "timestamp": "2026-04-06T19:04:13.433434+00:00",
+      "new_count": 2,
+      "activities": [
+        {
+          "athlete": "Antanas R.",
+          "sport": "Walk",
+          "distance_km": 1.1,
+          "name": "Evening Walk"
+        },
+        {
+          "athlete": "Antanas R.",
+          "sport": "Walk",
+          "distance_km": 1.01,
+          "name": "Evening Walk"
+        }
+      ]
+    },
     {
       "timestamp": "2026-04-06T17:47:58.263723+00:00",
       "new_count": 2,
@@ -3909,11 +3951,6 @@
     },
     {
       "timestamp": "2026-04-03T22:35:58.263866+00:00",
-      "new_count": 0,
-      "activities": []
-    },
-    {
-      "timestamp": "2026-04-03T21:36:24.084218+00:00",
       "new_count": 0,
       "activities": []
     }
