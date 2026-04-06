@@ -1,5 +1,8 @@
 {
   "fingerprints": [
+    "4cc1adfaf7ae0c514030ccad274a0215",
+    "76fd49b521c22db1c37b3bdc2bdfddaf",
+    "d51ba39ab3916c8a7c9d6f0f703bb78a",
     "3f8b1810e21a217d7658eddde4e3fb23",
     "9375442ee848be4a07f6dc2f0875ccdf",
     "4d31f6d1eb91b6403891f5d995dbebf4",
@@ -269,6 +272,57 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Gintarė",
+        "lastname": "B."
+      },
+      "name": "Afternoon Walk 🐕🚶🏼‍♀️🚶🏼‍♀️",
+      "distance": 4882.5,
+      "moving_time": 4120,
+      "elapsed_time": 4301,
+      "total_elevation_gain": 36.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Samsung Health",
+      "_fetched_date": "2026-04-06"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Andrius",
+        "lastname": "A."
+      },
+      "name": "Evening Walk",
+      "distance": 2007.0,
+      "moving_time": 1407,
+      "elapsed_time": 2223,
+      "total_elevation_gain": 44.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin fēnix 7",
+      "_fetched_date": "2026-04-06"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Sandra",
+        "lastname": "M."
+      },
+      "name": "Evening Walk",
+      "distance": 3086.8,
+      "moving_time": 2232,
+      "elapsed_time": 2587,
+      "total_elevation_gain": 20.1,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-06"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -3613,6 +3667,30 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-06T16:52:52.982451+00:00",
+      "new_count": 3,
+      "activities": [
+        {
+          "athlete": "Gintarė B.",
+          "sport": "Walk",
+          "distance_km": 4.88,
+          "name": "Afternoon Walk 🐕🚶🏼‍♀️🚶🏼‍♀️"
+        },
+        {
+          "athlete": "Andrius A.",
+          "sport": "Walk",
+          "distance_km": 2.01,
+          "name": "Evening Walk"
+        },
+        {
+          "athlete": "Sandra M.",
+          "sport": "Walk",
+          "distance_km": 3.09,
+          "name": "Evening Walk"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-06T15:50:58.060218+00:00",
       "new_count": 2,
       "activities": [
@@ -4275,11 +4353,6 @@
           "name": "Night Walk"
         }
       ]
-    },
-    {
-      "timestamp": "2026-04-03T19:39:13.224883+00:00",
-      "new_count": 0,
-      "activities": []
     }
   ]
 }
