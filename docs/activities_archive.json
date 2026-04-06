@@ -1,5 +1,7 @@
 {
   "fingerprints": [
+    "134edcb07b25b3f5c38840575d3152d0",
+    "3e515e02f59622d6fd557b07e0855b28",
     "e1b297a665b48f7d32393fc6c962c15f",
     "c03e8b7b8228f5afb1a4816dec71ed86",
     "d00080b27053ec80d99498fa2ff75f3c",
@@ -258,6 +260,40 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Liudas",
+        "lastname": "S."
+      },
+      "name": "Morning Walk",
+      "distance": 6005.5,
+      "moving_time": 3651,
+      "elapsed_time": 3651,
+      "total_elevation_gain": 0.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Samsung Galaxy Ultra",
+      "_fetched_date": "2026-04-06"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Gintarė",
+        "lastname": "B."
+      },
+      "name": "Morning Walk",
+      "distance": 2451.9,
+      "moving_time": 2672,
+      "elapsed_time": 2818,
+      "total_elevation_gain": 19.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Samsung Health",
+      "_fetched_date": "2026-04-06"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -3412,6 +3448,24 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-06T07:47:10.472127+00:00",
+      "new_count": 2,
+      "activities": [
+        {
+          "athlete": "Liudas S.",
+          "sport": "Walk",
+          "distance_km": 6.01,
+          "name": "Morning Walk"
+        },
+        {
+          "athlete": "Gintarė B.",
+          "sport": "Walk",
+          "distance_km": 2.45,
+          "name": "Morning Walk"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-06T05:27:01.382985+00:00",
       "new_count": 0,
       "activities": []
@@ -4122,11 +4176,6 @@
           "name": "Afternoon Run"
         }
       ]
-    },
-    {
-      "timestamp": "2026-04-03T13:11:46.912628+00:00",
-      "new_count": 0,
-      "activities": []
     }
   ]
 }
