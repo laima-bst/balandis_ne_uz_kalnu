@@ -1,5 +1,7 @@
 {
   "fingerprints": [
+    "d4c3bb19b29c2b4bc09ea3d256a0fa39",
+    "bc00b7e60b36938825a3ca82ceb0c33f",
     "4cc1adfaf7ae0c514030ccad274a0215",
     "76fd49b521c22db1c37b3bdc2bdfddaf",
     "d51ba39ab3916c8a7c9d6f0f703bb78a",
@@ -272,6 +274,42 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Paulius",
+        "lastname": "R."
+      },
+      "name": "Afternoon Ride",
+      "distance": 39272.8,
+      "moving_time": 7263,
+      "elapsed_time": 9266,
+      "total_elevation_gain": 194.1,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": null,
+      "device_name": "Wear OS by Google",
+      "_fetched_date": "2026-04-06"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Valentinas",
+        "lastname": "A."
+      },
+      "name": "Afternoon Ride",
+      "distance": 46710.7,
+      "moving_time": 7218,
+      "elapsed_time": 8379,
+      "total_elevation_gain": 347.0,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": null,
+      "device_name": "Wahoo ELEMNT BOLT",
+      "_fetched_date": "2026-04-06"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -3667,6 +3705,24 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-06T17:47:58.263723+00:00",
+      "new_count": 2,
+      "activities": [
+        {
+          "athlete": "Paulius R.",
+          "sport": "Ride",
+          "distance_km": 39.27,
+          "name": "Afternoon Ride"
+        },
+        {
+          "athlete": "Valentinas A.",
+          "sport": "Ride",
+          "distance_km": 46.71,
+          "name": "Afternoon Ride"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-06T16:52:52.982451+00:00",
       "new_count": 3,
       "activities": [
@@ -4341,18 +4397,6 @@
       "timestamp": "2026-04-03T21:36:24.084218+00:00",
       "new_count": 0,
       "activities": []
-    },
-    {
-      "timestamp": "2026-04-03T20:38:54.262142+00:00",
-      "new_count": 1,
-      "activities": [
-        {
-          "athlete": "Azuolas S.",
-          "sport": "Walk",
-          "distance_km": 4.57,
-          "name": "Night Walk"
-        }
-      ]
     }
   ]
 }
