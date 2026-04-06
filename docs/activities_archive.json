@@ -3448,6 +3448,11 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-06T09:11:33.479822+00:00",
+      "new_count": 0,
+      "activities": []
+    },
+    {
       "timestamp": "2026-04-06T07:47:10.472127+00:00",
       "new_count": 2,
       "activities": [
@@ -4138,42 +4143,6 @@
           "sport": "Ride",
           "distance_km": 22.17,
           "name": "Afternoon Ride"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-03T14:44:49.491169+00:00",
-      "new_count": 5,
-      "activities": [
-        {
-          "athlete": "Daina G.",
-          "sport": "Walk",
-          "distance_km": 5.03,
-          "name": "Miške"
-        },
-        {
-          "athlete": "Deivydas Ž.",
-          "sport": "Walk",
-          "distance_km": 2.16,
-          "name": "Lunch Walk"
-        },
-        {
-          "athlete": "Greta N.",
-          "sport": "Walk",
-          "distance_km": 4.22,
-          "name": "Afternoon Walk"
-        },
-        {
-          "athlete": "Antanas R.",
-          "sport": "Walk",
-          "distance_km": 1.0,
-          "name": "Lunch Walk"
-        },
-        {
-          "athlete": "Andrius A.",
-          "sport": "Run",
-          "distance_km": 11.01,
-          "name": "Afternoon Run"
         }
       ]
     }
