@@ -4015,6 +4015,11 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-07T11:58:29.412496+00:00",
+      "new_count": 0,
+      "activities": []
+    },
+    {
       "timestamp": "2026-04-07T10:58:05.337066+00:00",
       "new_count": 9,
       "activities": [
@@ -4723,54 +4728,6 @@
           "sport": "Walk",
           "distance_km": 7.14,
           "name": "Morning Walk"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-04T11:31:08.236159+00:00",
-      "new_count": 7,
-      "activities": [
-        {
-          "athlete": "Arunas M.",
-          "sport": "Walk",
-          "distance_km": 3.41,
-          "name": "Afternoon Walk"
-        },
-        {
-          "athlete": "Aurelija S.",
-          "sport": "Walk",
-          "distance_km": 2.62,
-          "name": "Bent kažkiek prisidėti prie komandos 🙂"
-        },
-        {
-          "athlete": "Benediktas B.",
-          "sport": "GravelRide",
-          "distance_km": 57.8,
-          "name": "Lunch Gravel Ride"
-        },
-        {
-          "athlete": "Antanas R.",
-          "sport": "Walk",
-          "distance_km": 1.62,
-          "name": "Lunch Walk"
-        },
-        {
-          "athlete": "Sandra M.",
-          "sport": "Walk",
-          "distance_km": 3.98,
-          "name": "Morning Walk"
-        },
-        {
-          "athlete": "Antanas R.",
-          "sport": "Walk",
-          "distance_km": 1.4,
-          "name": "Morning Walk"
-        },
-        {
-          "athlete": "Antanas R.",
-          "sport": "Swim",
-          "distance_km": 1.5,
-          "name": "Morning Swim"
         }
       ]
     }
