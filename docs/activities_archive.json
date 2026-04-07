@@ -1,5 +1,7 @@
 {
   "fingerprints": [
+    "a9c0d9f8513591a32609956641255d15",
+    "0542318cd17130d498b8fd37fd5770b0",
     "b62a16e7e86829da21d563ad64d4f5ce",
     "d7eff60c93f3ad5196ba37398b90267a",
     "4399690690154b4d44d3ca4f2e4395e4",
@@ -313,6 +315,40 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Aurelija",
+        "lastname": "S."
+      },
+      "name": "Dina privertė išeiti į lauką 🐶",
+      "distance": 1222.7,
+      "moving_time": 1393,
+      "elapsed_time": 1603,
+      "total_elevation_gain": 8.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin Venu 3S",
+      "_fetched_date": "2026-04-07"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Sandra",
+        "lastname": "M."
+      },
+      "name": "Night Walk",
+      "distance": 1066.4,
+      "moving_time": 686,
+      "elapsed_time": 686,
+      "total_elevation_gain": 41.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin Venu 2 Plus",
+      "_fetched_date": "2026-04-07"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -4417,6 +4453,24 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-07T20:51:03.817311+00:00",
+      "new_count": 2,
+      "activities": [
+        {
+          "athlete": "Aurelija S.",
+          "sport": "Walk",
+          "distance_km": 1.22,
+          "name": "Dina privertė išeiti į lauką 🐶"
+        },
+        {
+          "athlete": "Sandra M.",
+          "sport": "Walk",
+          "distance_km": 1.07,
+          "name": "Night Walk"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-07T19:06:46.662683+00:00",
       "new_count": 13,
       "activities": [
@@ -5182,36 +5236,6 @@
           "athlete": "Antanas R.",
           "sport": "Walk",
           "distance_km": 1.06,
-          "name": "Evening Walk"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-04T17:33:50.765287+00:00",
-      "new_count": 4,
-      "activities": [
-        {
-          "athlete": "Ne L.",
-          "sport": "Walk",
-          "distance_km": 1.02,
-          "name": "Evening Walk"
-        },
-        {
-          "athlete": "Liudas S.",
-          "sport": "Walk",
-          "distance_km": 1.67,
-          "name": "Evening Walk"
-        },
-        {
-          "athlete": "Gertrūda G.",
-          "sport": "Run",
-          "distance_km": 4.04,
-          "name": "Bėgimas lauke"
-        },
-        {
-          "athlete": "Sandra M.",
-          "sport": "Walk",
-          "distance_km": 2.72,
           "name": "Evening Walk"
         }
       ]
