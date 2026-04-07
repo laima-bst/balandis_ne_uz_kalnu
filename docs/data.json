@@ -3341,8 +3341,13 @@
       "points": 27.5
     }
   ],
-  "generated_at": "2026-04-07T07:21:37.495987+00:00",
+  "generated_at": "2026-04-07T09:05:41.011507+00:00",
   "run_log": [
+    {
+      "timestamp": "2026-04-07T09:05:41.001442+00:00",
+      "new_count": 0,
+      "activities": []
+    },
     {
       "timestamp": "2026-04-07T07:21:37.486158+00:00",
       "new_count": 4,
@@ -4042,24 +4047,6 @@
       "timestamp": "2026-04-04T10:36:15.978709+00:00",
       "new_count": 0,
       "activities": []
-    },
-    {
-      "timestamp": "2026-04-04T09:40:39.021022+00:00",
-      "new_count": 2,
-      "activities": [
-        {
-          "athlete": "Donatas J.",
-          "sport": "Ride",
-          "distance_km": 85.05,
-          "name": "Morning Ride"
-        },
-        {
-          "athlete": "Ieva S.",
-          "sport": "Walk",
-          "distance_km": 3.63,
-          "name": "Lunch Walk"
-        }
-      ]
     }
   ]
 }
