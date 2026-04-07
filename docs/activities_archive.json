@@ -4015,6 +4015,11 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-07T13:54:54.440954+00:00",
+      "new_count": 0,
+      "activities": []
+    },
+    {
       "timestamp": "2026-04-07T11:58:29.412496+00:00",
       "new_count": 0,
       "activities": []
@@ -4710,24 +4715,6 @@
           "sport": "Walk",
           "distance_km": 4.02,
           "name": "Afternoon Walk"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-04T13:00:21.493828+00:00",
-      "new_count": 2,
-      "activities": [
-        {
-          "athlete": "Paulius R.",
-          "sport": "Run",
-          "distance_km": 16.31,
-          "name": "Afternoon Run"
-        },
-        {
-          "athlete": "Augustinas T.",
-          "sport": "Walk",
-          "distance_km": 7.14,
-          "name": "Morning Walk"
         }
       ]
     }
