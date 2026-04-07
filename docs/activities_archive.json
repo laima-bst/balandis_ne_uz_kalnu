@@ -1,5 +1,18 @@
 {
   "fingerprints": [
+    "b62a16e7e86829da21d563ad64d4f5ce",
+    "d7eff60c93f3ad5196ba37398b90267a",
+    "4399690690154b4d44d3ca4f2e4395e4",
+    "ab5d83df40b96f9cd8c8de498b476b73",
+    "d129b9570080541d1f7735016e44ae3c",
+    "f128ff0407c1d017167cb159d35d48ed",
+    "1387544d80f75016eeddfa43a5d95a6b",
+    "7a236d1e1a63cbb5fa9f5081ceedf829",
+    "d4e0ba0cecd0b1736f7b1f02f5dc9c57",
+    "1d60eefdd6032e7825c3aec3eca69265",
+    "6c2cbc462fbce0a7376134fa067a485d",
+    "1a9dc96f3395bad8da482d64e9dbfd6f",
+    "a33aa9d0665c50bb0515148c57086631",
     "83295ab55960b5d00505d6faa2e9b3dd",
     "d1a2206dd53412b1d6c48b9adc867329",
     "9f157caf6738b27e4b66aa04e32bd9c5",
@@ -300,6 +313,230 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Augustė",
+        "lastname": "J."
+      },
+      "name": "Evening Run",
+      "distance": 2777.1,
+      "moving_time": 1542,
+      "elapsed_time": 1558,
+      "total_elevation_gain": 13.0,
+      "type": "Run",
+      "sport_type": "Run",
+      "workout_type": null,
+      "device_name": "COROS APEX",
+      "_fetched_date": "2026-04-07"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Arturas",
+        "lastname": "K."
+      },
+      "name": "Evening Walk",
+      "distance": 3066.4,
+      "moving_time": 1936,
+      "elapsed_time": 1963,
+      "total_elevation_gain": 37.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin Epix Gen2",
+      "_fetched_date": "2026-04-07"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Paulius",
+        "lastname": "R."
+      },
+      "name": "Evening Run",
+      "distance": 10052.3,
+      "moving_time": 3514,
+      "elapsed_time": 3725,
+      "total_elevation_gain": 107.7,
+      "type": "Run",
+      "sport_type": "Run",
+      "workout_type": null,
+      "device_name": "Wear OS by Google",
+      "_fetched_date": "2026-04-07"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Augustė",
+        "lastname": "J."
+      },
+      "name": "Evening Swim",
+      "distance": 200.0,
+      "moving_time": 2148,
+      "elapsed_time": 2210,
+      "total_elevation_gain": 0,
+      "type": "Swim",
+      "sport_type": "Swim",
+      "device_name": "COROS APEX",
+      "_fetched_date": "2026-04-07"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Aurelija",
+        "lastname": "S."
+      },
+      "name": "Evening Tennis 🎾",
+      "distance": 384.6,
+      "moving_time": 5582,
+      "elapsed_time": 5582,
+      "total_elevation_gain": 0,
+      "type": "Workout",
+      "sport_type": "Tennis",
+      "workout_type": null,
+      "device_name": "Garmin Venu 3S",
+      "_fetched_date": "2026-04-07"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Valentinas",
+        "lastname": "A."
+      },
+      "name": "Lunch Walk",
+      "distance": 2362.3,
+      "moving_time": 1505,
+      "elapsed_time": 4110,
+      "total_elevation_gain": 152.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "COROS VERTIX",
+      "_fetched_date": "2026-04-07"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Augustė",
+        "lastname": "J."
+      },
+      "name": "Pietukai",
+      "distance": 1918.4,
+      "moving_time": 1318,
+      "elapsed_time": 4053,
+      "total_elevation_gain": 7.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-07"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Sandra",
+        "lastname": "M."
+      },
+      "name": "Night Walk",
+      "distance": 1999.3,
+      "moving_time": 1327,
+      "elapsed_time": 1352,
+      "total_elevation_gain": 35.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin Venu 2 Plus",
+      "_fetched_date": "2026-04-07"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Augustinas",
+        "lastname": "T."
+      },
+      "name": "Evening Walk",
+      "distance": 2784.0,
+      "moving_time": 2000,
+      "elapsed_time": 2072,
+      "total_elevation_gain": 19.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "COROS APEX 4",
+      "_fetched_date": "2026-04-07"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Gintarė",
+        "lastname": "B."
+      },
+      "name": "Evening Walk 🐕🚶🏼‍♀️",
+      "distance": 2426.2,
+      "moving_time": 2433,
+      "elapsed_time": 2468,
+      "total_elevation_gain": 17.2,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Samsung Health",
+      "_fetched_date": "2026-04-07"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Andrius",
+        "lastname": "A."
+      },
+      "name": "Evening Walk",
+      "distance": 2005.6,
+      "moving_time": 1398,
+      "elapsed_time": 1398,
+      "total_elevation_gain": 23.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin fēnix 7",
+      "_fetched_date": "2026-04-07"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Antanas",
+        "lastname": "R."
+      },
+      "name": "Afternoon Swim",
+      "distance": 1700.0,
+      "moving_time": 2409,
+      "elapsed_time": 3428,
+      "total_elevation_gain": 0,
+      "type": "Swim",
+      "sport_type": "Swim",
+      "device_name": "Garmin fēnix 7",
+      "_fetched_date": "2026-04-07"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Valentinas",
+        "lastname": "A."
+      },
+      "name": "Lunch Walk",
+      "distance": 1660.3,
+      "moving_time": 1121,
+      "elapsed_time": 4203,
+      "total_elevation_gain": 29.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "COROS VERTIX",
+      "_fetched_date": "2026-04-07"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -4180,6 +4417,90 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-07T19:06:46.662683+00:00",
+      "new_count": 13,
+      "activities": [
+        {
+          "athlete": "Augustė J.",
+          "sport": "Run",
+          "distance_km": 2.78,
+          "name": "Evening Run"
+        },
+        {
+          "athlete": "Arturas K.",
+          "sport": "Walk",
+          "distance_km": 3.07,
+          "name": "Evening Walk"
+        },
+        {
+          "athlete": "Paulius R.",
+          "sport": "Run",
+          "distance_km": 10.05,
+          "name": "Evening Run"
+        },
+        {
+          "athlete": "Augustė J.",
+          "sport": "Swim",
+          "distance_km": 0.2,
+          "name": "Evening Swim"
+        },
+        {
+          "athlete": "Aurelija S.",
+          "sport": "Tennis",
+          "distance_km": 0.38,
+          "name": "Evening Tennis 🎾"
+        },
+        {
+          "athlete": "Valentinas A.",
+          "sport": "Walk",
+          "distance_km": 2.36,
+          "name": "Lunch Walk"
+        },
+        {
+          "athlete": "Augustė J.",
+          "sport": "Walk",
+          "distance_km": 1.92,
+          "name": "Pietukai"
+        },
+        {
+          "athlete": "Sandra M.",
+          "sport": "Walk",
+          "distance_km": 2.0,
+          "name": "Night Walk"
+        },
+        {
+          "athlete": "Augustinas T.",
+          "sport": "Walk",
+          "distance_km": 2.78,
+          "name": "Evening Walk"
+        },
+        {
+          "athlete": "Gintarė B.",
+          "sport": "Walk",
+          "distance_km": 2.43,
+          "name": "Evening Walk 🐕🚶🏼‍♀️"
+        },
+        {
+          "athlete": "Andrius A.",
+          "sport": "Walk",
+          "distance_km": 2.01,
+          "name": "Evening Walk"
+        },
+        {
+          "athlete": "Antanas R.",
+          "sport": "Swim",
+          "distance_km": 1.7,
+          "name": "Afternoon Swim"
+        },
+        {
+          "athlete": "Valentinas A.",
+          "sport": "Walk",
+          "distance_km": 1.66,
+          "name": "Lunch Walk"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-07T17:02:04.088638+00:00",
       "new_count": 5,
       "activities": [
@@ -4891,30 +5212,6 @@
           "athlete": "Sandra M.",
           "sport": "Walk",
           "distance_km": 2.72,
-          "name": "Evening Walk"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-04T16:38:21.064521+00:00",
-      "new_count": 3,
-      "activities": [
-        {
-          "athlete": "Liudas S.",
-          "sport": "Walk",
-          "distance_km": 1.74,
-          "name": "Evening Walk"
-        },
-        {
-          "athlete": "Azuolas S.",
-          "sport": "Walk",
-          "distance_km": 2.21,
-          "name": "Evening Walk"
-        },
-        {
-          "athlete": "Donatas J.",
-          "sport": "Walk",
-          "distance_km": 2.01,
           "name": "Evening Walk"
         }
       ]
