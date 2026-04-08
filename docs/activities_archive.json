@@ -5224,6 +5224,11 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-08T22:41:33.431553+00:00",
+      "new_count": 0,
+      "activities": []
+    },
+    {
       "timestamp": "2026-04-08T21:46:12.639002+00:00",
       "new_count": 0,
       "activities": []
@@ -6138,36 +6143,6 @@
           "athlete": "Azuolas S.",
           "sport": "Walk",
           "distance_km": 4.15,
-          "name": "Afternoon Walk"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-05T14:36:45.200935+00:00",
-      "new_count": 4,
-      "activities": [
-        {
-          "athlete": "Aurelija S.",
-          "sport": "Walk",
-          "distance_km": 3.1,
-          "name": "Velykinis pasivaikščiojimas ežero patikrinti 🐇🐣"
-        },
-        {
-          "athlete": "Donatas J.",
-          "sport": "Walk",
-          "distance_km": 2.21,
-          "name": "Afternoon Walk"
-        },
-        {
-          "athlete": "Tautvydas Ž.",
-          "sport": "Walk",
-          "distance_km": 5.26,
-          "name": "Afternoon Walk"
-        },
-        {
-          "athlete": "Sandra M.",
-          "sport": "Walk",
-          "distance_km": 2.65,
           "name": "Afternoon Walk"
         }
       ]
