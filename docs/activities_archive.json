@@ -1,5 +1,10 @@
 {
   "fingerprints": [
+    "3d9e56c615ad9657b98ca786f2e6ea3d",
+    "5880168819bddc22448fb360eb6e0c4b",
+    "4ed9427b6b21cbc14e6579918c83008d",
+    "b31d909adc97e69cbb525b803d5498b1",
+    "5692224775a4735894f58d1922157b9f",
     "6a92d9b4038761c38c930ddfa960d8ec",
     "191b43457c17a9ed0af8cd672d955d33",
     "eeb81082e9aa7827d02a04539727ff3c",
@@ -344,6 +349,93 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Aurelija",
+        "lastname": "S."
+      },
+      "name": "Evening Tennis 🎾",
+      "distance": 330.1,
+      "moving_time": 4402,
+      "elapsed_time": 4402,
+      "total_elevation_gain": 0,
+      "type": "Workout",
+      "sport_type": "Tennis",
+      "workout_type": null,
+      "device_name": "Garmin Venu 3S",
+      "_fetched_date": "2026-04-08"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Donatas",
+        "lastname": "J."
+      },
+      "name": "Afternoon Ride",
+      "distance": 50177.6,
+      "moving_time": 7819,
+      "elapsed_time": 8518,
+      "total_elevation_gain": 408.0,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": null,
+      "device_name": "Garmin Forerunner 255 Music",
+      "_fetched_date": "2026-04-08"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Donatas",
+        "lastname": "J."
+      },
+      "name": "Lunch Walk",
+      "distance": 2132.0,
+      "moving_time": 1678,
+      "elapsed_time": 2364,
+      "total_elevation_gain": 13.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin Forerunner 255 Music",
+      "_fetched_date": "2026-04-08"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Donatas",
+        "lastname": "J."
+      },
+      "name": "Morning Walk",
+      "distance": 1151.7,
+      "moving_time": 1111,
+      "elapsed_time": 1248,
+      "total_elevation_gain": 5.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin Forerunner 255 Music",
+      "_fetched_date": "2026-04-08"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Gintarė",
+        "lastname": "B."
+      },
+      "name": "Afternoon Walk",
+      "distance": 2643.6,
+      "moving_time": 2702,
+      "elapsed_time": 2774,
+      "total_elevation_gain": 40.3,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Samsung Health",
+      "_fetched_date": "2026-04-08"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -4986,6 +5078,42 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-08T17:05:28.516666+00:00",
+      "new_count": 5,
+      "activities": [
+        {
+          "athlete": "Aurelija S.",
+          "sport": "Tennis",
+          "distance_km": 0.33,
+          "name": "Evening Tennis 🎾"
+        },
+        {
+          "athlete": "Donatas J.",
+          "sport": "Ride",
+          "distance_km": 50.18,
+          "name": "Afternoon Ride"
+        },
+        {
+          "athlete": "Donatas J.",
+          "sport": "Walk",
+          "distance_km": 2.13,
+          "name": "Lunch Walk"
+        },
+        {
+          "athlete": "Donatas J.",
+          "sport": "Walk",
+          "distance_km": 1.15,
+          "name": "Morning Walk"
+        },
+        {
+          "athlete": "Gintarė B.",
+          "sport": "Walk",
+          "distance_km": 2.64,
+          "name": "Afternoon Walk"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-08T15:12:56.525260+00:00",
       "new_count": 9,
       "activities": [
@@ -5893,11 +6021,6 @@
           "name": "Lunch Walk"
         }
       ]
-    },
-    {
-      "timestamp": "2026-04-05T09:40:57.420242+00:00",
-      "new_count": 0,
-      "activities": []
     }
   ]
 }
