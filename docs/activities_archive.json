@@ -5224,6 +5224,11 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-08T20:47:15.022983+00:00",
+      "new_count": 0,
+      "activities": []
+    },
+    {
       "timestamp": "2026-04-08T19:19:38.994052+00:00",
       "new_count": 8,
       "activities": [
@@ -6177,24 +6182,6 @@
           "sport": "Run",
           "distance_km": 21.36,
           "name": "Afternoon Run"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-05T11:32:22.629785+00:00",
-      "new_count": 2,
-      "activities": [
-        {
-          "athlete": "Donatas J.",
-          "sport": "Walk",
-          "distance_km": 1.29,
-          "name": "Afternoon Walk"
-        },
-        {
-          "athlete": "Sandra M.",
-          "sport": "Walk",
-          "distance_km": 2.14,
-          "name": "Afternoon Walk"
         }
       ]
     }
