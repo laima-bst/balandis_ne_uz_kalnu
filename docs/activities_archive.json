@@ -1,5 +1,10 @@
 {
   "fingerprints": [
+    "894b0b53f3bd571d239f1eb068c1fa9b",
+    "8576dd4dcb8a7a837fe0ec770257fe9f",
+    "20882d37828df32db1ea0276b7090669",
+    "a8c7875dd82144ee5d3c8fa8b3c7f377",
+    "b990c955309278771c588303590f0d4e",
     "a9c0d9f8513591a32609956641255d15",
     "0542318cd17130d498b8fd37fd5770b0",
     "b62a16e7e86829da21d563ad64d4f5ce",
@@ -315,6 +320,94 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Edvinas",
+        "lastname": "V."
+      },
+      "name": "Morning Ride",
+      "distance": 2377.1,
+      "moving_time": 515,
+      "elapsed_time": 515,
+      "total_elevation_gain": 3.6,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": 10,
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-08"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Daina",
+        "lastname": "G."
+      },
+      "name": "Morning Walk",
+      "distance": 2751.6,
+      "moving_time": 1600,
+      "elapsed_time": 3252,
+      "total_elevation_gain": 45.4,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-08"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Gintarė",
+        "lastname": "B."
+      },
+      "name": "Morning Walk",
+      "distance": 4223.7,
+      "moving_time": 2532,
+      "elapsed_time": 2548,
+      "total_elevation_gain": 10.1,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Samsung Health",
+      "_fetched_date": "2026-04-08"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Sandra",
+        "lastname": "M."
+      },
+      "name": "Morning Ride",
+      "distance": 6852.7,
+      "moving_time": 1424,
+      "elapsed_time": 1632,
+      "total_elevation_gain": 80.0,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": null,
+      "device_name": "Garmin Venu 2 Plus",
+      "_fetched_date": "2026-04-08"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Andrius",
+        "lastname": "A."
+      },
+      "name": "Morning Run",
+      "distance": 8047.2,
+      "moving_time": 2554,
+      "elapsed_time": 2620,
+      "total_elevation_gain": 49.0,
+      "type": "Run",
+      "sport_type": "Run",
+      "workout_type": null,
+      "device_name": "Garmin fēnix 7",
+      "_fetched_date": "2026-04-08"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -4453,6 +4546,42 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-08T05:12:53.333300+00:00",
+      "new_count": 5,
+      "activities": [
+        {
+          "athlete": "Edvinas V.",
+          "sport": "Ride",
+          "distance_km": 2.38,
+          "name": "Morning Ride"
+        },
+        {
+          "athlete": "Daina G.",
+          "sport": "Walk",
+          "distance_km": 2.75,
+          "name": "Morning Walk"
+        },
+        {
+          "athlete": "Gintarė B.",
+          "sport": "Walk",
+          "distance_km": 4.22,
+          "name": "Morning Walk"
+        },
+        {
+          "athlete": "Sandra M.",
+          "sport": "Ride",
+          "distance_km": 6.85,
+          "name": "Morning Ride"
+        },
+        {
+          "athlete": "Andrius A.",
+          "sport": "Run",
+          "distance_km": 8.05,
+          "name": "Morning Run"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-08T02:37:15.285830+00:00",
       "new_count": 0,
       "activities": []
@@ -5212,11 +5341,6 @@
     },
     {
       "timestamp": "2026-04-04T23:33:22.625005+00:00",
-      "new_count": 0,
-      "activities": []
-    },
-    {
-      "timestamp": "2026-04-04T22:32:34.807997+00:00",
       "new_count": 0,
       "activities": []
     }
