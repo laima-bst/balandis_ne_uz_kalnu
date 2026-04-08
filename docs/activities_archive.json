@@ -1,5 +1,8 @@
 {
   "fingerprints": [
+    "0d74b17d012385d65d2ef040e385aa41",
+    "8a59e44ea6c41a5bb356b0273f231025",
+    "3f893801ff2622d2d64a1208d573b223",
     "894b0b53f3bd571d239f1eb068c1fa9b",
     "8576dd4dcb8a7a837fe0ec770257fe9f",
     "20882d37828df32db1ea0276b7090669",
@@ -320,6 +323,60 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Edvinas",
+        "lastname": "V."
+      },
+      "name": "Morning Ride",
+      "distance": 1288.6,
+      "moving_time": 276,
+      "elapsed_time": 335,
+      "total_elevation_gain": 0.0,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": 10,
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-08"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Andrius",
+        "lastname": "K."
+      },
+      "name": "Morning Run",
+      "distance": 5883.3,
+      "moving_time": 2461,
+      "elapsed_time": 2609,
+      "total_elevation_gain": 24.0,
+      "type": "Run",
+      "sport_type": "Run",
+      "workout_type": null,
+      "device_name": "Garmin fēnix 6 Pro",
+      "_fetched_date": "2026-04-08"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Andrius",
+        "lastname": "K."
+      },
+      "name": "Afternoon Run",
+      "distance": 5748.7,
+      "moving_time": 2494,
+      "elapsed_time": 2656,
+      "total_elevation_gain": 26.0,
+      "type": "Run",
+      "sport_type": "Run",
+      "workout_type": null,
+      "device_name": "Garmin fēnix 6 Pro",
+      "_fetched_date": "2026-04-08"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -4546,6 +4603,30 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-08T07:24:07.265965+00:00",
+      "new_count": 3,
+      "activities": [
+        {
+          "athlete": "Edvinas V.",
+          "sport": "Ride",
+          "distance_km": 1.29,
+          "name": "Morning Ride"
+        },
+        {
+          "athlete": "Andrius K.",
+          "sport": "Run",
+          "distance_km": 5.88,
+          "name": "Morning Run"
+        },
+        {
+          "athlete": "Andrius K.",
+          "sport": "Run",
+          "distance_km": 5.75,
+          "name": "Afternoon Run"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-08T05:12:53.333300+00:00",
       "new_count": 5,
       "activities": [
@@ -5336,11 +5417,6 @@
     },
     {
       "timestamp": "2026-04-05T02:40:48.377893+00:00",
-      "new_count": 0,
-      "activities": []
-    },
-    {
-      "timestamp": "2026-04-04T23:33:22.625005+00:00",
       "new_count": 0,
       "activities": []
     }
