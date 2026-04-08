@@ -1,5 +1,6 @@
 {
   "fingerprints": [
+    "f762762f40fcae44b419368dfd46e5fe",
     "187034f63a2672a02d03ad3707e84b72",
     "9eaeb9a08919c46a85d18892ddf8015c",
     "5703471181d89fb9e7f6fa52c4260094",
@@ -334,6 +335,23 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Paulius",
+        "lastname": "R."
+      },
+      "name": "Padirbėta prie bakio",
+      "distance": 10299.5,
+      "moving_time": 6179,
+      "elapsed_time": 6470,
+      "total_elevation_gain": 90.9,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Wear OS by Google",
+      "_fetched_date": "2026-04-08"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -4803,6 +4821,18 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-08T13:24:11.542819+00:00",
+      "new_count": 1,
+      "activities": [
+        {
+          "athlete": "Paulius R.",
+          "sport": "Walk",
+          "distance_km": 10.3,
+          "name": "Padirbėta prie bakio"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-08T10:59:13.496834+00:00",
       "new_count": 11,
       "activities": [
@@ -5659,24 +5689,6 @@
           "sport": "Ride",
           "distance_km": 51.05,
           "name": "Morning Ride"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-05T07:10:35.001238+00:00",
-      "new_count": 2,
-      "activities": [
-        {
-          "athlete": "Liudas S.",
-          "sport": "Walk",
-          "distance_km": 4.03,
-          "name": "Morning Walk"
-        },
-        {
-          "athlete": "Andrius A.",
-          "sport": "Walk",
-          "distance_km": 1.22,
-          "name": "Morning Walk"
         }
       ]
     }
