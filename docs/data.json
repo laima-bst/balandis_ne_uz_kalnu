@@ -4667,8 +4667,13 @@
       "points": 27.5
     }
   ],
-  "generated_at": "2026-04-09T20:54:21.488010+00:00",
+  "generated_at": "2026-04-09T21:47:59.814339+00:00",
   "run_log": [
+    {
+      "timestamp": "2026-04-09T21:47:59.801610+00:00",
+      "new_count": 0,
+      "activities": []
+    },
     {
       "timestamp": "2026-04-09T20:54:21.475291+00:00",
       "new_count": 0,
@@ -5746,24 +5751,6 @@
       "timestamp": "2026-04-06T09:11:33.479822+00:00",
       "new_count": 0,
       "activities": []
-    },
-    {
-      "timestamp": "2026-04-06T07:47:10.472127+00:00",
-      "new_count": 2,
-      "activities": [
-        {
-          "athlete": "Liudas S.",
-          "sport": "Walk",
-          "distance_km": 6.01,
-          "name": "Morning Walk"
-        },
-        {
-          "athlete": "Gintarė B.",
-          "sport": "Walk",
-          "distance_km": 2.45,
-          "name": "Morning Walk"
-        }
-      ]
     }
   ]
 }
