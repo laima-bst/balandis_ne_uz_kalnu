@@ -1,5 +1,6 @@
 {
   "fingerprints": [
+    "b0a839e1a9840d4e013cb2c99947dc4b",
     "0fe732131b1ae4f2696d322f07229148",
     "e7f16bbc3c9fa917d50b1b7053956c93",
     "d9cd175b4a94c39d37b2398243760c72",
@@ -363,6 +364,23 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Greta",
+        "lastname": "N."
+      },
+      "name": "Morning Walk",
+      "distance": 2560.7,
+      "moving_time": 2225,
+      "elapsed_time": 2327,
+      "total_elevation_gain": 9.8,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-09"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -5335,6 +5353,18 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-09T09:11:09.045305+00:00",
+      "new_count": 1,
+      "activities": [
+        {
+          "athlete": "Greta N.",
+          "sport": "Walk",
+          "distance_km": 2.56,
+          "name": "Morning Walk"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-09T07:26:24.357285+00:00",
       "new_count": 2,
       "activities": [
@@ -6230,11 +6260,6 @@
     },
     {
       "timestamp": "2026-04-05T20:36:45.888123+00:00",
-      "new_count": 0,
-      "activities": []
-    },
-    {
-      "timestamp": "2026-04-05T19:35:00.261148+00:00",
       "new_count": 0,
       "activities": []
     }
