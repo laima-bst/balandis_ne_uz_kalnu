@@ -4206,8 +4206,13 @@
       "points": 27.5
     }
   ],
-  "generated_at": "2026-04-08T23:40:24.322376+00:00",
+  "generated_at": "2026-04-09T02:32:30.575551+00:00",
   "run_log": [
+    {
+      "timestamp": "2026-04-09T02:32:30.547662+00:00",
+      "new_count": 0,
+      "activities": []
+    },
     {
       "timestamp": "2026-04-08T23:40:24.205264+00:00",
       "new_count": 0,
@@ -5098,24 +5103,6 @@
           "sport": "Walk",
           "distance_km": 2.33,
           "name": "Evening Walk"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-05T16:39:36.009892+00:00",
-      "new_count": 2,
-      "activities": [
-        {
-          "athlete": "Paulius R.",
-          "sport": "Walk",
-          "distance_km": 6.57,
-          "name": "Mūšos tyrelio takas"
-        },
-        {
-          "athlete": "Aurelija S.",
-          "sport": "Walk",
-          "distance_km": 4.34,
-          "name": "Aplink Molėtus 🚶‍♀️"
         }
       ]
     }
