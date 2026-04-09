@@ -5902,6 +5902,11 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-09T22:42:46.723009+00:00",
+      "new_count": 0,
+      "activities": []
+    },
+    {
       "timestamp": "2026-04-09T21:47:59.801610+00:00",
       "new_count": 0,
       "activities": []
@@ -6978,11 +6983,6 @@
           "name": "Morning Run"
         }
       ]
-    },
-    {
-      "timestamp": "2026-04-06T09:11:33.479822+00:00",
-      "new_count": 0,
-      "activities": []
     }
   ]
 }
