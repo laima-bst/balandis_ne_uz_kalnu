@@ -4667,8 +4667,13 @@
       "points": 27.5
     }
   ],
-  "generated_at": "2026-04-09T22:42:46.735559+00:00",
+  "generated_at": "2026-04-09T23:38:42.724540+00:00",
   "run_log": [
+    {
+      "timestamp": "2026-04-09T23:38:42.711819+00:00",
+      "new_count": 0,
+      "activities": []
+    },
     {
       "timestamp": "2026-04-09T22:42:46.723009+00:00",
       "new_count": 0,
@@ -5725,30 +5730,6 @@
           "sport": "Walk",
           "distance_km": 1.46,
           "name": "Buvo pamiršta startuot :D"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-06T10:59:30.522689+00:00",
-      "new_count": 3,
-      "activities": [
-        {
-          "athlete": "Liudas S.",
-          "sport": "Walk",
-          "distance_km": 2.81,
-          "name": "Lunch Walk"
-        },
-        {
-          "athlete": "Donatas J.",
-          "sport": "Ride",
-          "distance_km": 65.06,
-          "name": "Morning Ride"
-        },
-        {
-          "athlete": "Andrius A.",
-          "sport": "Run",
-          "distance_km": 35.02,
-          "name": "Morning Run"
         }
       ]
     }
