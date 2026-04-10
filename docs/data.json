@@ -5152,8 +5152,13 @@
       "points": 27.5
     }
   ],
-  "generated_at": "2026-04-10T20:40:17.081976+00:00",
+  "generated_at": "2026-04-10T21:40:21.323402+00:00",
   "run_log": [
+    {
+      "timestamp": "2026-04-10T21:40:21.308944+00:00",
+      "new_count": 0,
+      "activities": []
+    },
     {
       "timestamp": "2026-04-10T20:40:17.067236+00:00",
       "new_count": 1,
@@ -6285,66 +6290,6 @@
       "timestamp": "2026-04-07T11:58:29.412496+00:00",
       "new_count": 0,
       "activities": []
-    },
-    {
-      "timestamp": "2026-04-07T10:58:05.337066+00:00",
-      "new_count": 9,
-      "activities": [
-        {
-          "athlete": "Ne L.",
-          "sport": "Walk",
-          "distance_km": 1.34,
-          "name": "Lunch Walk"
-        },
-        {
-          "athlete": "Donatas J.",
-          "sport": "Walk",
-          "distance_km": 1.04,
-          "name": "Lunch Walk"
-        },
-        {
-          "athlete": "Azuolas S.",
-          "sport": "Walk",
-          "distance_km": 1.74,
-          "name": "Lunch Walk"
-        },
-        {
-          "athlete": "Liudas S.",
-          "sport": "Run",
-          "distance_km": 12.1,
-          "name": "Lunch Run"
-        },
-        {
-          "athlete": "Ieva S.",
-          "sport": "Swim",
-          "distance_km": 2.8,
-          "name": "Morning Swim"
-        },
-        {
-          "athlete": "Gintarė B.",
-          "sport": "Walk",
-          "distance_km": 2.5,
-          "name": "Pagaliau pabaigta mišrainė."
-        },
-        {
-          "athlete": "Andrius A.",
-          "sport": "Walk",
-          "distance_km": 2.64,
-          "name": "Lunch Walk"
-        },
-        {
-          "athlete": "Augustinas T.",
-          "sport": "Walk",
-          "distance_km": 2.36,
-          "name": "Lunch Walk"
-        },
-        {
-          "athlete": "Ieva S.",
-          "sport": "Walk",
-          "distance_km": 4.34,
-          "name": "Afternoon Walk"
-        }
-      ]
     }
   ]
 }
