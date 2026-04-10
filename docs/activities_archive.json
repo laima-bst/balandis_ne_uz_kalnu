@@ -1,5 +1,8 @@
 {
   "fingerprints": [
+    "5a7d94117193f067b41a94f5de4c7fbc",
+    "0ab40bf1b9bafc4c5cc6d44e76e9b272",
+    "909a75ad15f3f3b81a199d905e580cc7",
     "f27c9f21d1b9d14fc06301740b4497bd",
     "ef21f3796a301c6f608e331f56961608",
     "b5a719a1c55feca59745bd7d921b0f6e",
@@ -418,6 +421,59 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Arunas",
+        "lastname": "M."
+      },
+      "name": "Pasivažinėjimas",
+      "distance": 3540.7,
+      "moving_time": 1430,
+      "elapsed_time": 5304,
+      "total_elevation_gain": 13.8,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": null,
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-10"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Arturas",
+        "lastname": "K."
+      },
+      "name": "My legs felt that...",
+      "distance": 34980.7,
+      "moving_time": 8822,
+      "elapsed_time": 9735,
+      "total_elevation_gain": 340.0,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": null,
+      "device_name": "Garmin Epix Gen2",
+      "_fetched_date": "2026-04-10"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Antanas",
+        "lastname": "R."
+      },
+      "name": "Afternoon Swim",
+      "distance": 2000.0,
+      "moving_time": 2708,
+      "elapsed_time": 2873,
+      "total_elevation_gain": 0,
+      "type": "Swim",
+      "sport_type": "Swim",
+      "device_name": "Garmin fēnix 7",
+      "_fetched_date": "2026-04-10"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -6343,6 +6399,30 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-10T16:57:21.270233+00:00",
+      "new_count": 3,
+      "activities": [
+        {
+          "athlete": "Arunas M.",
+          "sport": "Ride",
+          "distance_km": 3.54,
+          "name": "Pasivažinėjimas"
+        },
+        {
+          "athlete": "Arturas K.",
+          "sport": "Ride",
+          "distance_km": 34.98,
+          "name": "My legs felt that..."
+        },
+        {
+          "athlete": "Antanas R.",
+          "sport": "Swim",
+          "distance_km": 2.0,
+          "name": "Afternoon Swim"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-10T15:56:02.556498+00:00",
       "new_count": 1,
       "activities": [
@@ -7464,11 +7544,6 @@
     },
     {
       "timestamp": "2026-04-07T02:36:27.312922+00:00",
-      "new_count": 0,
-      "activities": []
-    },
-    {
-      "timestamp": "2026-04-06T23:38:17.577475+00:00",
       "new_count": 0,
       "activities": []
     }
