@@ -1,5 +1,10 @@
 {
   "fingerprints": [
+    "5016a8a44fe6f6762e40356c88ade752",
+    "4f2fa6e91a9c68381da11de5ef81c230",
+    "4b072fb06f22353cfc31b5c8dedb6fa9",
+    "369cc4d2c991aeb79e0cb881949c8693",
+    "69e16905aa2b8169beff40e7f9deac4d",
     "949a299899daadeb95a5c586a4753673",
     "b4beb8af60c760f051b35b57c8c84c45",
     "d9ba6de421bebd396267882a4b9ce6a5",
@@ -428,6 +433,93 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Viktorija",
+        "lastname": "M."
+      },
+      "name": "Night Run",
+      "distance": 2753.9,
+      "moving_time": 1058,
+      "elapsed_time": 1150,
+      "total_elevation_gain": 20.3,
+      "type": "Run",
+      "sport_type": "Run",
+      "workout_type": null,
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-10"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Viktorija",
+        "lastname": "M."
+      },
+      "name": "Evening Walk",
+      "distance": 1046.2,
+      "moving_time": 676,
+      "elapsed_time": 808,
+      "total_elevation_gain": 2.3,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-10"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Edvinas",
+        "lastname": "V."
+      },
+      "name": "Evening Ride",
+      "distance": 21923.0,
+      "moving_time": 4447,
+      "elapsed_time": 4519,
+      "total_elevation_gain": 168.6,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": 12,
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-10"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Matas",
+        "lastname": "A."
+      },
+      "name": "Evening Walk",
+      "distance": 1520.5,
+      "moving_time": 1151,
+      "elapsed_time": 8034,
+      "total_elevation_gain": 10.5,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-10"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Sandra",
+        "lastname": "M."
+      },
+      "name": "Evening Walk",
+      "distance": 1218.1,
+      "moving_time": 720,
+      "elapsed_time": 814,
+      "total_elevation_gain": 6.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin Venu 2 Plus",
+      "_fetched_date": "2026-04-10"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -6529,6 +6621,42 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-10T18:57:43.475282+00:00",
+      "new_count": 5,
+      "activities": [
+        {
+          "athlete": "Viktorija M.",
+          "sport": "Run",
+          "distance_km": 2.75,
+          "name": "Night Run"
+        },
+        {
+          "athlete": "Viktorija M.",
+          "sport": "Walk",
+          "distance_km": 1.05,
+          "name": "Evening Walk"
+        },
+        {
+          "athlete": "Edvinas V.",
+          "sport": "Ride",
+          "distance_km": 21.92,
+          "name": "Evening Ride"
+        },
+        {
+          "athlete": "Matas A.",
+          "sport": "Walk",
+          "distance_km": 1.52,
+          "name": "Evening Walk"
+        },
+        {
+          "athlete": "Sandra M.",
+          "sport": "Walk",
+          "distance_km": 1.22,
+          "name": "Evening Walk"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-10T17:54:19.337365+00:00",
       "new_count": 7,
       "activities": [
@@ -7698,24 +7826,6 @@
           "athlete": "Sandra M.",
           "sport": "Walk",
           "distance_km": 4.17,
-          "name": "Morning Walk"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-07T05:11:37.428023+00:00",
-      "new_count": 2,
-      "activities": [
-        {
-          "athlete": "Edvinas V.",
-          "sport": "Ride",
-          "distance_km": 2.44,
-          "name": "Morning Ride"
-        },
-        {
-          "athlete": "Daina G.",
-          "sport": "Walk",
-          "distance_km": 2.63,
           "name": "Morning Walk"
         }
       ]
