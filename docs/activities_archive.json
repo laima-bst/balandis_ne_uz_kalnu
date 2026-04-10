@@ -5902,6 +5902,11 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-10T02:43:37.051898+00:00",
+      "new_count": 0,
+      "activities": []
+    },
+    {
       "timestamp": "2026-04-09T23:38:42.711819+00:00",
       "new_count": 0,
       "activities": []
@@ -6944,24 +6949,6 @@
           "sport": "Run",
           "distance_km": 10.02,
           "name": "Afternoon Run"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-06T13:15:47.253897+00:00",
-      "new_count": 2,
-      "activities": [
-        {
-          "athlete": "Donatas J.",
-          "sport": "Walk",
-          "distance_km": 2.29,
-          "name": "Afternoon Walk"
-        },
-        {
-          "athlete": "Greta N.",
-          "sport": "Walk",
-          "distance_km": 1.46,
-          "name": "Buvo pamiršta startuot :D"
         }
       ]
     }
