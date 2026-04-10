@@ -1,5 +1,8 @@
 {
   "fingerprints": [
+    "79b7f0346a0563307c2c55f8d4955e56",
+    "af1658656f63064e57d0388cd6b72581",
+    "b0c088399019443b3447a9ded1530077",
     "34e30f236dc2de1d9535af45ba2926be",
     "ccc30ddef2c7f14ebe06501ec52b2383",
     "5d580ca6b618925bdb2e4b9bb18a196d",
@@ -400,6 +403,59 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Donatas",
+        "lastname": "J."
+      },
+      "name": "Morning Walk",
+      "distance": 1130.0,
+      "moving_time": 853,
+      "elapsed_time": 887,
+      "total_elevation_gain": 7.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin Forerunner 255 Music",
+      "_fetched_date": "2026-04-10"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Edvinas",
+        "lastname": "V."
+      },
+      "name": "Morning Ride",
+      "distance": 1262.7,
+      "moving_time": 272,
+      "elapsed_time": 291,
+      "total_elevation_gain": 0.0,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": 10,
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-10"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Laima",
+        "lastname": "A."
+      },
+      "name": "Morning Workout",
+      "distance": 0.0,
+      "moving_time": 5388,
+      "elapsed_time": 5388,
+      "total_elevation_gain": 0,
+      "type": "Workout",
+      "sport_type": "Workout",
+      "workout_type": null,
+      "device_name": "COROS PACE 2",
+      "_fetched_date": "2026-04-10"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -6013,6 +6069,30 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-10T07:45:18.528340+00:00",
+      "new_count": 3,
+      "activities": [
+        {
+          "athlete": "Donatas J.",
+          "sport": "Walk",
+          "distance_km": 1.13,
+          "name": "Morning Walk"
+        },
+        {
+          "athlete": "Edvinas V.",
+          "sport": "Ride",
+          "distance_km": 1.26,
+          "name": "Morning Ride"
+        },
+        {
+          "athlete": "Laima A.",
+          "sport": "Workout",
+          "distance_km": 0.0,
+          "name": "Morning Workout"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-10T05:27:20.329995+00:00",
       "new_count": 6,
       "activities": [
@@ -7066,24 +7146,6 @@
           "sport": "Walk",
           "distance_km": 3.09,
           "name": "Evening Walk"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-06T15:50:58.060218+00:00",
-      "new_count": 2,
-      "activities": [
-        {
-          "athlete": "Viktorija M.",
-          "sport": "Walk",
-          "distance_km": 1.53,
-          "name": "Afternoon Walk"
-        },
-        {
-          "athlete": "Gertrūda G.",
-          "sport": "Walk",
-          "distance_km": 4.35,
-          "name": "Afternoon Walk"
         }
       ]
     }
