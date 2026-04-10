@@ -6621,6 +6621,11 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-10T19:50:04.763503+00:00",
+      "new_count": 0,
+      "activities": []
+    },
+    {
       "timestamp": "2026-04-10T18:57:43.475282+00:00",
       "new_count": 5,
       "activities": [
@@ -7799,36 +7804,6 @@
       "timestamp": "2026-04-07T09:05:41.001442+00:00",
       "new_count": 0,
       "activities": []
-    },
-    {
-      "timestamp": "2026-04-07T07:21:37.486158+00:00",
-      "new_count": 4,
-      "activities": [
-        {
-          "athlete": "Donatas J.",
-          "sport": "Walk",
-          "distance_km": 1.0,
-          "name": "Morning Walk"
-        },
-        {
-          "athlete": "Edvinas V.",
-          "sport": "Ride",
-          "distance_km": 1.53,
-          "name": "Morning Ride"
-        },
-        {
-          "athlete": "Paulius R.",
-          "sport": "Ride",
-          "distance_km": 26.03,
-          "name": "Nuvežiau marguti :Dd"
-        },
-        {
-          "athlete": "Sandra M.",
-          "sport": "Walk",
-          "distance_km": 4.17,
-          "name": "Morning Walk"
-        }
-      ]
     }
   ]
 }
