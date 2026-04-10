@@ -1,5 +1,6 @@
 {
   "fingerprints": [
+    "f27c9f21d1b9d14fc06301740b4497bd",
     "ef21f3796a301c6f608e331f56961608",
     "b5a719a1c55feca59745bd7d921b0f6e",
     "171e15bea2f2feed18f086934476708e",
@@ -417,6 +418,23 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Viktorija",
+        "lastname": "M."
+      },
+      "name": "Afternoon Walk",
+      "distance": 3414.3,
+      "moving_time": 2057,
+      "elapsed_time": 6416,
+      "total_elevation_gain": 25.8,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-10"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -6325,6 +6343,18 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-10T15:56:02.556498+00:00",
+      "new_count": 1,
+      "activities": [
+        {
+          "athlete": "Viktorija M.",
+          "sport": "Walk",
+          "distance_km": 3.41,
+          "name": "Afternoon Walk"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-10T14:50:34.462324+00:00",
       "new_count": 5,
       "activities": [
@@ -7439,11 +7469,6 @@
     },
     {
       "timestamp": "2026-04-06T23:38:17.577475+00:00",
-      "new_count": 0,
-      "activities": []
-    },
-    {
-      "timestamp": "2026-04-06T22:39:18.165815+00:00",
       "new_count": 0,
       "activities": []
     }
