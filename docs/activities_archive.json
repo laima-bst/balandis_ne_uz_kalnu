@@ -6195,6 +6195,11 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-10T11:55:33.205263+00:00",
+      "new_count": 0,
+      "activities": []
+    },
+    {
       "timestamp": "2026-04-10T10:57:40.861450+00:00",
       "new_count": 7,
       "activities": [
@@ -7267,24 +7272,6 @@
       "timestamp": "2026-04-06T20:39:46.293833+00:00",
       "new_count": 0,
       "activities": []
-    },
-    {
-      "timestamp": "2026-04-06T19:04:13.433434+00:00",
-      "new_count": 2,
-      "activities": [
-        {
-          "athlete": "Antanas R.",
-          "sport": "Walk",
-          "distance_km": 1.1,
-          "name": "Evening Walk"
-        },
-        {
-          "athlete": "Antanas R.",
-          "sport": "Walk",
-          "distance_km": 1.01,
-          "name": "Evening Walk"
-        }
-      ]
     }
   ]
 }
