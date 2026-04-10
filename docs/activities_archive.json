@@ -1,5 +1,7 @@
 {
   "fingerprints": [
+    "ac69d65417bb3d54fe797bfaeffa9c78",
+    "4e275dca765e9ca425279f0e4e67c5e8",
     "e1244e41868cdc0256c0cf41c39da3c5",
     "62478d62879276e7b9e7fbeb264bf89d",
     "7e530ad8d3a57e30567c642182d9b55b",
@@ -410,6 +412,41 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Augustė",
+        "lastname": "J."
+      },
+      "name": "Afternoon Walk",
+      "distance": 1052.2,
+      "moving_time": 804,
+      "elapsed_time": 905,
+      "total_elevation_gain": 6.6,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-10"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Edvinas",
+        "lastname": "V."
+      },
+      "name": "Afternoon Ride",
+      "distance": 24853.8,
+      "moving_time": 4956,
+      "elapsed_time": 5022,
+      "total_elevation_gain": 163.2,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": 10,
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-10"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -6195,6 +6232,24 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-10T13:24:04.479326+00:00",
+      "new_count": 2,
+      "activities": [
+        {
+          "athlete": "Augustė J.",
+          "sport": "Walk",
+          "distance_km": 1.05,
+          "name": "Afternoon Walk"
+        },
+        {
+          "athlete": "Edvinas V.",
+          "sport": "Ride",
+          "distance_km": 24.85,
+          "name": "Afternoon Ride"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-10T11:55:33.205263+00:00",
       "new_count": 0,
       "activities": []
@@ -7265,11 +7320,6 @@
     },
     {
       "timestamp": "2026-04-06T21:43:13.132538+00:00",
-      "new_count": 0,
-      "activities": []
-    },
-    {
-      "timestamp": "2026-04-06T20:39:46.293833+00:00",
       "new_count": 0,
       "activities": []
     }
