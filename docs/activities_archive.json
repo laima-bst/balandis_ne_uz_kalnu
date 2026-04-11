@@ -1,5 +1,6 @@
 {
   "fingerprints": [
+    "5290629ab4d54b92872884990cf9e447",
     "a873c1680d79d89e444d906f23404b70",
     "5016a8a44fe6f6762e40356c88ade752",
     "4f2fa6e91a9c68381da11de5ef81c230",
@@ -434,6 +435,24 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Andrius",
+        "lastname": "A."
+      },
+      "name": "Morning Run",
+      "distance": 13928.2,
+      "moving_time": 4375,
+      "elapsed_time": 4769,
+      "total_elevation_gain": 105.0,
+      "type": "Run",
+      "sport_type": "Run",
+      "workout_type": null,
+      "device_name": "Garmin fēnix 7",
+      "_fetched_date": "2026-04-11"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -6639,6 +6658,18 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-11T06:05:48.739980+00:00",
+      "new_count": 1,
+      "activities": [
+        {
+          "athlete": "Andrius A.",
+          "sport": "Run",
+          "distance_km": 13.93,
+          "name": "Morning Run"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-11T04:56:58.040049+00:00",
       "new_count": 0,
       "activities": []
@@ -7632,90 +7663,6 @@
           "sport": "Walk",
           "distance_km": 1.07,
           "name": "Night Walk"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-07T19:06:46.662683+00:00",
-      "new_count": 13,
-      "activities": [
-        {
-          "athlete": "Augustė J.",
-          "sport": "Run",
-          "distance_km": 2.78,
-          "name": "Evening Run"
-        },
-        {
-          "athlete": "Arturas K.",
-          "sport": "Walk",
-          "distance_km": 3.07,
-          "name": "Evening Walk"
-        },
-        {
-          "athlete": "Paulius R.",
-          "sport": "Run",
-          "distance_km": 10.05,
-          "name": "Evening Run"
-        },
-        {
-          "athlete": "Augustė J.",
-          "sport": "Swim",
-          "distance_km": 0.2,
-          "name": "Evening Swim"
-        },
-        {
-          "athlete": "Aurelija S.",
-          "sport": "Tennis",
-          "distance_km": 0.38,
-          "name": "Evening Tennis 🎾"
-        },
-        {
-          "athlete": "Valentinas A.",
-          "sport": "Walk",
-          "distance_km": 2.36,
-          "name": "Lunch Walk"
-        },
-        {
-          "athlete": "Augustė J.",
-          "sport": "Walk",
-          "distance_km": 1.92,
-          "name": "Pietukai"
-        },
-        {
-          "athlete": "Sandra M.",
-          "sport": "Walk",
-          "distance_km": 2.0,
-          "name": "Night Walk"
-        },
-        {
-          "athlete": "Augustinas T.",
-          "sport": "Walk",
-          "distance_km": 2.78,
-          "name": "Evening Walk"
-        },
-        {
-          "athlete": "Gintarė B.",
-          "sport": "Walk",
-          "distance_km": 2.43,
-          "name": "Evening Walk 🐕🚶🏼‍♀️"
-        },
-        {
-          "athlete": "Andrius A.",
-          "sport": "Walk",
-          "distance_km": 2.01,
-          "name": "Evening Walk"
-        },
-        {
-          "athlete": "Antanas R.",
-          "sport": "Swim",
-          "distance_km": 1.7,
-          "name": "Afternoon Swim"
-        },
-        {
-          "athlete": "Valentinas A.",
-          "sport": "Walk",
-          "distance_km": 1.66,
-          "name": "Lunch Walk"
         }
       ]
     }
