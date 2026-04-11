@@ -1,5 +1,9 @@
 {
   "fingerprints": [
+    "3fd53b3bf3e6bd28dd400469ec1dfd48",
+    "df978aa04bcb86c2b2eebe6daf5bb91e",
+    "47815c686a84d426ea919b11586ba5ab",
+    "3b0298fd0dad04f9facb6cc72dcf67e7",
     "f76117ac4bde006df1386ea3e9a7fb64",
     "da0e010c573bf51fa95083e87b8fbf00",
     "d5dcf59c9250c5bb607a1d109392093e",
@@ -449,6 +453,74 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Liudas",
+        "lastname": "S."
+      },
+      "name": "Afternoon Walk",
+      "distance": 1034.7,
+      "moving_time": 727,
+      "elapsed_time": 727,
+      "total_elevation_gain": 0.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Samsung Galaxy Ultra",
+      "_fetched_date": "2026-04-11"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Arunas",
+        "lastname": "M."
+      },
+      "name": "Pasunkintas kibinų ir naminės giros išvaikščiojimas",
+      "distance": 2505.6,
+      "moving_time": 2068,
+      "elapsed_time": 2360,
+      "total_elevation_gain": 15.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-11"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Augustinas",
+        "lastname": "T."
+      },
+      "name": "Afternoon Ride",
+      "distance": 28841.7,
+      "moving_time": 4582,
+      "elapsed_time": 4764,
+      "total_elevation_gain": 100.0,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": null,
+      "device_name": "Wahoo ELEMNT ROAM",
+      "_fetched_date": "2026-04-11"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Greta",
+        "lastname": "N."
+      },
+      "name": "Bokšto SPA swim",
+      "distance": 250.0,
+      "moving_time": 1800,
+      "elapsed_time": 1800,
+      "total_elevation_gain": 0,
+      "type": "Swim",
+      "sport_type": "Swim",
+      "_fetched_date": "2026-04-11"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -6913,6 +6985,36 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-11T14:37:41.505960+00:00",
+      "new_count": 4,
+      "activities": [
+        {
+          "athlete": "Liudas S.",
+          "sport": "Walk",
+          "distance_km": 1.03,
+          "name": "Afternoon Walk"
+        },
+        {
+          "athlete": "Arunas M.",
+          "sport": "Walk",
+          "distance_km": 2.51,
+          "name": "Pasunkintas kibinų ir naminės giros išvaikščiojimas"
+        },
+        {
+          "athlete": "Augustinas T.",
+          "sport": "Ride",
+          "distance_km": 28.84,
+          "name": "Afternoon Ride"
+        },
+        {
+          "athlete": "Greta N.",
+          "sport": "Swim",
+          "distance_km": 0.25,
+          "name": "Bokšto SPA swim"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-11T13:03:13.290359+00:00",
       "new_count": 2,
       "activities": [
@@ -7941,30 +8043,6 @@
       "timestamp": "2026-04-08T09:04:12.378688+00:00",
       "new_count": 0,
       "activities": []
-    },
-    {
-      "timestamp": "2026-04-08T07:24:07.265965+00:00",
-      "new_count": 3,
-      "activities": [
-        {
-          "athlete": "Edvinas V.",
-          "sport": "Ride",
-          "distance_km": 1.29,
-          "name": "Morning Ride"
-        },
-        {
-          "athlete": "Andrius K.",
-          "sport": "Run",
-          "distance_km": 5.88,
-          "name": "Morning Run"
-        },
-        {
-          "athlete": "Andrius K.",
-          "sport": "Run",
-          "distance_km": 5.75,
-          "name": "Afternoon Run"
-        }
-      ]
     }
   ]
 }
