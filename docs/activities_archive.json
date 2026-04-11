@@ -1,5 +1,7 @@
 {
   "fingerprints": [
+    "68c299878d6ed6d66e3a390a78ae8f16",
+    "cc2e4a5a0b018bf06ef9cb19c96fab3e",
     "a61c4219db0c02dd819a0aa0e933482d",
     "fe6dd71a624b3883bc12a89abb393442",
     "8c4a8641463254b5c2002583b6a78453",
@@ -439,6 +441,41 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Liudas",
+        "lastname": "S."
+      },
+      "name": "Morning Walk",
+      "distance": 1883.7,
+      "moving_time": 1510,
+      "elapsed_time": 2102,
+      "total_elevation_gain": 102.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Samsung Galaxy Ultra",
+      "_fetched_date": "2026-04-11"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Ieva",
+        "lastname": "S."
+      },
+      "name": "Morning Run",
+      "distance": 7544.0,
+      "moving_time": 3145,
+      "elapsed_time": 3183,
+      "total_elevation_gain": 75.0,
+      "type": "Run",
+      "sport_type": "Run",
+      "workout_type": null,
+      "device_name": "Garmin Forerunner 255 Music",
+      "_fetched_date": "2026-04-11"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -6732,6 +6769,24 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-11T08:48:32.516901+00:00",
+      "new_count": 2,
+      "activities": [
+        {
+          "athlete": "Liudas S.",
+          "sport": "Walk",
+          "distance_km": 1.88,
+          "name": "Morning Walk"
+        },
+        {
+          "athlete": "Ieva S.",
+          "sport": "Run",
+          "distance_km": 7.54,
+          "name": "Morning Run"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-11T07:51:30.556933+00:00",
       "new_count": 4,
       "activities": [
@@ -7744,11 +7799,6 @@
     },
     {
       "timestamp": "2026-04-07T22:39:56.139891+00:00",
-      "new_count": 0,
-      "activities": []
-    },
-    {
-      "timestamp": "2026-04-07T21:43:06.066226+00:00",
       "new_count": 0,
       "activities": []
     }
