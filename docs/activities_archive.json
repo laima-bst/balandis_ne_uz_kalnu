@@ -1,5 +1,9 @@
 {
   "fingerprints": [
+    "0ff6d4d5659e5fac2add30c7f9ee2d95",
+    "47cc926b9fc9c17c99016a83e3d8eab3",
+    "ea693a05679731935e1bc6c3ba85fe43",
+    "f74e2b9e770aa79776281e65500fdb15",
     "3fd53b3bf3e6bd28dd400469ec1dfd48",
     "df978aa04bcb86c2b2eebe6daf5bb91e",
     "47815c686a84d426ea919b11586ba5ab",
@@ -453,6 +457,75 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Gertrūda",
+        "lastname": "G."
+      },
+      "name": "Afternoon Walk",
+      "distance": 2162.6,
+      "moving_time": 1636,
+      "elapsed_time": 2378,
+      "total_elevation_gain": 20.4,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-11"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Liudas",
+        "lastname": "S."
+      },
+      "name": "Afternoon Walk",
+      "distance": 3198.8,
+      "moving_time": 2673,
+      "elapsed_time": 3860,
+      "total_elevation_gain": 12.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Samsung Galaxy Ultra",
+      "_fetched_date": "2026-04-11"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Benediktas",
+        "lastname": "B."
+      },
+      "name": "Afternoon Gravel Ride",
+      "distance": 65879.0,
+      "moving_time": 9696,
+      "elapsed_time": 10438,
+      "total_elevation_gain": 434.0,
+      "type": "Ride",
+      "sport_type": "GravelRide",
+      "workout_type": null,
+      "device_name": "Garmin Edge Explore 2",
+      "_fetched_date": "2026-04-11"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Ieva",
+        "lastname": "S."
+      },
+      "name": "Afternoon Walk",
+      "distance": 2164.2,
+      "moving_time": 2081,
+      "elapsed_time": 5860,
+      "total_elevation_gain": 24.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin Forerunner 255 Music",
+      "_fetched_date": "2026-04-11"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -6985,6 +7058,36 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-11T15:36:22.863956+00:00",
+      "new_count": 4,
+      "activities": [
+        {
+          "athlete": "Gertrūda G.",
+          "sport": "Walk",
+          "distance_km": 2.16,
+          "name": "Afternoon Walk"
+        },
+        {
+          "athlete": "Liudas S.",
+          "sport": "Walk",
+          "distance_km": 3.2,
+          "name": "Afternoon Walk"
+        },
+        {
+          "athlete": "Benediktas B.",
+          "sport": "GravelRide",
+          "distance_km": 65.88,
+          "name": "Afternoon Gravel Ride"
+        },
+        {
+          "athlete": "Ieva S.",
+          "sport": "Walk",
+          "distance_km": 2.16,
+          "name": "Afternoon Walk"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-11T14:37:41.505960+00:00",
       "new_count": 4,
       "activities": [
@@ -8038,11 +8141,6 @@
           "name": "Lunch Walk"
         }
       ]
-    },
-    {
-      "timestamp": "2026-04-08T09:04:12.378688+00:00",
-      "new_count": 0,
-      "activities": []
     }
   ]
 }
