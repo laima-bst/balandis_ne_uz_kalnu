@@ -1,5 +1,9 @@
 {
   "fingerprints": [
+    "d5dcf59c9250c5bb607a1d109392093e",
+    "84083c75583641495425d31679f3d8e7",
+    "637856e4948e4f8f0e09753b6a41c5e6",
+    "dc785f8ce59c33f8d18e156964e82160",
     "80219007fae4f1ed24ebd298c49960d0",
     "f6bb931901dc2daa3ca4dea60338df05",
     "68c299878d6ed6d66e3a390a78ae8f16",
@@ -443,6 +447,73 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Liudas",
+        "lastname": "S."
+      },
+      "name": "Afternoon Walk",
+      "distance": 1529.8,
+      "moving_time": 1021,
+      "elapsed_time": 1055,
+      "total_elevation_gain": 0.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Samsung Galaxy Ultra",
+      "_fetched_date": "2026-04-11"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Liudas",
+        "lastname": "S."
+      },
+      "name": "Palanga plaukimas",
+      "distance": 625.0,
+      "moving_time": 2700,
+      "elapsed_time": 2700,
+      "total_elevation_gain": 0,
+      "type": "Swim",
+      "sport_type": "Swim",
+      "_fetched_date": "2026-04-11"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Matas",
+        "lastname": "A."
+      },
+      "name": "Lunch Walk",
+      "distance": 1824.2,
+      "moving_time": 1353,
+      "elapsed_time": 7991,
+      "total_elevation_gain": 24.5,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-11"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Aurelija",
+        "lastname": "S."
+      },
+      "name": "Patikrinom sakuras 🌸",
+      "distance": 4404.2,
+      "moving_time": 3671,
+      "elapsed_time": 7350,
+      "total_elevation_gain": 55.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin Venu 3S",
+      "_fetched_date": "2026-04-11"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -6806,6 +6877,36 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-11T11:32:13.361412+00:00",
+      "new_count": 4,
+      "activities": [
+        {
+          "athlete": "Liudas S.",
+          "sport": "Walk",
+          "distance_km": 1.53,
+          "name": "Afternoon Walk"
+        },
+        {
+          "athlete": "Liudas S.",
+          "sport": "Swim",
+          "distance_km": 0.62,
+          "name": "Palanga plaukimas"
+        },
+        {
+          "athlete": "Matas A.",
+          "sport": "Walk",
+          "distance_km": 1.82,
+          "name": "Lunch Walk"
+        },
+        {
+          "athlete": "Aurelija S.",
+          "sport": "Walk",
+          "distance_km": 4.4,
+          "name": "Patikrinom sakuras 🌸"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-11T10:37:04.789615+00:00",
       "new_count": 2,
       "activities": [
@@ -7846,11 +7947,6 @@
           "name": "Morning Run"
         }
       ]
-    },
-    {
-      "timestamp": "2026-04-08T02:37:15.285830+00:00",
-      "new_count": 0,
-      "activities": []
     }
   ]
 }
