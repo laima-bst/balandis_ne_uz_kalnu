@@ -5152,8 +5152,13 @@
       "points": 27.5
     }
   ],
-  "generated_at": "2026-04-10T23:37:32.500801+00:00",
+  "generated_at": "2026-04-11T02:28:33.202675+00:00",
   "run_log": [
+    {
+      "timestamp": "2026-04-11T02:28:33.188779+00:00",
+      "new_count": 0,
+      "activities": []
+    },
     {
       "timestamp": "2026-04-10T23:37:32.487936+00:00",
       "new_count": 0,
@@ -6258,36 +6263,6 @@
           "sport": "Walk",
           "distance_km": 1.07,
           "name": "Evening Walk"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-07T15:13:48.056727+00:00",
-      "new_count": 4,
-      "activities": [
-        {
-          "athlete": "Liudas S.",
-          "sport": "Walk",
-          "distance_km": 1.86,
-          "name": "Afternoon Walk"
-        },
-        {
-          "athlete": "Edvinas V.",
-          "sport": "Ride",
-          "distance_km": 3.35,
-          "name": "Afternoon Ride"
-        },
-        {
-          "athlete": "Daina G.",
-          "sport": "Walk",
-          "distance_km": 9.55,
-          "name": "Puikus (?) oras grįžt peškom i guess"
-        },
-        {
-          "athlete": "Greta N.",
-          "sport": "Walk",
-          "distance_km": 2.01,
-          "name": "Afternoon Walk"
         }
       ]
     }
