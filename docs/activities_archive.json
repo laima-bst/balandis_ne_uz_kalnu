@@ -1,5 +1,7 @@
 {
   "fingerprints": [
+    "f7b7b9b9c2054c0b43e7f1a2d6da909f",
+    "3ecc8e203a73d24dfdc6ec3ba859a157",
     "162d994839962a67011728a08e90accf",
     "26f1502c82f66f325a6d5b9d2d48ee26",
     "524c0e503099644f4fb1538348091f54",
@@ -462,6 +464,40 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Daina",
+        "lastname": "G."
+      },
+      "name": "Kai reikia 15 min laukt autobuso",
+      "distance": 3723.0,
+      "moving_time": 2381,
+      "elapsed_time": 3256,
+      "total_elevation_gain": 28.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-11"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Andrius",
+        "lastname": "A."
+      },
+      "name": "Evening Walk",
+      "distance": 3657.5,
+      "moving_time": 2795,
+      "elapsed_time": 3422,
+      "total_elevation_gain": 36.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin fēnix 7",
+      "_fetched_date": "2026-04-11"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -7148,6 +7184,24 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-11T18:50:01.512984+00:00",
+      "new_count": 2,
+      "activities": [
+        {
+          "athlete": "Daina G.",
+          "sport": "Walk",
+          "distance_km": 3.72,
+          "name": "Kai reikia 15 min laukt autobuso"
+        },
+        {
+          "athlete": "Andrius A.",
+          "sport": "Walk",
+          "distance_km": 3.66,
+          "name": "Evening Walk"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-11T17:33:40.281875+00:00",
       "new_count": 2,
       "activities": [
@@ -8127,66 +8181,6 @@
           "sport": "Walk",
           "distance_km": 2.64,
           "name": "Afternoon Walk"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-08T15:12:56.525260+00:00",
-      "new_count": 9,
-      "activities": [
-        {
-          "athlete": "Edvinas V.",
-          "sport": "Ride",
-          "distance_km": 11.85,
-          "name": "Afternoon Ride"
-        },
-        {
-          "athlete": "Andrius K.",
-          "sport": "Walk",
-          "distance_km": 3.58,
-          "name": "Gint laisvo žodžio! 🚀"
-        },
-        {
-          "athlete": "Gertrūda G.",
-          "sport": "Run",
-          "distance_km": 4.68,
-          "name": "Bėgimas lauke"
-        },
-        {
-          "athlete": "Arturas K.",
-          "sport": "Walk",
-          "distance_km": 5.11,
-          "name": "Afternoon Walk"
-        },
-        {
-          "athlete": "Liudas S.",
-          "sport": "Walk",
-          "distance_km": 8.87,
-          "name": "Afternoon Walk"
-        },
-        {
-          "athlete": "Daina G.",
-          "sport": "Walk",
-          "distance_km": 5.6,
-          "name": "Afternoon Walk"
-        },
-        {
-          "athlete": "Greta N.",
-          "sport": "Walk",
-          "distance_km": 2.92,
-          "name": "Afternoon Walk"
-        },
-        {
-          "athlete": "Sandra M.",
-          "sport": "Ride",
-          "distance_km": 8.93,
-          "name": "Afternoon Ride"
-        },
-        {
-          "athlete": "Andrius A.",
-          "sport": "Run",
-          "distance_km": 13.05,
-          "name": "Afternoon Run"
         }
       ]
     }
