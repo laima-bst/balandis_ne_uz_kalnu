@@ -6639,6 +6639,11 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-11T04:56:58.040049+00:00",
+      "new_count": 0,
+      "activities": []
+    },
+    {
       "timestamp": "2026-04-11T02:28:33.188779+00:00",
       "new_count": 0,
       "activities": []
@@ -7711,42 +7716,6 @@
           "sport": "Walk",
           "distance_km": 1.66,
           "name": "Lunch Walk"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-07T17:02:04.088638+00:00",
-      "new_count": 5,
-      "activities": [
-        {
-          "athlete": "Gertrūda G.",
-          "sport": "Walk",
-          "distance_km": 2.31,
-          "name": "Afternoon Walk"
-        },
-        {
-          "athlete": "Žilvinas P.",
-          "sport": "Run",
-          "distance_km": 10.02,
-          "name": "12 sav. iki HM / 11 savaitė"
-        },
-        {
-          "athlete": "Donatas J.",
-          "sport": "Ride",
-          "distance_km": 36.18,
-          "name": "Afternoon Ride"
-        },
-        {
-          "athlete": "Sandra M.",
-          "sport": "Walk",
-          "distance_km": 3.62,
-          "name": "Evening Walk"
-        },
-        {
-          "athlete": "Sandra M.",
-          "sport": "Walk",
-          "distance_km": 1.07,
-          "name": "Evening Walk"
         }
       ]
     }
