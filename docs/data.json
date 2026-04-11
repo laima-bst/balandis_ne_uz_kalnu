@@ -5539,8 +5539,13 @@
       "points": 27.5
     }
   ],
-  "generated_at": "2026-04-11T18:50:01.527149+00:00",
+  "generated_at": "2026-04-11T19:36:12.899537+00:00",
   "run_log": [
+    {
+      "timestamp": "2026-04-11T19:36:12.885127+00:00",
+      "new_count": 0,
+      "activities": []
+    },
     {
       "timestamp": "2026-04-11T18:50:01.512984+00:00",
       "new_count": 2,
@@ -6503,42 +6508,6 @@
           "sport": "Swim",
           "distance_km": 3.1,
           "name": "Afternoon Swim"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-08T17:05:28.516666+00:00",
-      "new_count": 5,
-      "activities": [
-        {
-          "athlete": "Aurelija S.",
-          "sport": "Tennis",
-          "distance_km": 0.33,
-          "name": "Evening Tennis 🎾"
-        },
-        {
-          "athlete": "Donatas J.",
-          "sport": "Ride",
-          "distance_km": 50.18,
-          "name": "Afternoon Ride"
-        },
-        {
-          "athlete": "Donatas J.",
-          "sport": "Walk",
-          "distance_km": 2.13,
-          "name": "Lunch Walk"
-        },
-        {
-          "athlete": "Donatas J.",
-          "sport": "Walk",
-          "distance_km": 1.15,
-          "name": "Morning Walk"
-        },
-        {
-          "athlete": "Gintarė B.",
-          "sport": "Walk",
-          "distance_km": 2.64,
-          "name": "Afternoon Walk"
         }
       ]
     }
