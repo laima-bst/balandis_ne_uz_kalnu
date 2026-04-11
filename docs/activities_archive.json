@@ -1,5 +1,7 @@
 {
   "fingerprints": [
+    "80219007fae4f1ed24ebd298c49960d0",
+    "f6bb931901dc2daa3ca4dea60338df05",
     "68c299878d6ed6d66e3a390a78ae8f16",
     "cc2e4a5a0b018bf06ef9cb19c96fab3e",
     "a61c4219db0c02dd819a0aa0e933482d",
@@ -441,6 +443,41 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Sandra",
+        "lastname": "M."
+      },
+      "name": "Lunch Walk",
+      "distance": 7057.4,
+      "moving_time": 5621,
+      "elapsed_time": 5979,
+      "total_elevation_gain": 85.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin Venu 2 Plus",
+      "_fetched_date": "2026-04-11"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Andrius",
+        "lastname": "A."
+      },
+      "name": "Lunch Ride",
+      "distance": 6295.1,
+      "moving_time": 1472,
+      "elapsed_time": 2142,
+      "total_elevation_gain": 40.0,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": null,
+      "device_name": "Garmin fēnix 7",
+      "_fetched_date": "2026-04-11"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -6769,6 +6806,24 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-11T10:37:04.789615+00:00",
+      "new_count": 2,
+      "activities": [
+        {
+          "athlete": "Sandra M.",
+          "sport": "Walk",
+          "distance_km": 7.06,
+          "name": "Lunch Walk"
+        },
+        {
+          "athlete": "Andrius A.",
+          "sport": "Ride",
+          "distance_km": 6.3,
+          "name": "Lunch Ride"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-11T09:42:25.870573+00:00",
       "new_count": 0,
       "activities": []
@@ -7794,11 +7849,6 @@
     },
     {
       "timestamp": "2026-04-08T02:37:15.285830+00:00",
-      "new_count": 0,
-      "activities": []
-    },
-    {
-      "timestamp": "2026-04-07T23:39:03.660666+00:00",
       "new_count": 0,
       "activities": []
     }
