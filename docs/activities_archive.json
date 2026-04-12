@@ -1,5 +1,12 @@
 {
   "fingerprints": [
+    "4f93158229467443c264f2908e106044",
+    "882b1a919b45610b51092f376c8833ee",
+    "1c8a8971eadaa8fb26ab8ffc79e367e9",
+    "796d4e86c17d7c1885cfd450c25d4a2f",
+    "d75c23642a574ce43c244b8359428678",
+    "bede154cc791adbbb238bdd6f324e666",
+    "d715141ec043ecf21db721a368f0d1a3",
     "4ab1283bb03ce042a472712de277c544",
     "f218f9adc7365470bbc1187480616061",
     "e09a12f6b37074385d1c73b36d8a4558",
@@ -495,6 +502,125 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Aurelija",
+        "lastname": "S."
+      },
+      "name": "Evening Walk",
+      "distance": 1135.0,
+      "moving_time": 621,
+      "elapsed_time": 621,
+      "total_elevation_gain": 0.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin Venu 3S",
+      "_fetched_date": "2026-04-12"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Paulius",
+        "lastname": "R."
+      },
+      "name": "Evening Walk",
+      "distance": 4081.7,
+      "moving_time": 2471,
+      "elapsed_time": 3085,
+      "total_elevation_gain": 60.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Wear OS by Google",
+      "_fetched_date": "2026-04-12"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Antanas",
+        "lastname": "R."
+      },
+      "name": "Lunch Hike",
+      "distance": 28120.8,
+      "moving_time": 18516,
+      "elapsed_time": 19367,
+      "total_elevation_gain": 295.0,
+      "type": "Hike",
+      "sport_type": "Hike",
+      "device_name": "Garmin fēnix 7",
+      "_fetched_date": "2026-04-12"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Antanas",
+        "lastname": "R."
+      },
+      "name": "Evening Walk",
+      "distance": 1309.2,
+      "moving_time": 1018,
+      "elapsed_time": 1706,
+      "total_elevation_gain": 47.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin fēnix 7",
+      "_fetched_date": "2026-04-12"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Antanas",
+        "lastname": "R."
+      },
+      "name": "Evening Walk",
+      "distance": 1508.7,
+      "moving_time": 953,
+      "elapsed_time": 1338,
+      "total_elevation_gain": 6.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin fēnix 7",
+      "_fetched_date": "2026-04-12"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Antanas",
+        "lastname": "R."
+      },
+      "name": "Evening Swim",
+      "distance": 1500.0,
+      "moving_time": 2069,
+      "elapsed_time": 2333,
+      "total_elevation_gain": 0,
+      "type": "Swim",
+      "sport_type": "Swim",
+      "device_name": "Garmin fēnix 7",
+      "_fetched_date": "2026-04-12"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Antanas",
+        "lastname": "R."
+      },
+      "name": "Lunch Hike",
+      "distance": 1455.6,
+      "moving_time": 899,
+      "elapsed_time": 984,
+      "total_elevation_gain": 22.0,
+      "type": "Hike",
+      "sport_type": "Hike",
+      "device_name": "Garmin fēnix 7",
+      "_fetched_date": "2026-04-12"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -7754,6 +7880,54 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-12T18:54:01.307439+00:00",
+      "new_count": 7,
+      "activities": [
+        {
+          "athlete": "Aurelija S.",
+          "sport": "Walk",
+          "distance_km": 1.14,
+          "name": "Evening Walk"
+        },
+        {
+          "athlete": "Paulius R.",
+          "sport": "Walk",
+          "distance_km": 4.08,
+          "name": "Evening Walk"
+        },
+        {
+          "athlete": "Antanas R.",
+          "sport": "Hike",
+          "distance_km": 28.12,
+          "name": "Lunch Hike"
+        },
+        {
+          "athlete": "Antanas R.",
+          "sport": "Walk",
+          "distance_km": 1.31,
+          "name": "Evening Walk"
+        },
+        {
+          "athlete": "Antanas R.",
+          "sport": "Walk",
+          "distance_km": 1.51,
+          "name": "Evening Walk"
+        },
+        {
+          "athlete": "Antanas R.",
+          "sport": "Swim",
+          "distance_km": 1.5,
+          "name": "Evening Swim"
+        },
+        {
+          "athlete": "Antanas R.",
+          "sport": "Hike",
+          "distance_km": 1.46,
+          "name": "Lunch Hike"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-12T17:37:28.512640+00:00",
       "new_count": 4,
       "activities": [
@@ -8633,11 +8807,6 @@
     },
     {
       "timestamp": "2026-04-09T22:42:46.723009+00:00",
-      "new_count": 0,
-      "activities": []
-    },
-    {
-      "timestamp": "2026-04-09T21:47:59.801610+00:00",
       "new_count": 0,
       "activities": []
     }
