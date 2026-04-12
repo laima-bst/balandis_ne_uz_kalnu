@@ -1,5 +1,7 @@
 {
   "fingerprints": [
+    "d5227e2d5e06ced6cf57450056581376",
+    "577d26d71aa6a06686767644cfe872ea",
     "55635c8000156eeb0c0fe05f9d6697df",
     "ce69f5e3411805c8e998a3874a918475",
     "463df7b64ad479bf626454ea1ae9f0c4",
@@ -470,6 +472,42 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Andrius",
+        "lastname": "A."
+      },
+      "name": "Morning Run",
+      "distance": 27566.4,
+      "moving_time": 7503,
+      "elapsed_time": 7658,
+      "total_elevation_gain": 78.0,
+      "type": "Run",
+      "sport_type": "Run",
+      "workout_type": null,
+      "device_name": "Garmin fēnix 7",
+      "_fetched_date": "2026-04-12"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Sandra",
+        "lastname": "M."
+      },
+      "name": "Morning Ride",
+      "distance": 31060.4,
+      "moving_time": 5848,
+      "elapsed_time": 6654,
+      "total_elevation_gain": 228.0,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": null,
+      "device_name": "Garmin Venu 2 Plus",
+      "_fetched_date": "2026-04-12"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -7294,6 +7332,24 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-12T09:48:09.154112+00:00",
+      "new_count": 2,
+      "activities": [
+        {
+          "athlete": "Andrius A.",
+          "sport": "Run",
+          "distance_km": 27.57,
+          "name": "Morning Run"
+        },
+        {
+          "athlete": "Sandra M.",
+          "sport": "Ride",
+          "distance_km": 31.06,
+          "name": "Morning Ride"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-12T08:52:35.061883+00:00",
       "new_count": 2,
       "activities": [
@@ -8207,24 +8263,6 @@
           "sport": "Walk",
           "distance_km": 2.56,
           "name": "Morning Walk"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-09T07:26:24.357285+00:00",
-      "new_count": 2,
-      "activities": [
-        {
-          "athlete": "Donatas J.",
-          "sport": "Walk",
-          "distance_km": 1.05,
-          "name": "Morning Walk"
-        },
-        {
-          "athlete": "Edvinas V.",
-          "sport": "Ride",
-          "distance_km": 3.07,
-          "name": "Morning Ride"
         }
       ]
     }
