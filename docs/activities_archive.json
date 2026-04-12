@@ -7899,6 +7899,11 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-12T22:37:15.049651+00:00",
+      "new_count": 0,
+      "activities": []
+    },
+    {
       "timestamp": "2026-04-12T21:37:43.590419+00:00",
       "new_count": 0,
       "activities": []
@@ -8791,48 +8796,6 @@
           "sport": "Workout",
           "distance_km": 0.0,
           "name": "Morning Workout"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-10T05:27:20.329995+00:00",
-      "new_count": 6,
-      "activities": [
-        {
-          "athlete": "Liudas S.",
-          "sport": "Walk",
-          "distance_km": 3.64,
-          "name": "Morning Walk"
-        },
-        {
-          "athlete": "Edvinas V.",
-          "sport": "Ride",
-          "distance_km": 2.78,
-          "name": "Morning Ride"
-        },
-        {
-          "athlete": "Daina G.",
-          "sport": "Walk",
-          "distance_km": 2.65,
-          "name": "Morning Walk"
-        },
-        {
-          "athlete": "Greta N.",
-          "sport": "Walk",
-          "distance_km": 1.99,
-          "name": "Morning Walk"
-        },
-        {
-          "athlete": "Sandra M.",
-          "sport": "Ride",
-          "distance_km": 7.16,
-          "name": "Morning Ride"
-        },
-        {
-          "athlete": "Andrius A.",
-          "sport": "Run",
-          "distance_km": 8.04,
-          "name": "Morning Run"
         }
       ]
     }
