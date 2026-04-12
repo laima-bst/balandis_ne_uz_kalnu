@@ -1,5 +1,10 @@
 {
   "fingerprints": [
+    "232afce036522d470ebc3d4e2e983376",
+    "2638c1beff0c3ed60ee8bb05f877a4bc",
+    "df4344b27403169c3eb6f54db7a50602",
+    "8a48aa93bd60b9642f94ff4bdb88f25c",
+    "0a2969ecb0cb77bb772a3bce65e843af",
     "e948ab549e1276b17251d44adae0ed77",
     "b55e9e0e9900929619e277211fa01bd7",
     "d5227e2d5e06ced6cf57450056581376",
@@ -474,6 +479,93 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Daina",
+        "lastname": "G."
+      },
+      "name": "Afternoon Walk",
+      "distance": 3348.9,
+      "moving_time": 1403,
+      "elapsed_time": 2216,
+      "total_elevation_gain": 47.1,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-12"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Daina",
+        "lastname": "G."
+      },
+      "name": "Got bored ig??????",
+      "distance": 10177.6,
+      "moving_time": 6361,
+      "elapsed_time": 6696,
+      "total_elevation_gain": 127.4,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-12"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Arunas",
+        "lastname": "M."
+      },
+      "name": "Lunch Walk",
+      "distance": 2751.2,
+      "moving_time": 1711,
+      "elapsed_time": 9117,
+      "total_elevation_gain": 6.2,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-12"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Donatas",
+        "lastname": "J."
+      },
+      "name": "Morning Ride",
+      "distance": 101407.0,
+      "moving_time": 14303,
+      "elapsed_time": 14518,
+      "total_elevation_gain": 848.0,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": null,
+      "device_name": "Garmin Forerunner 255 Music",
+      "_fetched_date": "2026-04-12"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Andrius",
+        "lastname": "A."
+      },
+      "name": "Afternoon Ride",
+      "distance": 3496.3,
+      "moving_time": 831,
+      "elapsed_time": 831,
+      "total_elevation_gain": 16.0,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": null,
+      "device_name": "Garmin fēnix 7",
+      "_fetched_date": "2026-04-12"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -7370,6 +7462,42 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-12T13:05:46.712240+00:00",
+      "new_count": 5,
+      "activities": [
+        {
+          "athlete": "Daina G.",
+          "sport": "Walk",
+          "distance_km": 3.35,
+          "name": "Afternoon Walk"
+        },
+        {
+          "athlete": "Daina G.",
+          "sport": "Walk",
+          "distance_km": 10.18,
+          "name": "Got bored ig??????"
+        },
+        {
+          "athlete": "Arunas M.",
+          "sport": "Walk",
+          "distance_km": 2.75,
+          "name": "Lunch Walk"
+        },
+        {
+          "athlete": "Donatas J.",
+          "sport": "Ride",
+          "distance_km": 101.41,
+          "name": "Morning Ride"
+        },
+        {
+          "athlete": "Andrius A.",
+          "sport": "Ride",
+          "distance_km": 3.5,
+          "name": "Afternoon Ride"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-12T11:35:37.552793+00:00",
       "new_count": 1,
       "activities": [
@@ -8247,24 +8375,6 @@
           "sport": "Walk",
           "distance_km": 4.42,
           "name": "Afternoon Walk"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-09T13:45:23.795429+00:00",
-      "new_count": 2,
-      "activities": [
-        {
-          "athlete": "Ieva S.",
-          "sport": "Swim",
-          "distance_km": 3.45,
-          "name": "Afternoon Swim"
-        },
-        {
-          "athlete": "Augustinas T.",
-          "sport": "Walk",
-          "distance_km": 2.46,
-          "name": "Lunch Walk"
         }
       ]
     }
