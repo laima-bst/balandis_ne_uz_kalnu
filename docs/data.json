@@ -112,9 +112,9 @@
     {
       "name": "Balandžio dvasia",
       "color": "#3498db",
-      "total_points": 1200.0,
-      "total_distance_km": 847.32,
-      "activity_count": 76,
+      "total_points": 1203.0,
+      "total_distance_km": 848.32,
+      "activity_count": 77,
       "members": [
         "Aurelija S.",
         "Gintarė B.",
@@ -123,27 +123,27 @@
         "Ne L."
       ],
       "member_count": 5,
-      "points_per_person": 240.0,
+      "points_per_person": 240.6,
       "member_details": [
         {
           "name": "Donatas J.",
           "points": 735.5,
-          "pct_of_team": 61.3
+          "pct_of_team": 61.1
         },
         {
           "name": "Gintarė B.",
           "points": 273.5,
-          "pct_of_team": 22.8
+          "pct_of_team": 22.7
         },
         {
           "name": "Arunas M.",
           "points": 86.0,
-          "pct_of_team": 7.2
+          "pct_of_team": 7.1
         },
         {
           "name": "Aurelija S.",
-          "points": 62.9,
-          "pct_of_team": 5.2
+          "points": 65.9,
+          "pct_of_team": 5.5
         },
         {
           "name": "Ne L.",
@@ -152,7 +152,7 @@
         }
       ],
       "distance_by_group": {
-        "run_walk": 176.3,
+        "run_walk": 177.3,
         "ride": 671.0,
         "swim": 0.0
       },
@@ -533,14 +533,14 @@
       },
       "points": {
         "Nemiegantys Balandžiai": 1861.4,
-        "Balandžio dvasia": 1200.0,
+        "Balandžio dvasia": 1203.0,
         "Tardigrada": 1212.2,
         "Sūkuriai": 838.2,
         "Nešam Kudašių": 595.0
       },
       "points_per_person": {
         "Nemiegantys Balandžiai": 310.2,
-        "Balandžio dvasia": 240.0,
+        "Balandžio dvasia": 240.6,
         "Tardigrada": 242.4,
         "Sūkuriai": 167.6,
         "Nešam Kudašių": 119.0
@@ -1085,20 +1085,20 @@
     },
     {
       "name": "Aurelija S.",
-      "total_points": 62.9,
-      "activity_count": 8,
-      "total_distance_km": 20.94,
-      "total_elevation_m": 171.0,
+      "total_points": 65.9,
+      "activity_count": 9,
+      "total_distance_km": 21.94,
+      "total_elevation_m": 185.0,
       "by_type": {
         "Walk": {
-          "count": 8,
-          "points": 62.9,
-          "distance_km": 20.94
+          "count": 9,
+          "points": 65.89999999999999,
+          "distance_km": 21.94
         }
       },
       "rank": 21,
       "points_by_group": {
-        "run_walk": 62.9,
+        "run_walk": 65.9,
         "ride": 0.0,
         "swim": 0.0
       }
@@ -1215,6 +1215,18 @@
     }
   ],
   "activities": [
+    {
+      "athlete_key": "aurelija_s.",
+      "athlete_name": "Aurelija S.",
+      "name": "Evening Walk",
+      "sport_type": "Walk",
+      "start_date": null,
+      "_fetched_date": "2026-04-12",
+      "distance_km": 1.0,
+      "elevation_m": 14.0,
+      "moving_time_s": 810,
+      "points": 3.0
+    },
     {
       "athlete_key": "aurelija_s.",
       "athlete_name": "Aurelija S.",
@@ -5872,8 +5884,20 @@
       "points": 27.5
     }
   ],
-  "generated_at": "2026-04-12T15:37:52.089390+00:00",
+  "generated_at": "2026-04-12T16:41:57.761985+00:00",
   "run_log": [
+    {
+      "timestamp": "2026-04-12T16:41:57.747253+00:00",
+      "new_count": 1,
+      "activities": [
+        {
+          "athlete": "Aurelija S.",
+          "sport": "Walk",
+          "distance_km": 1.0,
+          "name": "Evening Walk"
+        }
+      ]
+    },
     {
       "timestamp": "2026-04-12T15:37:52.074856+00:00",
       "new_count": 5,
@@ -6724,48 +6748,6 @@
       "timestamp": "2026-04-09T20:54:21.475291+00:00",
       "new_count": 0,
       "activities": []
-    },
-    {
-      "timestamp": "2026-04-09T19:10:37.416024+00:00",
-      "new_count": 6,
-      "activities": [
-        {
-          "athlete": "Liudas S.",
-          "sport": "Walk",
-          "distance_km": 3.07,
-          "name": "Evening Walk"
-        },
-        {
-          "athlete": "Aurelija S.",
-          "sport": "Tennis",
-          "distance_km": 0.46,
-          "name": "Evening Tennis 🎾"
-        },
-        {
-          "athlete": "Augustė J.",
-          "sport": "Swim",
-          "distance_km": 0.28,
-          "name": "Evening Swim"
-        },
-        {
-          "athlete": "Augustė J.",
-          "sport": "Hike",
-          "distance_km": 2.0,
-          "name": "Afternoon Hike"
-        },
-        {
-          "athlete": "Sandra M.",
-          "sport": "Walk",
-          "distance_km": 1.73,
-          "name": "Night Walk"
-        },
-        {
-          "athlete": "Andrius A.",
-          "sport": "Walk",
-          "distance_km": 2.07,
-          "name": "Evening Walk"
-        }
-      ]
     }
   ]
 }
