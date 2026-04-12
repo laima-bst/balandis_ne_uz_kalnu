@@ -7899,6 +7899,11 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-12T23:37:45.185719+00:00",
+      "new_count": 0,
+      "activities": []
+    },
+    {
       "timestamp": "2026-04-12T22:37:15.049651+00:00",
       "new_count": 0,
       "activities": []
@@ -8774,30 +8779,6 @@
       "timestamp": "2026-04-10T09:12:54.325322+00:00",
       "new_count": 0,
       "activities": []
-    },
-    {
-      "timestamp": "2026-04-10T07:45:18.528340+00:00",
-      "new_count": 3,
-      "activities": [
-        {
-          "athlete": "Donatas J.",
-          "sport": "Walk",
-          "distance_km": 1.13,
-          "name": "Morning Walk"
-        },
-        {
-          "athlete": "Edvinas V.",
-          "sport": "Ride",
-          "distance_km": 1.26,
-          "name": "Morning Ride"
-        },
-        {
-          "athlete": "Laima A.",
-          "sport": "Workout",
-          "distance_km": 0.0,
-          "name": "Morning Workout"
-        }
-      ]
     }
   ]
 }
