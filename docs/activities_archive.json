@@ -1,5 +1,6 @@
 {
   "fingerprints": [
+    "70a1eac22d5c1e9b480a7e949893677b",
     "4f93158229467443c264f2908e106044",
     "882b1a919b45610b51092f376c8833ee",
     "1c8a8971eadaa8fb26ab8ffc79e367e9",
@@ -502,6 +503,24 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Azuolas",
+        "lastname": "S."
+      },
+      "name": "Night Run",
+      "distance": 10094.1,
+      "moving_time": 3828,
+      "elapsed_time": 3834,
+      "total_elevation_gain": 57.8,
+      "type": "Run",
+      "sport_type": "Run",
+      "workout_type": null,
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-12"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -7880,6 +7899,18 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-12T20:39:18.503655+00:00",
+      "new_count": 1,
+      "activities": [
+        {
+          "athlete": "Azuolas S.",
+          "sport": "Run",
+          "distance_km": 10.09,
+          "name": "Night Run"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-12T19:40:31.151360+00:00",
       "new_count": 0,
       "activities": []
@@ -8802,11 +8833,6 @@
     },
     {
       "timestamp": "2026-04-10T02:43:37.051898+00:00",
-      "new_count": 0,
-      "activities": []
-    },
-    {
-      "timestamp": "2026-04-09T23:38:42.711819+00:00",
       "new_count": 0,
       "activities": []
     }
