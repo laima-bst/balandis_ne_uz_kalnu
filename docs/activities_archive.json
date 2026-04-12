@@ -1,5 +1,6 @@
 {
   "fingerprints": [
+    "e948ab549e1276b17251d44adae0ed77",
     "b55e9e0e9900929619e277211fa01bd7",
     "d5227e2d5e06ced6cf57450056581376",
     "577d26d71aa6a06686767644cfe872ea",
@@ -473,6 +474,24 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Aurelija",
+        "lastname": "S."
+      },
+      "name": "Afternoon Tennis",
+      "distance": 226.3,
+      "moving_time": 3723,
+      "elapsed_time": 3723,
+      "total_elevation_gain": 0,
+      "type": "Workout",
+      "sport_type": "Tennis",
+      "workout_type": null,
+      "device_name": "Garmin Venu 3S",
+      "_fetched_date": "2026-04-12"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -7351,6 +7370,18 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-12T11:35:37.552793+00:00",
+      "new_count": 1,
+      "activities": [
+        {
+          "athlete": "Aurelija S.",
+          "sport": "Tennis",
+          "distance_km": 0.23,
+          "name": "Afternoon Tennis"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-12T10:40:35.712536+00:00",
       "new_count": 1,
       "activities": [
@@ -8234,54 +8265,6 @@
           "sport": "Walk",
           "distance_km": 2.46,
           "name": "Lunch Walk"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-09T11:14:20.000205+00:00",
-      "new_count": 7,
-      "activities": [
-        {
-          "athlete": "Ne L.",
-          "sport": "Walk",
-          "distance_km": 2.05,
-          "name": "Lunch Walk"
-        },
-        {
-          "athlete": "Edvinas V.",
-          "sport": "Ride",
-          "distance_km": 10.53,
-          "name": "Lunch Ride"
-        },
-        {
-          "athlete": "Donatas J.",
-          "sport": "Walk",
-          "distance_km": 2.27,
-          "name": "Lunch Walk"
-        },
-        {
-          "athlete": "Liudas S.",
-          "sport": "Walk",
-          "distance_km": 2.73,
-          "name": "Lunch Walk"
-        },
-        {
-          "athlete": "Andrius A.",
-          "sport": "Walk",
-          "distance_km": 3.02,
-          "name": "Lunch Walk"
-        },
-        {
-          "athlete": "Greta N.",
-          "sport": "Walk",
-          "distance_km": 1.06,
-          "name": "Lunch Walk"
-        },
-        {
-          "athlete": "Ieva S.",
-          "sport": "Walk",
-          "distance_km": 4.0,
-          "name": "Morning Walk"
         }
       ]
     }
