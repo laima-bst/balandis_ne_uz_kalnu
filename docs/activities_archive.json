@@ -1,5 +1,7 @@
 {
   "fingerprints": [
+    "f30ef7c365943033491cf62c5d6555df",
+    "9f1b01b66f786aed136eda1ebbf478be",
     "31c59196e2cff13a46954bdda5048631",
     "0c42c5ea7a2b11aa5e8a5d94e61d9ef0",
     "e9b8a77ac55adec899214c12d34ba341",
@@ -525,6 +527,41 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Donatas",
+        "lastname": "J."
+      },
+      "name": "Afternoon Ride",
+      "distance": 50413.6,
+      "moving_time": 7178,
+      "elapsed_time": 7324,
+      "total_elevation_gain": 358.0,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": null,
+      "device_name": "Garmin Forerunner 255 Music",
+      "_fetched_date": "2026-04-13"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Greta",
+        "lastname": "N."
+      },
+      "name": "Vakarinis miegelis",
+      "distance": 3520.9,
+      "moving_time": 3228,
+      "elapsed_time": 4253,
+      "total_elevation_gain": 35.5,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-13"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -8303,6 +8340,24 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-13T16:15:14.987761+00:00",
+      "new_count": 2,
+      "activities": [
+        {
+          "athlete": "Donatas J.",
+          "sport": "Ride",
+          "distance_km": 50.41,
+          "name": "Afternoon Ride"
+        },
+        {
+          "athlete": "Greta N.",
+          "sport": "Walk",
+          "distance_km": 3.52,
+          "name": "Vakarinis miegelis"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-13T14:51:12.498779+00:00",
       "new_count": 5,
       "activities": [
@@ -9200,30 +9255,6 @@
           "sport": "Ride",
           "distance_km": 55.28,
           "name": "Afternoon Ride"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-10T16:57:21.270233+00:00",
-      "new_count": 3,
-      "activities": [
-        {
-          "athlete": "Arunas M.",
-          "sport": "Ride",
-          "distance_km": 3.54,
-          "name": "Pasivažinėjimas"
-        },
-        {
-          "athlete": "Arturas K.",
-          "sport": "Ride",
-          "distance_km": 34.98,
-          "name": "My legs felt that..."
-        },
-        {
-          "athlete": "Antanas R.",
-          "sport": "Swim",
-          "distance_km": 2.0,
-          "name": "Afternoon Swim"
         }
       ]
     }
