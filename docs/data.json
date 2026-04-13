@@ -6448,8 +6448,13 @@
       "points": 27.5
     }
   ],
-  "generated_at": "2026-04-13T21:52:37.461011+00:00",
+  "generated_at": "2026-04-13T22:45:45.685040+00:00",
   "run_log": [
+    {
+      "timestamp": "2026-04-13T22:45:45.668471+00:00",
+      "new_count": 0,
+      "activities": []
+    },
     {
       "timestamp": "2026-04-13T21:52:37.445567+00:00",
       "new_count": 0,
@@ -7350,18 +7355,6 @@
       "timestamp": "2026-04-10T21:40:21.308944+00:00",
       "new_count": 0,
       "activities": []
-    },
-    {
-      "timestamp": "2026-04-10T20:40:17.067236+00:00",
-      "new_count": 1,
-      "activities": [
-        {
-          "athlete": "Sandra M.",
-          "sport": "Walk",
-          "distance_km": 2.65,
-          "name": "Night Walk"
-        }
-      ]
     }
   ]
 }
