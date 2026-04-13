@@ -1,5 +1,8 @@
 {
   "fingerprints": [
+    "79e4846f744ff8a3d58b4b044ba00a29",
+    "70a1fa8033a0535b7c787330f23e123f",
+    "53a74b734e3884513b9c2992e8c143e7",
     "3227d2e5c9a6916616c632203cd767fb",
     "8c9dfc9343b2b6bfd80f15367255bb1c",
     "f06d39d3e02ec285b4c10e9cedb12ee4",
@@ -535,6 +538,59 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Benediktas",
+        "lastname": "B."
+      },
+      "name": "Evening Gravel Ride",
+      "distance": 20435.7,
+      "moving_time": 3321,
+      "elapsed_time": 3621,
+      "total_elevation_gain": 339.0,
+      "type": "Ride",
+      "sport_type": "GravelRide",
+      "workout_type": null,
+      "device_name": "Garmin Edge Explore 2",
+      "_fetched_date": "2026-04-13"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Augustė",
+        "lastname": "J."
+      },
+      "name": "Afternoon Hike",
+      "distance": 3647.9,
+      "moving_time": 2562,
+      "elapsed_time": 3521,
+      "total_elevation_gain": 4.0,
+      "type": "Hike",
+      "sport_type": "Hike",
+      "device_name": "COROS APEX",
+      "_fetched_date": "2026-04-13"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Andrius",
+        "lastname": "A."
+      },
+      "name": "Night Ride",
+      "distance": 3023.0,
+      "moving_time": 742,
+      "elapsed_time": 742,
+      "total_elevation_gain": 58.0,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": null,
+      "device_name": "Garmin fēnix 7",
+      "_fetched_date": "2026-04-13"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -8486,6 +8542,30 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-13T20:07:24.698551+00:00",
+      "new_count": 3,
+      "activities": [
+        {
+          "athlete": "Benediktas B.",
+          "sport": "GravelRide",
+          "distance_km": 20.44,
+          "name": "Evening Gravel Ride"
+        },
+        {
+          "athlete": "Augustė J.",
+          "sport": "Hike",
+          "distance_km": 3.65,
+          "name": "Afternoon Hike"
+        },
+        {
+          "athlete": "Andrius A.",
+          "sport": "Ride",
+          "distance_km": 3.02,
+          "name": "Night Ride"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-13T18:04:06.865261+00:00",
       "new_count": 8,
       "activities": [
@@ -9373,42 +9453,6 @@
       "timestamp": "2026-04-10T19:50:04.763503+00:00",
       "new_count": 0,
       "activities": []
-    },
-    {
-      "timestamp": "2026-04-10T18:57:43.475282+00:00",
-      "new_count": 5,
-      "activities": [
-        {
-          "athlete": "Viktorija M.",
-          "sport": "Run",
-          "distance_km": 2.75,
-          "name": "Night Run"
-        },
-        {
-          "athlete": "Viktorija M.",
-          "sport": "Walk",
-          "distance_km": 1.05,
-          "name": "Evening Walk"
-        },
-        {
-          "athlete": "Edvinas V.",
-          "sport": "Ride",
-          "distance_km": 21.92,
-          "name": "Evening Ride"
-        },
-        {
-          "athlete": "Matas A.",
-          "sport": "Walk",
-          "distance_km": 1.52,
-          "name": "Evening Walk"
-        },
-        {
-          "athlete": "Sandra M.",
-          "sport": "Walk",
-          "distance_km": 1.22,
-          "name": "Evening Walk"
-        }
-      ]
     }
   ]
 }
