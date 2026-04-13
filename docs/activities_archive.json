@@ -1,5 +1,13 @@
 {
   "fingerprints": [
+    "3227d2e5c9a6916616c632203cd767fb",
+    "8c9dfc9343b2b6bfd80f15367255bb1c",
+    "f06d39d3e02ec285b4c10e9cedb12ee4",
+    "0b6f475f8997e2cee1fe30c1688220d4",
+    "088ea87b036c65e44c5062c369648eee",
+    "e654a98cf6e3337b02e0a3f8ed8356a9",
+    "d5b1bec74758b8ef4ef9a924791e3cce",
+    "2decb20700fd27dc8389f6b8a626cf97",
     "f30ef7c365943033491cf62c5d6555df",
     "9f1b01b66f786aed136eda1ebbf478be",
     "31c59196e2cff13a46954bdda5048631",
@@ -527,6 +535,144 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Paulius",
+        "lastname": "R."
+      },
+      "name": "Evening Run",
+      "distance": 10013.8,
+      "moving_time": 2893,
+      "elapsed_time": 2895,
+      "total_elevation_gain": 69.3,
+      "type": "Run",
+      "sport_type": "Run",
+      "workout_type": null,
+      "device_name": "Wear OS by Google",
+      "_fetched_date": "2026-04-13"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Donatas",
+        "lastname": "J."
+      },
+      "name": "Evening Walk",
+      "distance": 3329.6,
+      "moving_time": 2863,
+      "elapsed_time": 2900,
+      "total_elevation_gain": 45.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin Forerunner 255 Music",
+      "_fetched_date": "2026-04-13"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Žilvinas",
+        "lastname": "P."
+      },
+      "name": "12 sav. iki HM / 12 savaitė",
+      "distance": 8080.6,
+      "moving_time": 3137,
+      "elapsed_time": 3221,
+      "total_elevation_gain": 54.0,
+      "type": "Run",
+      "sport_type": "Run",
+      "workout_type": null,
+      "device_name": "Garmin Forerunner 955",
+      "_fetched_date": "2026-04-13"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Ieva",
+        "lastname": "S."
+      },
+      "name": "Evening Walk",
+      "distance": 2916.1,
+      "moving_time": 2099,
+      "elapsed_time": 5152,
+      "total_elevation_gain": 27.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin Forerunner 255 Music",
+      "_fetched_date": "2026-04-13"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Sandra",
+        "lastname": "M."
+      },
+      "name": "Evening Walk",
+      "distance": 5231.9,
+      "moving_time": 3965,
+      "elapsed_time": 6335,
+      "total_elevation_gain": 45.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin Venu 2 Plus",
+      "_fetched_date": "2026-04-13"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Antanas",
+        "lastname": "R."
+      },
+      "name": "Afternoon Swim",
+      "distance": 2300.0,
+      "moving_time": 3032,
+      "elapsed_time": 4144,
+      "total_elevation_gain": 0,
+      "type": "Swim",
+      "sport_type": "Swim",
+      "device_name": "Garmin fēnix 7",
+      "_fetched_date": "2026-04-13"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Antanas",
+        "lastname": "R."
+      },
+      "name": "Evening Walk",
+      "distance": 2210.2,
+      "moving_time": 1661,
+      "elapsed_time": 1692,
+      "total_elevation_gain": 31.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin fēnix 7",
+      "_fetched_date": "2026-04-13"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Antanas",
+        "lastname": "R."
+      },
+      "name": "Afternoon Walk",
+      "distance": 1345.9,
+      "moving_time": 890,
+      "elapsed_time": 975,
+      "total_elevation_gain": 9.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin fēnix 7",
+      "_fetched_date": "2026-04-13"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -8340,6 +8486,60 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-13T18:04:06.865261+00:00",
+      "new_count": 8,
+      "activities": [
+        {
+          "athlete": "Paulius R.",
+          "sport": "Run",
+          "distance_km": 10.01,
+          "name": "Evening Run"
+        },
+        {
+          "athlete": "Donatas J.",
+          "sport": "Walk",
+          "distance_km": 3.33,
+          "name": "Evening Walk"
+        },
+        {
+          "athlete": "Žilvinas P.",
+          "sport": "Run",
+          "distance_km": 8.08,
+          "name": "12 sav. iki HM / 12 savaitė"
+        },
+        {
+          "athlete": "Ieva S.",
+          "sport": "Walk",
+          "distance_km": 2.92,
+          "name": "Evening Walk"
+        },
+        {
+          "athlete": "Sandra M.",
+          "sport": "Walk",
+          "distance_km": 5.23,
+          "name": "Evening Walk"
+        },
+        {
+          "athlete": "Antanas R.",
+          "sport": "Swim",
+          "distance_km": 2.3,
+          "name": "Afternoon Swim"
+        },
+        {
+          "athlete": "Antanas R.",
+          "sport": "Walk",
+          "distance_km": 2.21,
+          "name": "Evening Walk"
+        },
+        {
+          "athlete": "Antanas R.",
+          "sport": "Walk",
+          "distance_km": 1.35,
+          "name": "Afternoon Walk"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-13T16:15:14.987761+00:00",
       "new_count": 2,
       "activities": [
@@ -9207,54 +9407,6 @@
           "sport": "Walk",
           "distance_km": 1.22,
           "name": "Evening Walk"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-10T17:54:19.337365+00:00",
-      "new_count": 7,
-      "activities": [
-        {
-          "athlete": "Viktorija M.",
-          "sport": "Run",
-          "distance_km": 5.21,
-          "name": "Evening Run"
-        },
-        {
-          "athlete": "Gertrūda G.",
-          "sport": "Walk",
-          "distance_km": 1.62,
-          "name": "Evening Walk"
-        },
-        {
-          "athlete": "Žilvinas P.",
-          "sport": "Run",
-          "distance_km": 8.03,
-          "name": "12 sav. iki HM / 11 savaitė"
-        },
-        {
-          "athlete": "Daina G.",
-          "sport": "Walk",
-          "distance_km": 5.2,
-          "name": "Evening Walk"
-        },
-        {
-          "athlete": "Liudas S.",
-          "sport": "Walk",
-          "distance_km": 3.65,
-          "name": "Evening Walk"
-        },
-        {
-          "athlete": "Benediktas B.",
-          "sport": "GravelRide",
-          "distance_km": 49.76,
-          "name": "Evening Gravel Ride"
-        },
-        {
-          "athlete": "Donatas J.",
-          "sport": "Ride",
-          "distance_km": 55.28,
-          "name": "Afternoon Ride"
         }
       ]
     }
