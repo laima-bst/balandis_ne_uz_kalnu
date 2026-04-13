@@ -1,5 +1,6 @@
 {
   "fingerprints": [
+    "7b40fba35ffc0adf451d49d90f3d4003",
     "f8af1c5b59409c9dfeb79aa0f10e46fc",
     "9640c5f9921258ef40c4b67f0ce7e4b4",
     "339ddcf50612aa61b46005f0b8d75392",
@@ -519,6 +520,23 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Greta",
+        "lastname": "N."
+      },
+      "name": "Pietų miegelis pono",
+      "distance": 4035.4,
+      "moving_time": 4187,
+      "elapsed_time": 5743,
+      "total_elevation_gain": 50.3,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-13"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -8193,6 +8211,18 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-13T12:05:06.650737+00:00",
+      "new_count": 1,
+      "activities": [
+        {
+          "athlete": "Greta N.",
+          "sport": "Walk",
+          "distance_km": 4.04,
+          "name": "Pietų miegelis pono"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-13T10:48:11.881140+00:00",
       "new_count": 8,
       "activities": [
@@ -9078,42 +9108,6 @@
           "sport": "Walk",
           "distance_km": 3.41,
           "name": "Afternoon Walk"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-10T14:50:34.462324+00:00",
-      "new_count": 5,
-      "activities": [
-        {
-          "athlete": "Gertrūda G.",
-          "sport": "Walk",
-          "distance_km": 1.16,
-          "name": "Afternoon Walk"
-        },
-        {
-          "athlete": "Paulius R.",
-          "sport": "Run",
-          "distance_km": 15.06,
-          "name": "Jau buvau pasiilgęs tempo"
-        },
-        {
-          "athlete": "Greta N.",
-          "sport": "Walk",
-          "distance_km": 4.69,
-          "name": "Iš po baseino"
-        },
-        {
-          "athlete": "Sandra M.",
-          "sport": "Ride",
-          "distance_km": 8.88,
-          "name": "Afternoon Ride"
-        },
-        {
-          "athlete": "Andrius A.",
-          "sport": "Run",
-          "distance_km": 18.1,
-          "name": "Afternoon Run"
         }
       ]
     }
