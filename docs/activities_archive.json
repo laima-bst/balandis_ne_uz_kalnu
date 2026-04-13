@@ -1,5 +1,11 @@
 {
   "fingerprints": [
+    "52136da38d011560b0aadbeb68003a92",
+    "5115c12ba514345e4317e5523225424e",
+    "21f028ef46c92c5f4f50c76d1c32c892",
+    "468a219c0712247030b29cd85146a65c",
+    "7db1088ac2f124db99e18047dbb1423b",
+    "e044138e5ef3509aec140a6f3e12bcb2",
     "70a1eac22d5c1e9b480a7e949893677b",
     "4f93158229467443c264f2908e106044",
     "882b1a919b45610b51092f376c8833ee",
@@ -503,6 +509,111 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Edvinas",
+        "lastname": "V."
+      },
+      "name": "Morning Ride",
+      "distance": 1407.0,
+      "moving_time": 320,
+      "elapsed_time": 349,
+      "total_elevation_gain": 0.0,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": 10,
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-13"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Augustė",
+        "lastname": "J."
+      },
+      "name": "Morning Walk",
+      "distance": 1093.8,
+      "moving_time": 745,
+      "elapsed_time": 764,
+      "total_elevation_gain": 0.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-13"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Edvinas",
+        "lastname": "V."
+      },
+      "name": "Morning Ride",
+      "distance": 2768.5,
+      "moving_time": 613,
+      "elapsed_time": 655,
+      "total_elevation_gain": 4.9,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": 10,
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-13"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Viktorija",
+        "lastname": "M."
+      },
+      "name": "Morning Walk",
+      "distance": 1444.6,
+      "moving_time": 759,
+      "elapsed_time": 3478,
+      "total_elevation_gain": 2.1,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-13"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Sandra",
+        "lastname": "M."
+      },
+      "name": "Morning Walk",
+      "distance": 1372.3,
+      "moving_time": 836,
+      "elapsed_time": 836,
+      "total_elevation_gain": 10.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin Venu 2 Plus",
+      "_fetched_date": "2026-04-13"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Andrius",
+        "lastname": "A."
+      },
+      "name": "Morning Ride",
+      "distance": 9062.8,
+      "moving_time": 1762,
+      "elapsed_time": 1852,
+      "total_elevation_gain": 48.0,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": null,
+      "device_name": "Garmin fēnix 7",
+      "_fetched_date": "2026-04-13"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -7899,6 +8010,48 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-13T05:44:18.155352+00:00",
+      "new_count": 6,
+      "activities": [
+        {
+          "athlete": "Edvinas V.",
+          "sport": "Ride",
+          "distance_km": 1.41,
+          "name": "Morning Ride"
+        },
+        {
+          "athlete": "Augustė J.",
+          "sport": "Walk",
+          "distance_km": 1.09,
+          "name": "Morning Walk"
+        },
+        {
+          "athlete": "Edvinas V.",
+          "sport": "Ride",
+          "distance_km": 2.77,
+          "name": "Morning Ride"
+        },
+        {
+          "athlete": "Viktorija M.",
+          "sport": "Walk",
+          "distance_km": 1.44,
+          "name": "Morning Walk"
+        },
+        {
+          "athlete": "Sandra M.",
+          "sport": "Walk",
+          "distance_km": 1.37,
+          "name": "Morning Walk"
+        },
+        {
+          "athlete": "Andrius A.",
+          "sport": "Ride",
+          "distance_km": 9.06,
+          "name": "Morning Ride"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-13T02:52:13.779062+00:00",
       "new_count": 0,
       "activities": []
@@ -8731,54 +8884,6 @@
       "timestamp": "2026-04-10T11:55:33.205263+00:00",
       "new_count": 0,
       "activities": []
-    },
-    {
-      "timestamp": "2026-04-10T10:57:40.861450+00:00",
-      "new_count": 7,
-      "activities": [
-        {
-          "athlete": "Arunas M.",
-          "sport": "Walk",
-          "distance_km": 2.81,
-          "name": "Lunch Walk"
-        },
-        {
-          "athlete": "Viktorija M.",
-          "sport": "Walk",
-          "distance_km": 2.88,
-          "name": "Lunch Walk"
-        },
-        {
-          "athlete": "Liudas S.",
-          "sport": "Walk",
-          "distance_km": 1.3,
-          "name": "Lunch Walk"
-        },
-        {
-          "athlete": "Augustinas T.",
-          "sport": "Walk",
-          "distance_km": 2.41,
-          "name": "Lunch Walk"
-        },
-        {
-          "athlete": "Gintarė B.",
-          "sport": "Walk",
-          "distance_km": 3.2,
-          "name": "☀️☀️☀️"
-        },
-        {
-          "athlete": "Andrius A.",
-          "sport": "Walk",
-          "distance_km": 2.29,
-          "name": "Lunch Walk"
-        },
-        {
-          "athlete": "Greta N.",
-          "sport": "Walk",
-          "distance_km": 1.41,
-          "name": "Afternoon Walk"
-        }
-      ]
     }
   ]
 }
