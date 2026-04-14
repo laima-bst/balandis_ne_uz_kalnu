@@ -1,5 +1,6 @@
 {
   "fingerprints": [
+    "2aaa64a9e142306ee746d4aeb937a455",
     "e0ef7f6da3d3f761ca48796e5a07c396",
     "0f916a243ed581d853d0fbddc42a88b3",
     "a4e60c248eb0c42d531a9426285b9cfd",
@@ -577,6 +578,23 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Augustė",
+        "lastname": "J."
+      },
+      "name": "Evening Swim",
+      "distance": 550.0,
+      "moving_time": 2717,
+      "elapsed_time": 3636,
+      "total_elevation_gain": 0,
+      "type": "Swim",
+      "sport_type": "Swim",
+      "device_name": "COROS APEX",
+      "_fetched_date": "2026-04-14"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -9255,6 +9273,18 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-14T20:57:07.787988+00:00",
+      "new_count": 1,
+      "activities": [
+        {
+          "athlete": "Augustė J.",
+          "sport": "Swim",
+          "distance_km": 0.55,
+          "name": "Evening Swim"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-14T19:19:18.516159+00:00",
       "new_count": 9,
       "activities": [
@@ -10312,36 +10342,6 @@
           "sport": "Walk",
           "distance_km": 26.34,
           "name": "Velnio keliais"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-11T11:32:13.361412+00:00",
-      "new_count": 4,
-      "activities": [
-        {
-          "athlete": "Liudas S.",
-          "sport": "Walk",
-          "distance_km": 1.53,
-          "name": "Afternoon Walk"
-        },
-        {
-          "athlete": "Liudas S.",
-          "sport": "Swim",
-          "distance_km": 0.62,
-          "name": "Palanga plaukimas"
-        },
-        {
-          "athlete": "Matas A.",
-          "sport": "Walk",
-          "distance_km": 1.82,
-          "name": "Lunch Walk"
-        },
-        {
-          "athlete": "Aurelija S.",
-          "sport": "Walk",
-          "distance_km": 4.4,
-          "name": "Patikrinom sakuras 🌸"
         }
       ]
     }

@@ -210,9 +210,9 @@
     {
       "name": "Nešam Kudašių",
       "color": "#f39c12",
-      "total_points": 668.4,
-      "total_distance_km": 352.99,
-      "activity_count": 57,
+      "total_points": 676.6,
+      "total_distance_km": 353.54,
+      "activity_count": 58,
       "members": [
         "Augustė J.",
         "Augustinas T.",
@@ -221,38 +221,38 @@
         "Valentinas A."
       ],
       "member_count": 5,
-      "points_per_person": 133.7,
+      "points_per_person": 135.3,
       "member_details": [
         {
           "name": "Augustinas T.",
           "points": 179.0,
-          "pct_of_team": 26.8
+          "pct_of_team": 26.5
         },
         {
           "name": "Azuolas S.",
           "points": 178.4,
-          "pct_of_team": 26.7
+          "pct_of_team": 26.4
         },
         {
           "name": "Augustė J.",
-          "points": 130.7,
-          "pct_of_team": 19.6
+          "points": 138.9,
+          "pct_of_team": 20.5
         },
         {
           "name": "Arturas K.",
           "points": 121.5,
-          "pct_of_team": 18.2
+          "pct_of_team": 18.0
         },
         {
           "name": "Valentinas A.",
           "points": 58.8,
-          "pct_of_team": 8.8
+          "pct_of_team": 8.7
         }
       ],
       "distance_by_group": {
         "run_walk": 154.3,
         "ride": 198.2,
-        "swim": 0.5
+        "swim": 1.0
       },
       "rank": 5
     }
@@ -584,14 +584,14 @@
         "Balandžio dvasia": 1373.6,
         "Tardigrada": 1552.8,
         "Sūkuriai": 1004.6,
-        "Nešam Kudašių": 668.4
+        "Nešam Kudašių": 676.6
       },
       "points_per_person": {
         "Nemiegantys Balandžiai": 361.5,
         "Balandžio dvasia": 274.7,
         "Tardigrada": 310.6,
         "Sūkuriai": 200.9,
-        "Nešam Kudašių": 133.7
+        "Nešam Kudašių": 135.3
       }
     }
   ],
@@ -1008,11 +1008,16 @@
     },
     {
       "name": "Augustė J.",
-      "total_points": 130.7,
-      "activity_count": 13,
-      "total_distance_km": 41.66,
+      "total_points": 138.9,
+      "activity_count": 14,
+      "total_distance_km": 42.21,
       "total_elevation_m": 127.0,
       "by_type": {
+        "Swim": {
+          "count": 3,
+          "points": 15.299999999999999,
+          "distance_km": 1.03
+        },
         "Walk": {
           "count": 6,
           "points": 28.9,
@@ -1022,11 +1027,6 @@
           "count": 4,
           "points": 86.39999999999999,
           "distance_km": 28.819999999999997
-        },
-        "Swim": {
-          "count": 2,
-          "points": 7.1,
-          "distance_km": 0.48000000000000004
         },
         "Run": {
           "count": 1,
@@ -1038,7 +1038,7 @@
       "points_by_group": {
         "run_walk": 123.6,
         "ride": 0.0,
-        "swim": 7.1
+        "swim": 15.3
       }
     },
     {
@@ -1273,6 +1273,18 @@
     }
   ],
   "activities": [
+    {
+      "athlete_key": "augustė_j.",
+      "athlete_name": "Augustė J.",
+      "name": "Evening Swim",
+      "sport_type": "Swim",
+      "start_date": null,
+      "_fetched_date": "2026-04-14",
+      "distance_km": 0.55,
+      "elevation_m": 0,
+      "moving_time_s": 2717,
+      "points": 8.2
+    },
     {
       "athlete_key": "augustė_j.",
       "athlete_name": "Augustė J.",
@@ -6938,8 +6950,20 @@
       "points": 27.5
     }
   ],
-  "generated_at": "2026-04-14T19:19:18.531702+00:00",
+  "generated_at": "2026-04-14T20:57:07.805136+00:00",
   "run_log": [
+    {
+      "timestamp": "2026-04-14T20:57:07.787988+00:00",
+      "new_count": 1,
+      "activities": [
+        {
+          "athlete": "Augustė J.",
+          "sport": "Swim",
+          "distance_km": 0.55,
+          "name": "Evening Swim"
+        }
+      ]
+    },
     {
       "timestamp": "2026-04-14T19:19:18.516159+00:00",
       "new_count": 9,
@@ -7998,36 +8022,6 @@
           "sport": "Walk",
           "distance_km": 26.34,
           "name": "Velnio keliais"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-11T11:32:13.361412+00:00",
-      "new_count": 4,
-      "activities": [
-        {
-          "athlete": "Liudas S.",
-          "sport": "Walk",
-          "distance_km": 1.53,
-          "name": "Afternoon Walk"
-        },
-        {
-          "athlete": "Liudas S.",
-          "sport": "Swim",
-          "distance_km": 0.62,
-          "name": "Palanga plaukimas"
-        },
-        {
-          "athlete": "Matas A.",
-          "sport": "Walk",
-          "distance_km": 1.82,
-          "name": "Lunch Walk"
-        },
-        {
-          "athlete": "Aurelija S.",
-          "sport": "Walk",
-          "distance_km": 4.4,
-          "name": "Patikrinom sakuras 🌸"
         }
       ]
     }
