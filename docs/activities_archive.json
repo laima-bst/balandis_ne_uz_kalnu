@@ -1,5 +1,8 @@
 {
   "fingerprints": [
+    "fca8c06e3a5ae620ae2035c1387aad24",
+    "e54ff643e6fdb0d336380f05a4274fea",
+    "98263a08b02b7c832500e58ade7a629c",
     "0b98e9dd34e59695364d4b3401f8776d",
     "fb4642959892430a516bf5be67487443",
     "aa6b407f0ac7e76bb4d2cd130e6cbdbf",
@@ -555,6 +558,57 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Azuolas",
+        "lastname": "S."
+      },
+      "name": "Afternoon Walk",
+      "distance": 1021.8,
+      "moving_time": 640,
+      "elapsed_time": 701,
+      "total_elevation_gain": 6.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-14"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Gertrūda",
+        "lastname": "G."
+      },
+      "name": "Lunch Walk",
+      "distance": 3063.3,
+      "moving_time": 2106,
+      "elapsed_time": 2106,
+      "total_elevation_gain": 17.5,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-14"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Antanas",
+        "lastname": "R."
+      },
+      "name": "Lunch Walk",
+      "distance": 1004.0,
+      "moving_time": 687,
+      "elapsed_time": 1016,
+      "total_elevation_gain": 16.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin fēnix 7",
+      "_fetched_date": "2026-04-14"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -8852,6 +8906,30 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-14T13:46:03.148834+00:00",
+      "new_count": 3,
+      "activities": [
+        {
+          "athlete": "Azuolas S.",
+          "sport": "Walk",
+          "distance_km": 1.02,
+          "name": "Afternoon Walk"
+        },
+        {
+          "athlete": "Gertrūda G.",
+          "sport": "Walk",
+          "distance_km": 3.06,
+          "name": "Lunch Walk"
+        },
+        {
+          "athlete": "Antanas R.",
+          "sport": "Walk",
+          "distance_km": 1.0,
+          "name": "Lunch Walk"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-14T11:05:02.644306+00:00",
       "new_count": 7,
       "activities": [
@@ -9824,36 +9902,6 @@
           "sport": "Run",
           "distance_km": 7.54,
           "name": "Morning Run"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-11T07:51:30.556933+00:00",
-      "new_count": 4,
-      "activities": [
-        {
-          "athlete": "Daina G.",
-          "sport": "Walk",
-          "distance_km": 5.5,
-          "name": "Morning Walk"
-        },
-        {
-          "athlete": "Azuolas S.",
-          "sport": "Run",
-          "distance_km": 4.92,
-          "name": "Morning Run"
-        },
-        {
-          "athlete": "Liudas S.",
-          "sport": "Walk",
-          "distance_km": 7.97,
-          "name": "Morning Walk"
-        },
-        {
-          "athlete": "Andrius A.",
-          "sport": "Ride",
-          "distance_km": 2.64,
-          "name": "Morning Ride"
         }
       ]
     }
