@@ -1,5 +1,6 @@
 {
   "fingerprints": [
+    "7e3aee8d4e108a0d457d02db82b24280",
     "79e4846f744ff8a3d58b4b044ba00a29",
     "70a1fa8033a0535b7c787330f23e123f",
     "53a74b734e3884513b9c2992e8c143e7",
@@ -538,6 +539,23 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Daina",
+        "lastname": "G."
+      },
+      "name": "Night Walk",
+      "distance": 2462.8,
+      "moving_time": 1896,
+      "elapsed_time": 3723,
+      "total_elevation_gain": 20.2,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-14"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -8542,6 +8560,18 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-14T02:44:59.783484+00:00",
+      "new_count": 1,
+      "activities": [
+        {
+          "athlete": "Daina G.",
+          "sport": "Walk",
+          "distance_km": 2.46,
+          "name": "Night Walk"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-13T23:44:11.449533+00:00",
       "new_count": 0,
       "activities": []
@@ -9439,11 +9469,6 @@
     },
     {
       "timestamp": "2026-04-10T23:37:32.487936+00:00",
-      "new_count": 0,
-      "activities": []
-    },
-    {
-      "timestamp": "2026-04-10T22:39:55.224373+00:00",
       "new_count": 0,
       "activities": []
     }
