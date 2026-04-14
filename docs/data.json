@@ -6950,8 +6950,13 @@
       "points": 27.5
     }
   ],
-  "generated_at": "2026-04-14T22:57:08.247946+00:00",
+  "generated_at": "2026-04-14T23:53:25.965148+00:00",
   "run_log": [
+    {
+      "timestamp": "2026-04-14T23:53:25.948143+00:00",
+      "new_count": 0,
+      "activities": []
+    },
     {
       "timestamp": "2026-04-14T22:57:08.231247+00:00",
       "new_count": 0,
@@ -7954,36 +7959,6 @@
           "sport": "Walk",
           "distance_km": 1.13,
           "name": "Evening Walk"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-11T15:36:22.863956+00:00",
-      "new_count": 4,
-      "activities": [
-        {
-          "athlete": "Gertrūda G.",
-          "sport": "Walk",
-          "distance_km": 2.16,
-          "name": "Afternoon Walk"
-        },
-        {
-          "athlete": "Liudas S.",
-          "sport": "Walk",
-          "distance_km": 3.2,
-          "name": "Afternoon Walk"
-        },
-        {
-          "athlete": "Benediktas B.",
-          "sport": "GravelRide",
-          "distance_km": 65.88,
-          "name": "Afternoon Gravel Ride"
-        },
-        {
-          "athlete": "Ieva S.",
-          "sport": "Walk",
-          "distance_km": 2.16,
-          "name": "Afternoon Walk"
         }
       ]
     }
