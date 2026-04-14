@@ -1,5 +1,14 @@
 {
   "fingerprints": [
+    "e0ef7f6da3d3f761ca48796e5a07c396",
+    "0f916a243ed581d853d0fbddc42a88b3",
+    "a4e60c248eb0c42d531a9426285b9cfd",
+    "ed1f7afa2b4d8d3915080e0208d16bbc",
+    "adb94ded8514bffe27b1163628f6f433",
+    "419379af15c9e7ef14238185186176c7",
+    "b89ba3b3580c4ddc531c34ec94eac975",
+    "f70c33c1a64af758dc281e482fcd867a",
+    "c429b0686c0cb5ebe2acc549907d4cab",
     "393d5b72d961a05dad2930a708957d8a",
     "baef9a9c44f307e60ee2f5d2cee07973",
     "b833799696f68147cca1fa0693718faa",
@@ -568,6 +577,161 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Augustė",
+        "lastname": "J."
+      },
+      "name": "Evening Walk",
+      "distance": 1485.9,
+      "moving_time": 1097,
+      "elapsed_time": 1400,
+      "total_elevation_gain": 4.1,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-14"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Benediktas",
+        "lastname": "B."
+      },
+      "name": "Evening Gravel Ride",
+      "distance": 30579.9,
+      "moving_time": 4652,
+      "elapsed_time": 4986,
+      "total_elevation_gain": 370.0,
+      "type": "Ride",
+      "sport_type": "GravelRide",
+      "workout_type": null,
+      "device_name": "Garmin Edge Explore 2",
+      "_fetched_date": "2026-04-14"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Paulius",
+        "lastname": "R."
+      },
+      "name": "Nenorėjau ant stogo ropštis",
+      "distance": 14171.2,
+      "moving_time": 4984,
+      "elapsed_time": 5554,
+      "total_elevation_gain": 88.8,
+      "type": "Run",
+      "sport_type": "Run",
+      "workout_type": null,
+      "device_name": "Wear OS by Google",
+      "_fetched_date": "2026-04-14"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Sandra",
+        "lastname": "M."
+      },
+      "name": "Night Walk",
+      "distance": 1311.5,
+      "moving_time": 800,
+      "elapsed_time": 823,
+      "total_elevation_gain": 20.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin Venu 2 Plus",
+      "_fetched_date": "2026-04-14"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Antanas",
+        "lastname": "R."
+      },
+      "name": "Evening Walk",
+      "distance": 1521.1,
+      "moving_time": 1009,
+      "elapsed_time": 1104,
+      "total_elevation_gain": 41.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin fēnix 7",
+      "_fetched_date": "2026-04-14"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Antanas",
+        "lastname": "R."
+      },
+      "name": "Afternoon Walk",
+      "distance": 1531.7,
+      "moving_time": 993,
+      "elapsed_time": 1048,
+      "total_elevation_gain": 18.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin fēnix 7",
+      "_fetched_date": "2026-04-14"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Antanas",
+        "lastname": "R."
+      },
+      "name": "Afternoon Swim",
+      "distance": 2100.0,
+      "moving_time": 2890,
+      "elapsed_time": 3360,
+      "total_elevation_gain": 0,
+      "type": "Swim",
+      "sport_type": "Swim",
+      "device_name": "Garmin fēnix 7",
+      "_fetched_date": "2026-04-14"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Augustinas",
+        "lastname": "T."
+      },
+      "name": "Night Walk",
+      "distance": 1456.5,
+      "moving_time": 1183,
+      "elapsed_time": 1265,
+      "total_elevation_gain": 8.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "COROS APEX 4",
+      "_fetched_date": "2026-04-14"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Sandra",
+        "lastname": "M."
+      },
+      "name": "Night Walk",
+      "distance": 2228.2,
+      "moving_time": 1505,
+      "elapsed_time": 1505,
+      "total_elevation_gain": 38.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin Venu 2 Plus",
+      "_fetched_date": "2026-04-14"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -9091,6 +9255,66 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-14T19:19:18.516159+00:00",
+      "new_count": 9,
+      "activities": [
+        {
+          "athlete": "Augustė J.",
+          "sport": "Walk",
+          "distance_km": 1.49,
+          "name": "Evening Walk"
+        },
+        {
+          "athlete": "Benediktas B.",
+          "sport": "GravelRide",
+          "distance_km": 30.58,
+          "name": "Evening Gravel Ride"
+        },
+        {
+          "athlete": "Paulius R.",
+          "sport": "Run",
+          "distance_km": 14.17,
+          "name": "Nenorėjau ant stogo ropštis"
+        },
+        {
+          "athlete": "Sandra M.",
+          "sport": "Walk",
+          "distance_km": 1.31,
+          "name": "Night Walk"
+        },
+        {
+          "athlete": "Antanas R.",
+          "sport": "Walk",
+          "distance_km": 1.52,
+          "name": "Evening Walk"
+        },
+        {
+          "athlete": "Antanas R.",
+          "sport": "Walk",
+          "distance_km": 1.53,
+          "name": "Afternoon Walk"
+        },
+        {
+          "athlete": "Antanas R.",
+          "sport": "Swim",
+          "distance_km": 2.1,
+          "name": "Afternoon Swim"
+        },
+        {
+          "athlete": "Augustinas T.",
+          "sport": "Walk",
+          "distance_km": 1.46,
+          "name": "Night Walk"
+        },
+        {
+          "athlete": "Sandra M.",
+          "sport": "Walk",
+          "distance_km": 2.23,
+          "name": "Night Walk"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-14T17:12:13.204617+00:00",
       "new_count": 4,
       "activities": [
@@ -10118,24 +10342,6 @@
           "sport": "Walk",
           "distance_km": 4.4,
           "name": "Patikrinom sakuras 🌸"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-11T10:37:04.789615+00:00",
-      "new_count": 2,
-      "activities": [
-        {
-          "athlete": "Sandra M.",
-          "sport": "Walk",
-          "distance_km": 7.06,
-          "name": "Lunch Walk"
-        },
-        {
-          "athlete": "Andrius A.",
-          "sport": "Ride",
-          "distance_km": 6.3,
-          "name": "Lunch Ride"
         }
       ]
     }
