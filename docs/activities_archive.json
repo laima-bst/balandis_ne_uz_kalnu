@@ -1,5 +1,8 @@
 {
   "fingerprints": [
+    "1fa63568a4d84730db58f695a41ab68a",
+    "11cd99e5a3528762449194f81bdd16e0",
+    "faa1674330bd855e5cc9904d1300cdc0",
     "7e3aee8d4e108a0d457d02db82b24280",
     "79e4846f744ff8a3d58b4b044ba00a29",
     "70a1fa8033a0535b7c787330f23e123f",
@@ -539,6 +542,58 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Edvinas",
+        "lastname": "V."
+      },
+      "name": "Per senas šitiems lakstymams",
+      "distance": 6724.9,
+      "moving_time": 2664,
+      "elapsed_time": 2823,
+      "total_elevation_gain": 43.8,
+      "type": "Run",
+      "sport_type": "Run",
+      "workout_type": null,
+      "_fetched_date": "2026-04-14"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Andrius",
+        "lastname": "A."
+      },
+      "name": "Morning Run",
+      "distance": 8469.8,
+      "moving_time": 2722,
+      "elapsed_time": 2795,
+      "total_elevation_gain": 50.0,
+      "type": "Run",
+      "sport_type": "Run",
+      "workout_type": null,
+      "device_name": "Garmin fēnix 7",
+      "_fetched_date": "2026-04-14"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Viktorija",
+        "lastname": "M."
+      },
+      "name": "Morning Walk",
+      "distance": 1393.2,
+      "moving_time": 898,
+      "elapsed_time": 3883,
+      "total_elevation_gain": 2.1,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-14"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -8560,6 +8615,30 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-14T05:26:13.563794+00:00",
+      "new_count": 3,
+      "activities": [
+        {
+          "athlete": "Edvinas V.",
+          "sport": "Run",
+          "distance_km": 6.72,
+          "name": "Per senas šitiems lakstymams"
+        },
+        {
+          "athlete": "Andrius A.",
+          "sport": "Run",
+          "distance_km": 8.47,
+          "name": "Morning Run"
+        },
+        {
+          "athlete": "Viktorija M.",
+          "sport": "Walk",
+          "distance_km": 1.39,
+          "name": "Morning Walk"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-14T02:44:59.783484+00:00",
       "new_count": 1,
       "activities": [
@@ -9464,11 +9543,6 @@
     },
     {
       "timestamp": "2026-04-11T02:28:33.188779+00:00",
-      "new_count": 0,
-      "activities": []
-    },
-    {
-      "timestamp": "2026-04-10T23:37:32.487936+00:00",
       "new_count": 0,
       "activities": []
     }
