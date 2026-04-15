@@ -10120,6 +10120,11 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-15T23:43:33.598120+00:00",
+      "new_count": 0,
+      "activities": []
+    },
+    {
       "timestamp": "2026-04-15T22:46:05.540297+00:00",
       "new_count": 0,
       "activities": []
@@ -11301,18 +11306,6 @@
           "sport": "Tennis",
           "distance_km": 0.23,
           "name": "Afternoon Tennis"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-12T10:40:35.712536+00:00",
-      "new_count": 1,
-      "activities": [
-        {
-          "athlete": "Andrius A.",
-          "sport": "Ride",
-          "distance_km": 2.97,
-          "name": "Lunch Ride"
         }
       ]
     }
