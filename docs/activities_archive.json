@@ -1,5 +1,12 @@
 {
   "fingerprints": [
+    "abb6ddc153a3111b6683204b8cd029e6",
+    "05848e2e8f4e6af7549feb6c64f6d791",
+    "b2d950d95f8153e1672099e047842ab4",
+    "559f88938ec78ea9ad7fd9a9d55edec5",
+    "8fb54b0a0b55a520899c6c8663f1e079",
+    "a40d45e4d0d7413ae4a98af734ea88ec",
+    "2e30564e79986a0f6a39b91fa1040f9e",
     "942f4da82eb824d8b3d0aca97039740e",
     "e8a6432557161ad2303d119a1d619303",
     "1e77a16d2df8d877e02508a820bed9ca",
@@ -616,6 +623,131 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Azuolas",
+        "lastname": "S."
+      },
+      "name": "Evening Run",
+      "distance": 10022.4,
+      "moving_time": 3590,
+      "elapsed_time": 3596,
+      "total_elevation_gain": 46.3,
+      "type": "Run",
+      "sport_type": "Run",
+      "workout_type": null,
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-15"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Edvinas",
+        "lastname": "V."
+      },
+      "name": "Evening Walk",
+      "distance": 2237.3,
+      "moving_time": 1509,
+      "elapsed_time": 1592,
+      "total_elevation_gain": 24.8,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-15"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Arturas",
+        "lastname": "K."
+      },
+      "name": "Vlado maršrutu",
+      "distance": 15490.4,
+      "moving_time": 3380,
+      "elapsed_time": 4417,
+      "total_elevation_gain": 129.0,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": 12,
+      "device_name": "Garmin Epix Gen2",
+      "_fetched_date": "2026-04-15"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Paulius",
+        "lastname": "R."
+      },
+      "name": "Baisiai graži diena",
+      "distance": 16031.4,
+      "moving_time": 4577,
+      "elapsed_time": 4577,
+      "total_elevation_gain": 100.9,
+      "type": "Run",
+      "sport_type": "Run",
+      "workout_type": null,
+      "device_name": "Wear OS by Google",
+      "_fetched_date": "2026-04-15"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Riskman",
+        "lastname": "G."
+      },
+      "name": "Evening Ride",
+      "distance": 40445.9,
+      "moving_time": 9400,
+      "elapsed_time": 10845,
+      "total_elevation_gain": 275.6,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": null,
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-15"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Benediktas",
+        "lastname": "B."
+      },
+      "name": "Evening Gravel Ride",
+      "distance": 39838.2,
+      "moving_time": 7201,
+      "elapsed_time": 7637,
+      "total_elevation_gain": 422.0,
+      "type": "Ride",
+      "sport_type": "GravelRide",
+      "workout_type": null,
+      "device_name": "Garmin Edge Explore 2",
+      "_fetched_date": "2026-04-15"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Sandra",
+        "lastname": "M."
+      },
+      "name": "Evening Ride",
+      "distance": 12261.3,
+      "moving_time": 2713,
+      "elapsed_time": 4906,
+      "total_elevation_gain": 113.0,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": null,
+      "device_name": "Garmin Venu 2 Plus",
+      "_fetched_date": "2026-04-15"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -9970,6 +10102,54 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-15T19:20:52.151710+00:00",
+      "new_count": 7,
+      "activities": [
+        {
+          "athlete": "Azuolas S.",
+          "sport": "Run",
+          "distance_km": 10.02,
+          "name": "Evening Run"
+        },
+        {
+          "athlete": "Edvinas V.",
+          "sport": "Walk",
+          "distance_km": 2.24,
+          "name": "Evening Walk"
+        },
+        {
+          "athlete": "Arturas K.",
+          "sport": "Ride",
+          "distance_km": 15.49,
+          "name": "Vlado maršrutu"
+        },
+        {
+          "athlete": "Paulius R.",
+          "sport": "Run",
+          "distance_km": 16.03,
+          "name": "Baisiai graži diena"
+        },
+        {
+          "athlete": "Riskman G.",
+          "sport": "Ride",
+          "distance_km": 40.45,
+          "name": "Evening Ride"
+        },
+        {
+          "athlete": "Benediktas B.",
+          "sport": "GravelRide",
+          "distance_km": 39.84,
+          "name": "Evening Gravel Ride"
+        },
+        {
+          "athlete": "Sandra M.",
+          "sport": "Ride",
+          "distance_km": 12.26,
+          "name": "Evening Ride"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-15T17:06:47.850522+00:00",
       "new_count": 13,
       "activities": [
@@ -11155,11 +11335,6 @@
           "name": "Morning Walk"
         }
       ]
-    },
-    {
-      "timestamp": "2026-04-12T05:25:55.518267+00:00",
-      "new_count": 0,
-      "activities": []
     }
   ]
 }
