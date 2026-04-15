@@ -1,5 +1,6 @@
 {
   "fingerprints": [
+    "60773ddee5e8f28428c7459f12706ff0",
     "abb6ddc153a3111b6683204b8cd029e6",
     "05848e2e8f4e6af7549feb6c64f6d791",
     "b2d950d95f8153e1672099e047842ab4",
@@ -623,6 +624,23 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Augustė",
+        "lastname": "J."
+      },
+      "name": "Night Hike",
+      "distance": 1173.4,
+      "moving_time": 916,
+      "elapsed_time": 3696,
+      "total_elevation_gain": 6.0,
+      "type": "Hike",
+      "sport_type": "Hike",
+      "device_name": "COROS APEX",
+      "_fetched_date": "2026-04-15"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -10102,6 +10120,18 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-15T20:52:49.591747+00:00",
+      "new_count": 1,
+      "activities": [
+        {
+          "athlete": "Augustė J.",
+          "sport": "Hike",
+          "distance_km": 1.17,
+          "name": "Night Hike"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-15T19:20:52.151710+00:00",
       "new_count": 7,
       "activities": [
@@ -11309,30 +11339,6 @@
           "sport": "Ride",
           "distance_km": 20.48,
           "name": "Morning Ride"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-12T07:17:38.708210+00:00",
-      "new_count": 3,
-      "activities": [
-        {
-          "athlete": "Liudas S.",
-          "sport": "Walk",
-          "distance_km": 7.06,
-          "name": "Morning Walk"
-        },
-        {
-          "athlete": "Greta N.",
-          "sport": "Walk",
-          "distance_km": 1.66,
-          "name": "Morning Walk"
-        },
-        {
-          "athlete": "Gintarė B.",
-          "sport": "Walk",
-          "distance_km": 1.29,
-          "name": "Morning Walk"
         }
       ]
     }
