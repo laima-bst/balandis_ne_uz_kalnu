@@ -7478,8 +7478,13 @@
       "points": 27.5
     }
   ],
-  "generated_at": "2026-04-15T20:52:49.609728+00:00",
+  "generated_at": "2026-04-15T21:54:44.658932+00:00",
   "run_log": [
+    {
+      "timestamp": "2026-04-15T21:54:44.640704+00:00",
+      "new_count": 0,
+      "activities": []
+    },
     {
       "timestamp": "2026-04-15T20:52:49.591747+00:00",
       "new_count": 1,
@@ -8681,24 +8686,6 @@
           "athlete": "Sandra M.",
           "sport": "Ride",
           "distance_km": 31.06,
-          "name": "Morning Ride"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-12T08:52:35.061883+00:00",
-      "new_count": 2,
-      "activities": [
-        {
-          "athlete": "Paulius R.",
-          "sport": "Run",
-          "distance_km": 17.55,
-          "name": "Morning Run"
-        },
-        {
-          "athlete": "Augustinas T.",
-          "sport": "Ride",
-          "distance_km": 20.48,
           "name": "Morning Ride"
         }
       ]
