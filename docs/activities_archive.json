@@ -9273,6 +9273,11 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-15T02:42:08.869885+00:00",
+      "new_count": 0,
+      "activities": []
+    },
+    {
       "timestamp": "2026-04-14T23:53:25.948143+00:00",
       "new_count": 0,
       "activities": []
@@ -10255,30 +10260,6 @@
           "sport": "Hike",
           "distance_km": 18.81,
           "name": "Lunch Hike"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-11T16:39:21.027516+00:00",
-      "new_count": 3,
-      "activities": [
-        {
-          "athlete": "Azuolas S.",
-          "sport": "Walk",
-          "distance_km": 2.61,
-          "name": "Evening Walk"
-        },
-        {
-          "athlete": "Edvinas V.",
-          "sport": "Walk",
-          "distance_km": 1.1,
-          "name": "Katiną pavedžiot"
-        },
-        {
-          "athlete": "Aurelija S.",
-          "sport": "Walk",
-          "distance_km": 1.13,
-          "name": "Evening Walk"
         }
       ]
     }
