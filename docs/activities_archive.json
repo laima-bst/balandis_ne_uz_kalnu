@@ -1,5 +1,9 @@
 {
   "fingerprints": [
+    "fcaa3c330f2ae2e91ee9594ae6e4c7cf",
+    "623e7157b1c6b8d83191f4191a0b92af",
+    "a9de48cd81d36981568cd2fa4d0dd561",
+    "fd84620c7409d6cb33d830d16269df6e",
     "30adc033ac54f2a994c319d04e34448c",
     "f62cadc4d615a8d0a965c261907ccf93",
     "e4da5dba6c03b4c13abecfce2f1ff962",
@@ -583,6 +587,74 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Donatas",
+        "lastname": "J."
+      },
+      "name": "Morning Walk",
+      "distance": 1135.6,
+      "moving_time": 1150,
+      "elapsed_time": 1176,
+      "total_elevation_gain": 1.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin Forerunner 255 Music",
+      "_fetched_date": "2026-04-15"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Greta",
+        "lastname": "N."
+      },
+      "name": "Morning Walk",
+      "distance": 3135.5,
+      "moving_time": 2989,
+      "elapsed_time": 3699,
+      "total_elevation_gain": 26.6,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-15"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Greta",
+        "lastname": "N."
+      },
+      "name": "Morning Walk",
+      "distance": 4982.4,
+      "moving_time": 4601,
+      "elapsed_time": 9963,
+      "total_elevation_gain": 51.5,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-15"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Greta",
+        "lastname": "N."
+      },
+      "name": "Afternoon Walk",
+      "distance": 4460.4,
+      "moving_time": 4438,
+      "elapsed_time": 58174,
+      "total_elevation_gain": 23.7,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-15"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -9367,6 +9439,36 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-15T07:50:28.556170+00:00",
+      "new_count": 4,
+      "activities": [
+        {
+          "athlete": "Donatas J.",
+          "sport": "Walk",
+          "distance_km": 1.14,
+          "name": "Morning Walk"
+        },
+        {
+          "athlete": "Greta N.",
+          "sport": "Walk",
+          "distance_km": 3.14,
+          "name": "Morning Walk"
+        },
+        {
+          "athlete": "Greta N.",
+          "sport": "Walk",
+          "distance_km": 4.98,
+          "name": "Morning Walk"
+        },
+        {
+          "athlete": "Greta N.",
+          "sport": "Walk",
+          "distance_km": 4.46,
+          "name": "Afternoon Walk"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-15T05:26:19.009934+00:00",
       "new_count": 5,
       "activities": [
@@ -10356,24 +10458,6 @@
       "timestamp": "2026-04-11T19:36:12.885127+00:00",
       "new_count": 0,
       "activities": []
-    },
-    {
-      "timestamp": "2026-04-11T18:50:01.512984+00:00",
-      "new_count": 2,
-      "activities": [
-        {
-          "athlete": "Daina G.",
-          "sport": "Walk",
-          "distance_km": 3.72,
-          "name": "Kai reikia 15 min laukt autobuso"
-        },
-        {
-          "athlete": "Andrius A.",
-          "sport": "Walk",
-          "distance_km": 3.66,
-          "name": "Evening Walk"
-        }
-      ]
     }
   ]
 }
