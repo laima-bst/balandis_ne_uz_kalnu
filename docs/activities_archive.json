@@ -10743,6 +10743,11 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-16T23:42:21.385147+00:00",
+      "new_count": 0,
+      "activities": []
+    },
+    {
       "timestamp": "2026-04-16T22:42:16.736090+00:00",
       "new_count": 0,
       "activities": []
@@ -11951,11 +11956,6 @@
           "name": "Morning Ride"
         }
       ]
-    },
-    {
-      "timestamp": "2026-04-13T02:52:13.779062+00:00",
-      "new_count": 0,
-      "activities": []
     }
   ]
 }
