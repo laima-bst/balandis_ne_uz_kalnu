@@ -1,5 +1,6 @@
 {
   "fingerprints": [
+    "7135a6efa5a38ff805be8d9e71aa9b4e",
     "9f0c162f4f27820208a7264a9407eb78",
     "c764bafc1b082d29e85c270551e4eafe",
     "207845b46c8faba380de13d2bb599798",
@@ -657,6 +658,23 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Augustė",
+        "lastname": "J."
+      },
+      "name": "Evening Swim",
+      "distance": 650.0,
+      "moving_time": 2947,
+      "elapsed_time": 3969,
+      "total_elevation_gain": 0,
+      "type": "Swim",
+      "sport_type": "Swim",
+      "device_name": "COROS APEX",
+      "_fetched_date": "2026-04-16"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -10725,6 +10743,18 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-16T20:51:51.051991+00:00",
+      "new_count": 1,
+      "activities": [
+        {
+          "athlete": "Augustė J.",
+          "sport": "Swim",
+          "distance_km": 0.65,
+          "name": "Evening Swim"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-16T19:18:43.989631+00:00",
       "new_count": 5,
       "activities": [
@@ -11924,11 +11954,6 @@
     },
     {
       "timestamp": "2026-04-12T22:37:15.049651+00:00",
-      "new_count": 0,
-      "activities": []
-    },
-    {
-      "timestamp": "2026-04-12T21:37:43.590419+00:00",
       "new_count": 0,
       "activities": []
     }
