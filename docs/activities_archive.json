@@ -1,5 +1,10 @@
 {
   "fingerprints": [
+    "8be1f3df0a14e6794535781db716e37c",
+    "c027a68a9e9aedeaa6a49542fee17944",
+    "80730b4888d8fa7421bd0e5f87d92f45",
+    "6e80a3badf35091430994da43f789fd2",
+    "8f4a0dcc4912b027e566abd121854a15",
     "95bbc36b7986db978b95fd6f15a0dfbc",
     "6497204da1d4804a48a4ae40f8999e34",
     "1ffb6af657a4a1f4d4ce218e20bd8696",
@@ -635,6 +640,91 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Azuolas",
+        "lastname": "S."
+      },
+      "name": "Afternoon Walk",
+      "distance": 1016.8,
+      "moving_time": 651,
+      "elapsed_time": 806,
+      "total_elevation_gain": 28.3,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-16"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Donatas",
+        "lastname": "J."
+      },
+      "name": "Afternoon Walk",
+      "distance": 3389.2,
+      "moving_time": 3078,
+      "elapsed_time": 4790,
+      "total_elevation_gain": 31.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin Forerunner 255 Music",
+      "_fetched_date": "2026-04-16"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Paulius",
+        "lastname": "R."
+      },
+      "name": "Afternoon Walk",
+      "distance": 1747.2,
+      "moving_time": 1098,
+      "elapsed_time": 1098,
+      "total_elevation_gain": 46.9,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Wear OS by Google",
+      "_fetched_date": "2026-04-16"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Paulius",
+        "lastname": "R."
+      },
+      "name": "Afternoon Walk",
+      "distance": 1618.9,
+      "moving_time": 865,
+      "elapsed_time": 885,
+      "total_elevation_gain": 6.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Wear OS by Google",
+      "_fetched_date": "2026-04-16"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Valentinas",
+        "lastname": "A."
+      },
+      "name": "Afternoon Walk",
+      "distance": 2524.7,
+      "moving_time": 2046,
+      "elapsed_time": 2093,
+      "total_elevation_gain": 53.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "COROS VERTIX",
+      "_fetched_date": "2026-04-16"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -10321,6 +10411,42 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-16T13:50:23.773905+00:00",
+      "new_count": 5,
+      "activities": [
+        {
+          "athlete": "Azuolas S.",
+          "sport": "Walk",
+          "distance_km": 1.02,
+          "name": "Afternoon Walk"
+        },
+        {
+          "athlete": "Donatas J.",
+          "sport": "Walk",
+          "distance_km": 3.39,
+          "name": "Afternoon Walk"
+        },
+        {
+          "athlete": "Paulius R.",
+          "sport": "Walk",
+          "distance_km": 1.75,
+          "name": "Afternoon Walk"
+        },
+        {
+          "athlete": "Paulius R.",
+          "sport": "Walk",
+          "distance_km": 1.62,
+          "name": "Afternoon Walk"
+        },
+        {
+          "athlete": "Valentinas A.",
+          "sport": "Walk",
+          "distance_km": 2.52,
+          "name": "Afternoon Walk"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-16T11:06:00.263626+00:00",
       "new_count": 4,
       "activities": [
@@ -11434,36 +11560,6 @@
           "sport": "Hike",
           "distance_km": 1.46,
           "name": "Lunch Hike"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-12T17:37:28.512640+00:00",
-      "new_count": 4,
-      "activities": [
-        {
-          "athlete": "Liudas S.",
-          "sport": "Walk",
-          "distance_km": 2.65,
-          "name": "Evening Walk"
-        },
-        {
-          "athlete": "Donatas J.",
-          "sport": "Walk",
-          "distance_km": 3.64,
-          "name": "Afternoon Walk"
-        },
-        {
-          "athlete": "Benediktas B.",
-          "sport": "GravelRide",
-          "distance_km": 40.85,
-          "name": "Afternoon Gravel Ride"
-        },
-        {
-          "athlete": "Sandra M.",
-          "sport": "Walk",
-          "distance_km": 2.88,
-          "name": "Evening Walk"
         }
       ]
     }
