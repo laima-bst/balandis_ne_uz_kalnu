@@ -1,5 +1,14 @@
 {
   "fingerprints": [
+    "b73fe7d2a6bbfda2fbd2a98e7212fc00",
+    "ae1a0085f157351661a487b624aee784",
+    "6e0bc5f4688287c353ad2ed31e2f21e2",
+    "e016c1abd715d81b134a45cf2d5f8475",
+    "2b85e147916738e5930d69c0c88c70ba",
+    "7dbaf588c76225e02e065b673a835d00",
+    "f1568c1ea5fb50263e43925fa7681f34",
+    "4ca4aa6d08c1db82980fe0a122c6f800",
+    "017cea0bd0e6200c43d39224eeae9a55",
     "8be1f3df0a14e6794535781db716e37c",
     "c027a68a9e9aedeaa6a49542fee17944",
     "80730b4888d8fa7421bd0e5f87d92f45",
@@ -640,6 +649,165 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Donatas",
+        "lastname": "J."
+      },
+      "name": "Padangu prakeiksmas tesiasi..",
+      "distance": 19870.1,
+      "moving_time": 3161,
+      "elapsed_time": 3426,
+      "total_elevation_gain": 148.0,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": null,
+      "device_name": "Garmin Forerunner 255 Music",
+      "_fetched_date": "2026-04-16"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Edvinas",
+        "lastname": "V."
+      },
+      "name": "Afternoon Ride",
+      "distance": 3100.4,
+      "moving_time": 730,
+      "elapsed_time": 732,
+      "total_elevation_gain": 23.1,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": null,
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-16"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Valentinas",
+        "lastname": "A."
+      },
+      "name": "Afternoon Ride",
+      "distance": 24054.5,
+      "moving_time": 4718,
+      "elapsed_time": 5319,
+      "total_elevation_gain": 177.0,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": null,
+      "device_name": "Wahoo ELEMNT BOLT",
+      "_fetched_date": "2026-04-16"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Laima",
+        "lastname": "A."
+      },
+      "name": "Visko buvo",
+      "distance": 24087.4,
+      "moving_time": 4796,
+      "elapsed_time": 5512,
+      "total_elevation_gain": 198.0,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": null,
+      "device_name": "Wahoo ELEMNT ROAM",
+      "_fetched_date": "2026-04-16"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Viktorija",
+        "lastname": "M."
+      },
+      "name": "Afternoon Walk",
+      "distance": 2766.4,
+      "moving_time": 1427,
+      "elapsed_time": 4681,
+      "total_elevation_gain": 20.5,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-16"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Andrius",
+        "lastname": "A."
+      },
+      "name": "Afternoon Run",
+      "distance": 11866.8,
+      "moving_time": 3788,
+      "elapsed_time": 4040,
+      "total_elevation_gain": 93.0,
+      "type": "Run",
+      "sport_type": "Run",
+      "workout_type": null,
+      "device_name": "Garmin fēnix 7",
+      "_fetched_date": "2026-04-16"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Gintarė",
+        "lastname": "B."
+      },
+      "name": "Afternoon Ride",
+      "distance": 25010.9,
+      "moving_time": 5176,
+      "elapsed_time": 5471,
+      "total_elevation_gain": 179.6,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": null,
+      "device_name": "Samsung Health",
+      "_fetched_date": "2026-04-16"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Antanas",
+        "lastname": "R."
+      },
+      "name": "Afternoon Swim",
+      "distance": 2000.0,
+      "moving_time": 2636,
+      "elapsed_time": 2670,
+      "total_elevation_gain": 0,
+      "type": "Swim",
+      "sport_type": "Swim",
+      "device_name": "Garmin fēnix 7",
+      "_fetched_date": "2026-04-16"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Greta",
+        "lastname": "N."
+      },
+      "name": "Afternoon Walk",
+      "distance": 2767.2,
+      "moving_time": 2591,
+      "elapsed_time": 4491,
+      "total_elevation_gain": 20.9,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-16"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -10411,6 +10579,66 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-16T15:27:39.191246+00:00",
+      "new_count": 9,
+      "activities": [
+        {
+          "athlete": "Donatas J.",
+          "sport": "Ride",
+          "distance_km": 19.87,
+          "name": "Padangu prakeiksmas tesiasi.."
+        },
+        {
+          "athlete": "Edvinas V.",
+          "sport": "Ride",
+          "distance_km": 3.1,
+          "name": "Afternoon Ride"
+        },
+        {
+          "athlete": "Valentinas A.",
+          "sport": "Ride",
+          "distance_km": 24.05,
+          "name": "Afternoon Ride"
+        },
+        {
+          "athlete": "Laima A.",
+          "sport": "Ride",
+          "distance_km": 24.09,
+          "name": "Visko buvo"
+        },
+        {
+          "athlete": "Viktorija M.",
+          "sport": "Walk",
+          "distance_km": 2.77,
+          "name": "Afternoon Walk"
+        },
+        {
+          "athlete": "Andrius A.",
+          "sport": "Run",
+          "distance_km": 11.87,
+          "name": "Afternoon Run"
+        },
+        {
+          "athlete": "Gintarė B.",
+          "sport": "Ride",
+          "distance_km": 25.01,
+          "name": "Afternoon Ride"
+        },
+        {
+          "athlete": "Antanas R.",
+          "sport": "Swim",
+          "distance_km": 2.0,
+          "name": "Afternoon Swim"
+        },
+        {
+          "athlete": "Greta N.",
+          "sport": "Walk",
+          "distance_km": 2.77,
+          "name": "Afternoon Walk"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-16T13:50:23.773905+00:00",
       "new_count": 5,
       "activities": [
@@ -11514,54 +11742,6 @@
       "timestamp": "2026-04-12T19:40:31.151360+00:00",
       "new_count": 0,
       "activities": []
-    },
-    {
-      "timestamp": "2026-04-12T18:54:01.307439+00:00",
-      "new_count": 7,
-      "activities": [
-        {
-          "athlete": "Aurelija S.",
-          "sport": "Walk",
-          "distance_km": 1.14,
-          "name": "Evening Walk"
-        },
-        {
-          "athlete": "Paulius R.",
-          "sport": "Walk",
-          "distance_km": 4.08,
-          "name": "Evening Walk"
-        },
-        {
-          "athlete": "Antanas R.",
-          "sport": "Hike",
-          "distance_km": 28.12,
-          "name": "Lunch Hike"
-        },
-        {
-          "athlete": "Antanas R.",
-          "sport": "Walk",
-          "distance_km": 1.31,
-          "name": "Evening Walk"
-        },
-        {
-          "athlete": "Antanas R.",
-          "sport": "Walk",
-          "distance_km": 1.51,
-          "name": "Evening Walk"
-        },
-        {
-          "athlete": "Antanas R.",
-          "sport": "Swim",
-          "distance_km": 1.5,
-          "name": "Evening Swim"
-        },
-        {
-          "athlete": "Antanas R.",
-          "sport": "Hike",
-          "distance_km": 1.46,
-          "name": "Lunch Hike"
-        }
-      ]
     }
   ]
 }
