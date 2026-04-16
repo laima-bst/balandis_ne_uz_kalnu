@@ -1,5 +1,6 @@
 {
   "fingerprints": [
+    "cc3219d888fee97bc591bb4ae69be4df",
     "0504005c237f057c8dffb4d819413681",
     "53bde60ccac3192721b3dad47eeacb6f",
     "0cf641197aef91d02a15d5465b4994fa",
@@ -630,6 +631,23 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Liudas",
+        "lastname": "S."
+      },
+      "name": "Lunch Walk",
+      "distance": 2905.6,
+      "moving_time": 1688,
+      "elapsed_time": 3202,
+      "total_elevation_gain": 10.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Samsung Galaxy Ultra",
+      "_fetched_date": "2026-04-16"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -10231,6 +10249,18 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-16T09:22:14.687963+00:00",
+      "new_count": 1,
+      "activities": [
+        {
+          "athlete": "Liudas S.",
+          "sport": "Walk",
+          "distance_km": 2.91,
+          "name": "Lunch Walk"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-16T07:50:24.046086+00:00",
       "new_count": 2,
       "activities": [
@@ -11344,42 +11374,6 @@
           "sport": "Walk",
           "distance_km": 1.0,
           "name": "Evening Walk"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-12T15:37:52.074856+00:00",
-      "new_count": 5,
-      "activities": [
-        {
-          "athlete": "Aurelija S.",
-          "sport": "Walk",
-          "distance_km": 2.06,
-          "name": "Afternoon Walk"
-        },
-        {
-          "athlete": "Viktorija M.",
-          "sport": "Walk",
-          "distance_km": 2.72,
-          "name": "Afternoon Run"
-        },
-        {
-          "athlete": "Greta N.",
-          "sport": "Walk",
-          "distance_km": 5.96,
-          "name": "Afternoon Walk"
-        },
-        {
-          "athlete": "Augustinas T.",
-          "sport": "Walk",
-          "distance_km": 7.4,
-          "name": "Afternoon Walk"
-        },
-        {
-          "athlete": "Gintarė B.",
-          "sport": "Walk",
-          "distance_km": 1.07,
-          "name": "Afternoon Walk"
         }
       ]
     }
