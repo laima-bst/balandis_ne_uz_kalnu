@@ -1,5 +1,8 @@
 {
   "fingerprints": [
+    "8c06de1db827b3221a9c02b7c59c3dc2",
+    "18a0c80600ab659204e845333981e787",
+    "c234a097ba120c7d6efc9f33b681145e",
     "b73fe7d2a6bbfda2fbd2a98e7212fc00",
     "ae1a0085f157351661a487b624aee784",
     "6e0bc5f4688287c353ad2ed31e2f21e2",
@@ -649,6 +652,57 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Liudas",
+        "lastname": "S."
+      },
+      "name": "Evening Walk",
+      "distance": 1156.9,
+      "moving_time": 857,
+      "elapsed_time": 2263,
+      "total_elevation_gain": 0.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Samsung Galaxy Ultra",
+      "_fetched_date": "2026-04-16"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Aurelija",
+        "lastname": "S."
+      },
+      "name": "Prieš koncertą 💃",
+      "distance": 1346.4,
+      "moving_time": 921,
+      "elapsed_time": 938,
+      "total_elevation_gain": 4.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin Venu 3S",
+      "_fetched_date": "2026-04-16"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Sandra",
+        "lastname": "M."
+      },
+      "name": "Evening Walk",
+      "distance": 3238.6,
+      "moving_time": 2077,
+      "elapsed_time": 5172,
+      "total_elevation_gain": 28.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin Venu 2 Plus",
+      "_fetched_date": "2026-04-16"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -10579,6 +10633,30 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-16T17:17:30.888011+00:00",
+      "new_count": 3,
+      "activities": [
+        {
+          "athlete": "Liudas S.",
+          "sport": "Walk",
+          "distance_km": 1.16,
+          "name": "Evening Walk"
+        },
+        {
+          "athlete": "Aurelija S.",
+          "sport": "Walk",
+          "distance_km": 1.35,
+          "name": "Prieš koncertą 💃"
+        },
+        {
+          "athlete": "Sandra M.",
+          "sport": "Walk",
+          "distance_km": 3.24,
+          "name": "Evening Walk"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-16T15:27:39.191246+00:00",
       "new_count": 9,
       "activities": [
@@ -11737,11 +11815,6 @@
           "name": "Night Run"
         }
       ]
-    },
-    {
-      "timestamp": "2026-04-12T19:40:31.151360+00:00",
-      "new_count": 0,
-      "activities": []
     }
   ]
 }
