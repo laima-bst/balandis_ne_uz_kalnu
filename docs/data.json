@@ -7478,8 +7478,13 @@
       "points": 27.5
     }
   ],
-  "generated_at": "2026-04-15T23:43:33.616009+00:00",
+  "generated_at": "2026-04-16T02:49:52.524309+00:00",
   "run_log": [
+    {
+      "timestamp": "2026-04-16T02:49:52.505759+00:00",
+      "new_count": 0,
+      "activities": []
+    },
     {
       "timestamp": "2026-04-15T23:43:33.598120+00:00",
       "new_count": 0,
@@ -8655,18 +8660,6 @@
           "sport": "Ride",
           "distance_km": 3.5,
           "name": "Afternoon Ride"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-12T11:35:37.552793+00:00",
-      "new_count": 1,
-      "activities": [
-        {
-          "athlete": "Aurelija S.",
-          "sport": "Tennis",
-          "distance_km": 0.23,
-          "name": "Afternoon Tennis"
         }
       ]
     }
