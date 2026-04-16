@@ -1,5 +1,9 @@
 {
   "fingerprints": [
+    "0cf641197aef91d02a15d5465b4994fa",
+    "0fbbf2aa14d5a159cc399f77299a8ff5",
+    "934a9a83c4bdb9031734c4e076bb66cb",
+    "5804f1cac25bed7fbc39bd9986ee23ea",
     "60773ddee5e8f28428c7459f12706ff0",
     "abb6ddc153a3111b6683204b8cd029e6",
     "05848e2e8f4e6af7549feb6c64f6d791",
@@ -624,6 +628,76 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Edvinas",
+        "lastname": "V."
+      },
+      "name": "Morning Run",
+      "distance": 6498.1,
+      "moving_time": 2237,
+      "elapsed_time": 2397,
+      "total_elevation_gain": 48.0,
+      "type": "Run",
+      "sport_type": "Run",
+      "workout_type": 3,
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-16"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Gintarė",
+        "lastname": "B."
+      },
+      "name": "Morning Walk 🐕🚶🏼‍♀️",
+      "distance": 1339.7,
+      "moving_time": 1676,
+      "elapsed_time": 1787,
+      "total_elevation_gain": 15.5,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Samsung Health",
+      "_fetched_date": "2026-04-16"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Andrius",
+        "lastname": "A."
+      },
+      "name": "Morning Run",
+      "distance": 8420.5,
+      "moving_time": 2709,
+      "elapsed_time": 2780,
+      "total_elevation_gain": 53.0,
+      "type": "Run",
+      "sport_type": "Run",
+      "workout_type": null,
+      "device_name": "Garmin fēnix 7",
+      "_fetched_date": "2026-04-16"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Antanas",
+        "lastname": "R."
+      },
+      "name": "Lunch Walk",
+      "distance": 1001.8,
+      "moving_time": 681,
+      "elapsed_time": 1120,
+      "total_elevation_gain": 8.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin fēnix 7",
+      "_fetched_date": "2026-04-16"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -10120,6 +10194,36 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-16T05:32:44.400229+00:00",
+      "new_count": 4,
+      "activities": [
+        {
+          "athlete": "Edvinas V.",
+          "sport": "Run",
+          "distance_km": 6.5,
+          "name": "Morning Run"
+        },
+        {
+          "athlete": "Gintarė B.",
+          "sport": "Walk",
+          "distance_km": 1.34,
+          "name": "Morning Walk 🐕🚶🏼‍♀️"
+        },
+        {
+          "athlete": "Andrius A.",
+          "sport": "Run",
+          "distance_km": 8.42,
+          "name": "Morning Run"
+        },
+        {
+          "athlete": "Antanas R.",
+          "sport": "Walk",
+          "distance_km": 1.0,
+          "name": "Lunch Walk"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-16T02:49:52.505759+00:00",
       "new_count": 0,
       "activities": []
@@ -11263,42 +11367,6 @@
           "sport": "Walk",
           "distance_km": 1.04,
           "name": "Afternoon Walk"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-12T13:05:46.712240+00:00",
-      "new_count": 5,
-      "activities": [
-        {
-          "athlete": "Daina G.",
-          "sport": "Walk",
-          "distance_km": 3.35,
-          "name": "Afternoon Walk"
-        },
-        {
-          "athlete": "Daina G.",
-          "sport": "Walk",
-          "distance_km": 10.18,
-          "name": "Got bored ig??????"
-        },
-        {
-          "athlete": "Arunas M.",
-          "sport": "Walk",
-          "distance_km": 2.75,
-          "name": "Lunch Walk"
-        },
-        {
-          "athlete": "Donatas J.",
-          "sport": "Ride",
-          "distance_km": 101.41,
-          "name": "Morning Ride"
-        },
-        {
-          "athlete": "Andrius A.",
-          "sport": "Ride",
-          "distance_km": 3.5,
-          "name": "Afternoon Ride"
         }
       ]
     }
