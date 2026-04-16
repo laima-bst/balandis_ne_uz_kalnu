@@ -1,5 +1,10 @@
 {
   "fingerprints": [
+    "9f0c162f4f27820208a7264a9407eb78",
+    "c764bafc1b082d29e85c270551e4eafe",
+    "207845b46c8faba380de13d2bb599798",
+    "5665491fe2c21eff9d1c87fa6acdcb0b",
+    "084d49baa93d0ebf469b257178d020f8",
     "8c06de1db827b3221a9c02b7c59c3dc2",
     "18a0c80600ab659204e845333981e787",
     "c234a097ba120c7d6efc9f33b681145e",
@@ -652,6 +657,93 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Azuolas",
+        "lastname": "S."
+      },
+      "name": "Evening Run",
+      "distance": 5015.8,
+      "moving_time": 1680,
+      "elapsed_time": 1692,
+      "total_elevation_gain": 28.2,
+      "type": "Run",
+      "sport_type": "Run",
+      "workout_type": null,
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-16"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Arturas",
+        "lastname": "K."
+      },
+      "name": "Evening Walk",
+      "distance": 1277.4,
+      "moving_time": 785,
+      "elapsed_time": 1349,
+      "total_elevation_gain": 7.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin Epix Gen2",
+      "_fetched_date": "2026-04-16"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Viktorija",
+        "lastname": "M."
+      },
+      "name": "Evening Walk",
+      "distance": 3399.4,
+      "moving_time": 3136,
+      "elapsed_time": 3438,
+      "total_elevation_gain": 34.7,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-16"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Paulius",
+        "lastname": "R."
+      },
+      "name": "Evening Run",
+      "distance": 16647.6,
+      "moving_time": 5944,
+      "elapsed_time": 6066,
+      "total_elevation_gain": 104.6,
+      "type": "Run",
+      "sport_type": "Run",
+      "workout_type": null,
+      "device_name": "Wear OS by Google",
+      "_fetched_date": "2026-04-16"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Andrius",
+        "lastname": "A."
+      },
+      "name": "Evening Walk",
+      "distance": 1009.6,
+      "moving_time": 789,
+      "elapsed_time": 834,
+      "total_elevation_gain": 13.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin fēnix 7",
+      "_fetched_date": "2026-04-16"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -10633,6 +10725,42 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-16T19:18:43.989631+00:00",
+      "new_count": 5,
+      "activities": [
+        {
+          "athlete": "Azuolas S.",
+          "sport": "Run",
+          "distance_km": 5.02,
+          "name": "Evening Run"
+        },
+        {
+          "athlete": "Arturas K.",
+          "sport": "Walk",
+          "distance_km": 1.28,
+          "name": "Evening Walk"
+        },
+        {
+          "athlete": "Viktorija M.",
+          "sport": "Walk",
+          "distance_km": 3.4,
+          "name": "Evening Walk"
+        },
+        {
+          "athlete": "Paulius R.",
+          "sport": "Run",
+          "distance_km": 16.65,
+          "name": "Evening Run"
+        },
+        {
+          "athlete": "Andrius A.",
+          "sport": "Walk",
+          "distance_km": 1.01,
+          "name": "Evening Walk"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-16T17:17:30.888011+00:00",
       "new_count": 3,
       "activities": [
@@ -11803,18 +11931,6 @@
       "timestamp": "2026-04-12T21:37:43.590419+00:00",
       "new_count": 0,
       "activities": []
-    },
-    {
-      "timestamp": "2026-04-12T20:39:18.503655+00:00",
-      "new_count": 1,
-      "activities": [
-        {
-          "athlete": "Azuolas S.",
-          "sport": "Run",
-          "distance_km": 10.09,
-          "name": "Night Run"
-        }
-      ]
     }
   ]
 }
