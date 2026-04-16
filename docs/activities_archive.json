@@ -1,5 +1,9 @@
 {
   "fingerprints": [
+    "95bbc36b7986db978b95fd6f15a0dfbc",
+    "6497204da1d4804a48a4ae40f8999e34",
+    "1ffb6af657a4a1f4d4ce218e20bd8696",
+    "ce491c5e52f291255a1b50dcd5c87479",
     "cc3219d888fee97bc591bb4ae69be4df",
     "0504005c237f057c8dffb4d819413681",
     "53bde60ccac3192721b3dad47eeacb6f",
@@ -631,6 +635,74 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Gertrūda",
+        "lastname": "G."
+      },
+      "name": "Lunch Walk",
+      "distance": 1693.1,
+      "moving_time": 1080,
+      "elapsed_time": 2197,
+      "total_elevation_gain": 10.1,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-16"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Viktorija",
+        "lastname": "M."
+      },
+      "name": "Lunch Walk",
+      "distance": 1928.4,
+      "moving_time": 1018,
+      "elapsed_time": 3139,
+      "total_elevation_gain": 10.4,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-16"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Andrius",
+        "lastname": "A."
+      },
+      "name": "Lunch Walk",
+      "distance": 3075.6,
+      "moving_time": 1966,
+      "elapsed_time": 2309,
+      "total_elevation_gain": 22.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin fēnix 7",
+      "_fetched_date": "2026-04-16"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Greta",
+        "lastname": "N."
+      },
+      "name": "Lunch Walk",
+      "distance": 1079.8,
+      "moving_time": 838,
+      "elapsed_time": 902,
+      "total_elevation_gain": 15.7,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-16"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -10249,6 +10321,36 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-16T11:06:00.263626+00:00",
+      "new_count": 4,
+      "activities": [
+        {
+          "athlete": "Gertrūda G.",
+          "sport": "Walk",
+          "distance_km": 1.69,
+          "name": "Lunch Walk"
+        },
+        {
+          "athlete": "Viktorija M.",
+          "sport": "Walk",
+          "distance_km": 1.93,
+          "name": "Lunch Walk"
+        },
+        {
+          "athlete": "Andrius A.",
+          "sport": "Walk",
+          "distance_km": 3.08,
+          "name": "Lunch Walk"
+        },
+        {
+          "athlete": "Greta N.",
+          "sport": "Walk",
+          "distance_km": 1.08,
+          "name": "Lunch Walk"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-16T09:22:14.687963+00:00",
       "new_count": 1,
       "activities": [
@@ -11361,18 +11463,6 @@
           "athlete": "Sandra M.",
           "sport": "Walk",
           "distance_km": 2.88,
-          "name": "Evening Walk"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-12T16:41:57.747253+00:00",
-      "new_count": 1,
-      "activities": [
-        {
-          "athlete": "Aurelija S.",
-          "sport": "Walk",
-          "distance_km": 1.0,
           "name": "Evening Walk"
         }
       ]
