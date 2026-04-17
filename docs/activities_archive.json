@@ -1,5 +1,8 @@
 {
   "fingerprints": [
+    "9cb3251f8b12715e524f09a62e030495",
+    "302cfa0aca4460a50f74d3d013b27999",
+    "5ebd5d1f4ffb432e256ccf96b75d86bc",
     "6eb68925acfcb431a7b955f65d2db3c9",
     "15f2cb2180769c91889a65b0d747caa1",
     "13a8c8385b99d7d6704740cb81954d81",
@@ -665,6 +668,58 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Paulius",
+        "lastname": "R."
+      },
+      "name": "Lunch Walk",
+      "distance": 1877.6,
+      "moving_time": 1151,
+      "elapsed_time": 1953,
+      "total_elevation_gain": 4.8,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Wear OS by Google",
+      "_fetched_date": "2026-04-17"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Paulius",
+        "lastname": "R."
+      },
+      "name": "Morning Walk",
+      "distance": 9815.1,
+      "moving_time": 5852,
+      "elapsed_time": 5946,
+      "total_elevation_gain": 59.6,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Wear OS by Google",
+      "_fetched_date": "2026-04-17"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Augustinas",
+        "lastname": "T."
+      },
+      "name": "Morning Ride",
+      "distance": 40389.6,
+      "moving_time": 8322,
+      "elapsed_time": 9920,
+      "total_elevation_gain": 330.0,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": null,
+      "device_name": "Wahoo ELEMNT ROAM",
+      "_fetched_date": "2026-04-17"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -10871,6 +10926,30 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-17T09:20:39.549668+00:00",
+      "new_count": 3,
+      "activities": [
+        {
+          "athlete": "Paulius R.",
+          "sport": "Walk",
+          "distance_km": 1.88,
+          "name": "Lunch Walk"
+        },
+        {
+          "athlete": "Paulius R.",
+          "sport": "Walk",
+          "distance_km": 9.82,
+          "name": "Morning Walk"
+        },
+        {
+          "athlete": "Augustinas T.",
+          "sport": "Ride",
+          "distance_km": 40.39,
+          "name": "Morning Ride"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-17T07:50:58.121947+00:00",
       "new_count": 5,
       "activities": [
@@ -12015,18 +12094,6 @@
           "sport": "Ride",
           "distance_km": 7.65,
           "name": "Afternoon Ride"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-13T12:05:06.650737+00:00",
-      "new_count": 1,
-      "activities": [
-        {
-          "athlete": "Greta N.",
-          "sport": "Walk",
-          "distance_km": 4.04,
-          "name": "Pietų miegelis pono"
         }
       ]
     }
