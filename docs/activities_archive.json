@@ -1,5 +1,7 @@
 {
   "fingerprints": [
+    "3b48782843555be7069926e4292fda03",
+    "f99541566ed9bead949fbbf08d792f34",
     "3ff69fa57046cba35d4e1c211fb9766a",
     "a336fdb8e134349f6ffdbbb260069562",
     "8c4585807742aa42636e6550955dad25",
@@ -685,6 +687,41 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Paulius",
+        "lastname": "R."
+      },
+      "name": "Evening Walk",
+      "distance": 6781.5,
+      "moving_time": 4199,
+      "elapsed_time": 4749,
+      "total_elevation_gain": 72.5,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Wear OS by Google",
+      "_fetched_date": "2026-04-17"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Benediktas",
+        "lastname": "B."
+      },
+      "name": "Evening Gravel Ride",
+      "distance": 49115.0,
+      "moving_time": 7736,
+      "elapsed_time": 8495,
+      "total_elevation_gain": 565.0,
+      "type": "Ride",
+      "sport_type": "GravelRide",
+      "workout_type": null,
+      "device_name": "Garmin Edge Explore 2",
+      "_fetched_date": "2026-04-17"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -11240,6 +11277,24 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-17T19:03:58.635532+00:00",
+      "new_count": 2,
+      "activities": [
+        {
+          "athlete": "Paulius R.",
+          "sport": "Walk",
+          "distance_km": 6.78,
+          "name": "Evening Walk"
+        },
+        {
+          "athlete": "Benediktas B.",
+          "sport": "GravelRide",
+          "distance_km": 49.12,
+          "name": "Evening Gravel Ride"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-17T17:51:15.292295+00:00",
       "new_count": 3,
       "activities": [
@@ -12398,11 +12453,6 @@
     },
     {
       "timestamp": "2026-04-13T23:44:11.449533+00:00",
-      "new_count": 0,
-      "activities": []
-    },
-    {
-      "timestamp": "2026-04-13T22:45:45.668471+00:00",
       "new_count": 0,
       "activities": []
     }
