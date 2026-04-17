@@ -8,34 +8,34 @@
     {
       "name": "Nemiegantys Balandžiai",
       "color": "#e74c3c",
-      "total_points": 2581.9,
-      "total_distance_km": 1163.62,
-      "activity_count": 217,
+      "total_points": 2594.1,
+      "total_distance_km": 1167.67,
+      "activity_count": 218,
       "members": [
-        "Viktorija M.",
         "Liudas S.",
+        "Viktorija M.",
         "Sandra M.",
         "Andrius A.",
         "Edvinas V.",
         "Tautvydas Ž."
       ],
       "member_count": 6,
-      "points_per_person": 430.3,
+      "points_per_person": 432.3,
       "member_details": [
         {
           "name": "Andrius A.",
           "points": 1093.3,
-          "pct_of_team": 42.3
+          "pct_of_team": 42.1
         },
         {
           "name": "Sandra M.",
           "points": 471.9,
-          "pct_of_team": 18.3
+          "pct_of_team": 18.2
         },
         {
           "name": "Liudas S.",
-          "points": 456.5,
-          "pct_of_team": 17.7
+          "points": 468.7,
+          "pct_of_team": 18.1
         },
         {
           "name": "Edvinas V.",
@@ -54,7 +54,7 @@
         }
       ],
       "distance_by_group": {
-        "run_walk": 704.6,
+        "run_walk": 708.7,
         "ride": 458.4,
         "swim": 0.6
       },
@@ -652,14 +652,14 @@
         "Nešam Kudašių": 5
       },
       "points": {
-        "Nemiegantys Balandžiai": 2581.9,
+        "Nemiegantys Balandžiai": 2594.1,
         "Balandžio dvasia": 1541.8,
         "Tardigrada": 1808.0,
         "Sūkuriai": 1042.4,
         "Nešam Kudašių": 858.9
       },
       "points_per_person": {
-        "Nemiegantys Balandžiai": 430.3,
+        "Nemiegantys Balandžiai": 432.3,
         "Balandžio dvasia": 308.4,
         "Tardigrada": 361.6,
         "Sūkuriai": 208.5,
@@ -815,15 +815,15 @@
     },
     {
       "name": "Liudas S.",
-      "total_points": 456.5,
-      "activity_count": 46,
-      "total_distance_km": 169.43,
+      "total_points": 468.7,
+      "activity_count": 47,
+      "total_distance_km": 173.48,
       "total_elevation_m": 744.0,
       "by_type": {
         "Walk": {
-          "count": 30,
-          "points": 288.3,
-          "distance_km": 96.13000000000001
+          "count": 31,
+          "points": 300.49999999999994,
+          "distance_km": 100.18
         },
         "Ride": {
           "count": 8,
@@ -843,7 +843,7 @@
       },
       "rank": 6,
       "points_by_group": {
-        "run_walk": 417.4,
+        "run_walk": 429.6,
         "ride": 29.7,
         "swim": 9.4
       }
@@ -1350,6 +1350,18 @@
     }
   ],
   "activities": [
+    {
+      "athlete_key": "liudas_s.",
+      "athlete_name": "Liudas S.",
+      "name": "Afternoon Walk",
+      "sport_type": "Walk",
+      "start_date": null,
+      "_fetched_date": "2026-04-17",
+      "distance_km": 4.05,
+      "elevation_m": 0,
+      "moving_time_s": 2667,
+      "points": 12.2
+    },
     {
       "athlete_key": "viktorija_m.",
       "athlete_name": "Viktorija M.",
@@ -8071,8 +8083,20 @@
       "points": 27.5
     }
   ],
-  "generated_at": "2026-04-17T10:58:37.427323+00:00",
+  "generated_at": "2026-04-17T11:59:26.832198+00:00",
   "run_log": [
+    {
+      "timestamp": "2026-04-17T11:59:26.813163+00:00",
+      "new_count": 1,
+      "activities": [
+        {
+          "athlete": "Liudas S.",
+          "sport": "Walk",
+          "distance_km": 4.05,
+          "name": "Afternoon Walk"
+        }
+      ]
+    },
     {
       "timestamp": "2026-04-17T10:58:37.408097+00:00",
       "new_count": 2,
@@ -9206,24 +9230,6 @@
           "sport": "Walk",
           "distance_km": 1.35,
           "name": "Afternoon Walk"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-13T16:15:14.987761+00:00",
-      "new_count": 2,
-      "activities": [
-        {
-          "athlete": "Donatas J.",
-          "sport": "Ride",
-          "distance_km": 50.41,
-          "name": "Afternoon Ride"
-        },
-        {
-          "athlete": "Greta N.",
-          "sport": "Walk",
-          "distance_km": 3.52,
-          "name": "Vakarinis miegelis"
         }
       ]
     }
