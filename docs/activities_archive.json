@@ -1,5 +1,7 @@
 {
   "fingerprints": [
+    "de8e9ca052c2b23f026cc8c16134db6c",
+    "821880cc7712f072b5ccb6f51935e27e",
     "7135a6efa5a38ff805be8d9e71aa9b4e",
     "9f0c162f4f27820208a7264a9407eb78",
     "c764bafc1b082d29e85c270551e4eafe",
@@ -658,6 +660,41 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Liudas",
+        "lastname": "S."
+      },
+      "name": "Morning Walk",
+      "distance": 3803.8,
+      "moving_time": 2341,
+      "elapsed_time": 2525,
+      "total_elevation_gain": 8.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Samsung Galaxy Ultra",
+      "_fetched_date": "2026-04-17"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Andrius",
+        "lastname": "A."
+      },
+      "name": "Morning Run",
+      "distance": 7589.0,
+      "moving_time": 2532,
+      "elapsed_time": 2599,
+      "total_elevation_gain": 52.0,
+      "type": "Run",
+      "sport_type": "Run",
+      "workout_type": null,
+      "device_name": "Garmin fēnix 7",
+      "_fetched_date": "2026-04-17"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -10743,6 +10780,24 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-17T05:29:47.849544+00:00",
+      "new_count": 2,
+      "activities": [
+        {
+          "athlete": "Liudas S.",
+          "sport": "Walk",
+          "distance_km": 3.8,
+          "name": "Morning Walk"
+        },
+        {
+          "athlete": "Andrius A.",
+          "sport": "Run",
+          "distance_km": 7.59,
+          "name": "Morning Run"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-17T02:45:33.356653+00:00",
       "new_count": 0,
       "activities": []
@@ -11899,24 +11954,6 @@
           "sport": "Walk",
           "distance_km": 1.71,
           "name": "Lunch Walk"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-13T08:07:32.695062+00:00",
-      "new_count": 2,
-      "activities": [
-        {
-          "athlete": "Donatas J.",
-          "sport": "Walk",
-          "distance_km": 1.02,
-          "name": "Morning Walk"
-        },
-        {
-          "athlete": "Ieva S.",
-          "sport": "Walk",
-          "distance_km": 2.5,
-          "name": "Morning Walk"
         }
       ]
     }
