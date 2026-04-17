@@ -8263,8 +8263,13 @@
       "points": 27.5
     }
   ],
-  "generated_at": "2026-04-17T21:43:54.306827+00:00",
+  "generated_at": "2026-04-17T22:41:33.057300+00:00",
   "run_log": [
+    {
+      "timestamp": "2026-04-17T22:41:33.037462+00:00",
+      "new_count": 0,
+      "activities": []
+    },
     {
       "timestamp": "2026-04-17T21:43:54.287112+00:00",
       "new_count": 1,
@@ -9418,30 +9423,6 @@
           "sport": "Ride",
           "distance_km": 7.0,
           "name": "Morning Ride"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-14T05:26:13.563794+00:00",
-      "new_count": 3,
-      "activities": [
-        {
-          "athlete": "Edvinas V.",
-          "sport": "Run",
-          "distance_km": 6.72,
-          "name": "Per senas šitiems lakstymams"
-        },
-        {
-          "athlete": "Andrius A.",
-          "sport": "Run",
-          "distance_km": 8.47,
-          "name": "Morning Run"
-        },
-        {
-          "athlete": "Viktorija M.",
-          "sport": "Walk",
-          "distance_km": 1.39,
-          "name": "Morning Walk"
         }
       ]
     }
