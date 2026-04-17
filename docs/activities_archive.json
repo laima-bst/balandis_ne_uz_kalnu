@@ -1,5 +1,10 @@
 {
   "fingerprints": [
+    "6eb68925acfcb431a7b955f65d2db3c9",
+    "15f2cb2180769c91889a65b0d747caa1",
+    "13a8c8385b99d7d6704740cb81954d81",
+    "af70946c16c8c09742fbc7b079052d1c",
+    "54ffc1c0e2a2c461170ddaa2b13cb2e6",
     "de8e9ca052c2b23f026cc8c16134db6c",
     "821880cc7712f072b5ccb6f51935e27e",
     "7135a6efa5a38ff805be8d9e71aa9b4e",
@@ -660,6 +665,92 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Liudas",
+        "lastname": "S."
+      },
+      "name": "Morning Walk",
+      "distance": 1219.5,
+      "moving_time": 807,
+      "elapsed_time": 807,
+      "total_elevation_gain": 9.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Samsung Galaxy Ultra",
+      "_fetched_date": "2026-04-17"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Liudas",
+        "lastname": "S."
+      },
+      "name": "Morning Walk",
+      "distance": 2797.1,
+      "moving_time": 1833,
+      "elapsed_time": 2442,
+      "total_elevation_gain": 9.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Samsung Galaxy Ultra",
+      "_fetched_date": "2026-04-17"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Azuolas",
+        "lastname": "S."
+      },
+      "name": "Morning Walk",
+      "distance": 2158.0,
+      "moving_time": 1403,
+      "elapsed_time": 3096,
+      "total_elevation_gain": 25.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-17"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Liudas",
+        "lastname": "S."
+      },
+      "name": "Morning Walk",
+      "distance": 1273.6,
+      "moving_time": 807,
+      "elapsed_time": 914,
+      "total_elevation_gain": 12.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Samsung Galaxy Ultra",
+      "_fetched_date": "2026-04-17"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Sandra",
+        "lastname": "M."
+      },
+      "name": "Morning Ride",
+      "distance": 3984.4,
+      "moving_time": 839,
+      "elapsed_time": 877,
+      "total_elevation_gain": 29.0,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": null,
+      "device_name": "Garmin Venu 2 Plus",
+      "_fetched_date": "2026-04-17"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -10780,6 +10871,42 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-17T07:50:58.121947+00:00",
+      "new_count": 5,
+      "activities": [
+        {
+          "athlete": "Liudas S.",
+          "sport": "Walk",
+          "distance_km": 1.22,
+          "name": "Morning Walk"
+        },
+        {
+          "athlete": "Liudas S.",
+          "sport": "Walk",
+          "distance_km": 2.8,
+          "name": "Morning Walk"
+        },
+        {
+          "athlete": "Azuolas S.",
+          "sport": "Walk",
+          "distance_km": 2.16,
+          "name": "Morning Walk"
+        },
+        {
+          "athlete": "Liudas S.",
+          "sport": "Walk",
+          "distance_km": 1.27,
+          "name": "Morning Walk"
+        },
+        {
+          "athlete": "Sandra M.",
+          "sport": "Ride",
+          "distance_km": 3.98,
+          "name": "Morning Ride"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-17T05:29:47.849544+00:00",
       "new_count": 2,
       "activities": [
@@ -11900,60 +12027,6 @@
           "sport": "Walk",
           "distance_km": 4.04,
           "name": "Pietų miegelis pono"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-13T10:48:11.881140+00:00",
-      "new_count": 8,
-      "activities": [
-        {
-          "athlete": "Liudas S.",
-          "sport": "Run",
-          "distance_km": 2.32,
-          "name": "Afternoon Run"
-        },
-        {
-          "athlete": "Donatas J.",
-          "sport": "Walk",
-          "distance_km": 2.0,
-          "name": "Lunch Walk"
-        },
-        {
-          "athlete": "Augustė J.",
-          "sport": "Walk",
-          "distance_km": 1.01,
-          "name": "Lunch Walk"
-        },
-        {
-          "athlete": "Liudas S.",
-          "sport": "Run",
-          "distance_km": 2.38,
-          "name": "To gym"
-        },
-        {
-          "athlete": "Ieva S.",
-          "sport": "Run",
-          "distance_km": 7.01,
-          "name": "Lunch Run"
-        },
-        {
-          "athlete": "Augustinas T.",
-          "sport": "Walk",
-          "distance_km": 2.1,
-          "name": "Lunch Walk"
-        },
-        {
-          "athlete": "Andrius A.",
-          "sport": "Walk",
-          "distance_km": 3.02,
-          "name": "Lunch Walk"
-        },
-        {
-          "athlete": "Gintarė B.",
-          "sport": "Walk",
-          "distance_km": 1.71,
-          "name": "Lunch Walk"
         }
       ]
     }
