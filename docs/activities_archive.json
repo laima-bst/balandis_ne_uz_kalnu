@@ -10743,6 +10743,11 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-17T02:45:33.356653+00:00",
+      "new_count": 0,
+      "activities": []
+    },
+    {
       "timestamp": "2026-04-16T23:42:21.385147+00:00",
       "new_count": 0,
       "activities": []
@@ -11912,48 +11917,6 @@
           "sport": "Walk",
           "distance_km": 2.5,
           "name": "Morning Walk"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-13T05:44:18.155352+00:00",
-      "new_count": 6,
-      "activities": [
-        {
-          "athlete": "Edvinas V.",
-          "sport": "Ride",
-          "distance_km": 1.41,
-          "name": "Morning Ride"
-        },
-        {
-          "athlete": "Augustė J.",
-          "sport": "Walk",
-          "distance_km": 1.09,
-          "name": "Morning Walk"
-        },
-        {
-          "athlete": "Edvinas V.",
-          "sport": "Ride",
-          "distance_km": 2.77,
-          "name": "Morning Ride"
-        },
-        {
-          "athlete": "Viktorija M.",
-          "sport": "Walk",
-          "distance_km": 1.44,
-          "name": "Morning Walk"
-        },
-        {
-          "athlete": "Sandra M.",
-          "sport": "Walk",
-          "distance_km": 1.37,
-          "name": "Morning Walk"
-        },
-        {
-          "athlete": "Andrius A.",
-          "sport": "Ride",
-          "distance_km": 9.06,
-          "name": "Morning Ride"
         }
       ]
     }
