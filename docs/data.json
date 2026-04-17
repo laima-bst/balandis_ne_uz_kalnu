@@ -8263,8 +8263,13 @@
       "points": 27.5
     }
   ],
-  "generated_at": "2026-04-17T22:41:33.057300+00:00",
+  "generated_at": "2026-04-17T23:41:02.844127+00:00",
   "run_log": [
+    {
+      "timestamp": "2026-04-17T23:41:02.824219+00:00",
+      "new_count": 0,
+      "activities": []
+    },
     {
       "timestamp": "2026-04-17T22:41:33.037462+00:00",
       "new_count": 0,
@@ -9393,36 +9398,6 @@
           "sport": "Swim",
           "distance_km": 4.25,
           "name": "Morning Swim"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-14T07:49:58.572536+00:00",
-      "new_count": 4,
-      "activities": [
-        {
-          "athlete": "Donatas J.",
-          "sport": "Walk",
-          "distance_km": 1.01,
-          "name": "Morning Walk"
-        },
-        {
-          "athlete": "Azuolas S.",
-          "sport": "Walk",
-          "distance_km": 1.23,
-          "name": "Morning Walk"
-        },
-        {
-          "athlete": "Edvinas V.",
-          "sport": "Ride",
-          "distance_km": 3.49,
-          "name": "Morning Ride"
-        },
-        {
-          "athlete": "Sandra M.",
-          "sport": "Ride",
-          "distance_km": 7.0,
-          "name": "Morning Ride"
         }
       ]
     }
