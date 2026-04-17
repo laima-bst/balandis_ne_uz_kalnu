@@ -1,5 +1,8 @@
 {
   "fingerprints": [
+    "3ff69fa57046cba35d4e1c211fb9766a",
+    "a336fdb8e134349f6ffdbbb260069562",
+    "8c4585807742aa42636e6550955dad25",
     "a3e4e3861db20d6d733ff4e20a0973ce",
     "103fcddc47355cdb4aa4b4f34641222f",
     "00d4aa65bce34acf87648ccda5ddaa84",
@@ -682,6 +685,58 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Paulius",
+        "lastname": "R."
+      },
+      "name": "Evening Walk",
+      "distance": 2927.7,
+      "moving_time": 1787,
+      "elapsed_time": 1934,
+      "total_elevation_gain": 3.1,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Wear OS by Google",
+      "_fetched_date": "2026-04-17"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Tautvydas",
+        "lastname": "Ž."
+      },
+      "name": "Evening Run",
+      "distance": 3435.4,
+      "moving_time": 1404,
+      "elapsed_time": 1423,
+      "total_elevation_gain": 15.5,
+      "type": "Run",
+      "sport_type": "Run",
+      "workout_type": null,
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-17"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Antanas",
+        "lastname": "R."
+      },
+      "name": "Afternoon Swim",
+      "distance": 3200.0,
+      "moving_time": 4403,
+      "elapsed_time": 4879,
+      "total_elevation_gain": 0,
+      "type": "Swim",
+      "sport_type": "Swim",
+      "device_name": "Garmin fēnix 7",
+      "_fetched_date": "2026-04-17"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -11185,6 +11240,30 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-17T17:51:15.292295+00:00",
+      "new_count": 3,
+      "activities": [
+        {
+          "athlete": "Paulius R.",
+          "sport": "Walk",
+          "distance_km": 2.93,
+          "name": "Evening Walk"
+        },
+        {
+          "athlete": "Tautvydas Ž.",
+          "sport": "Run",
+          "distance_km": 3.44,
+          "name": "Evening Run"
+        },
+        {
+          "athlete": "Antanas R.",
+          "sport": "Swim",
+          "distance_km": 3.2,
+          "name": "Afternoon Swim"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-17T16:02:52.493393+00:00",
       "new_count": 6,
       "activities": [
@@ -12324,11 +12403,6 @@
     },
     {
       "timestamp": "2026-04-13T22:45:45.668471+00:00",
-      "new_count": 0,
-      "activities": []
-    },
-    {
-      "timestamp": "2026-04-13T21:52:37.445567+00:00",
       "new_count": 0,
       "activities": []
     }
