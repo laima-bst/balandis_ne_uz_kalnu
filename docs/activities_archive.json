@@ -1,5 +1,6 @@
 {
   "fingerprints": [
+    "122381a0771c41346d99a54877467a02",
     "e6894436ccb5177f09bb55601e47b11d",
     "4114f81b6ab7f9be9b7b499a46f9e453",
     "346985f28048a69471a7d656cbd00601",
@@ -718,6 +719,23 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Arturas",
+        "lastname": "K."
+      },
+      "name": "Afternoon Walk",
+      "distance": 12631.7,
+      "moving_time": 8871,
+      "elapsed_time": 9356,
+      "total_elevation_gain": 165.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin Epix Gen2",
+      "_fetched_date": "2026-04-18"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -11842,6 +11860,18 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-18T17:38:04.422732+00:00",
+      "new_count": 1,
+      "activities": [
+        {
+          "athlete": "Arturas K.",
+          "sport": "Walk",
+          "distance_km": 12.63,
+          "name": "Afternoon Walk"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-18T16:43:20.627638+00:00",
       "new_count": 4,
       "activities": [
@@ -12928,42 +12958,6 @@
           "sport": "Walk",
           "distance_km": 4.46,
           "name": "Afternoon Walk"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-15T05:26:19.009934+00:00",
-      "new_count": 5,
-      "activities": [
-        {
-          "athlete": "Edvinas V.",
-          "sport": "Ride",
-          "distance_km": 1.33,
-          "name": "Morning Ride"
-        },
-        {
-          "athlete": "Edvinas V.",
-          "sport": "Ride",
-          "distance_km": 2.83,
-          "name": "Morning Ride"
-        },
-        {
-          "athlete": "Sandra M.",
-          "sport": "Ride",
-          "distance_km": 7.12,
-          "name": "Morning Ride"
-        },
-        {
-          "athlete": "Andrius A.",
-          "sport": "Run",
-          "distance_km": 8.05,
-          "name": "Morning Run"
-        },
-        {
-          "athlete": "Viktorija M.",
-          "sport": "Walk",
-          "distance_km": 1.6,
-          "name": "Morning Walk"
         }
       ]
     }
