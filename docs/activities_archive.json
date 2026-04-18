@@ -1,5 +1,8 @@
 {
   "fingerprints": [
+    "bb1dc5edfcf4c0d2c806f57a179c9775",
+    "9e808c0035fdd8e61be941de67789a2b",
+    "bc02598d08056d3e8e93053e9c238742",
     "2ea4217f81a751c0ad60226990d38a74",
     "538ce64c8a82438c395d3fbac4dc4612",
     "f0c9d596f44c3d37648a8520b169ba90",
@@ -693,6 +696,57 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Aurelija",
+        "lastname": "S."
+      },
+      "name": "Lunch Walk",
+      "distance": 2173.0,
+      "moving_time": 1356,
+      "elapsed_time": 2018,
+      "total_elevation_gain": 13.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin Venu 3S",
+      "_fetched_date": "2026-04-18"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Greta",
+        "lastname": "N."
+      },
+      "name": "Lunch Walk",
+      "distance": 2879.0,
+      "moving_time": 1918,
+      "elapsed_time": 2282,
+      "total_elevation_gain": 11.8,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-18"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Ieva",
+        "lastname": "S."
+      },
+      "name": "Morning Swim",
+      "distance": 2000.0,
+      "moving_time": 3587,
+      "elapsed_time": 3723,
+      "total_elevation_gain": 0,
+      "type": "Swim",
+      "sport_type": "Swim",
+      "device_name": "Garmin Forerunner 255 Music",
+      "_fetched_date": "2026-04-18"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -11385,6 +11439,30 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-18T09:51:34.848099+00:00",
+      "new_count": 3,
+      "activities": [
+        {
+          "athlete": "Aurelija S.",
+          "sport": "Walk",
+          "distance_km": 2.17,
+          "name": "Lunch Walk"
+        },
+        {
+          "athlete": "Greta N.",
+          "sport": "Walk",
+          "distance_km": 2.88,
+          "name": "Lunch Walk"
+        },
+        {
+          "athlete": "Ieva S.",
+          "sport": "Swim",
+          "distance_km": 2.0,
+          "name": "Morning Swim"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-18T08:54:12.171034+00:00",
       "new_count": 2,
       "activities": [
@@ -12407,36 +12485,6 @@
           "sport": "Walk",
           "distance_km": 2.23,
           "name": "Night Walk"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-14T17:12:13.204617+00:00",
-      "new_count": 4,
-      "activities": [
-        {
-          "athlete": "Arturas K.",
-          "sport": "Walk",
-          "distance_km": 1.32,
-          "name": "Evening Walk"
-        },
-        {
-          "athlete": "Donatas J.",
-          "sport": "Ride",
-          "distance_km": 51.57,
-          "name": "Afternoon Ride"
-        },
-        {
-          "athlete": "Ieva S.",
-          "sport": "Walk",
-          "distance_km": 2.93,
-          "name": "2 valandos po kiemą"
-        },
-        {
-          "athlete": "Sandra M.",
-          "sport": "Walk",
-          "distance_km": 1.91,
-          "name": "Evening Walk"
         }
       ]
     }
