@@ -1,5 +1,8 @@
 {
   "fingerprints": [
+    "20a487f8f4a769591cabf252c497557e",
+    "07554315830a55a2f7b059be7d798aff",
+    "91a6f0264d9a620b85791252904bd0cb",
     "f95b1461b63a56906d0939327c79610f",
     "bb1dc5edfcf4c0d2c806f57a179c9775",
     "9e808c0035fdd8e61be941de67789a2b",
@@ -697,6 +700,59 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Viktorija",
+        "lastname": "M."
+      },
+      "name": "Afternoon Walk",
+      "distance": 2731.8,
+      "moving_time": 1587,
+      "elapsed_time": 3107,
+      "total_elevation_gain": 15.5,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-18"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Aurelija",
+        "lastname": "S."
+      },
+      "name": "Afternoon Tennis",
+      "distance": 373.1,
+      "moving_time": 5138,
+      "elapsed_time": 5138,
+      "total_elevation_gain": 0,
+      "type": "Workout",
+      "sport_type": "Tennis",
+      "workout_type": null,
+      "device_name": "Garmin Venu 3S",
+      "_fetched_date": "2026-04-18"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Gintarė",
+        "lastname": "B."
+      },
+      "name": "Ladies' ride",
+      "distance": 37905.1,
+      "moving_time": 8938,
+      "elapsed_time": 13067,
+      "total_elevation_gain": 375.8,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": null,
+      "device_name": "Samsung Health",
+      "_fetched_date": "2026-04-18"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -11458,6 +11514,30 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-18T11:36:21.004080+00:00",
+      "new_count": 3,
+      "activities": [
+        {
+          "athlete": "Viktorija M.",
+          "sport": "Walk",
+          "distance_km": 2.73,
+          "name": "Afternoon Walk"
+        },
+        {
+          "athlete": "Aurelija S.",
+          "sport": "Tennis",
+          "distance_km": 0.37,
+          "name": "Afternoon Tennis"
+        },
+        {
+          "athlete": "Gintarė B.",
+          "sport": "Ride",
+          "distance_km": 37.91,
+          "name": "Ladies' ride"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-18T10:42:37.493508+00:00",
       "new_count": 1,
       "activities": [
@@ -12446,18 +12526,6 @@
       "timestamp": "2026-04-14T21:58:58.501453+00:00",
       "new_count": 0,
       "activities": []
-    },
-    {
-      "timestamp": "2026-04-14T20:57:07.787988+00:00",
-      "new_count": 1,
-      "activities": [
-        {
-          "athlete": "Augustė J.",
-          "sport": "Swim",
-          "distance_km": 0.55,
-          "name": "Evening Swim"
-        }
-      ]
     }
   ]
 }
