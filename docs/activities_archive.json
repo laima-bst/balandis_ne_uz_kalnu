@@ -1,5 +1,10 @@
 {
   "fingerprints": [
+    "75b07926fc6f401b1922bbb4d1339d6a",
+    "bb7a8d36df20557cb6db1f6d5977ae3c",
+    "5ac26a6f362b3f90cf221eb566cb6b12",
+    "be768bc81b4428221b3a4296f91208cd",
+    "cddfa9ba67596ecf119c53a69ea6a3c6",
     "20a487f8f4a769591cabf252c497557e",
     "07554315830a55a2f7b059be7d798aff",
     "91a6f0264d9a620b85791252904bd0cb",
@@ -700,6 +705,94 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Augustė",
+        "lastname": "J."
+      },
+      "name": "Afternoon Walk",
+      "distance": 2128.0,
+      "moving_time": 1611,
+      "elapsed_time": 5180,
+      "total_elevation_gain": 25.4,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-18"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Laima",
+        "lastname": "A."
+      },
+      "name": "Su merginom",
+      "distance": 37461.6,
+      "moving_time": 8621,
+      "elapsed_time": 13006,
+      "total_elevation_gain": 447.0,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": null,
+      "device_name": "Wahoo ELEMNT ROAM",
+      "_fetched_date": "2026-04-18"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Valentinas",
+        "lastname": "A."
+      },
+      "name": "Morning Ride",
+      "distance": 88001.4,
+      "moving_time": 13594,
+      "elapsed_time": 17501,
+      "total_elevation_gain": 645.0,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": null,
+      "device_name": "Wahoo ELEMNT BOLT",
+      "_fetched_date": "2026-04-18"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Greta",
+        "lastname": "N."
+      },
+      "name": "Afternoon Walk",
+      "distance": 3016.9,
+      "moving_time": 2242,
+      "elapsed_time": 2961,
+      "total_elevation_gain": 30.8,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-18"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Augustinas",
+        "lastname": "T."
+      },
+      "name": "Morning Ride",
+      "distance": 112177.0,
+      "moving_time": 17321,
+      "elapsed_time": 21779,
+      "total_elevation_gain": 860.0,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": null,
+      "device_name": "Wahoo ELEMNT ROAM",
+      "_fetched_date": "2026-04-18"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -11514,6 +11607,42 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-18T13:06:41.664497+00:00",
+      "new_count": 5,
+      "activities": [
+        {
+          "athlete": "Augustė J.",
+          "sport": "Walk",
+          "distance_km": 2.13,
+          "name": "Afternoon Walk"
+        },
+        {
+          "athlete": "Laima A.",
+          "sport": "Ride",
+          "distance_km": 37.46,
+          "name": "Su merginom"
+        },
+        {
+          "athlete": "Valentinas A.",
+          "sport": "Ride",
+          "distance_km": 88.0,
+          "name": "Morning Ride"
+        },
+        {
+          "athlete": "Greta N.",
+          "sport": "Walk",
+          "distance_km": 3.02,
+          "name": "Afternoon Walk"
+        },
+        {
+          "athlete": "Augustinas T.",
+          "sport": "Ride",
+          "distance_km": 112.18,
+          "name": "Morning Ride"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-18T11:36:21.004080+00:00",
       "new_count": 3,
       "activities": [
@@ -12519,11 +12648,6 @@
     },
     {
       "timestamp": "2026-04-14T22:57:08.231247+00:00",
-      "new_count": 0,
-      "activities": []
-    },
-    {
-      "timestamp": "2026-04-14T21:58:58.501453+00:00",
       "new_count": 0,
       "activities": []
     }
