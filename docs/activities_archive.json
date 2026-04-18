@@ -1,5 +1,10 @@
 {
   "fingerprints": [
+    "a5d7a738034e075ccf6d17cd67a83b36",
+    "5af929778c6eede1822a3ffb8c669f6f",
+    "a28aff9a45088da399b64f58b4606604",
+    "e4eba97b8a3edb86f94675736fd0a525",
+    "99fcd15227d8bfee21796004c7fda8d3",
     "ce6672366155d9f52bbd7d8c55fc89a1",
     "e0e2d9741399f6b4e657fe7a93d0a426",
     "f68f30f12f4e7e05da9deded89467192",
@@ -722,6 +727,91 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Antanas",
+        "lastname": "R."
+      },
+      "name": "Evening Walk",
+      "distance": 2261.4,
+      "moving_time": 1807,
+      "elapsed_time": 4501,
+      "total_elevation_gain": 38.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin fēnix 7",
+      "_fetched_date": "2026-04-18"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Antanas",
+        "lastname": "R."
+      },
+      "name": "Afternoon Walk",
+      "distance": 1031.2,
+      "moving_time": 673,
+      "elapsed_time": 673,
+      "total_elevation_gain": 12.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin fēnix 7",
+      "_fetched_date": "2026-04-18"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Antanas",
+        "lastname": "R."
+      },
+      "name": "Evening Swim",
+      "distance": 2000.0,
+      "moving_time": 2676,
+      "elapsed_time": 2696,
+      "total_elevation_gain": 0,
+      "type": "Swim",
+      "sport_type": "Swim",
+      "device_name": "Garmin fēnix 7",
+      "_fetched_date": "2026-04-18"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Antanas",
+        "lastname": "R."
+      },
+      "name": "Evening Walk",
+      "distance": 1380.4,
+      "moving_time": 919,
+      "elapsed_time": 1079,
+      "total_elevation_gain": 8.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin fēnix 7",
+      "_fetched_date": "2026-04-18"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Antanas",
+        "lastname": "R."
+      },
+      "name": "Afternoon Walk",
+      "distance": 1008.7,
+      "moving_time": 768,
+      "elapsed_time": 807,
+      "total_elevation_gain": 22.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin fēnix 7",
+      "_fetched_date": "2026-04-18"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -11915,6 +12005,42 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-18T19:42:20.796947+00:00",
+      "new_count": 5,
+      "activities": [
+        {
+          "athlete": "Antanas R.",
+          "sport": "Walk",
+          "distance_km": 2.26,
+          "name": "Evening Walk"
+        },
+        {
+          "athlete": "Antanas R.",
+          "sport": "Walk",
+          "distance_km": 1.03,
+          "name": "Afternoon Walk"
+        },
+        {
+          "athlete": "Antanas R.",
+          "sport": "Swim",
+          "distance_km": 2.0,
+          "name": "Evening Swim"
+        },
+        {
+          "athlete": "Antanas R.",
+          "sport": "Walk",
+          "distance_km": 1.38,
+          "name": "Evening Walk"
+        },
+        {
+          "athlete": "Antanas R.",
+          "sport": "Walk",
+          "distance_km": 1.01,
+          "name": "Afternoon Walk"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-18T18:54:30.819982+00:00",
       "new_count": 3,
       "activities": [
@@ -12989,24 +13115,6 @@
           "sport": "Walk",
           "distance_km": 2.84,
           "name": "Lunch Walk"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-15T09:22:24.142335+00:00",
-      "new_count": 2,
-      "activities": [
-        {
-          "athlete": "Liudas S.",
-          "sport": "Ride",
-          "distance_km": 6.42,
-          "name": "To gym"
-        },
-        {
-          "athlete": "Arturas K.",
-          "sport": "Ride",
-          "distance_km": 12.04,
-          "name": "Morning Ride"
         }
       ]
     }
