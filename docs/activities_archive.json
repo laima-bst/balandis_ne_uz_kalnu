@@ -1,5 +1,6 @@
 {
   "fingerprints": [
+    "f95b1461b63a56906d0939327c79610f",
     "bb1dc5edfcf4c0d2c806f57a179c9775",
     "9e808c0035fdd8e61be941de67789a2b",
     "bc02598d08056d3e8e93053e9c238742",
@@ -696,6 +697,24 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Andrius",
+        "lastname": "A."
+      },
+      "name": "Morning Run",
+      "distance": 19050.0,
+      "moving_time": 4877,
+      "elapsed_time": 4899,
+      "total_elevation_gain": 134.0,
+      "type": "Run",
+      "sport_type": "Run",
+      "workout_type": null,
+      "device_name": "Garmin fēnix 7",
+      "_fetched_date": "2026-04-18"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -11439,6 +11458,18 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-18T10:42:37.493508+00:00",
+      "new_count": 1,
+      "activities": [
+        {
+          "athlete": "Andrius A.",
+          "sport": "Run",
+          "distance_km": 19.05,
+          "name": "Morning Run"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-18T09:51:34.848099+00:00",
       "new_count": 3,
       "activities": [
@@ -12425,66 +12456,6 @@
           "sport": "Swim",
           "distance_km": 0.55,
           "name": "Evening Swim"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-14T19:19:18.516159+00:00",
-      "new_count": 9,
-      "activities": [
-        {
-          "athlete": "Augustė J.",
-          "sport": "Walk",
-          "distance_km": 1.49,
-          "name": "Evening Walk"
-        },
-        {
-          "athlete": "Benediktas B.",
-          "sport": "GravelRide",
-          "distance_km": 30.58,
-          "name": "Evening Gravel Ride"
-        },
-        {
-          "athlete": "Paulius R.",
-          "sport": "Run",
-          "distance_km": 14.17,
-          "name": "Nenorėjau ant stogo ropštis"
-        },
-        {
-          "athlete": "Sandra M.",
-          "sport": "Walk",
-          "distance_km": 1.31,
-          "name": "Night Walk"
-        },
-        {
-          "athlete": "Antanas R.",
-          "sport": "Walk",
-          "distance_km": 1.52,
-          "name": "Evening Walk"
-        },
-        {
-          "athlete": "Antanas R.",
-          "sport": "Walk",
-          "distance_km": 1.53,
-          "name": "Afternoon Walk"
-        },
-        {
-          "athlete": "Antanas R.",
-          "sport": "Swim",
-          "distance_km": 2.1,
-          "name": "Afternoon Swim"
-        },
-        {
-          "athlete": "Augustinas T.",
-          "sport": "Walk",
-          "distance_km": 1.46,
-          "name": "Night Walk"
-        },
-        {
-          "athlete": "Sandra M.",
-          "sport": "Walk",
-          "distance_km": 2.23,
-          "name": "Night Walk"
         }
       ]
     }
