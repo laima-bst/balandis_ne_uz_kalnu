@@ -1,5 +1,8 @@
 {
   "fingerprints": [
+    "ce6672366155d9f52bbd7d8c55fc89a1",
+    "e0e2d9741399f6b4e657fe7a93d0a426",
+    "f68f30f12f4e7e05da9deded89467192",
     "122381a0771c41346d99a54877467a02",
     "e6894436ccb5177f09bb55601e47b11d",
     "4114f81b6ab7f9be9b7b499a46f9e453",
@@ -719,6 +722,58 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Arturas",
+        "lastname": "K."
+      },
+      "name": "Evening Walk (Part II)",
+      "distance": 2343.4,
+      "moving_time": 1691,
+      "elapsed_time": 1768,
+      "total_elevation_gain": 14.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin Epix Gen2",
+      "_fetched_date": "2026-04-18"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Donatas",
+        "lastname": "J."
+      },
+      "name": "Evening Ride",
+      "distance": 5801.1,
+      "moving_time": 2355,
+      "elapsed_time": 2681,
+      "total_elevation_gain": 31.0,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": null,
+      "device_name": "Garmin Forerunner 255 Music",
+      "_fetched_date": "2026-04-18"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Liudas",
+        "lastname": "S."
+      },
+      "name": "Evening Walk",
+      "distance": 2520.6,
+      "moving_time": 1935,
+      "elapsed_time": 5962,
+      "total_elevation_gain": 8.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Samsung Galaxy Ultra",
+      "_fetched_date": "2026-04-18"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -11860,6 +11915,30 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-18T18:54:30.819982+00:00",
+      "new_count": 3,
+      "activities": [
+        {
+          "athlete": "Arturas K.",
+          "sport": "Walk",
+          "distance_km": 2.34,
+          "name": "Evening Walk (Part II)"
+        },
+        {
+          "athlete": "Donatas J.",
+          "sport": "Ride",
+          "distance_km": 5.8,
+          "name": "Evening Ride"
+        },
+        {
+          "athlete": "Liudas S.",
+          "sport": "Walk",
+          "distance_km": 2.52,
+          "name": "Evening Walk"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-18T17:38:04.422732+00:00",
       "new_count": 1,
       "activities": [
@@ -12928,36 +13007,6 @@
           "sport": "Ride",
           "distance_km": 12.04,
           "name": "Morning Ride"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-15T07:50:28.556170+00:00",
-      "new_count": 4,
-      "activities": [
-        {
-          "athlete": "Donatas J.",
-          "sport": "Walk",
-          "distance_km": 1.14,
-          "name": "Morning Walk"
-        },
-        {
-          "athlete": "Greta N.",
-          "sport": "Walk",
-          "distance_km": 3.14,
-          "name": "Morning Walk"
-        },
-        {
-          "athlete": "Greta N.",
-          "sport": "Walk",
-          "distance_km": 4.98,
-          "name": "Morning Walk"
-        },
-        {
-          "athlete": "Greta N.",
-          "sport": "Walk",
-          "distance_km": 4.46,
-          "name": "Afternoon Walk"
         }
       ]
     }
