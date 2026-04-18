@@ -1,5 +1,7 @@
 {
   "fingerprints": [
+    "2ea4217f81a751c0ad60226990d38a74",
+    "538ce64c8a82438c395d3fbac4dc4612",
     "f0c9d596f44c3d37648a8520b169ba90",
     "0524f33b2947fc104bee08a97751a3e4",
     "6f5c7fdad7a81c48689839e997458dc2",
@@ -691,6 +693,40 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Gertrūda",
+        "lastname": "G."
+      },
+      "name": "Lunch Walk",
+      "distance": 651.5,
+      "moving_time": 485,
+      "elapsed_time": 510,
+      "total_elevation_gain": 0.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-18"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Donatas",
+        "lastname": "J."
+      },
+      "name": "Morning Walk",
+      "distance": 1026.1,
+      "moving_time": 915,
+      "elapsed_time": 962,
+      "total_elevation_gain": 16.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin Forerunner 255 Music",
+      "_fetched_date": "2026-04-18"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -11349,6 +11385,24 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-18T08:54:12.171034+00:00",
+      "new_count": 2,
+      "activities": [
+        {
+          "athlete": "Gertrūda G.",
+          "sport": "Walk",
+          "distance_km": 0.65,
+          "name": "Lunch Walk"
+        },
+        {
+          "athlete": "Donatas J.",
+          "sport": "Walk",
+          "distance_km": 1.03,
+          "name": "Morning Walk"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-18T07:12:02.061800+00:00",
       "new_count": 3,
       "activities": [
@@ -12383,48 +12437,6 @@
           "sport": "Walk",
           "distance_km": 1.91,
           "name": "Evening Walk"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-14T15:15:34.701997+00:00",
-      "new_count": 6,
-      "activities": [
-        {
-          "athlete": "Edvinas V.",
-          "sport": "Ride",
-          "distance_km": 3.06,
-          "name": "Afternoon Ride"
-        },
-        {
-          "athlete": "Viktorija M.",
-          "sport": "Walk",
-          "distance_km": 1.94,
-          "name": "Afternoon Walk"
-        },
-        {
-          "athlete": "Sandra M.",
-          "sport": "Ride",
-          "distance_km": 9.04,
-          "name": "Afternoon Ride"
-        },
-        {
-          "athlete": "Andrius A.",
-          "sport": "Run",
-          "distance_km": 13.42,
-          "name": "Afternoon Run"
-        },
-        {
-          "athlete": "Gintarė B.",
-          "sport": "Run",
-          "distance_km": 3.6,
-          "name": "Afternoon Run"
-        },
-        {
-          "athlete": "Viktorija M.",
-          "sport": "Walk",
-          "distance_km": 7.36,
-          "name": "Afternoon Walk"
         }
       ]
     }
