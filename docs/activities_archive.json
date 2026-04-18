@@ -1,5 +1,6 @@
 {
   "fingerprints": [
+    "8fcc4a94620d1e246824fd7cee96bfcf",
     "a5d7a738034e075ccf6d17cd67a83b36",
     "5af929778c6eede1822a3ffb8c669f6f",
     "a28aff9a45088da399b64f58b4606604",
@@ -727,6 +728,23 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Greta",
+        "lastname": "N."
+      },
+      "name": "Afternoon Walk",
+      "distance": 4424.1,
+      "moving_time": 4185,
+      "elapsed_time": 4892,
+      "total_elevation_gain": 57.4,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-18"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -12005,6 +12023,18 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-18T20:39:32.975966+00:00",
+      "new_count": 1,
+      "activities": [
+        {
+          "athlete": "Greta N.",
+          "sport": "Walk",
+          "distance_km": 4.42,
+          "name": "Afternoon Walk"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-18T19:42:20.796947+00:00",
       "new_count": 5,
       "activities": [
@@ -13045,78 +13075,6 @@
       "timestamp": "2026-04-15T13:41:42.871154+00:00",
       "new_count": 0,
       "activities": []
-    },
-    {
-      "timestamp": "2026-04-15T11:01:11.350502+00:00",
-      "new_count": 11,
-      "activities": [
-        {
-          "athlete": "Liudas S.",
-          "sport": "Ride",
-          "distance_km": 2.59,
-          "name": "From gym!"
-        },
-        {
-          "athlete": "Arturas K.",
-          "sport": "Walk",
-          "distance_km": 1.2,
-          "name": "Afternoon Walk"
-        },
-        {
-          "athlete": "Ne L.",
-          "sport": "Walk",
-          "distance_km": 3.02,
-          "name": "Lunch Walk"
-        },
-        {
-          "athlete": "Donatas J.",
-          "sport": "Walk",
-          "distance_km": 2.0,
-          "name": "Lunch Walk"
-        },
-        {
-          "athlete": "Gertrūda G.",
-          "sport": "Walk",
-          "distance_km": 2.64,
-          "name": "Lunch Walk"
-        },
-        {
-          "athlete": "Arturas K.",
-          "sport": "Walk",
-          "distance_km": 1.18,
-          "name": "Lunch Walk"
-        },
-        {
-          "athlete": "Arunas M.",
-          "sport": "Walk",
-          "distance_km": 4.21,
-          "name": "Lunch Walk"
-        },
-        {
-          "athlete": "Viktorija M.",
-          "sport": "Walk",
-          "distance_km": 2.62,
-          "name": "Lunch Walk"
-        },
-        {
-          "athlete": "Ieva S.",
-          "sport": "Walk",
-          "distance_km": 2.36,
-          "name": "Lunch Walk"
-        },
-        {
-          "athlete": "Andrius A.",
-          "sport": "Walk",
-          "distance_km": 3.36,
-          "name": "Lunch Walk"
-        },
-        {
-          "athlete": "Gintarė B.",
-          "sport": "Walk",
-          "distance_km": 2.84,
-          "name": "Lunch Walk"
-        }
-      ]
     }
   ]
 }

@@ -63,38 +63,38 @@
     {
       "name": "Tardigrada",
       "color": "#2ecc71",
-      "total_points": 1976.6,
-      "total_distance_km": 585.88,
-      "activity_count": 121,
+      "total_points": 1989.9,
+      "total_distance_km": 590.3,
+      "activity_count": 122,
       "members": [
+        "Greta N.",
         "Antanas R.",
         "Gertrūda G.",
-        "Greta N.",
         "Paulius R.",
         "Deivydas Ž."
       ],
       "member_count": 5,
-      "points_per_person": 395.3,
+      "points_per_person": 398.0,
       "member_details": [
         {
           "name": "Paulius R.",
           "points": 832.5,
-          "pct_of_team": 42.1
+          "pct_of_team": 41.8
         },
         {
           "name": "Antanas R.",
           "points": 670.8,
-          "pct_of_team": 33.9
+          "pct_of_team": 33.7
         },
         {
           "name": "Greta N.",
-          "points": 311.3,
-          "pct_of_team": 15.7
+          "points": 324.6,
+          "pct_of_team": 16.3
         },
         {
           "name": "Gertrūda G.",
           "points": 155.5,
-          "pct_of_team": 7.9
+          "pct_of_team": 7.8
         },
         {
           "name": "Deivydas Ž.",
@@ -103,7 +103,7 @@
         }
       ],
       "distance_by_group": {
-        "run_walk": 491.4,
+        "run_walk": 495.9,
         "ride": 65.3,
         "swim": 29.2
       },
@@ -678,14 +678,14 @@
       "points": {
         "Nemiegantys Balandžiai": 2802.5,
         "Balandžio dvasia": 1672.3,
-        "Tardigrada": 1976.6,
+        "Tardigrada": 1989.9,
         "Sūkuriai": 1125.8,
         "Nešam Kudašių": 1306.1
       },
       "points_per_person": {
         "Nemiegantys Balandžiai": 467.1,
         "Balandžio dvasia": 334.5,
-        "Tardigrada": 395.3,
+        "Tardigrada": 398.0,
         "Sūkuriai": 225.2,
         "Nešam Kudašių": 261.2
       }
@@ -983,6 +983,31 @@
       }
     },
     {
+      "name": "Greta N.",
+      "total_points": 324.6,
+      "activity_count": 36,
+      "total_distance_km": 107.15,
+      "total_elevation_m": 942.0,
+      "by_type": {
+        "Walk": {
+          "count": 35,
+          "points": 320.8,
+          "distance_km": 106.89999999999998
+        },
+        "Swim": {
+          "count": 1,
+          "points": 3.8,
+          "distance_km": 0.25
+        }
+      },
+      "rank": 11,
+      "points_by_group": {
+        "run_walk": 320.8,
+        "ride": 0.0,
+        "swim": 3.8
+      }
+    },
+    {
       "name": "Valentinas A.",
       "total_points": 317.3,
       "activity_count": 7,
@@ -1000,36 +1025,11 @@
           "distance_km": 6.54
         }
       },
-      "rank": 11,
+      "rank": 12,
       "points_by_group": {
         "run_walk": 19.7,
         "ride": 297.6,
         "swim": 0.0
-      }
-    },
-    {
-      "name": "Greta N.",
-      "total_points": 311.3,
-      "activity_count": 35,
-      "total_distance_km": 102.73,
-      "total_elevation_m": 884.0,
-      "by_type": {
-        "Walk": {
-          "count": 34,
-          "points": 307.5,
-          "distance_km": 102.47999999999999
-        },
-        "Swim": {
-          "count": 1,
-          "points": 3.8,
-          "distance_km": 0.25
-        }
-      },
-      "rank": 12,
-      "points_by_group": {
-        "run_walk": 307.5,
-        "ride": 0.0,
-        "swim": 3.8
       }
     },
     {
@@ -1374,6 +1374,18 @@
     }
   ],
   "activities": [
+    {
+      "athlete_key": "greta_n.",
+      "athlete_name": "Greta N.",
+      "name": "Afternoon Walk",
+      "sport_type": "Walk",
+      "start_date": null,
+      "_fetched_date": "2026-04-18",
+      "distance_km": 4.42,
+      "elevation_m": 57.4,
+      "moving_time_s": 4185,
+      "points": 13.3
+    },
     {
       "athlete_key": "antanas_r.",
       "athlete_name": "Antanas R.",
@@ -8719,8 +8731,20 @@
       "points": 27.5
     }
   ],
-  "generated_at": "2026-04-18T19:42:20.817351+00:00",
+  "generated_at": "2026-04-18T20:39:32.996425+00:00",
   "run_log": [
+    {
+      "timestamp": "2026-04-18T20:39:32.975966+00:00",
+      "new_count": 1,
+      "activities": [
+        {
+          "athlete": "Greta N.",
+          "sport": "Walk",
+          "distance_km": 4.42,
+          "name": "Afternoon Walk"
+        }
+      ]
+    },
     {
       "timestamp": "2026-04-18T19:42:20.796947+00:00",
       "new_count": 5,
@@ -9762,78 +9786,6 @@
       "timestamp": "2026-04-15T13:41:42.871154+00:00",
       "new_count": 0,
       "activities": []
-    },
-    {
-      "timestamp": "2026-04-15T11:01:11.350502+00:00",
-      "new_count": 11,
-      "activities": [
-        {
-          "athlete": "Liudas S.",
-          "sport": "Ride",
-          "distance_km": 2.59,
-          "name": "From gym!"
-        },
-        {
-          "athlete": "Arturas K.",
-          "sport": "Walk",
-          "distance_km": 1.2,
-          "name": "Afternoon Walk"
-        },
-        {
-          "athlete": "Ne L.",
-          "sport": "Walk",
-          "distance_km": 3.02,
-          "name": "Lunch Walk"
-        },
-        {
-          "athlete": "Donatas J.",
-          "sport": "Walk",
-          "distance_km": 2.0,
-          "name": "Lunch Walk"
-        },
-        {
-          "athlete": "Gertrūda G.",
-          "sport": "Walk",
-          "distance_km": 2.64,
-          "name": "Lunch Walk"
-        },
-        {
-          "athlete": "Arturas K.",
-          "sport": "Walk",
-          "distance_km": 1.18,
-          "name": "Lunch Walk"
-        },
-        {
-          "athlete": "Arunas M.",
-          "sport": "Walk",
-          "distance_km": 4.21,
-          "name": "Lunch Walk"
-        },
-        {
-          "athlete": "Viktorija M.",
-          "sport": "Walk",
-          "distance_km": 2.62,
-          "name": "Lunch Walk"
-        },
-        {
-          "athlete": "Ieva S.",
-          "sport": "Walk",
-          "distance_km": 2.36,
-          "name": "Lunch Walk"
-        },
-        {
-          "athlete": "Andrius A.",
-          "sport": "Walk",
-          "distance_km": 3.36,
-          "name": "Lunch Walk"
-        },
-        {
-          "athlete": "Gintarė B.",
-          "sport": "Walk",
-          "distance_km": 2.84,
-          "name": "Lunch Walk"
-        }
-      ]
     }
   ]
 }
