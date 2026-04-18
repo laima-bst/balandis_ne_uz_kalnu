@@ -1,5 +1,9 @@
 {
   "fingerprints": [
+    "e6894436ccb5177f09bb55601e47b11d",
+    "4114f81b6ab7f9be9b7b499a46f9e453",
+    "346985f28048a69471a7d656cbd00601",
+    "075bcf3cf9d42077c5ac2daf659a4135",
     "2b2ce16da42b0d81f9a88ddc4e11e97d",
     "aae237a72ed79bf7fa019d4241f87519",
     "ae6c3792369da998d85a4c0acd417426",
@@ -714,6 +718,74 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Aurelija",
+        "lastname": "S."
+      },
+      "name": "Su draugute, kuri labai nenorėjo eiti 🙈",
+      "distance": 2008.3,
+      "moving_time": 1930,
+      "elapsed_time": 2234,
+      "total_elevation_gain": 14.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin Venu 3S",
+      "_fetched_date": "2026-04-18"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Gertrūda",
+        "lastname": "G."
+      },
+      "name": "Afternoon Walk",
+      "distance": 3277.9,
+      "moving_time": 2836,
+      "elapsed_time": 4688,
+      "total_elevation_gain": 11.7,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-18"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Matas",
+        "lastname": "A."
+      },
+      "name": "Afternoon Walk",
+      "distance": 6495.8,
+      "moving_time": 5274,
+      "elapsed_time": 5314,
+      "total_elevation_gain": 20.9,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-18"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Tautvydas",
+        "lastname": "Ž."
+      },
+      "name": "Afternoon Walk",
+      "distance": 10826.6,
+      "moving_time": 8540,
+      "elapsed_time": 11925,
+      "total_elevation_gain": 55.6,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-18"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -11770,6 +11842,36 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-18T16:43:20.627638+00:00",
+      "new_count": 4,
+      "activities": [
+        {
+          "athlete": "Aurelija S.",
+          "sport": "Walk",
+          "distance_km": 2.01,
+          "name": "Su draugute, kuri labai nenorėjo eiti 🙈"
+        },
+        {
+          "athlete": "Gertrūda G.",
+          "sport": "Walk",
+          "distance_km": 3.28,
+          "name": "Afternoon Walk"
+        },
+        {
+          "athlete": "Matas A.",
+          "sport": "Walk",
+          "distance_km": 6.5,
+          "name": "Afternoon Walk"
+        },
+        {
+          "athlete": "Tautvydas Ž.",
+          "sport": "Walk",
+          "distance_km": 10.83,
+          "name": "Afternoon Walk"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-18T15:39:00.830056+00:00",
       "new_count": 2,
       "activities": [
@@ -12864,11 +12966,6 @@
           "name": "Morning Walk"
         }
       ]
-    },
-    {
-      "timestamp": "2026-04-15T02:42:08.869885+00:00",
-      "new_count": 0,
-      "activities": []
     }
   ]
 }
