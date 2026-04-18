@@ -1,5 +1,12 @@
 {
   "fingerprints": [
+    "ae6c3792369da998d85a4c0acd417426",
+    "da4e98e7cf5bb630dbc510ace649a96c",
+    "8f84d4165856600758c521eb3ff00f07",
+    "1caf9b8b5498e1d528821c0a69fc9c0c",
+    "85f9917c75a6a2d9acfb26426329049d",
+    "94fc478acfb5c38911e3cd8dbf5d60e0",
+    "878afbeef0d658a6c1119cdaf57b5dcf",
     "75b07926fc6f401b1922bbb4d1339d6a",
     "bb7a8d36df20557cb6db1f6d5977ae3c",
     "5ac26a6f362b3f90cf221eb566cb6b12",
@@ -705,6 +712,127 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Liudas",
+        "lastname": "S."
+      },
+      "name": "Brum brum",
+      "distance": 5265.5,
+      "moving_time": 1070,
+      "elapsed_time": 1122,
+      "total_elevation_gain": 15.7,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": null,
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-18"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Liudas",
+        "lastname": "S."
+      },
+      "name": "Brum brum",
+      "distance": 4867.5,
+      "moving_time": 942,
+      "elapsed_time": 1015,
+      "total_elevation_gain": 4.0,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": null,
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-18"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Gertrūda",
+        "lastname": "G."
+      },
+      "name": "Afternoon Walk",
+      "distance": 1901.4,
+      "moving_time": 1358,
+      "elapsed_time": 3883,
+      "total_elevation_gain": 2.2,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-18"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Donatas",
+        "lastname": "J."
+      },
+      "name": "Afternoon Walk",
+      "distance": 4352.4,
+      "moving_time": 3460,
+      "elapsed_time": 5034,
+      "total_elevation_gain": 30.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin Forerunner 255 Music",
+      "_fetched_date": "2026-04-18"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Sandra",
+        "lastname": "M."
+      },
+      "name": "Afternoon Walk",
+      "distance": 2630.4,
+      "moving_time": 1720,
+      "elapsed_time": 1818,
+      "total_elevation_gain": 42.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin Venu 2 Plus",
+      "_fetched_date": "2026-04-18"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Ieva",
+        "lastname": "S."
+      },
+      "name": "Afternoon Walk",
+      "distance": 1313.6,
+      "moving_time": 1173,
+      "elapsed_time": 1310,
+      "total_elevation_gain": 17.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin Forerunner 255 Music",
+      "_fetched_date": "2026-04-18"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Sandra",
+        "lastname": "M."
+      },
+      "name": "Afternoon Walk",
+      "distance": 1077.3,
+      "moving_time": 664,
+      "elapsed_time": 664,
+      "total_elevation_gain": 14.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin Venu 2 Plus",
+      "_fetched_date": "2026-04-18"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -11607,6 +11735,54 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-18T14:41:54.933993+00:00",
+      "new_count": 7,
+      "activities": [
+        {
+          "athlete": "Liudas S.",
+          "sport": "Ride",
+          "distance_km": 5.27,
+          "name": "Brum brum"
+        },
+        {
+          "athlete": "Liudas S.",
+          "sport": "Ride",
+          "distance_km": 4.87,
+          "name": "Brum brum"
+        },
+        {
+          "athlete": "Gertrūda G.",
+          "sport": "Walk",
+          "distance_km": 1.9,
+          "name": "Afternoon Walk"
+        },
+        {
+          "athlete": "Donatas J.",
+          "sport": "Walk",
+          "distance_km": 4.35,
+          "name": "Afternoon Walk"
+        },
+        {
+          "athlete": "Sandra M.",
+          "sport": "Walk",
+          "distance_km": 2.63,
+          "name": "Afternoon Walk"
+        },
+        {
+          "athlete": "Ieva S.",
+          "sport": "Walk",
+          "distance_km": 1.31,
+          "name": "Afternoon Walk"
+        },
+        {
+          "athlete": "Sandra M.",
+          "sport": "Walk",
+          "distance_km": 1.08,
+          "name": "Afternoon Walk"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-18T13:06:41.664497+00:00",
       "new_count": 5,
       "activities": [
@@ -12643,11 +12819,6 @@
     },
     {
       "timestamp": "2026-04-14T23:53:25.948143+00:00",
-      "new_count": 0,
-      "activities": []
-    },
-    {
-      "timestamp": "2026-04-14T22:57:08.231247+00:00",
       "new_count": 0,
       "activities": []
     }
