@@ -11295,6 +11295,11 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-18T02:35:37.428864+00:00",
+      "new_count": 0,
+      "activities": []
+    },
+    {
       "timestamp": "2026-04-17T23:41:02.824219+00:00",
       "new_count": 0,
       "activities": []
@@ -12409,24 +12414,6 @@
           "sport": "Walk",
           "distance_km": 1.79,
           "name": "Lunch Walk"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-14T09:21:02.522046+00:00",
-      "new_count": 2,
-      "activities": [
-        {
-          "athlete": "Matas A.",
-          "sport": "Walk",
-          "distance_km": 1.15,
-          "name": "Lunch Walk"
-        },
-        {
-          "athlete": "Ieva S.",
-          "sport": "Swim",
-          "distance_km": 4.25,
-          "name": "Morning Swim"
         }
       ]
     }
