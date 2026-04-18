@@ -1,5 +1,7 @@
 {
   "fingerprints": [
+    "2b2ce16da42b0d81f9a88ddc4e11e97d",
+    "aae237a72ed79bf7fa019d4241f87519",
     "ae6c3792369da998d85a4c0acd417426",
     "da4e98e7cf5bb630dbc510ace649a96c",
     "8f84d4165856600758c521eb3ff00f07",
@@ -712,6 +714,39 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Augustė",
+        "lastname": "J."
+      },
+      "name": "Afternoon Walk",
+      "distance": 6550.0,
+      "moving_time": 4959,
+      "elapsed_time": 6748,
+      "total_elevation_gain": 41.1,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-18"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Gintarė",
+        "lastname": "B."
+      },
+      "name": "Afternoon Walk",
+      "distance": 5566.9,
+      "moving_time": 4965,
+      "elapsed_time": 5329,
+      "total_elevation_gain": 50.9,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "_fetched_date": "2026-04-18"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -11735,6 +11770,24 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-18T15:39:00.830056+00:00",
+      "new_count": 2,
+      "activities": [
+        {
+          "athlete": "Augustė J.",
+          "sport": "Walk",
+          "distance_km": 6.55,
+          "name": "Afternoon Walk"
+        },
+        {
+          "athlete": "Gintarė B.",
+          "sport": "Walk",
+          "distance_km": 5.57,
+          "name": "Afternoon Walk"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-18T14:41:54.933993+00:00",
       "new_count": 7,
       "activities": [
@@ -12814,11 +12867,6 @@
     },
     {
       "timestamp": "2026-04-15T02:42:08.869885+00:00",
-      "new_count": 0,
-      "activities": []
-    },
-    {
-      "timestamp": "2026-04-14T23:53:25.948143+00:00",
       "new_count": 0,
       "activities": []
     }
