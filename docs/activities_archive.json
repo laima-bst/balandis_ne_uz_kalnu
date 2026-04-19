@@ -1,5 +1,6 @@
 {
   "fingerprints": [
+    "ccc99e8ae3d79569aeb63d25af923053",
     "ad28484b7eedb02271db48cd7818937c",
     "8e4e95ccca33a02f70dd0374a978c542",
     "426df81f3eb0e2945d0fc60df6aa27f3",
@@ -737,6 +738,24 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Ieva",
+        "lastname": "S."
+      },
+      "name": "Lunch Ride",
+      "distance": 8032.4,
+      "moving_time": 1906,
+      "elapsed_time": 2953,
+      "total_elevation_gain": 62.0,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": null,
+      "device_name": "Garmin Forerunner 255 Music",
+      "_fetched_date": "2026-04-19"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -12190,6 +12209,18 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-19T10:50:32.660403+00:00",
+      "new_count": 1,
+      "activities": [
+        {
+          "athlete": "Ieva S.",
+          "sport": "Ride",
+          "distance_km": 8.03,
+          "name": "Lunch Ride"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-19T09:56:11.004321+00:00",
       "new_count": 1,
       "activities": [
@@ -13148,11 +13179,6 @@
           "name": "Lunch Walk"
         }
       ]
-    },
-    {
-      "timestamp": "2026-04-16T02:49:52.505759+00:00",
-      "new_count": 0,
-      "activities": []
     }
   ]
 }
