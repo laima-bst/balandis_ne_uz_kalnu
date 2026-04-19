@@ -1,5 +1,7 @@
 {
   "fingerprints": [
+    "4fc59fee49aae5b322a7c67348fa279a",
+    "c0fe153408ac1a97d0140b3363a8d307",
     "f37b71614c6581776a7e3405d69b2911",
     "c1eef6298b5176403e8cf2c20fd82dfe",
     "8fcc4a94620d1e246824fd7cee96bfcf",
@@ -730,6 +732,40 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Liudas",
+        "lastname": "S."
+      },
+      "name": "Morning Walk",
+      "distance": 4891.7,
+      "moving_time": 3148,
+      "elapsed_time": 3365,
+      "total_elevation_gain": 9.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Samsung Galaxy Ultra",
+      "_fetched_date": "2026-04-19"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Sandra",
+        "lastname": "M."
+      },
+      "name": "Morning Walk",
+      "distance": 2052.4,
+      "moving_time": 1375,
+      "elapsed_time": 2204,
+      "total_elevation_gain": 40.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin Venu 2 Plus",
+      "_fetched_date": "2026-04-19"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -12060,6 +12096,24 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-19T07:22:54.682261+00:00",
+      "new_count": 2,
+      "activities": [
+        {
+          "athlete": "Liudas S.",
+          "sport": "Walk",
+          "distance_km": 4.89,
+          "name": "Morning Walk"
+        },
+        {
+          "athlete": "Sandra M.",
+          "sport": "Walk",
+          "distance_km": 2.05,
+          "name": "Morning Walk"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-19T05:31:19.992202+00:00",
       "new_count": 1,
       "activities": [
@@ -12971,11 +13025,6 @@
     },
     {
       "timestamp": "2026-04-15T22:46:05.540297+00:00",
-      "new_count": 0,
-      "activities": []
-    },
-    {
-      "timestamp": "2026-04-15T21:54:44.640704+00:00",
       "new_count": 0,
       "activities": []
     }
