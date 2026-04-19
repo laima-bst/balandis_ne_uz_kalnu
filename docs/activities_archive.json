@@ -12611,6 +12611,11 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-19T20:40:52.652998+00:00",
+      "new_count": 0,
+      "activities": []
+    },
+    {
       "timestamp": "2026-04-19T19:42:53.632082+00:00",
       "new_count": 1,
       "activities": [
@@ -13503,18 +13508,6 @@
       "timestamp": "2026-04-16T21:45:39.307836+00:00",
       "new_count": 0,
       "activities": []
-    },
-    {
-      "timestamp": "2026-04-16T20:51:51.051991+00:00",
-      "new_count": 1,
-      "activities": [
-        {
-          "athlete": "Augustė J.",
-          "sport": "Swim",
-          "distance_km": 0.65,
-          "name": "Evening Swim"
-        }
-      ]
     }
   ]
 }
