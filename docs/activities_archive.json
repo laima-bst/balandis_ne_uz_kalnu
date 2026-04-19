@@ -1,5 +1,9 @@
 {
   "fingerprints": [
+    "9846711581492150df72b059cfb8b10f",
+    "e7c439ddc7003c00d216ed55df0dd86f",
+    "560ecb8d5e1ced8c2b51190cda3d5e57",
+    "4c756cad1614be386aef2217a3748b5b",
     "5b3571d822f22419a6be44f128c381d2",
     "efc5c562c4f4f439e7596ec7fa5616f4",
     "96a7c5030c9fac311d761a156f2e2fa3",
@@ -755,6 +759,74 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Aurelija",
+        "lastname": "S."
+      },
+      "name": "Vėl iš jogos 🧎‍♀️",
+      "distance": 1116.4,
+      "moving_time": 719,
+      "elapsed_time": 719,
+      "total_elevation_gain": 0.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin Venu 3S",
+      "_fetched_date": "2026-04-19"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Antanas",
+        "lastname": "R."
+      },
+      "name": "Evening Walk",
+      "distance": 1309.5,
+      "moving_time": 739,
+      "elapsed_time": 739,
+      "total_elevation_gain": 13.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin fēnix 7",
+      "_fetched_date": "2026-04-19"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Antanas",
+        "lastname": "R."
+      },
+      "name": "Evening Swim",
+      "distance": 2000.0,
+      "moving_time": 2650,
+      "elapsed_time": 2692,
+      "total_elevation_gain": 0,
+      "type": "Swim",
+      "sport_type": "Swim",
+      "device_name": "Garmin fēnix 7",
+      "_fetched_date": "2026-04-19"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Antanas",
+        "lastname": "R."
+      },
+      "name": "Evening Walk",
+      "distance": 2004.3,
+      "moving_time": 1427,
+      "elapsed_time": 1494,
+      "total_elevation_gain": 29.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin fēnix 7",
+      "_fetched_date": "2026-04-19"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -12520,6 +12592,36 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-19T18:54:47.943768+00:00",
+      "new_count": 4,
+      "activities": [
+        {
+          "athlete": "Aurelija S.",
+          "sport": "Walk",
+          "distance_km": 1.12,
+          "name": "Vėl iš jogos 🧎‍♀️"
+        },
+        {
+          "athlete": "Antanas R.",
+          "sport": "Walk",
+          "distance_km": 1.31,
+          "name": "Evening Walk"
+        },
+        {
+          "athlete": "Antanas R.",
+          "sport": "Swim",
+          "distance_km": 2.0,
+          "name": "Evening Swim"
+        },
+        {
+          "athlete": "Antanas R.",
+          "sport": "Walk",
+          "distance_km": 2.0,
+          "name": "Evening Walk"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-19T17:37:21.155830+00:00",
       "new_count": 1,
       "activities": [
@@ -13415,30 +13517,6 @@
           "athlete": "Andrius A.",
           "sport": "Walk",
           "distance_km": 1.01,
-          "name": "Evening Walk"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-16T17:17:30.888011+00:00",
-      "new_count": 3,
-      "activities": [
-        {
-          "athlete": "Liudas S.",
-          "sport": "Walk",
-          "distance_km": 1.16,
-          "name": "Evening Walk"
-        },
-        {
-          "athlete": "Aurelija S.",
-          "sport": "Walk",
-          "distance_km": 1.35,
-          "name": "Prieš koncertą 💃"
-        },
-        {
-          "athlete": "Sandra M.",
-          "sport": "Walk",
-          "distance_km": 3.24,
           "name": "Evening Walk"
         }
       ]
