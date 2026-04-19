@@ -1,5 +1,8 @@
 {
   "fingerprints": [
+    "615b9ae0292be56617e4d013d651efcb",
+    "dead7db65b45ccd2416c6e1a49987451",
+    "b40d06f44913b8d4ba5e37fa070bfd25",
     "2590069725f08ca40839b39e7985117f",
     "2e877803ce8f76f4946a700933b6472f",
     "cc81aa0c9aa1c83ca0ab66577a12784e",
@@ -747,6 +750,58 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Paulius",
+        "lastname": "R."
+      },
+      "name": "Afternoon Walk",
+      "distance": 3398.0,
+      "moving_time": 2159,
+      "elapsed_time": 3175,
+      "total_elevation_gain": 59.4,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Wear OS by Google",
+      "_fetched_date": "2026-04-19"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Donatas",
+        "lastname": "J."
+      },
+      "name": "Verbavimas",
+      "distance": 17613.9,
+      "moving_time": 6346,
+      "elapsed_time": 8704,
+      "total_elevation_gain": 100.0,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": null,
+      "device_name": "Garmin Forerunner 255 Music",
+      "_fetched_date": "2026-04-19"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Gintarė",
+        "lastname": "B."
+      },
+      "name": "Afternoon Walk",
+      "distance": 1569.2,
+      "moving_time": 1812,
+      "elapsed_time": 2125,
+      "total_elevation_gain": 14.2,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Samsung Health",
+      "_fetched_date": "2026-04-19"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -12373,6 +12428,30 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-19T15:39:03.031067+00:00",
+      "new_count": 3,
+      "activities": [
+        {
+          "athlete": "Paulius R.",
+          "sport": "Walk",
+          "distance_km": 3.4,
+          "name": "Afternoon Walk"
+        },
+        {
+          "athlete": "Donatas J.",
+          "sport": "Ride",
+          "distance_km": 17.61,
+          "name": "Verbavimas"
+        },
+        {
+          "athlete": "Gintarė B.",
+          "sport": "Walk",
+          "distance_km": 1.57,
+          "name": "Afternoon Walk"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-19T14:41:49.953814+00:00",
       "new_count": 3,
       "activities": [
@@ -13323,36 +13402,6 @@
           "sport": "Walk",
           "distance_km": 2.52,
           "name": "Afternoon Walk"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-16T11:06:00.263626+00:00",
-      "new_count": 4,
-      "activities": [
-        {
-          "athlete": "Gertrūda G.",
-          "sport": "Walk",
-          "distance_km": 1.69,
-          "name": "Lunch Walk"
-        },
-        {
-          "athlete": "Viktorija M.",
-          "sport": "Walk",
-          "distance_km": 1.93,
-          "name": "Lunch Walk"
-        },
-        {
-          "athlete": "Andrius A.",
-          "sport": "Walk",
-          "distance_km": 3.08,
-          "name": "Lunch Walk"
-        },
-        {
-          "athlete": "Greta N.",
-          "sport": "Walk",
-          "distance_km": 1.08,
-          "name": "Lunch Walk"
         }
       ]
     }
