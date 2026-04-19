@@ -1,5 +1,6 @@
 {
   "fingerprints": [
+    "981c21ba73d7a24c756780769ea24659",
     "9846711581492150df72b059cfb8b10f",
     "e7c439ddc7003c00d216ed55df0dd86f",
     "560ecb8d5e1ced8c2b51190cda3d5e57",
@@ -759,6 +760,24 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Stasius",
+        "lastname": "F."
+      },
+      "name": "Night Run",
+      "distance": 6186.1,
+      "moving_time": 2208,
+      "elapsed_time": 2238,
+      "total_elevation_gain": 21.0,
+      "type": "Run",
+      "sport_type": "Run",
+      "workout_type": null,
+      "device_name": "Garmin Forerunner 255 Music",
+      "_fetched_date": "2026-04-19"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -12592,6 +12611,18 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-19T19:42:53.632082+00:00",
+      "new_count": 1,
+      "activities": [
+        {
+          "athlete": "Stasius F.",
+          "sport": "Run",
+          "distance_km": 6.19,
+          "name": "Night Run"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-19T18:54:47.943768+00:00",
       "new_count": 4,
       "activities": [
@@ -13482,42 +13513,6 @@
           "sport": "Swim",
           "distance_km": 0.65,
           "name": "Evening Swim"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-16T19:18:43.989631+00:00",
-      "new_count": 5,
-      "activities": [
-        {
-          "athlete": "Azuolas S.",
-          "sport": "Run",
-          "distance_km": 5.02,
-          "name": "Evening Run"
-        },
-        {
-          "athlete": "Arturas K.",
-          "sport": "Walk",
-          "distance_km": 1.28,
-          "name": "Evening Walk"
-        },
-        {
-          "athlete": "Viktorija M.",
-          "sport": "Walk",
-          "distance_km": 3.4,
-          "name": "Evening Walk"
-        },
-        {
-          "athlete": "Paulius R.",
-          "sport": "Run",
-          "distance_km": 16.65,
-          "name": "Evening Run"
-        },
-        {
-          "athlete": "Andrius A.",
-          "sport": "Walk",
-          "distance_km": 1.01,
-          "name": "Evening Walk"
         }
       ]
     }

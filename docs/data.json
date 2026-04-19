@@ -9120,8 +9120,20 @@
       "points": 27.5
     }
   ],
-  "generated_at": "2026-04-19T18:54:47.965326+00:00",
+  "generated_at": "2026-04-19T19:42:53.653019+00:00",
   "run_log": [
+    {
+      "timestamp": "2026-04-19T19:42:53.632082+00:00",
+      "new_count": 1,
+      "activities": [
+        {
+          "athlete": "Stasius F.",
+          "sport": "Run",
+          "distance_km": 6.19,
+          "name": "Night Run"
+        }
+      ]
+    },
     {
       "timestamp": "2026-04-19T18:54:47.943768+00:00",
       "new_count": 4,
@@ -10013,42 +10025,6 @@
           "sport": "Swim",
           "distance_km": 0.65,
           "name": "Evening Swim"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-16T19:18:43.989631+00:00",
-      "new_count": 5,
-      "activities": [
-        {
-          "athlete": "Azuolas S.",
-          "sport": "Run",
-          "distance_km": 5.02,
-          "name": "Evening Run"
-        },
-        {
-          "athlete": "Arturas K.",
-          "sport": "Walk",
-          "distance_km": 1.28,
-          "name": "Evening Walk"
-        },
-        {
-          "athlete": "Viktorija M.",
-          "sport": "Walk",
-          "distance_km": 3.4,
-          "name": "Evening Walk"
-        },
-        {
-          "athlete": "Paulius R.",
-          "sport": "Run",
-          "distance_km": 16.65,
-          "name": "Evening Run"
-        },
-        {
-          "athlete": "Andrius A.",
-          "sport": "Walk",
-          "distance_km": 1.01,
-          "name": "Evening Walk"
         }
       ]
     }
