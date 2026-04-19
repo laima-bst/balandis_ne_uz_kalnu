@@ -1,5 +1,8 @@
 {
   "fingerprints": [
+    "2590069725f08ca40839b39e7985117f",
+    "2e877803ce8f76f4946a700933b6472f",
+    "cc81aa0c9aa1c83ca0ab66577a12784e",
     "571881c2a525ca61bb463b88e5ea88d4",
     "0bea74880b41ef200c9240e90dec34a9",
     "82cb2fc5d1b35d3e360a4755e9a0bff0",
@@ -744,6 +747,58 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Azuolas",
+        "lastname": "S."
+      },
+      "name": "Lunch Walk",
+      "distance": 4363.7,
+      "moving_time": 3053,
+      "elapsed_time": 14860,
+      "total_elevation_gain": 55.6,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-19"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Sandra",
+        "lastname": "M."
+      },
+      "name": "Afternoon Walk",
+      "distance": 1218.6,
+      "moving_time": 1031,
+      "elapsed_time": 1196,
+      "total_elevation_gain": 20.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin Venu 2 Plus",
+      "_fetched_date": "2026-04-19"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Ieva",
+        "lastname": "S."
+      },
+      "name": "Afternoon Run",
+      "distance": 7526.3,
+      "moving_time": 3070,
+      "elapsed_time": 3092,
+      "total_elevation_gain": 151.0,
+      "type": "Run",
+      "sport_type": "Run",
+      "workout_type": null,
+      "device_name": "Garmin Forerunner 255 Music",
+      "_fetched_date": "2026-04-19"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -12318,6 +12373,30 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-19T14:41:49.953814+00:00",
+      "new_count": 3,
+      "activities": [
+        {
+          "athlete": "Azuolas S.",
+          "sport": "Walk",
+          "distance_km": 4.36,
+          "name": "Lunch Walk"
+        },
+        {
+          "athlete": "Sandra M.",
+          "sport": "Walk",
+          "distance_km": 1.22,
+          "name": "Afternoon Walk"
+        },
+        {
+          "athlete": "Ieva S.",
+          "sport": "Run",
+          "distance_km": 7.53,
+          "name": "Afternoon Run"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-19T13:05:47.173586+00:00",
       "new_count": 4,
       "activities": [
@@ -13273,18 +13352,6 @@
           "athlete": "Greta N.",
           "sport": "Walk",
           "distance_km": 1.08,
-          "name": "Lunch Walk"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-16T09:22:14.687963+00:00",
-      "new_count": 1,
-      "activities": [
-        {
-          "athlete": "Liudas S.",
-          "sport": "Walk",
-          "distance_km": 2.91,
           "name": "Lunch Walk"
         }
       ]
