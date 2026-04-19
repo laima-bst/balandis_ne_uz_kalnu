@@ -1,5 +1,9 @@
 {
   "fingerprints": [
+    "8e4e95ccca33a02f70dd0374a978c542",
+    "426df81f3eb0e2945d0fc60df6aa27f3",
+    "8511042097eecb69c5c907007b61b585",
+    "bb4b6a8506446e0a1c1edacfc10d33b5",
     "4fc59fee49aae5b322a7c67348fa279a",
     "c0fe153408ac1a97d0140b3363a8d307",
     "f37b71614c6581776a7e3405d69b2911",
@@ -732,6 +736,77 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Augustė",
+        "lastname": "J."
+      },
+      "name": "Morning Walk",
+      "distance": 1929.8,
+      "moving_time": 1258,
+      "elapsed_time": 1853,
+      "total_elevation_gain": 19.7,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-19"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Donatas",
+        "lastname": "J."
+      },
+      "name": "Morning Ride",
+      "distance": 50087.2,
+      "moving_time": 7064,
+      "elapsed_time": 7170,
+      "total_elevation_gain": 360.0,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": null,
+      "device_name": "Garmin Forerunner 255 Music",
+      "_fetched_date": "2026-04-19"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Gintarė",
+        "lastname": "B."
+      },
+      "name": "Morning Ride",
+      "distance": 27575.8,
+      "moving_time": 6224,
+      "elapsed_time": 7946,
+      "total_elevation_gain": 204.8,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": null,
+      "device_name": "Samsung Health",
+      "_fetched_date": "2026-04-19"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Augustinas",
+        "lastname": "T."
+      },
+      "name": "Morning Ride",
+      "distance": 27437.0,
+      "moving_time": 5016,
+      "elapsed_time": 5246,
+      "total_elevation_gain": 217.0,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": null,
+      "device_name": "Wahoo ELEMNT ROAM",
+      "_fetched_date": "2026-04-19"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -12096,6 +12171,36 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-19T08:57:19.852468+00:00",
+      "new_count": 4,
+      "activities": [
+        {
+          "athlete": "Augustė J.",
+          "sport": "Walk",
+          "distance_km": 1.93,
+          "name": "Morning Walk"
+        },
+        {
+          "athlete": "Donatas J.",
+          "sport": "Ride",
+          "distance_km": 50.09,
+          "name": "Morning Ride"
+        },
+        {
+          "athlete": "Gintarė B.",
+          "sport": "Ride",
+          "distance_km": 27.58,
+          "name": "Morning Ride"
+        },
+        {
+          "athlete": "Augustinas T.",
+          "sport": "Ride",
+          "distance_km": 27.44,
+          "name": "Morning Ride"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-19T07:22:54.682261+00:00",
       "new_count": 2,
       "activities": [
@@ -13020,11 +13125,6 @@
     },
     {
       "timestamp": "2026-04-15T23:43:33.598120+00:00",
-      "new_count": 0,
-      "activities": []
-    },
-    {
-      "timestamp": "2026-04-15T22:46:05.540297+00:00",
       "new_count": 0,
       "activities": []
     }
