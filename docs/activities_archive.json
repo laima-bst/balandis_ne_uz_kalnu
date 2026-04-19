@@ -1,5 +1,9 @@
 {
   "fingerprints": [
+    "efc5c562c4f4f439e7596ec7fa5616f4",
+    "96a7c5030c9fac311d761a156f2e2fa3",
+    "4803edc52b7c9d1649e8259c5ec820b2",
+    "7f470cba4e44c3f669c1548f37bc8d01",
     "615b9ae0292be56617e4d013d651efcb",
     "dead7db65b45ccd2416c6e1a49987451",
     "b40d06f44913b8d4ba5e37fa070bfd25",
@@ -750,6 +754,76 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Aurelija",
+        "lastname": "S."
+      },
+      "name": "Evening Walk",
+      "distance": 1157.8,
+      "moving_time": 732,
+      "elapsed_time": 732,
+      "total_elevation_gain": 13.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin Venu 3S",
+      "_fetched_date": "2026-04-19"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Viktorija",
+        "lastname": "M."
+      },
+      "name": "Evening Walk",
+      "distance": 3062.5,
+      "moving_time": 3113,
+      "elapsed_time": 4283,
+      "total_elevation_gain": 25.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-19"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Arunas",
+        "lastname": "M."
+      },
+      "name": "Afternoon Ride",
+      "distance": 18090.0,
+      "moving_time": 4294,
+      "elapsed_time": 7826,
+      "total_elevation_gain": 74.1,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": null,
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-19"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Benediktas",
+        "lastname": "B."
+      },
+      "name": "Afternoon Gravel Ride",
+      "distance": 75849.9,
+      "moving_time": 12172,
+      "elapsed_time": 14390,
+      "total_elevation_gain": 1037.0,
+      "type": "Ride",
+      "sport_type": "GravelRide",
+      "workout_type": null,
+      "device_name": "Garmin Edge Explore 2",
+      "_fetched_date": "2026-04-19"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -12428,6 +12502,36 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-19T16:43:11.471123+00:00",
+      "new_count": 4,
+      "activities": [
+        {
+          "athlete": "Aurelija S.",
+          "sport": "Walk",
+          "distance_km": 1.16,
+          "name": "Evening Walk"
+        },
+        {
+          "athlete": "Viktorija M.",
+          "sport": "Walk",
+          "distance_km": 3.06,
+          "name": "Evening Walk"
+        },
+        {
+          "athlete": "Arunas M.",
+          "sport": "Ride",
+          "distance_km": 18.09,
+          "name": "Afternoon Ride"
+        },
+        {
+          "athlete": "Benediktas B.",
+          "sport": "GravelRide",
+          "distance_km": 75.85,
+          "name": "Afternoon Gravel Ride"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-19T15:39:03.031067+00:00",
       "new_count": 3,
       "activities": [
@@ -13365,42 +13469,6 @@
           "athlete": "Greta N.",
           "sport": "Walk",
           "distance_km": 2.77,
-          "name": "Afternoon Walk"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-16T13:50:23.773905+00:00",
-      "new_count": 5,
-      "activities": [
-        {
-          "athlete": "Azuolas S.",
-          "sport": "Walk",
-          "distance_km": 1.02,
-          "name": "Afternoon Walk"
-        },
-        {
-          "athlete": "Donatas J.",
-          "sport": "Walk",
-          "distance_km": 3.39,
-          "name": "Afternoon Walk"
-        },
-        {
-          "athlete": "Paulius R.",
-          "sport": "Walk",
-          "distance_km": 1.75,
-          "name": "Afternoon Walk"
-        },
-        {
-          "athlete": "Paulius R.",
-          "sport": "Walk",
-          "distance_km": 1.62,
-          "name": "Afternoon Walk"
-        },
-        {
-          "athlete": "Valentinas A.",
-          "sport": "Walk",
-          "distance_km": 2.52,
           "name": "Afternoon Walk"
         }
       ]
