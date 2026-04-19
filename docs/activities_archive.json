@@ -1,5 +1,7 @@
 {
   "fingerprints": [
+    "d1f7ad6f5e622371ed893144cfe808c4",
+    "65916876c4da43e0b45aa8b662a52d8d",
     "ccc99e8ae3d79569aeb63d25af923053",
     "ad28484b7eedb02271db48cd7818937c",
     "8e4e95ccca33a02f70dd0374a978c542",
@@ -738,6 +740,40 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Ne",
+        "lastname": "L."
+      },
+      "name": "Afternoon Walk",
+      "distance": 2158.6,
+      "moving_time": 1591,
+      "elapsed_time": 2368,
+      "total_elevation_gain": 21.5,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-19"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Gertrūda",
+        "lastname": "G."
+      },
+      "name": "Afternoon Walk",
+      "distance": 4045.0,
+      "moving_time": 3218,
+      "elapsed_time": 3617,
+      "total_elevation_gain": 15.8,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-19"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -12209,6 +12245,24 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-19T11:36:43.950217+00:00",
+      "new_count": 2,
+      "activities": [
+        {
+          "athlete": "Ne L.",
+          "sport": "Walk",
+          "distance_km": 2.16,
+          "name": "Afternoon Walk"
+        },
+        {
+          "athlete": "Gertrūda G.",
+          "sport": "Walk",
+          "distance_km": 4.04,
+          "name": "Afternoon Walk"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-19T10:50:32.660403+00:00",
       "new_count": 1,
       "activities": [
@@ -13147,36 +13201,6 @@
           "sport": "Ride",
           "distance_km": 3.06,
           "name": "Morning Ride"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-16T05:32:44.400229+00:00",
-      "new_count": 4,
-      "activities": [
-        {
-          "athlete": "Edvinas V.",
-          "sport": "Run",
-          "distance_km": 6.5,
-          "name": "Morning Run"
-        },
-        {
-          "athlete": "Gintarė B.",
-          "sport": "Walk",
-          "distance_km": 1.34,
-          "name": "Morning Walk 🐕🚶🏼‍♀️"
-        },
-        {
-          "athlete": "Andrius A.",
-          "sport": "Run",
-          "distance_km": 8.42,
-          "name": "Morning Run"
-        },
-        {
-          "athlete": "Antanas R.",
-          "sport": "Walk",
-          "distance_km": 1.0,
-          "name": "Lunch Walk"
         }
       ]
     }
