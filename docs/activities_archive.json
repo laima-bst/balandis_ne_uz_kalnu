@@ -1,5 +1,6 @@
 {
   "fingerprints": [
+    "c1eef6298b5176403e8cf2c20fd82dfe",
     "8fcc4a94620d1e246824fd7cee96bfcf",
     "a5d7a738034e075ccf6d17cd67a83b36",
     "5af929778c6eede1822a3ffb8c669f6f",
@@ -728,6 +729,23 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Paulius",
+        "lastname": "R."
+      },
+      "name": "Night Walk",
+      "distance": 8911.6,
+      "moving_time": 5409,
+      "elapsed_time": 5460,
+      "total_elevation_gain": 100.9,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Wear OS by Google",
+      "_fetched_date": "2026-04-19"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -12023,6 +12041,18 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-19T02:52:09.928947+00:00",
+      "new_count": 1,
+      "activities": [
+        {
+          "athlete": "Paulius R.",
+          "sport": "Walk",
+          "distance_km": 8.91,
+          "name": "Night Walk"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-18T23:37:36.879007+00:00",
       "new_count": 0,
       "activities": []
@@ -12927,54 +12957,6 @@
           "sport": "Hike",
           "distance_km": 1.17,
           "name": "Night Hike"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-15T19:20:52.151710+00:00",
-      "new_count": 7,
-      "activities": [
-        {
-          "athlete": "Azuolas S.",
-          "sport": "Run",
-          "distance_km": 10.02,
-          "name": "Evening Run"
-        },
-        {
-          "athlete": "Edvinas V.",
-          "sport": "Walk",
-          "distance_km": 2.24,
-          "name": "Evening Walk"
-        },
-        {
-          "athlete": "Arturas K.",
-          "sport": "Ride",
-          "distance_km": 15.49,
-          "name": "Vlado maršrutu"
-        },
-        {
-          "athlete": "Paulius R.",
-          "sport": "Run",
-          "distance_km": 16.03,
-          "name": "Baisiai graži diena"
-        },
-        {
-          "athlete": "Riskman G.",
-          "sport": "Ride",
-          "distance_km": 40.45,
-          "name": "Evening Ride"
-        },
-        {
-          "athlete": "Benediktas B.",
-          "sport": "GravelRide",
-          "distance_km": 39.84,
-          "name": "Evening Gravel Ride"
-        },
-        {
-          "athlete": "Sandra M.",
-          "sport": "Ride",
-          "distance_km": 12.26,
-          "name": "Evening Ride"
         }
       ]
     }
