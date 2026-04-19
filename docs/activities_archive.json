@@ -1,5 +1,6 @@
 {
   "fingerprints": [
+    "f37b71614c6581776a7e3405d69b2911",
     "c1eef6298b5176403e8cf2c20fd82dfe",
     "8fcc4a94620d1e246824fd7cee96bfcf",
     "a5d7a738034e075ccf6d17cd67a83b36",
@@ -729,6 +730,24 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Andrius",
+        "lastname": "A."
+      },
+      "name": "Morning Run",
+      "distance": 12092.0,
+      "moving_time": 3815,
+      "elapsed_time": 4081,
+      "total_elevation_gain": 81.0,
+      "type": "Run",
+      "sport_type": "Run",
+      "workout_type": null,
+      "device_name": "Garmin fēnix 7",
+      "_fetched_date": "2026-04-19"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -12041,6 +12060,18 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-19T05:31:19.992202+00:00",
+      "new_count": 1,
+      "activities": [
+        {
+          "athlete": "Andrius A.",
+          "sport": "Run",
+          "distance_km": 12.09,
+          "name": "Morning Run"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-19T02:52:09.928947+00:00",
       "new_count": 1,
       "activities": [
@@ -12947,18 +12978,6 @@
       "timestamp": "2026-04-15T21:54:44.640704+00:00",
       "new_count": 0,
       "activities": []
-    },
-    {
-      "timestamp": "2026-04-15T20:52:49.591747+00:00",
-      "new_count": 1,
-      "activities": [
-        {
-          "athlete": "Augustė J.",
-          "sport": "Hike",
-          "distance_km": 1.17,
-          "name": "Night Hike"
-        }
-      ]
     }
   ]
 }
