@@ -112,38 +112,38 @@
     {
       "name": "Balandžio dvasia",
       "color": "#3498db",
-      "total_points": 1756.5,
-      "total_distance_km": 1272.84,
-      "activity_count": 114,
+      "total_points": 1777.8,
+      "total_distance_km": 1281.5,
+      "activity_count": 116,
       "members": [
-        "Ne L.",
         "Donatas J.",
+        "Arunas M.",
+        "Ne L.",
         "Gintarė B.",
-        "Aurelija S.",
-        "Arunas M."
+        "Aurelija S."
       ],
       "member_count": 5,
-      "points_per_person": 351.3,
+      "points_per_person": 355.6,
       "member_details": [
         {
           "name": "Donatas J.",
-          "points": 1032.4,
-          "pct_of_team": 58.8
+          "points": 1034.8,
+          "pct_of_team": 58.2
         },
         {
           "name": "Gintarė B.",
           "points": 462.9,
-          "pct_of_team": 26.4
+          "pct_of_team": 26.0
         },
         {
           "name": "Arunas M.",
-          "points": 106.3,
-          "pct_of_team": 6.1
+          "points": 125.2,
+          "pct_of_team": 7.0
         },
         {
           "name": "Aurelija S.",
           "points": 85.8,
-          "pct_of_team": 4.9
+          "pct_of_team": 4.8
         },
         {
           "name": "Ne L.",
@@ -152,8 +152,8 @@
         }
       ],
       "distance_by_group": {
-        "run_walk": 241.9,
-        "ride": 1030.9,
+        "run_walk": 248.2,
+        "ride": 1033.3,
         "swim": 0.0
       },
       "rank": 3
@@ -161,9 +161,9 @@
     {
       "name": "Nešam Kudašių",
       "color": "#f39c12",
-      "total_points": 1339.3,
-      "total_distance_km": 902.38,
-      "activity_count": 83,
+      "total_points": 1348.6,
+      "total_distance_km": 905.46,
+      "activity_count": 84,
       "members": [
         "Augustė J.",
         "Augustinas T.",
@@ -172,36 +172,36 @@
         "Azuolas S."
       ],
       "member_count": 5,
-      "points_per_person": 267.9,
+      "points_per_person": 269.7,
       "member_details": [
         {
           "name": "Augustinas T.",
           "points": 396.3,
-          "pct_of_team": 29.6
+          "pct_of_team": 29.4
         },
         {
           "name": "Valentinas A.",
           "points": 317.3,
-          "pct_of_team": 23.7
+          "pct_of_team": 23.5
         },
         {
           "name": "Azuolas S.",
           "points": 236.9,
-          "pct_of_team": 17.7
+          "pct_of_team": 17.6
         },
         {
           "name": "Arturas K.",
           "points": 204.8,
-          "pct_of_team": 15.3
+          "pct_of_team": 15.2
         },
         {
           "name": "Augustė J.",
-          "points": 184.0,
-          "pct_of_team": 13.7
+          "points": 193.3,
+          "pct_of_team": 14.3
         }
       ],
       "distance_by_group": {
-        "run_walk": 206.7,
+        "run_walk": 209.8,
         "ride": 694.0,
         "swim": 1.7
       },
@@ -210,47 +210,47 @@
     {
       "name": "Sūkuriai",
       "color": "#9b59b6",
-      "total_points": 1133.8,
-      "total_distance_km": 395.62,
-      "activity_count": 66,
+      "total_points": 1153.2,
+      "total_distance_km": 402.09,
+      "activity_count": 67,
       "members": [
-        "Ieva S.",
         "Matas A.",
+        "Ieva S.",
         "Žilvinas P.",
         "Daina G.",
         "Domas C."
       ],
       "member_count": 5,
-      "points_per_person": 226.8,
+      "points_per_person": 230.6,
       "member_details": [
         {
           "name": "Ieva S.",
           "points": 421.0,
-          "pct_of_team": 37.1
+          "pct_of_team": 36.5
         },
         {
           "name": "Žilvinas P.",
           "points": 338.9,
-          "pct_of_team": 29.9
+          "pct_of_team": 29.4
         },
         {
           "name": "Daina G.",
           "points": 288.8,
-          "pct_of_team": 25.5
+          "pct_of_team": 25.0
         },
         {
           "name": "Matas A.",
-          "points": 64.0,
-          "pct_of_team": 5.6
+          "points": 83.4,
+          "pct_of_team": 7.2
         },
         {
           "name": "Domas C.",
           "points": 21.1,
-          "pct_of_team": 1.9
+          "pct_of_team": 1.8
         }
       ],
       "distance_by_group": {
-        "run_walk": 268.1,
+        "run_walk": 274.5,
         "ride": 113.1,
         "swim": 14.4
       },
@@ -701,17 +701,17 @@
       },
       "points": {
         "Nemiegantys Balandžiai": 2863.6,
-        "Balandžio dvasia": 1756.5,
+        "Balandžio dvasia": 1777.8,
         "Tardigrada": 2028.7,
-        "Sūkuriai": 1133.8,
-        "Nešam Kudašių": 1339.3
+        "Sūkuriai": 1153.2,
+        "Nešam Kudašių": 1348.6
       },
       "points_per_person": {
         "Nemiegantys Balandžiai": 477.3,
-        "Balandžio dvasia": 351.3,
+        "Balandžio dvasia": 355.6,
         "Tardigrada": 405.7,
-        "Sūkuriai": 226.8,
-        "Nešam Kudašių": 267.9
+        "Sūkuriai": 230.6,
+        "Nešam Kudašių": 269.7
       }
     }
   ],
@@ -748,15 +748,15 @@
     },
     {
       "name": "Donatas J.",
-      "total_points": 1032.4,
-      "activity_count": 44,
-      "total_distance_km": 931.77,
-      "total_elevation_m": 7360.0,
+      "total_points": 1034.8,
+      "activity_count": 45,
+      "total_distance_km": 934.14,
+      "total_elevation_m": 7372.0,
       "by_type": {
         "Ride": {
-          "count": 17,
-          "points": 881.8,
-          "distance_km": 881.5799999999998
+          "count": 18,
+          "points": 884.1999999999999,
+          "distance_km": 883.9499999999999
         },
         "Walk": {
           "count": 27,
@@ -767,7 +767,7 @@
       "rank": 2,
       "points_by_group": {
         "run_walk": 150.6,
-        "ride": 881.8,
+        "ride": 884.2,
         "swim": 0.0
       }
     },
@@ -1188,15 +1188,15 @@
     },
     {
       "name": "Augustė J.",
-      "total_points": 184.0,
-      "activity_count": 19,
-      "total_distance_km": 54.64,
-      "total_elevation_m": 220.0,
+      "total_points": 193.3,
+      "activity_count": 20,
+      "total_distance_km": 57.72,
+      "total_elevation_m": 271.0,
       "by_type": {
         "Walk": {
-          "count": 9,
-          "points": 60.7,
-          "distance_km": 20.19
+          "count": 10,
+          "points": 70.0,
+          "distance_km": 23.27
         },
         "Swim": {
           "count": 4,
@@ -1216,7 +1216,7 @@
       },
       "rank": 18,
       "points_by_group": {
-        "run_walk": 158.9,
+        "run_walk": 168.2,
         "ride": 0.0,
         "swim": 25.1
       }
@@ -1273,15 +1273,15 @@
     },
     {
       "name": "Arunas M.",
-      "total_points": 106.3,
-      "activity_count": 14,
-      "total_distance_km": 40.0,
-      "total_elevation_m": 201.0,
+      "total_points": 125.2,
+      "activity_count": 15,
+      "total_distance_km": 46.29,
+      "total_elevation_m": 228.0,
       "by_type": {
         "Walk": {
-          "count": 12,
-          "points": 99.5,
-          "distance_km": 33.13999999999999
+          "count": 13,
+          "points": 118.4,
+          "distance_km": 39.42999999999999
         },
         "Ride": {
           "count": 2,
@@ -1291,7 +1291,7 @@
       },
       "rank": 21,
       "points_by_group": {
-        "run_walk": 99.5,
+        "run_walk": 118.4,
         "ride": 6.8,
         "swim": 0.0
       }
@@ -1317,6 +1317,26 @@
       }
     },
     {
+      "name": "Matas A.",
+      "total_points": 83.4,
+      "activity_count": 8,
+      "total_distance_km": 27.81,
+      "total_elevation_m": 162.0,
+      "by_type": {
+        "Walk": {
+          "count": 8,
+          "points": 83.39999999999999,
+          "distance_km": 27.81
+        }
+      },
+      "rank": 23,
+      "points_by_group": {
+        "run_walk": 83.4,
+        "ride": 0.0,
+        "swim": 0.0
+      }
+    },
+    {
       "name": "Ne L.",
       "total_points": 69.1,
       "activity_count": 10,
@@ -1334,30 +1354,10 @@
           "distance_km": 10.61
         }
       },
-      "rank": 23,
+      "rank": 24,
       "points_by_group": {
         "run_walk": 58.5,
         "ride": 10.6,
-        "swim": 0.0
-      }
-    },
-    {
-      "name": "Matas A.",
-      "total_points": 64.0,
-      "activity_count": 7,
-      "total_distance_km": 21.34,
-      "total_elevation_m": 132.0,
-      "by_type": {
-        "Walk": {
-          "count": 7,
-          "points": 64.0,
-          "distance_km": 21.34
-        }
-      },
-      "rank": 24,
-      "points_by_group": {
-        "run_walk": 64.0,
-        "ride": 0.0,
         "swim": 0.0
       }
     },
@@ -1403,6 +1403,54 @@
     }
   ],
   "activities": [
+    {
+      "athlete_key": "donatas_j.",
+      "athlete_name": "Donatas J.",
+      "name": "Afternoon Ride",
+      "sport_type": "Ride",
+      "start_date": null,
+      "_fetched_date": "2026-04-19",
+      "distance_km": 2.37,
+      "elevation_m": 12.0,
+      "moving_time_s": 910,
+      "points": 2.4
+    },
+    {
+      "athlete_key": "augustė_j.",
+      "athlete_name": "Augustė J.",
+      "name": "Afternoon Walk",
+      "sport_type": "Walk",
+      "start_date": null,
+      "_fetched_date": "2026-04-19",
+      "distance_km": 3.08,
+      "elevation_m": 51.0,
+      "moving_time_s": 2462,
+      "points": 9.3
+    },
+    {
+      "athlete_key": "arunas_m.",
+      "athlete_name": "Arunas M.",
+      "name": "Lunch Walk",
+      "sport_type": "Walk",
+      "start_date": null,
+      "_fetched_date": "2026-04-19",
+      "distance_km": 6.29,
+      "elevation_m": 27.1,
+      "moving_time_s": 4426,
+      "points": 18.9
+    },
+    {
+      "athlete_key": "matas_a.",
+      "athlete_name": "Matas A.",
+      "name": "Morning Walk",
+      "sport_type": "Walk",
+      "start_date": null,
+      "_fetched_date": "2026-04-19",
+      "distance_km": 6.47,
+      "elevation_m": 30.6,
+      "moving_time_s": 6357,
+      "points": 19.4
+    },
     {
       "athlete_key": "ne_l.",
       "athlete_name": "Ne L.",
@@ -8904,8 +8952,38 @@
       "points": 27.5
     }
   ],
-  "generated_at": "2026-04-19T11:36:43.966090+00:00",
+  "generated_at": "2026-04-19T13:05:47.194341+00:00",
   "run_log": [
+    {
+      "timestamp": "2026-04-19T13:05:47.173586+00:00",
+      "new_count": 4,
+      "activities": [
+        {
+          "athlete": "Donatas J.",
+          "sport": "Ride",
+          "distance_km": 2.37,
+          "name": "Afternoon Ride"
+        },
+        {
+          "athlete": "Augustė J.",
+          "sport": "Walk",
+          "distance_km": 3.08,
+          "name": "Afternoon Walk"
+        },
+        {
+          "athlete": "Arunas M.",
+          "sport": "Walk",
+          "distance_km": 6.29,
+          "name": "Lunch Walk"
+        },
+        {
+          "athlete": "Matas A.",
+          "sport": "Walk",
+          "distance_km": 6.47,
+          "name": "Morning Walk"
+        }
+      ]
+    },
     {
       "timestamp": "2026-04-19T11:36:43.950217+00:00",
       "new_count": 2,
@@ -9845,24 +9923,6 @@
           "sport": "Walk",
           "distance_km": 2.91,
           "name": "Lunch Walk"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-16T07:50:24.046086+00:00",
-      "new_count": 2,
-      "activities": [
-        {
-          "athlete": "Azuolas S.",
-          "sport": "Walk",
-          "distance_km": 1.27,
-          "name": "Morning Walk"
-        },
-        {
-          "athlete": "Edvinas V.",
-          "sport": "Ride",
-          "distance_km": 3.06,
-          "name": "Morning Ride"
         }
       ]
     }
