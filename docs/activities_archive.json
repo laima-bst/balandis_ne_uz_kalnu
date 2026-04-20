@@ -1,5 +1,9 @@
 {
   "fingerprints": [
+    "ec665a0cc346a720ff2d9ad145b5ca27",
+    "6b6383f526d49f5aec3b335b0d4b0324",
+    "4c779f38370d5b8a64537ba4696f156d",
+    "e453bb38d8ce5552a0e4a58618aee89c",
     "5a3ff8b4e8828a8cbad767053f43e063",
     "b25d50ea99a9c4dbef537afa556391cb",
     "5472d650f053b1090d1552261f188b41",
@@ -790,6 +794,76 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Azuolas",
+        "lastname": "S."
+      },
+      "name": "Evening Run",
+      "distance": 10011.7,
+      "moving_time": 3644,
+      "elapsed_time": 3659,
+      "total_elevation_gain": 46.1,
+      "type": "Run",
+      "sport_type": "Run",
+      "workout_type": null,
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-20"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Paulius",
+        "lastname": "R."
+      },
+      "name": "Evening Run",
+      "distance": 15035.2,
+      "moving_time": 4581,
+      "elapsed_time": 4581,
+      "total_elevation_gain": 111.3,
+      "type": "Run",
+      "sport_type": "Run",
+      "workout_type": null,
+      "device_name": "Wear OS by Google",
+      "_fetched_date": "2026-04-20"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Augustinas",
+        "lastname": "T."
+      },
+      "name": "Evening Walk",
+      "distance": 3871.0,
+      "moving_time": 3099,
+      "elapsed_time": 3205,
+      "total_elevation_gain": 55.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "COROS APEX 4",
+      "_fetched_date": "2026-04-20"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Andrius",
+        "lastname": "A."
+      },
+      "name": "Evening Walk",
+      "distance": 1379.6,
+      "moving_time": 1088,
+      "elapsed_time": 1186,
+      "total_elevation_gain": 15.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin fēnix 7",
+      "_fetched_date": "2026-04-20"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -13165,6 +13239,36 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-20T19:59:51.619222+00:00",
+      "new_count": 4,
+      "activities": [
+        {
+          "athlete": "Azuolas S.",
+          "sport": "Run",
+          "distance_km": 10.01,
+          "name": "Evening Run"
+        },
+        {
+          "athlete": "Paulius R.",
+          "sport": "Run",
+          "distance_km": 15.04,
+          "name": "Evening Run"
+        },
+        {
+          "athlete": "Augustinas T.",
+          "sport": "Walk",
+          "distance_km": 3.87,
+          "name": "Evening Walk"
+        },
+        {
+          "athlete": "Andrius A.",
+          "sport": "Walk",
+          "distance_km": 1.38,
+          "name": "Evening Walk"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-20T17:59:23.874744+00:00",
       "new_count": 4,
       "activities": [
@@ -14072,30 +14176,6 @@
           "sport": "GravelRide",
           "distance_km": 49.12,
           "name": "Evening Gravel Ride"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-17T17:51:15.292295+00:00",
-      "new_count": 3,
-      "activities": [
-        {
-          "athlete": "Paulius R.",
-          "sport": "Walk",
-          "distance_km": 2.93,
-          "name": "Evening Walk"
-        },
-        {
-          "athlete": "Tautvydas Ž.",
-          "sport": "Run",
-          "distance_km": 3.44,
-          "name": "Evening Run"
-        },
-        {
-          "athlete": "Antanas R.",
-          "sport": "Swim",
-          "distance_km": 3.2,
-          "name": "Afternoon Swim"
         }
       ]
     }
