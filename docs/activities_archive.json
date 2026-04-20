@@ -1,5 +1,8 @@
 {
   "fingerprints": [
+    "56244b008b2f1e636f617da1851466d8",
+    "cf04ae40c51090fdcf997dfd593ad386",
+    "3713131e619f58b56f23773989a23d55",
     "3b7e0875706f60dd68fa9f826ecbaf80",
     "4ae5322d22faf03cb3039335210e3a15",
     "2096f6785c4d52df3a4a97d49350a255",
@@ -783,6 +786,60 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Žilvinas",
+        "lastname": "P."
+      },
+      "name": "12 sav. iki HM / varžybų savaitė",
+      "distance": 10022.2,
+      "moving_time": 3631,
+      "elapsed_time": 3699,
+      "total_elevation_gain": 52.0,
+      "type": "Run",
+      "sport_type": "Run",
+      "workout_type": null,
+      "device_name": "Garmin Forerunner 955",
+      "_fetched_date": "2026-04-20"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Valentinas",
+        "lastname": "A."
+      },
+      "name": "Iki pardės grietinės cepelinams🍽️",
+      "distance": 7608.5,
+      "moving_time": 2893,
+      "elapsed_time": 3288,
+      "total_elevation_gain": 151.0,
+      "type": "Run",
+      "sport_type": "Run",
+      "workout_type": null,
+      "device_name": "COROS VERTIX",
+      "_fetched_date": "2026-04-20"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Donatas",
+        "lastname": "J."
+      },
+      "name": "Afternoon Ride",
+      "distance": 50258.3,
+      "moving_time": 6919,
+      "elapsed_time": 6919,
+      "total_elevation_gain": 359.0,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": null,
+      "device_name": "Garmin Forerunner 255 Music",
+      "_fetched_date": "2026-04-20"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -13036,6 +13093,30 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-20T16:12:08.919574+00:00",
+      "new_count": 3,
+      "activities": [
+        {
+          "athlete": "Žilvinas P.",
+          "sport": "Run",
+          "distance_km": 10.02,
+          "name": "12 sav. iki HM / varžybų savaitė"
+        },
+        {
+          "athlete": "Valentinas A.",
+          "sport": "Run",
+          "distance_km": 7.61,
+          "name": "Iki pardės grietinės cepelinams🍽️"
+        },
+        {
+          "athlete": "Donatas J.",
+          "sport": "Ride",
+          "distance_km": 50.26,
+          "name": "Afternoon Ride"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-20T14:52:36.895119+00:00",
       "new_count": 5,
       "activities": [
@@ -13955,42 +14036,6 @@
           "sport": "Run",
           "distance_km": 12.62,
           "name": "Afternoon Run"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-17T14:21:31.597311+00:00",
-      "new_count": 5,
-      "activities": [
-        {
-          "athlete": "Liudas S.",
-          "sport": "Ride",
-          "distance_km": 2.9,
-          "name": "From gym"
-        },
-        {
-          "athlete": "Viktorija M.",
-          "sport": "Walk",
-          "distance_km": 1.41,
-          "name": "Afternoon Walk"
-        },
-        {
-          "athlete": "Liudas S.",
-          "sport": "Ride",
-          "distance_km": 2.49,
-          "name": "To gym"
-        },
-        {
-          "athlete": "Gintarė B.",
-          "sport": "Ride",
-          "distance_km": 41.39,
-          "name": "Morning Ride"
-        },
-        {
-          "athlete": "Greta N.",
-          "sport": "Walk",
-          "distance_km": 3.78,
-          "name": "Afternoon Walk"
         }
       ]
     }
