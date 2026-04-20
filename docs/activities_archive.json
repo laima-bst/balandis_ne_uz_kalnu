@@ -13239,6 +13239,11 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-20T23:43:53.827747+00:00",
+      "new_count": 0,
+      "activities": []
+    },
+    {
       "timestamp": "2026-04-20T22:45:58.210908+00:00",
       "new_count": 0,
       "activities": []
@@ -14153,18 +14158,6 @@
       "timestamp": "2026-04-17T22:41:33.037462+00:00",
       "new_count": 0,
       "activities": []
-    },
-    {
-      "timestamp": "2026-04-17T21:43:54.287112+00:00",
-      "new_count": 1,
-      "activities": [
-        {
-          "athlete": "Matas A.",
-          "sport": "Walk",
-          "distance_km": 5.98,
-          "name": "Evening Walk"
-        }
-      ]
     }
   ]
 }
