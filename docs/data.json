@@ -210,9 +210,9 @@
     {
       "name": "Sūkuriai",
       "color": "#9b59b6",
-      "total_points": 1178.8,
-      "total_distance_km": 410.63,
-      "activity_count": 69,
+      "total_points": 1182.2,
+      "total_distance_km": 411.75,
+      "activity_count": 70,
       "members": [
         "Ieva S.",
         "Matas A.",
@@ -221,12 +221,12 @@
         "Domas C."
       ],
       "member_count": 5,
-      "points_per_person": 235.8,
+      "points_per_person": 236.4,
       "member_details": [
         {
           "name": "Ieva S.",
-          "points": 446.6,
-          "pct_of_team": 37.9
+          "points": 450.0,
+          "pct_of_team": 38.1
         },
         {
           "name": "Žilvinas P.",
@@ -236,7 +236,7 @@
         {
           "name": "Daina G.",
           "points": 288.8,
-          "pct_of_team": 24.5
+          "pct_of_team": 24.4
         },
         {
           "name": "Matas A.",
@@ -250,7 +250,7 @@
         }
       ],
       "distance_by_group": {
-        "run_walk": 283.1,
+        "run_walk": 284.2,
         "ride": 113.1,
         "swim": 14.4
       },
@@ -727,14 +727,14 @@
         "Nemiegantys Balandžiai": 2942.0,
         "Balandžio dvasia": 1845.4,
         "Tardigrada": 2098.8,
-        "Sūkuriai": 1178.8,
+        "Sūkuriai": 1182.2,
         "Nešam Kudašių": 1364.8
       },
       "points_per_person": {
         "Nemiegantys Balandžiai": 490.3,
         "Balandžio dvasia": 369.1,
         "Tardigrada": 419.8,
-        "Sūkuriai": 235.8,
+        "Sūkuriai": 236.4,
         "Nešam Kudašių": 273.0
       }
     }
@@ -952,15 +952,15 @@
     },
     {
       "name": "Ieva S.",
-      "total_points": 446.6,
-      "activity_count": 28,
-      "total_distance_km": 96.45,
-      "total_elevation_m": 816.0,
+      "total_points": 450.0,
+      "activity_count": 29,
+      "total_distance_km": 97.57,
+      "total_elevation_m": 831.0,
       "by_type": {
         "Walk": {
-          "count": 17,
-          "points": 130.3,
-          "distance_km": 43.470000000000006
+          "count": 18,
+          "points": 133.7,
+          "distance_km": 44.589999999999996
         },
         "Run": {
           "count": 5,
@@ -980,7 +980,7 @@
       },
       "rank": 8,
       "points_by_group": {
-        "run_walk": 221.8,
+        "run_walk": 225.2,
         "ride": 8.0,
         "swim": 216.8
       }
@@ -1432,6 +1432,18 @@
     }
   ],
   "activities": [
+    {
+      "athlete_key": "ieva_s.",
+      "athlete_name": "Ieva S.",
+      "name": "Afternoon Walk",
+      "sport_type": "Walk",
+      "start_date": null,
+      "_fetched_date": "2026-04-20",
+      "distance_km": 1.12,
+      "elevation_m": 15.0,
+      "moving_time_s": 858,
+      "points": 3.4
+    },
     {
       "athlete_key": "liudas_s.",
       "athlete_name": "Liudas S.",
@@ -9353,8 +9365,20 @@
       "points": 27.5
     }
   ],
-  "generated_at": "2026-04-20T10:50:10.254752+00:00",
+  "generated_at": "2026-04-20T12:06:02.073117+00:00",
   "run_log": [
+    {
+      "timestamp": "2026-04-20T12:06:02.051678+00:00",
+      "new_count": 1,
+      "activities": [
+        {
+          "athlete": "Ieva S.",
+          "sport": "Walk",
+          "distance_km": 1.12,
+          "name": "Afternoon Walk"
+        }
+      ]
+    },
     {
       "timestamp": "2026-04-20T10:50:10.232950+00:00",
       "new_count": 9,
@@ -10274,24 +10298,6 @@
           "athlete": "Liudas S.",
           "sport": "Walk",
           "distance_km": 4.05,
-          "name": "Afternoon Walk"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-17T10:58:37.408097+00:00",
-      "new_count": 2,
-      "activities": [
-        {
-          "athlete": "Viktorija M.",
-          "sport": "Walk",
-          "distance_km": 1.07,
-          "name": "Lunch Walk"
-        },
-        {
-          "athlete": "Greta N.",
-          "sport": "Walk",
-          "distance_km": 1.46,
           "name": "Afternoon Walk"
         }
       ]
