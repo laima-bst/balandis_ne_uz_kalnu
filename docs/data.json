@@ -9562,8 +9562,13 @@
       "points": 27.5
     }
   ],
-  "generated_at": "2026-04-20T19:59:51.641133+00:00",
+  "generated_at": "2026-04-20T21:50:08.685977+00:00",
   "run_log": [
+    {
+      "timestamp": "2026-04-20T21:50:08.663647+00:00",
+      "new_count": 0,
+      "activities": []
+    },
     {
       "timestamp": "2026-04-20T19:59:51.619222+00:00",
       "new_count": 4,
@@ -10486,24 +10491,6 @@
       "timestamp": "2026-04-17T20:49:26.353396+00:00",
       "new_count": 0,
       "activities": []
-    },
-    {
-      "timestamp": "2026-04-17T19:03:58.635532+00:00",
-      "new_count": 2,
-      "activities": [
-        {
-          "athlete": "Paulius R.",
-          "sport": "Walk",
-          "distance_km": 6.78,
-          "name": "Evening Walk"
-        },
-        {
-          "athlete": "Benediktas B.",
-          "sport": "GravelRide",
-          "distance_km": 49.12,
-          "name": "Evening Gravel Ride"
-        }
-      ]
     }
   ]
 }
