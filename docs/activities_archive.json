@@ -1,5 +1,6 @@
 {
   "fingerprints": [
+    "8369a36bda763e9ec938d16a3a8542b7",
     "5b5c73eff1d603eca853eedec64c22b1",
     "3d27fd9a74c03c91a54c1ab1da43dba8",
     "76ed2c39846179a20228fe254b7bc7aa",
@@ -767,6 +768,23 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Donatas",
+        "lastname": "J."
+      },
+      "name": "Morning Walk",
+      "distance": 1180.1,
+      "moving_time": 1027,
+      "elapsed_time": 1101,
+      "total_elevation_gain": 5.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin Forerunner 255 Music",
+      "_fetched_date": "2026-04-20"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -12743,6 +12761,18 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-20T08:11:39.410169+00:00",
+      "new_count": 1,
+      "activities": [
+        {
+          "athlete": "Donatas J.",
+          "sport": "Walk",
+          "distance_km": 1.18,
+          "name": "Morning Walk"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-20T05:43:50.773733+00:00",
       "new_count": 7,
       "activities": [
@@ -13631,42 +13661,6 @@
           "athlete": "Augustinas T.",
           "sport": "Ride",
           "distance_km": 40.39,
-          "name": "Morning Ride"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-17T07:50:58.121947+00:00",
-      "new_count": 5,
-      "activities": [
-        {
-          "athlete": "Liudas S.",
-          "sport": "Walk",
-          "distance_km": 1.22,
-          "name": "Morning Walk"
-        },
-        {
-          "athlete": "Liudas S.",
-          "sport": "Walk",
-          "distance_km": 2.8,
-          "name": "Morning Walk"
-        },
-        {
-          "athlete": "Azuolas S.",
-          "sport": "Walk",
-          "distance_km": 2.16,
-          "name": "Morning Walk"
-        },
-        {
-          "athlete": "Liudas S.",
-          "sport": "Walk",
-          "distance_km": 1.27,
-          "name": "Morning Walk"
-        },
-        {
-          "athlete": "Sandra M.",
-          "sport": "Ride",
-          "distance_km": 3.98,
           "name": "Morning Ride"
         }
       ]
