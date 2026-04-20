@@ -1,5 +1,9 @@
 {
   "fingerprints": [
+    "5a3ff8b4e8828a8cbad767053f43e063",
+    "b25d50ea99a9c4dbef537afa556391cb",
+    "5472d650f053b1090d1552261f188b41",
+    "30a925c6e0d38cb53519be2905f4e701",
     "56244b008b2f1e636f617da1851466d8",
     "cf04ae40c51090fdcf997dfd593ad386",
     "3713131e619f58b56f23773989a23d55",
@@ -786,6 +790,74 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Antanas",
+        "lastname": "R."
+      },
+      "name": "Afternoon Swim",
+      "distance": 2000.0,
+      "moving_time": 2606,
+      "elapsed_time": 2623,
+      "total_elevation_gain": 0,
+      "type": "Swim",
+      "sport_type": "Swim",
+      "device_name": "Garmin fēnix 7",
+      "_fetched_date": "2026-04-20"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Ieva",
+        "lastname": "S."
+      },
+      "name": "Evening Walk",
+      "distance": 1681.7,
+      "moving_time": 1809,
+      "elapsed_time": 3391,
+      "total_elevation_gain": 14.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin Forerunner 255 Music",
+      "_fetched_date": "2026-04-20"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Greta",
+        "lastname": "N."
+      },
+      "name": "Afternoon Walk",
+      "distance": 3152.2,
+      "moving_time": 2713,
+      "elapsed_time": 21235,
+      "total_elevation_gain": 45.7,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-20"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Sandra",
+        "lastname": "M."
+      },
+      "name": "Evening Walk",
+      "distance": 7015.8,
+      "moving_time": 5287,
+      "elapsed_time": 5385,
+      "total_elevation_gain": 56.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin Venu 2 Plus",
+      "_fetched_date": "2026-04-20"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -13093,6 +13165,36 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-20T17:59:23.874744+00:00",
+      "new_count": 4,
+      "activities": [
+        {
+          "athlete": "Antanas R.",
+          "sport": "Swim",
+          "distance_km": 2.0,
+          "name": "Afternoon Swim"
+        },
+        {
+          "athlete": "Ieva S.",
+          "sport": "Walk",
+          "distance_km": 1.68,
+          "name": "Evening Walk"
+        },
+        {
+          "athlete": "Greta N.",
+          "sport": "Walk",
+          "distance_km": 3.15,
+          "name": "Afternoon Walk"
+        },
+        {
+          "athlete": "Sandra M.",
+          "sport": "Walk",
+          "distance_km": 7.02,
+          "name": "Evening Walk"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-20T16:12:08.919574+00:00",
       "new_count": 3,
       "activities": [
@@ -13994,48 +14096,6 @@
           "sport": "Swim",
           "distance_km": 3.2,
           "name": "Afternoon Swim"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-17T16:02:52.493393+00:00",
-      "new_count": 6,
-      "activities": [
-        {
-          "athlete": "Viktorija M.",
-          "sport": "Walk",
-          "distance_km": 1.23,
-          "name": "Afternoon Walk"
-        },
-        {
-          "athlete": "Valentinas A.",
-          "sport": "Ride",
-          "distance_km": 138.84,
-          "name": "Morning Ride"
-        },
-        {
-          "athlete": "Laima A.",
-          "sport": "Ride",
-          "distance_km": 138.59,
-          "name": "Prižiūriu, kad Valius nebebūtų paskutinis savo komandoj"
-        },
-        {
-          "athlete": "Sandra M.",
-          "sport": "Ride",
-          "distance_km": 12.44,
-          "name": "Afternoon Ride"
-        },
-        {
-          "athlete": "Augustinas T.",
-          "sport": "Ride",
-          "distance_km": 37.34,
-          "name": "Afternoon Ride"
-        },
-        {
-          "athlete": "Andrius A.",
-          "sport": "Run",
-          "distance_km": 12.62,
-          "name": "Afternoon Run"
         }
       ]
     }
