@@ -13937,6 +13937,11 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-21T21:51:33.940684+00:00",
+      "new_count": 0,
+      "activities": []
+    },
+    {
       "timestamp": "2026-04-21T20:55:44.039614+00:00",
       "new_count": 3,
       "activities": [
@@ -14934,54 +14939,6 @@
           "athlete": "Gintarė B.",
           "sport": "Walk",
           "distance_km": 5.57,
-          "name": "Afternoon Walk"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-18T14:41:54.933993+00:00",
-      "new_count": 7,
-      "activities": [
-        {
-          "athlete": "Liudas S.",
-          "sport": "Ride",
-          "distance_km": 5.27,
-          "name": "Brum brum"
-        },
-        {
-          "athlete": "Liudas S.",
-          "sport": "Ride",
-          "distance_km": 4.87,
-          "name": "Brum brum"
-        },
-        {
-          "athlete": "Gertrūda G.",
-          "sport": "Walk",
-          "distance_km": 1.9,
-          "name": "Afternoon Walk"
-        },
-        {
-          "athlete": "Donatas J.",
-          "sport": "Walk",
-          "distance_km": 4.35,
-          "name": "Afternoon Walk"
-        },
-        {
-          "athlete": "Sandra M.",
-          "sport": "Walk",
-          "distance_km": 2.63,
-          "name": "Afternoon Walk"
-        },
-        {
-          "athlete": "Ieva S.",
-          "sport": "Walk",
-          "distance_km": 1.31,
-          "name": "Afternoon Walk"
-        },
-        {
-          "athlete": "Sandra M.",
-          "sport": "Walk",
-          "distance_km": 1.08,
           "name": "Afternoon Walk"
         }
       ]
