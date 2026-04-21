@@ -1,5 +1,8 @@
 {
   "fingerprints": [
+    "ba39071ea6f44fa994cd9d96ce6fe91a",
+    "1c2033ae413498f1e97a509e7b16077d",
+    "532c5b00186305d3c7cf39c0de0f0a68",
     "2b0d6f05f39421f44f591c2c2b67673c",
     "b18420edae7d23368539a78aa47dc7a8",
     "441ee0360181b289a7ba2fbeb58a0086",
@@ -802,6 +805,57 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Augustė",
+        "lastname": "J."
+      },
+      "name": "Lunch Walk",
+      "distance": 1215.4,
+      "moving_time": 998,
+      "elapsed_time": 1056,
+      "total_elevation_gain": 6.7,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-21"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Paulius",
+        "lastname": "R."
+      },
+      "name": "Lunch Walk",
+      "distance": 3704.8,
+      "moving_time": 2052,
+      "elapsed_time": 2052,
+      "total_elevation_gain": 19.3,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Wear OS by Google",
+      "_fetched_date": "2026-04-21"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Azuolas",
+        "lastname": "S."
+      },
+      "name": "Morning Walk",
+      "distance": 1013.9,
+      "moving_time": 607,
+      "elapsed_time": 607,
+      "total_elevation_gain": 5.8,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-21"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -13388,6 +13442,30 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-21T09:44:40.935844+00:00",
+      "new_count": 3,
+      "activities": [
+        {
+          "athlete": "Augustė J.",
+          "sport": "Walk",
+          "distance_km": 1.22,
+          "name": "Lunch Walk"
+        },
+        {
+          "athlete": "Paulius R.",
+          "sport": "Walk",
+          "distance_km": 3.7,
+          "name": "Lunch Walk"
+        },
+        {
+          "athlete": "Azuolas S.",
+          "sport": "Walk",
+          "distance_km": 1.01,
+          "name": "Morning Walk"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-21T07:55:20.119867+00:00",
       "new_count": 4,
       "activities": [
@@ -14352,11 +14430,6 @@
           "name": "Evening Walk"
         }
       ]
-    },
-    {
-      "timestamp": "2026-04-18T05:08:39.427114+00:00",
-      "new_count": 0,
-      "activities": []
     }
   ]
 }
