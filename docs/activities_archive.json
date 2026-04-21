@@ -13937,6 +13937,11 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-21T23:36:43.530948+00:00",
+      "new_count": 0,
+      "activities": []
+    },
+    {
       "timestamp": "2026-04-21T22:39:18.582761+00:00",
       "new_count": 0,
       "activities": []
@@ -14896,36 +14901,6 @@
           "athlete": "Arturas K.",
           "sport": "Walk",
           "distance_km": 12.63,
-          "name": "Afternoon Walk"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-18T16:43:20.627638+00:00",
-      "new_count": 4,
-      "activities": [
-        {
-          "athlete": "Aurelija S.",
-          "sport": "Walk",
-          "distance_km": 2.01,
-          "name": "Su draugute, kuri labai nenorėjo eiti 🙈"
-        },
-        {
-          "athlete": "Gertrūda G.",
-          "sport": "Walk",
-          "distance_km": 3.28,
-          "name": "Afternoon Walk"
-        },
-        {
-          "athlete": "Matas A.",
-          "sport": "Walk",
-          "distance_km": 6.5,
-          "name": "Afternoon Walk"
-        },
-        {
-          "athlete": "Tautvydas Ž.",
-          "sport": "Walk",
-          "distance_km": 10.83,
           "name": "Afternoon Walk"
         }
       ]
