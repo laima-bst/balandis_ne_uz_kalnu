@@ -1,5 +1,9 @@
 {
   "fingerprints": [
+    "5da0efad7ca93a3fe349bfc0d1320e8c",
+    "3bc1a2dedce3a319663274961438b6a7",
+    "d3410b595bf699732f4f74063ead6281",
+    "4e83d916ace960eca5e421044f233053",
     "ec665a0cc346a720ff2d9ad145b5ca27",
     "6b6383f526d49f5aec3b335b0d4b0324",
     "4c779f38370d5b8a64537ba4696f156d",
@@ -794,6 +798,77 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Edvinas",
+        "lastname": "V."
+      },
+      "name": "Morning Ride",
+      "distance": 1273.3,
+      "moving_time": 282,
+      "elapsed_time": 296,
+      "total_elevation_gain": 0.0,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": null,
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-21"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Edvinas",
+        "lastname": "V."
+      },
+      "name": "Morning Ride",
+      "distance": 2342.6,
+      "moving_time": 517,
+      "elapsed_time": 521,
+      "total_elevation_gain": 0.0,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": null,
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-21"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Riskman",
+        "lastname": "G."
+      },
+      "name": "Morning Ride",
+      "distance": 16950.4,
+      "moving_time": 3857,
+      "elapsed_time": 4202,
+      "total_elevation_gain": 126.5,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": null,
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-21"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Daina",
+        "lastname": "G."
+      },
+      "name": "Morning Walk",
+      "distance": 2583.1,
+      "moving_time": 1407,
+      "elapsed_time": 2755,
+      "total_elevation_gain": 45.4,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-21"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -13239,6 +13314,36 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-21T05:29:19.923403+00:00",
+      "new_count": 4,
+      "activities": [
+        {
+          "athlete": "Edvinas V.",
+          "sport": "Ride",
+          "distance_km": 1.27,
+          "name": "Morning Ride"
+        },
+        {
+          "athlete": "Edvinas V.",
+          "sport": "Ride",
+          "distance_km": 2.34,
+          "name": "Morning Ride"
+        },
+        {
+          "athlete": "Riskman G.",
+          "sport": "Ride",
+          "distance_km": 16.95,
+          "name": "Morning Ride"
+        },
+        {
+          "athlete": "Daina G.",
+          "sport": "Walk",
+          "distance_km": 2.58,
+          "name": "Morning Walk"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-21T02:46:28.605530+00:00",
       "new_count": 0,
       "activities": []
@@ -14151,11 +14256,6 @@
     },
     {
       "timestamp": "2026-04-18T02:35:37.428864+00:00",
-      "new_count": 0,
-      "activities": []
-    },
-    {
-      "timestamp": "2026-04-17T23:41:02.824219+00:00",
       "new_count": 0,
       "activities": []
     }
