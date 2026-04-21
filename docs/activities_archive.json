@@ -1,5 +1,6 @@
 {
   "fingerprints": [
+    "8f2d60b69d9969fb8fef786bca97349c",
     "01d618e02f102e1dddaffd268e2e023e",
     "fcd3a10e7db4a78e1098024258591f14",
     "685ffd86f0d16506b769ea09b6f277c7",
@@ -809,6 +810,23 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Augustinas",
+        "lastname": "T."
+      },
+      "name": "Lunch Walk",
+      "distance": 2473.0,
+      "moving_time": 1507,
+      "elapsed_time": 3603,
+      "total_elevation_gain": 10.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "COROS APEX 4",
+      "_fetched_date": "2026-04-21"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -13515,6 +13533,18 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-21T13:45:45.147404+00:00",
+      "new_count": 1,
+      "activities": [
+        {
+          "athlete": "Augustinas T.",
+          "sport": "Walk",
+          "distance_km": 2.47,
+          "name": "Lunch Walk"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-21T11:09:42.089063+00:00",
       "new_count": 4,
       "activities": [
@@ -14489,24 +14519,6 @@
           "sport": "Swim",
           "distance_km": 2.0,
           "name": "Morning Swim"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-18T08:54:12.171034+00:00",
-      "new_count": 2,
-      "activities": [
-        {
-          "athlete": "Gertrūda G.",
-          "sport": "Walk",
-          "distance_km": 0.65,
-          "name": "Lunch Walk"
-        },
-        {
-          "athlete": "Donatas J.",
-          "sport": "Walk",
-          "distance_km": 1.03,
-          "name": "Morning Walk"
         }
       ]
     }
