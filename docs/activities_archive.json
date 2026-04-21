@@ -1,5 +1,11 @@
 {
   "fingerprints": [
+    "1984b94cbe1bc1ad79785c08ef6b4aa5",
+    "263945e9f635a4f08ab310e9d82ea877",
+    "42c8563e9d83c24a6c345306b53979f8",
+    "04bc1426c2b69c7aa26ba19c63f40867",
+    "1194041cc985a3b7c1f4852b4456de88",
+    "8092f8a339a344fd97508934519a9125",
     "10417669c4f672b444746dfa8f4bb8f5",
     "b7da327251c7943f5e8a1752eeda93f6",
     "30cc09a99a50ed8ff86ed6e5c5d73296",
@@ -818,6 +824,110 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Paulius",
+        "lastname": "R."
+      },
+      "name": "Evening Walk",
+      "distance": 3130.5,
+      "moving_time": 1652,
+      "elapsed_time": 1676,
+      "total_elevation_gain": 26.5,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Wear OS by Google",
+      "_fetched_date": "2026-04-21"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Aurelija",
+        "lastname": "S."
+      },
+      "name": "Evening Tennis",
+      "distance": 366.0,
+      "moving_time": 4147,
+      "elapsed_time": 4147,
+      "total_elevation_gain": 0,
+      "type": "Workout",
+      "sport_type": "Tennis",
+      "workout_type": null,
+      "device_name": "Garmin Venu 3S",
+      "_fetched_date": "2026-04-21"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Andrius",
+        "lastname": "A."
+      },
+      "name": "Evening Walk",
+      "distance": 1013.2,
+      "moving_time": 685,
+      "elapsed_time": 700,
+      "total_elevation_gain": 25.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin fēnix 7",
+      "_fetched_date": "2026-04-21"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Augustinas",
+        "lastname": "T."
+      },
+      "name": "Evening Ride",
+      "distance": 12913.0,
+      "moving_time": 1821,
+      "elapsed_time": 1821,
+      "total_elevation_gain": 85.0,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": null,
+      "device_name": "Wahoo ELEMNT ROAM",
+      "_fetched_date": "2026-04-21"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Sandra",
+        "lastname": "M."
+      },
+      "name": "Evening Walk",
+      "distance": 1042.1,
+      "moving_time": 746,
+      "elapsed_time": 804,
+      "total_elevation_gain": 15.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin Venu 2 Plus",
+      "_fetched_date": "2026-04-21"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Greta",
+        "lastname": "N."
+      },
+      "name": "Afternoon Walk",
+      "distance": 4186.5,
+      "moving_time": 3787,
+      "elapsed_time": 8143,
+      "total_elevation_gain": 72.3,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-21"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -13680,6 +13790,48 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-21T17:05:04.287754+00:00",
+      "new_count": 6,
+      "activities": [
+        {
+          "athlete": "Paulius R.",
+          "sport": "Walk",
+          "distance_km": 3.13,
+          "name": "Evening Walk"
+        },
+        {
+          "athlete": "Aurelija S.",
+          "sport": "Tennis",
+          "distance_km": 0.37,
+          "name": "Evening Tennis"
+        },
+        {
+          "athlete": "Andrius A.",
+          "sport": "Walk",
+          "distance_km": 1.01,
+          "name": "Evening Walk"
+        },
+        {
+          "athlete": "Augustinas T.",
+          "sport": "Ride",
+          "distance_km": 12.91,
+          "name": "Evening Ride"
+        },
+        {
+          "athlete": "Sandra M.",
+          "sport": "Walk",
+          "distance_km": 1.04,
+          "name": "Evening Walk"
+        },
+        {
+          "athlete": "Greta N.",
+          "sport": "Walk",
+          "distance_km": 4.19,
+          "name": "Afternoon Walk"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-21T15:15:34.562726+00:00",
       "new_count": 8,
       "activities": [
@@ -14684,18 +14836,6 @@
           "sport": "Ride",
           "distance_km": 37.91,
           "name": "Ladies' ride"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-18T10:42:37.493508+00:00",
-      "new_count": 1,
-      "activities": [
-        {
-          "athlete": "Andrius A.",
-          "sport": "Run",
-          "distance_km": 19.05,
-          "name": "Morning Run"
         }
       ]
     }
