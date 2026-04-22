@@ -1,5 +1,6 @@
 {
   "fingerprints": [
+    "820f7773aae9f2266dcec923b77f55ce",
     "bdb9b7bf81ae6b2cf9447e2a5674c416",
     "3f363e6be44dfa186b36f39e77630403",
     "430cf1ad5b4026631197f37ea68484ef",
@@ -849,6 +850,23 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Daina",
+        "lastname": "G."
+      },
+      "name": "Afternoon Walk",
+      "distance": 4579.2,
+      "moving_time": 2108,
+      "elapsed_time": 2238,
+      "total_elevation_gain": 42.7,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-22"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -14248,6 +14266,18 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-22T13:46:19.617079+00:00",
+      "new_count": 1,
+      "activities": [
+        {
+          "athlete": "Daina G.",
+          "sport": "Walk",
+          "distance_km": 4.58,
+          "name": "Afternoon Walk"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-22T11:07:42.597791+00:00",
       "new_count": 9,
       "activities": [
@@ -15250,11 +15280,6 @@
     },
     {
       "timestamp": "2026-04-18T23:37:36.879007+00:00",
-      "new_count": 0,
-      "activities": []
-    },
-    {
-      "timestamp": "2026-04-18T22:37:21.269066+00:00",
       "new_count": 0,
       "activities": []
     }

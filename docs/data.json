@@ -210,38 +210,38 @@
     {
       "name": "Sūkuriai",
       "color": "#9b59b6",
-      "total_points": 1264.9,
-      "total_distance_km": 439.31,
-      "activity_count": 77,
+      "total_points": 1278.6,
+      "total_distance_km": 443.89,
+      "activity_count": 78,
       "members": [
-        "Ieva S.",
         "Daina G.",
+        "Ieva S.",
         "Žilvinas P.",
         "Matas A.",
         "Domas C."
       ],
       "member_count": 5,
-      "points_per_person": 253.0,
+      "points_per_person": 255.7,
       "member_details": [
         {
           "name": "Ieva S.",
           "points": 461.5,
-          "pct_of_team": 36.5
+          "pct_of_team": 36.1
         },
         {
           "name": "Žilvinas P.",
           "points": 369.0,
-          "pct_of_team": 29.2
+          "pct_of_team": 28.9
         },
         {
           "name": "Daina G.",
-          "points": 329.9,
-          "pct_of_team": 26.1
+          "points": 343.6,
+          "pct_of_team": 26.9
         },
         {
           "name": "Matas A.",
           "points": 83.4,
-          "pct_of_team": 6.6
+          "pct_of_team": 6.5
         },
         {
           "name": "Domas C.",
@@ -250,7 +250,7 @@
         }
       ],
       "distance_by_group": {
-        "run_walk": 311.8,
+        "run_walk": 316.3,
         "ride": 113.1,
         "swim": 14.4
       },
@@ -775,14 +775,14 @@
         "Nemiegantys Balandžiai": 3140.4,
         "Balandžio dvasia": 1930.2,
         "Tardigrada": 2321.9,
-        "Sūkuriai": 1264.9,
+        "Sūkuriai": 1278.6,
         "Nešam Kudašių": 1517.5
       },
       "points_per_person": {
         "Nemiegantys Balandžiai": 523.4,
         "Balandžio dvasia": 386.0,
         "Tardigrada": 464.4,
-        "Sūkuriai": 253.0,
+        "Sūkuriai": 255.7,
         "Nešam Kudašių": 303.5
       }
     }
@@ -1109,6 +1109,26 @@
       }
     },
     {
+      "name": "Daina G.",
+      "total_points": 343.6,
+      "activity_count": 27,
+      "total_distance_km": 114.59,
+      "total_elevation_m": 1165.0,
+      "by_type": {
+        "Walk": {
+          "count": 27,
+          "points": 343.6000000000001,
+          "distance_km": 114.59
+        }
+      },
+      "rank": 12,
+      "points_by_group": {
+        "run_walk": 343.6,
+        "ride": 0.0,
+        "swim": 0.0
+      }
+    },
+    {
       "name": "Valentinas A.",
       "total_points": 340.1,
       "activity_count": 8,
@@ -1131,30 +1151,10 @@
           "distance_km": 6.54
         }
       },
-      "rank": 12,
+      "rank": 13,
       "points_by_group": {
         "run_walk": 42.5,
         "ride": 297.6,
-        "swim": 0.0
-      }
-    },
-    {
-      "name": "Daina G.",
-      "total_points": 329.9,
-      "activity_count": 26,
-      "total_distance_km": 110.01,
-      "total_elevation_m": 1122.0,
-      "by_type": {
-        "Walk": {
-          "count": 26,
-          "points": 329.9000000000001,
-          "distance_km": 110.01000000000002
-        }
-      },
-      "rank": 13,
-      "points_by_group": {
-        "run_walk": 329.9,
-        "ride": 0.0,
         "swim": 0.0
       }
     },
@@ -1485,6 +1485,18 @@
     }
   ],
   "activities": [
+    {
+      "athlete_key": "daina_g.",
+      "athlete_name": "Daina G.",
+      "name": "Afternoon Walk",
+      "sport_type": "Walk",
+      "start_date": null,
+      "_fetched_date": "2026-04-22",
+      "distance_km": 4.58,
+      "elevation_m": 42.7,
+      "moving_time_s": 2108,
+      "points": 13.7
+    },
     {
       "athlete_key": "liudas_s.",
       "athlete_name": "Liudas S.",
@@ -10210,8 +10222,20 @@
       "points": 27.5
     }
   ],
-  "generated_at": "2026-04-22T11:07:42.621306+00:00",
+  "generated_at": "2026-04-22T13:46:19.641046+00:00",
   "run_log": [
+    {
+      "timestamp": "2026-04-22T13:46:19.617079+00:00",
+      "new_count": 1,
+      "activities": [
+        {
+          "athlete": "Daina G.",
+          "sport": "Walk",
+          "distance_km": 4.58,
+          "name": "Afternoon Walk"
+        }
+      ]
+    },
     {
       "timestamp": "2026-04-22T11:07:42.597791+00:00",
       "new_count": 9,
@@ -11215,11 +11239,6 @@
     },
     {
       "timestamp": "2026-04-18T23:37:36.879007+00:00",
-      "new_count": 0,
-      "activities": []
-    },
-    {
-      "timestamp": "2026-04-18T22:37:21.269066+00:00",
       "new_count": 0,
       "activities": []
     }
