@@ -10438,8 +10438,13 @@
       "points": 27.5
     }
   ],
-  "generated_at": "2026-04-22T21:58:45.608124+00:00",
+  "generated_at": "2026-04-22T22:59:01.309318+00:00",
   "run_log": [
+    {
+      "timestamp": "2026-04-22T22:59:01.283038+00:00",
+      "new_count": 0,
+      "activities": []
+    },
     {
       "timestamp": "2026-04-22T21:58:45.583901+00:00",
       "new_count": 0,
@@ -11509,18 +11514,6 @@
           "sport": "Ride",
           "distance_km": 8.03,
           "name": "Lunch Ride"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-19T09:56:11.004321+00:00",
-      "new_count": 1,
-      "activities": [
-        {
-          "athlete": "Liudas S.",
-          "sport": "Ride",
-          "distance_km": 3.91,
-          "name": "Brum"
         }
       ]
     }
