@@ -1,5 +1,7 @@
 {
   "fingerprints": [
+    "fdbbd4869329a218768c0525ed362c83",
+    "e61413309ac10af83fdd91097bf41796",
     "d500ff867f0dde9a31310c32ba023b19",
     "2d200290276ba369cf33bbb63104334c",
     "566d12bcbf7c89d91528a6ef4777451d",
@@ -867,6 +869,41 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Benediktas",
+        "lastname": "B."
+      },
+      "name": "Night Ride",
+      "distance": 20580.4,
+      "moving_time": 2790,
+      "elapsed_time": 2872,
+      "total_elevation_gain": 262.0,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": null,
+      "device_name": "Garmin Edge Explore 2",
+      "_fetched_date": "2026-04-22"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Antanas",
+        "lastname": "R."
+      },
+      "name": "Afternoon Swim",
+      "distance": 2025.0,
+      "moving_time": 2585,
+      "elapsed_time": 2691,
+      "total_elevation_gain": 0,
+      "type": "Swim",
+      "sport_type": "Swim",
+      "device_name": "Garmin fēnix 7",
+      "_fetched_date": "2026-04-22"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -14580,6 +14617,24 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-22T20:57:32.433019+00:00",
+      "new_count": 2,
+      "activities": [
+        {
+          "athlete": "Benediktas B.",
+          "sport": "Ride",
+          "distance_km": 20.58,
+          "name": "Night Ride"
+        },
+        {
+          "athlete": "Antanas R.",
+          "sport": "Swim",
+          "distance_km": 2.02,
+          "name": "Afternoon Swim"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-22T19:17:03.037551+00:00",
       "new_count": 6,
       "activities": [
@@ -15667,24 +15722,6 @@
           "sport": "Ride",
           "distance_km": 27.44,
           "name": "Morning Ride"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-19T07:22:54.682261+00:00",
-      "new_count": 2,
-      "activities": [
-        {
-          "athlete": "Liudas S.",
-          "sport": "Walk",
-          "distance_km": 4.89,
-          "name": "Morning Walk"
-        },
-        {
-          "athlete": "Sandra M.",
-          "sport": "Walk",
-          "distance_km": 2.05,
-          "name": "Morning Walk"
         }
       ]
     }
