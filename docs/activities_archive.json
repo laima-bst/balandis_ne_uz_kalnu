@@ -13937,6 +13937,11 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-22T02:44:19.130299+00:00",
+      "new_count": 0,
+      "activities": []
+    },
+    {
       "timestamp": "2026-04-21T23:36:43.530948+00:00",
       "new_count": 0,
       "activities": []
@@ -14890,18 +14895,6 @@
           "sport": "Walk",
           "distance_km": 2.52,
           "name": "Evening Walk"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-18T17:38:04.422732+00:00",
-      "new_count": 1,
-      "activities": [
-        {
-          "athlete": "Arturas K.",
-          "sport": "Walk",
-          "distance_km": 12.63,
-          "name": "Afternoon Walk"
         }
       ]
     }
