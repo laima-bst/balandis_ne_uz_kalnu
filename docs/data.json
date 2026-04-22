@@ -10438,8 +10438,13 @@
       "points": 27.5
     }
   ],
-  "generated_at": "2026-04-22T20:57:32.457129+00:00",
+  "generated_at": "2026-04-22T21:58:45.608124+00:00",
   "run_log": [
+    {
+      "timestamp": "2026-04-22T21:58:45.583901+00:00",
+      "new_count": 0,
+      "activities": []
+    },
     {
       "timestamp": "2026-04-22T20:57:32.433019+00:00",
       "new_count": 2,
@@ -11516,36 +11521,6 @@
           "sport": "Ride",
           "distance_km": 3.91,
           "name": "Brum"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-19T08:57:19.852468+00:00",
-      "new_count": 4,
-      "activities": [
-        {
-          "athlete": "Augustė J.",
-          "sport": "Walk",
-          "distance_km": 1.93,
-          "name": "Morning Walk"
-        },
-        {
-          "athlete": "Donatas J.",
-          "sport": "Ride",
-          "distance_km": 50.09,
-          "name": "Morning Ride"
-        },
-        {
-          "athlete": "Gintarė B.",
-          "sport": "Ride",
-          "distance_km": 27.58,
-          "name": "Morning Ride"
-        },
-        {
-          "athlete": "Augustinas T.",
-          "sport": "Ride",
-          "distance_km": 27.44,
-          "name": "Morning Ride"
         }
       ]
     }
