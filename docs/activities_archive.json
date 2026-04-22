@@ -1,5 +1,7 @@
 {
   "fingerprints": [
+    "9a2189547608f3d6963f1b1fb7354382",
+    "18cd6ff4b06f75bba909fcc0d54b85d4",
     "871c4006130acfbfd6d2eeef12ddd70e",
     "be64da416bd787c0b572b7dfc92ba5fa",
     "89f1e69be80302c49e839e402685f940",
@@ -836,6 +838,41 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Donatas",
+        "lastname": "J."
+      },
+      "name": "Morning Walk",
+      "distance": 1183.1,
+      "moving_time": 1038,
+      "elapsed_time": 1038,
+      "total_elevation_gain": 7.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin Forerunner 255 Music",
+      "_fetched_date": "2026-04-22"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Edvinas",
+        "lastname": "V."
+      },
+      "name": "Morning Ride",
+      "distance": 3145.5,
+      "moving_time": 1445,
+      "elapsed_time": 1498,
+      "total_elevation_gain": 0.0,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": null,
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-22"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -14011,6 +14048,24 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-22T07:51:54.534253+00:00",
+      "new_count": 2,
+      "activities": [
+        {
+          "athlete": "Donatas J.",
+          "sport": "Walk",
+          "distance_km": 1.18,
+          "name": "Morning Walk"
+        },
+        {
+          "athlete": "Edvinas V.",
+          "sport": "Ride",
+          "distance_km": 3.15,
+          "name": "Morning Ride"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-22T05:27:50.702658+00:00",
       "new_count": 4,
       "activities": [
@@ -14938,42 +14993,6 @@
           "athlete": "Greta N.",
           "sport": "Walk",
           "distance_km": 4.42,
-          "name": "Afternoon Walk"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-18T19:42:20.796947+00:00",
-      "new_count": 5,
-      "activities": [
-        {
-          "athlete": "Antanas R.",
-          "sport": "Walk",
-          "distance_km": 2.26,
-          "name": "Evening Walk"
-        },
-        {
-          "athlete": "Antanas R.",
-          "sport": "Walk",
-          "distance_km": 1.03,
-          "name": "Afternoon Walk"
-        },
-        {
-          "athlete": "Antanas R.",
-          "sport": "Swim",
-          "distance_km": 2.0,
-          "name": "Evening Swim"
-        },
-        {
-          "athlete": "Antanas R.",
-          "sport": "Walk",
-          "distance_km": 1.38,
-          "name": "Evening Walk"
-        },
-        {
-          "athlete": "Antanas R.",
-          "sport": "Walk",
-          "distance_km": 1.01,
           "name": "Afternoon Walk"
         }
       ]
