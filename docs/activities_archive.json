@@ -1,5 +1,10 @@
 {
   "fingerprints": [
+    "a45dcc6bfdaae023fbb5ce7425239ec7",
+    "620615d97fd40f0b8e419f8470821f57",
+    "491a79d6e3a73c08d24c1c794bf9baca",
+    "d9be9cc79fe87f97541e5dc682c220b3",
+    "0804162f0b41f8198c9b2af25e0260a1",
     "c12600432ca742bd8680a08a9586686e",
     "e820516b2ebe7fccac59a1fed91df8d6",
     "548f0b647772fc88825707ac601e5bbb",
@@ -898,6 +903,94 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Liudas",
+        "lastname": "S."
+      },
+      "name": "To alaus detales",
+      "distance": 8208.2,
+      "moving_time": 1776,
+      "elapsed_time": 1847,
+      "total_elevation_gain": 14.0,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": null,
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-23"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Donatas",
+        "lastname": "J."
+      },
+      "name": "Afternoon Walk",
+      "distance": 1424.2,
+      "moving_time": 1491,
+      "elapsed_time": 2049,
+      "total_elevation_gain": 24.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin Forerunner 255 Music",
+      "_fetched_date": "2026-04-23"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Arunas",
+        "lastname": "M."
+      },
+      "name": "Afternoon Ride",
+      "distance": 2058.1,
+      "moving_time": 2759,
+      "elapsed_time": 7789,
+      "total_elevation_gain": 10.3,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": null,
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-23"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Augustinas",
+        "lastname": "T."
+      },
+      "name": "Evening Ride",
+      "distance": 23844.2,
+      "moving_time": 2867,
+      "elapsed_time": 2867,
+      "total_elevation_gain": 156.0,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": null,
+      "device_name": "Wahoo ELEMNT ROAM",
+      "_fetched_date": "2026-04-23"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Ieva",
+        "lastname": "S."
+      },
+      "name": "Evening Walk",
+      "distance": 1549.6,
+      "moving_time": 1233,
+      "elapsed_time": 2236,
+      "total_elevation_gain": 11.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin Forerunner 255 Music",
+      "_fetched_date": "2026-04-23"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -15146,6 +15239,42 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-23T17:23:04.366076+00:00",
+      "new_count": 5,
+      "activities": [
+        {
+          "athlete": "Liudas S.",
+          "sport": "Ride",
+          "distance_km": 8.21,
+          "name": "To alaus detales"
+        },
+        {
+          "athlete": "Donatas J.",
+          "sport": "Walk",
+          "distance_km": 1.42,
+          "name": "Afternoon Walk"
+        },
+        {
+          "athlete": "Arunas M.",
+          "sport": "Ride",
+          "distance_km": 2.06,
+          "name": "Afternoon Ride"
+        },
+        {
+          "athlete": "Augustinas T.",
+          "sport": "Ride",
+          "distance_km": 23.84,
+          "name": "Evening Ride"
+        },
+        {
+          "athlete": "Ieva S.",
+          "sport": "Walk",
+          "distance_km": 1.55,
+          "name": "Evening Walk"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-23T15:13:20.824040+00:00",
       "new_count": 11,
       "activities": [
@@ -16253,36 +16382,6 @@
           "sport": "Run",
           "distance_km": 6.19,
           "name": "Night Run"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-19T18:54:47.943768+00:00",
-      "new_count": 4,
-      "activities": [
-        {
-          "athlete": "Aurelija S.",
-          "sport": "Walk",
-          "distance_km": 1.12,
-          "name": "Vėl iš jogos 🧎‍♀️"
-        },
-        {
-          "athlete": "Antanas R.",
-          "sport": "Walk",
-          "distance_km": 1.31,
-          "name": "Evening Walk"
-        },
-        {
-          "athlete": "Antanas R.",
-          "sport": "Swim",
-          "distance_km": 2.0,
-          "name": "Evening Swim"
-        },
-        {
-          "athlete": "Antanas R.",
-          "sport": "Walk",
-          "distance_km": 2.0,
-          "name": "Evening Walk"
         }
       ]
     }
