@@ -1,5 +1,12 @@
 {
   "fingerprints": [
+    "6482076d207a889fa39bbc68fe62031f",
+    "a0badc8a10f3469a8a1a38595df39bec",
+    "93b68d5d50bc4119f534f2974e4fc5cd",
+    "a781d6ebb005c206dee414bb29ffd88b",
+    "bd841e91147138d407155d14e7827fdf",
+    "bfb6145acb85f192c2b4a95643a058ae",
+    "e77bff95253735a7fab6ed466a10b885",
     "115adb060b6a6caa7067a0bb98335632",
     "0957b44101cb718206959d0da26f7222",
     "0afff54203fa73040448091dd9cfbd23",
@@ -877,6 +884,125 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Gertrūda",
+        "lastname": "G."
+      },
+      "name": "Lunch Walk",
+      "distance": 1838.3,
+      "moving_time": 1312,
+      "elapsed_time": 2258,
+      "total_elevation_gain": 11.2,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-23"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Donatas",
+        "lastname": "J."
+      },
+      "name": "Lunch Walk",
+      "distance": 999.3,
+      "moving_time": 847,
+      "elapsed_time": 2346,
+      "total_elevation_gain": 25.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin Forerunner 255 Music",
+      "_fetched_date": "2026-04-23"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Matas",
+        "lastname": "A."
+      },
+      "name": "Lunch Walk",
+      "distance": 1001.5,
+      "moving_time": 659,
+      "elapsed_time": 3487,
+      "total_elevation_gain": 6.4,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-23"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Liudas",
+        "lastname": "S."
+      },
+      "name": "Lunch Walk",
+      "distance": 2915.3,
+      "moving_time": 1821,
+      "elapsed_time": 4606,
+      "total_elevation_gain": 22.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Samsung Galaxy Ultra",
+      "_fetched_date": "2026-04-23"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Andrius",
+        "lastname": "A."
+      },
+      "name": "Lunch Walk",
+      "distance": 3088.3,
+      "moving_time": 1994,
+      "elapsed_time": 2234,
+      "total_elevation_gain": 41.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin fēnix 7",
+      "_fetched_date": "2026-04-23"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Gintarė",
+        "lastname": "B."
+      },
+      "name": "Lunch Walk",
+      "distance": 1645.3,
+      "moving_time": 1155,
+      "elapsed_time": 2100,
+      "total_elevation_gain": 11.1,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Samsung Health",
+      "_fetched_date": "2026-04-23"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Sandra",
+        "lastname": "M."
+      },
+      "name": "Lunch Walk",
+      "distance": 1390.8,
+      "moving_time": 878,
+      "elapsed_time": 3084,
+      "total_elevation_gain": 18.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin Venu 2 Plus",
+      "_fetched_date": "2026-04-23"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -14765,6 +14891,54 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-23T10:22:21.708870+00:00",
+      "new_count": 7,
+      "activities": [
+        {
+          "athlete": "Gertrūda G.",
+          "sport": "Walk",
+          "distance_km": 1.84,
+          "name": "Lunch Walk"
+        },
+        {
+          "athlete": "Donatas J.",
+          "sport": "Walk",
+          "distance_km": 1.0,
+          "name": "Lunch Walk"
+        },
+        {
+          "athlete": "Matas A.",
+          "sport": "Walk",
+          "distance_km": 1.0,
+          "name": "Lunch Walk"
+        },
+        {
+          "athlete": "Liudas S.",
+          "sport": "Walk",
+          "distance_km": 2.92,
+          "name": "Lunch Walk"
+        },
+        {
+          "athlete": "Andrius A.",
+          "sport": "Walk",
+          "distance_km": 3.09,
+          "name": "Lunch Walk"
+        },
+        {
+          "athlete": "Gintarė B.",
+          "sport": "Walk",
+          "distance_km": 1.65,
+          "name": "Lunch Walk"
+        },
+        {
+          "athlete": "Sandra M.",
+          "sport": "Walk",
+          "distance_km": 1.39,
+          "name": "Lunch Walk"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-23T08:53:50.967962+00:00",
       "new_count": 2,
       "activities": [
@@ -15800,30 +15974,6 @@
           "sport": "GravelRide",
           "distance_km": 75.85,
           "name": "Afternoon Gravel Ride"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-19T15:39:03.031067+00:00",
-      "new_count": 3,
-      "activities": [
-        {
-          "athlete": "Paulius R.",
-          "sport": "Walk",
-          "distance_km": 3.4,
-          "name": "Afternoon Walk"
-        },
-        {
-          "athlete": "Donatas J.",
-          "sport": "Ride",
-          "distance_km": 17.61,
-          "name": "Verbavimas"
-        },
-        {
-          "athlete": "Gintarė B.",
-          "sport": "Walk",
-          "distance_km": 1.57,
-          "name": "Afternoon Walk"
         }
       ]
     }
