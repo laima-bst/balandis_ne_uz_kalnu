@@ -1,5 +1,12 @@
 {
   "fingerprints": [
+    "65e80455742225a2ca3fcc43e9c7ba44",
+    "2179a536bbe7f12128ee4e3b114a3e1b",
+    "60657e8705e74d3188a286f31f6f0f47",
+    "93426c1c006d270dcd539ea8fdfe84e5",
+    "ca1a7b6519f80e7a1175190598e7fce4",
+    "de2d1b0875f3d3c017ec1b571a8c1b65",
+    "4631f518b4935807e878b8ac3c7db812",
     "a45dcc6bfdaae023fbb5ce7425239ec7",
     "620615d97fd40f0b8e419f8470821f57",
     "491a79d6e3a73c08d24c1c794bf9baca",
@@ -903,6 +910,127 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Augustė",
+        "lastname": "J."
+      },
+      "name": "Night Walk",
+      "distance": 1921.1,
+      "moving_time": 1581,
+      "elapsed_time": 1642,
+      "total_elevation_gain": 9.8,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-23"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Azuolas",
+        "lastname": "S."
+      },
+      "name": "Night Walk",
+      "distance": 2588.0,
+      "moving_time": 1775,
+      "elapsed_time": 1883,
+      "total_elevation_gain": 32.4,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-23"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Liudas",
+        "lastname": "S."
+      },
+      "name": "Home",
+      "distance": 8558.6,
+      "moving_time": 2053,
+      "elapsed_time": 2135,
+      "total_elevation_gain": 56.7,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": null,
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-23"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Andrius",
+        "lastname": "A."
+      },
+      "name": "Evening Walk",
+      "distance": 1029.3,
+      "moving_time": 817,
+      "elapsed_time": 889,
+      "total_elevation_gain": 18.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin fēnix 7",
+      "_fetched_date": "2026-04-23"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Sandra",
+        "lastname": "M."
+      },
+      "name": "Evening Walk",
+      "distance": 4565.4,
+      "moving_time": 3344,
+      "elapsed_time": 3344,
+      "total_elevation_gain": 40.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin Venu 2 Plus",
+      "_fetched_date": "2026-04-23"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Aurelija",
+        "lastname": "S."
+      },
+      "name": "Evening Tennis",
+      "distance": 428.0,
+      "moving_time": 5445,
+      "elapsed_time": 5445,
+      "total_elevation_gain": 0,
+      "type": "Workout",
+      "sport_type": "Tennis",
+      "workout_type": null,
+      "device_name": "Garmin Venu 3S",
+      "_fetched_date": "2026-04-23"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Antanas",
+        "lastname": "R."
+      },
+      "name": "Afternoon Swim",
+      "distance": 3000.0,
+      "moving_time": 4083,
+      "elapsed_time": 4127,
+      "total_elevation_gain": 0,
+      "type": "Swim",
+      "sport_type": "Swim",
+      "device_name": "Garmin fēnix 7",
+      "_fetched_date": "2026-04-23"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -15239,6 +15367,54 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-23T19:13:29.602000+00:00",
+      "new_count": 7,
+      "activities": [
+        {
+          "athlete": "Augustė J.",
+          "sport": "Walk",
+          "distance_km": 1.92,
+          "name": "Night Walk"
+        },
+        {
+          "athlete": "Azuolas S.",
+          "sport": "Walk",
+          "distance_km": 2.59,
+          "name": "Night Walk"
+        },
+        {
+          "athlete": "Liudas S.",
+          "sport": "Ride",
+          "distance_km": 8.56,
+          "name": "Home"
+        },
+        {
+          "athlete": "Andrius A.",
+          "sport": "Walk",
+          "distance_km": 1.03,
+          "name": "Evening Walk"
+        },
+        {
+          "athlete": "Sandra M.",
+          "sport": "Walk",
+          "distance_km": 4.57,
+          "name": "Evening Walk"
+        },
+        {
+          "athlete": "Aurelija S.",
+          "sport": "Tennis",
+          "distance_km": 0.43,
+          "name": "Evening Tennis"
+        },
+        {
+          "athlete": "Antanas R.",
+          "sport": "Swim",
+          "distance_km": 3.0,
+          "name": "Afternoon Swim"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-23T17:23:04.366076+00:00",
       "new_count": 5,
       "activities": [
@@ -16372,18 +16548,6 @@
       "timestamp": "2026-04-19T20:40:52.652998+00:00",
       "new_count": 0,
       "activities": []
-    },
-    {
-      "timestamp": "2026-04-19T19:42:53.632082+00:00",
-      "new_count": 1,
-      "activities": [
-        {
-          "athlete": "Stasius F.",
-          "sport": "Run",
-          "distance_km": 6.19,
-          "name": "Night Run"
-        }
-      ]
     }
   ]
 }
