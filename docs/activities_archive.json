@@ -1,5 +1,6 @@
 {
   "fingerprints": [
+    "f55a7f7c373eaff2ffc4f36dbba6809f",
     "fdbda8d672f1e274342e2161cd3573d9",
     "c0c4bd6bba2d3a16cb75fb0a27ec0165",
     "62c9c742ae06aee633ddf6c2e14dc885",
@@ -947,6 +948,24 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Paulius",
+        "lastname": "R."
+      },
+      "name": "Evening Run",
+      "distance": 16036.5,
+      "moving_time": 5092,
+      "elapsed_time": 5092,
+      "total_elevation_gain": 111.6,
+      "type": "Run",
+      "sport_type": "Run",
+      "workout_type": null,
+      "device_name": "Wear OS by Google",
+      "_fetched_date": "2026-04-24"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -16046,6 +16065,18 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-24T18:55:53.002574+00:00",
+      "new_count": 1,
+      "activities": [
+        {
+          "athlete": "Paulius R.",
+          "sport": "Run",
+          "distance_km": 16.04,
+          "name": "Evening Run"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-24T17:51:10.954092+00:00",
       "new_count": 6,
       "activities": [
@@ -17240,36 +17271,6 @@
       "timestamp": "2026-04-20T21:50:08.663647+00:00",
       "new_count": 0,
       "activities": []
-    },
-    {
-      "timestamp": "2026-04-20T19:59:51.619222+00:00",
-      "new_count": 4,
-      "activities": [
-        {
-          "athlete": "Azuolas S.",
-          "sport": "Run",
-          "distance_km": 10.01,
-          "name": "Evening Run"
-        },
-        {
-          "athlete": "Paulius R.",
-          "sport": "Run",
-          "distance_km": 15.04,
-          "name": "Evening Run"
-        },
-        {
-          "athlete": "Augustinas T.",
-          "sport": "Walk",
-          "distance_km": 3.87,
-          "name": "Evening Walk"
-        },
-        {
-          "athlete": "Andrius A.",
-          "sport": "Walk",
-          "distance_km": 1.38,
-          "name": "Evening Walk"
-        }
-      ]
     }
   ]
 }
