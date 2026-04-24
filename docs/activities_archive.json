@@ -1,5 +1,6 @@
 {
   "fingerprints": [
+    "bebcdc82961df9f125f4a6d3b1359f0e",
     "f55a7f7c373eaff2ffc4f36dbba6809f",
     "fdbda8d672f1e274342e2161cd3573d9",
     "c0c4bd6bba2d3a16cb75fb0a27ec0165",
@@ -948,6 +949,23 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Aurelija",
+        "lastname": "S."
+      },
+      "name": "Penktadienio vakaras",
+      "distance": 4282.4,
+      "moving_time": 3021,
+      "elapsed_time": 6481,
+      "total_elevation_gain": 13.5,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-24"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -16065,6 +16083,18 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-24T21:51:15.644244+00:00",
+      "new_count": 1,
+      "activities": [
+        {
+          "athlete": "Aurelija S.",
+          "sport": "Walk",
+          "distance_km": 4.28,
+          "name": "Penktadienio vakaras"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-24T20:54:35.833971+00:00",
       "new_count": 0,
       "activities": []
@@ -17264,11 +17294,6 @@
     },
     {
       "timestamp": "2026-04-21T02:46:28.605530+00:00",
-      "new_count": 0,
-      "activities": []
-    },
-    {
-      "timestamp": "2026-04-20T23:43:53.827747+00:00",
       "new_count": 0,
       "activities": []
     }
