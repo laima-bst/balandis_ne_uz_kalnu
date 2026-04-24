@@ -1,5 +1,11 @@
 {
   "fingerprints": [
+    "384227b44e1f23653a16d3b09f949d28",
+    "a9292f7e13b89468d8a91d105bde0bcc",
+    "048a35c76e2d5aa82a71f2b7983b263e",
+    "6362ca46486e255aece61dd553afb02e",
+    "df7118a37f83d5bda84a2eddc1acdc22",
+    "0a1aaccdf3b990ee2bdbfbef9322c268",
     "017feb04d683b19bfe852b547551af09",
     "25a3b5170aba03bed5fea5cfdc8c92be",
     "a616310288e99fb119664d4ed0179b1a",
@@ -928,6 +934,108 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Greta",
+        "lastname": "N."
+      },
+      "name": "Lunch Walk",
+      "distance": 2702.8,
+      "moving_time": 2355,
+      "elapsed_time": 2667,
+      "total_elevation_gain": 18.6,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-24"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Sandra",
+        "lastname": "M."
+      },
+      "name": "Lunch Walk",
+      "distance": 1689.5,
+      "moving_time": 1244,
+      "elapsed_time": 3586,
+      "total_elevation_gain": 30.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin Venu 2 Plus",
+      "_fetched_date": "2026-04-24"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Augustė",
+        "lastname": "J."
+      },
+      "name": "Lunch Walk",
+      "distance": 1717.2,
+      "moving_time": 1282,
+      "elapsed_time": 1622,
+      "total_elevation_gain": 7.8,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-24"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Valentinas",
+        "lastname": "A."
+      },
+      "name": "Lunch Walk",
+      "distance": 2340.7,
+      "moving_time": 1493,
+      "elapsed_time": 3773,
+      "total_elevation_gain": 89.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "COROS VERTIX",
+      "_fetched_date": "2026-04-24"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Valentinas",
+        "lastname": "A."
+      },
+      "name": "Lunch Walk",
+      "distance": 1225.7,
+      "moving_time": 735,
+      "elapsed_time": 2707,
+      "total_elevation_gain": 73.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "COROS VERTIX",
+      "_fetched_date": "2026-04-24"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Valentinas",
+        "lastname": "A."
+      },
+      "name": "Lunch Walk",
+      "distance": 2171.2,
+      "moving_time": 1414,
+      "elapsed_time": 3424,
+      "total_elevation_gain": 92.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "COROS VERTIX",
+      "_fetched_date": "2026-04-24"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -15699,6 +15807,48 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-24T11:58:46.161253+00:00",
+      "new_count": 6,
+      "activities": [
+        {
+          "athlete": "Greta N.",
+          "sport": "Walk",
+          "distance_km": 2.7,
+          "name": "Lunch Walk"
+        },
+        {
+          "athlete": "Sandra M.",
+          "sport": "Walk",
+          "distance_km": 1.69,
+          "name": "Lunch Walk"
+        },
+        {
+          "athlete": "Augustė J.",
+          "sport": "Walk",
+          "distance_km": 1.72,
+          "name": "Lunch Walk"
+        },
+        {
+          "athlete": "Valentinas A.",
+          "sport": "Walk",
+          "distance_km": 2.34,
+          "name": "Lunch Walk"
+        },
+        {
+          "athlete": "Valentinas A.",
+          "sport": "Walk",
+          "distance_km": 1.23,
+          "name": "Lunch Walk"
+        },
+        {
+          "athlete": "Valentinas A.",
+          "sport": "Walk",
+          "distance_km": 2.17,
+          "name": "Lunch Walk"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-24T10:23:52.899878+00:00",
       "new_count": 10,
       "activities": [
@@ -16873,18 +17023,6 @@
           "sport": "Ride",
           "distance_km": 9.36,
           "name": "Afternoon Ride"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-20T12:06:02.051678+00:00",
-      "new_count": 1,
-      "activities": [
-        {
-          "athlete": "Ieva S.",
-          "sport": "Walk",
-          "distance_km": 1.12,
-          "name": "Afternoon Walk"
         }
       ]
     }
