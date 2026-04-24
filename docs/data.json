@@ -11338,8 +11338,13 @@
       "points": 27.5
     }
   ],
-  "generated_at": "2026-04-24T22:40:26.859804+00:00",
+  "generated_at": "2026-04-24T23:40:53.142827+00:00",
   "run_log": [
+    {
+      "timestamp": "2026-04-24T23:40:53.116459+00:00",
+      "new_count": 0,
+      "activities": []
+    },
     {
       "timestamp": "2026-04-24T22:40:26.833779+00:00",
       "new_count": 0,
@@ -12522,36 +12527,6 @@
           "sport": "Ride",
           "distance_km": 14.06,
           "name": "Morning Ride"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-21T05:29:19.923403+00:00",
-      "new_count": 4,
-      "activities": [
-        {
-          "athlete": "Edvinas V.",
-          "sport": "Ride",
-          "distance_km": 1.27,
-          "name": "Morning Ride"
-        },
-        {
-          "athlete": "Edvinas V.",
-          "sport": "Ride",
-          "distance_km": 2.34,
-          "name": "Morning Ride"
-        },
-        {
-          "athlete": "Riskman G.",
-          "sport": "Ride",
-          "distance_km": 16.95,
-          "name": "Morning Ride"
-        },
-        {
-          "athlete": "Daina G.",
-          "sport": "Walk",
-          "distance_km": 2.58,
-          "name": "Morning Walk"
         }
       ]
     }
