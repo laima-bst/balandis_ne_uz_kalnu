@@ -1,5 +1,7 @@
 {
   "fingerprints": [
+    "2f3c48ae64f0c3e6862ca8daa1fbd391",
+    "6bbade689fd7ebc1546bcac14127bc37",
     "65e80455742225a2ca3fcc43e9c7ba44",
     "2179a536bbe7f12128ee4e3b114a3e1b",
     "60657e8705e74d3188a286f31f6f0f47",
@@ -910,6 +912,41 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Laima",
+        "lastname": "A."
+      },
+      "name": "Lunch Walk",
+      "distance": 4645.8,
+      "moving_time": 3191,
+      "elapsed_time": 3207,
+      "total_elevation_gain": 48.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "COROS PACE 2",
+      "_fetched_date": "2026-04-24"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Laima",
+        "lastname": "A."
+      },
+      "name": "Morning Workout",
+      "distance": 0.0,
+      "moving_time": 5564,
+      "elapsed_time": 5564,
+      "total_elevation_gain": 0,
+      "type": "Workout",
+      "sport_type": "Workout",
+      "workout_type": null,
+      "device_name": "COROS PACE 2",
+      "_fetched_date": "2026-04-24"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -15367,6 +15404,24 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-24T02:49:11.144993+00:00",
+      "new_count": 2,
+      "activities": [
+        {
+          "athlete": "Laima A.",
+          "sport": "Walk",
+          "distance_km": 4.65,
+          "name": "Lunch Walk"
+        },
+        {
+          "athlete": "Laima A.",
+          "sport": "Workout",
+          "distance_km": 0.0,
+          "name": "Morning Workout"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-23T23:49:42.891147+00:00",
       "new_count": 0,
       "activities": []
@@ -16543,11 +16598,6 @@
           "name": "Afternoon Ride"
         }
       ]
-    },
-    {
-      "timestamp": "2026-04-20T02:53:09.694530+00:00",
-      "new_count": 0,
-      "activities": []
     }
   ]
 }
