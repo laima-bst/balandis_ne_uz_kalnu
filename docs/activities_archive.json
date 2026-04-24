@@ -1,5 +1,6 @@
 {
   "fingerprints": [
+    "3f87c3c9de0e515cafc3eadc30225f8a",
     "3afa4a8cbd9565bba37507f51c3e38dd",
     "60cf072f7c593f9f19d894c913f9aeb3",
     "8a9ec60c8c6244120f451e6e253cf214",
@@ -917,6 +918,24 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Liudas",
+        "lastname": "S."
+      },
+      "name": "To gym",
+      "distance": 2491.8,
+      "moving_time": 455,
+      "elapsed_time": 524,
+      "total_elevation_gain": 2.0,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": null,
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-24"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -15499,6 +15518,18 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-24T08:09:38.808258+00:00",
+      "new_count": 1,
+      "activities": [
+        {
+          "athlete": "Liudas S.",
+          "sport": "Ride",
+          "distance_km": 2.49,
+          "name": "To gym"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-24T05:37:38.559218+00:00",
       "new_count": 5,
       "activities": [
@@ -16667,18 +16698,6 @@
           "sport": "Walk",
           "distance_km": 1.55,
           "name": "Lunch Walk"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-20T08:11:39.410169+00:00",
-      "new_count": 1,
-      "activities": [
-        {
-          "athlete": "Donatas J.",
-          "sport": "Walk",
-          "distance_km": 1.18,
-          "name": "Morning Walk"
         }
       ]
     }
