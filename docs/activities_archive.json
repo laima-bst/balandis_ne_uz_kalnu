@@ -1,5 +1,10 @@
 {
   "fingerprints": [
+    "3afa4a8cbd9565bba37507f51c3e38dd",
+    "60cf072f7c593f9f19d894c913f9aeb3",
+    "8a9ec60c8c6244120f451e6e253cf214",
+    "a98a4c9ac2db2e5c0eafa1a0fe048d77",
+    "147f6753ae6770ef3968f3c4623c98a9",
     "2f3c48ae64f0c3e6862ca8daa1fbd391",
     "6bbade689fd7ebc1546bcac14127bc37",
     "65e80455742225a2ca3fcc43e9c7ba44",
@@ -912,6 +917,96 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Edvinas",
+        "lastname": "V."
+      },
+      "name": "Morning Ride",
+      "distance": 821.0,
+      "moving_time": 182,
+      "elapsed_time": 215,
+      "total_elevation_gain": 0.0,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": null,
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-24"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Sandra",
+        "lastname": "M."
+      },
+      "name": "Morning Ride",
+      "distance": 7000.1,
+      "moving_time": 1475,
+      "elapsed_time": 1711,
+      "total_elevation_gain": 76.0,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": null,
+      "device_name": "Garmin Venu 2 Plus",
+      "_fetched_date": "2026-04-24"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Laima",
+        "lastname": "A."
+      },
+      "name": "Morning Workout",
+      "distance": 0.0,
+      "moving_time": 5229,
+      "elapsed_time": 5229,
+      "total_elevation_gain": 0,
+      "type": "Workout",
+      "sport_type": "Workout",
+      "workout_type": null,
+      "device_name": "COROS PACE 2",
+      "_fetched_date": "2026-04-24"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Edvinas",
+        "lastname": "V."
+      },
+      "name": "Morning Ride",
+      "distance": 2381.3,
+      "moving_time": 474,
+      "elapsed_time": 483,
+      "total_elevation_gain": 0.0,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": null,
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-24"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Andrius",
+        "lastname": "A."
+      },
+      "name": "Morning Ride",
+      "distance": 5702.0,
+      "moving_time": 1237,
+      "elapsed_time": 1252,
+      "total_elevation_gain": 31.0,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": null,
+      "device_name": "Garmin fēnix 7",
+      "_fetched_date": "2026-04-24"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -15404,6 +15499,42 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-24T05:37:38.559218+00:00",
+      "new_count": 5,
+      "activities": [
+        {
+          "athlete": "Edvinas V.",
+          "sport": "Ride",
+          "distance_km": 0.82,
+          "name": "Morning Ride"
+        },
+        {
+          "athlete": "Sandra M.",
+          "sport": "Ride",
+          "distance_km": 7.0,
+          "name": "Morning Ride"
+        },
+        {
+          "athlete": "Laima A.",
+          "sport": "Workout",
+          "distance_km": 0.0,
+          "name": "Morning Workout"
+        },
+        {
+          "athlete": "Edvinas V.",
+          "sport": "Ride",
+          "distance_km": 2.38,
+          "name": "Morning Ride"
+        },
+        {
+          "athlete": "Andrius A.",
+          "sport": "Ride",
+          "distance_km": 5.7,
+          "name": "Morning Ride"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-24T02:49:11.144993+00:00",
       "new_count": 2,
       "activities": [
@@ -16548,54 +16679,6 @@
           "sport": "Walk",
           "distance_km": 1.18,
           "name": "Morning Walk"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-20T05:43:50.773733+00:00",
-      "new_count": 7,
-      "activities": [
-        {
-          "athlete": "Edvinas V.",
-          "sport": "Ride",
-          "distance_km": 1.3,
-          "name": "Morning Ride"
-        },
-        {
-          "athlete": "Edvinas V.",
-          "sport": "Ride",
-          "distance_km": 2.36,
-          "name": "Morning Ride"
-        },
-        {
-          "athlete": "Augustė J.",
-          "sport": "Walk",
-          "distance_km": 1.03,
-          "name": "Morning Walk"
-        },
-        {
-          "athlete": "Sandra M.",
-          "sport": "Ride",
-          "distance_km": 7.21,
-          "name": "Morning Ride"
-        },
-        {
-          "athlete": "Andrius A.",
-          "sport": "Run",
-          "distance_km": 6.04,
-          "name": "Morning Run"
-        },
-        {
-          "athlete": "Tautvydas Ž.",
-          "sport": "Ride",
-          "distance_km": 3.93,
-          "name": "Afternoon Ride"
-        },
-        {
-          "athlete": "Tautvydas Ž.",
-          "sport": "Ride",
-          "distance_km": 4.91,
-          "name": "Afternoon Ride"
         }
       ]
     }
