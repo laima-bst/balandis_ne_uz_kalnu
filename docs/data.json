@@ -11787,8 +11787,13 @@
       "points": 27.5
     }
   ],
-  "generated_at": "2026-04-25T22:39:07.709030+00:00",
+  "generated_at": "2026-04-25T23:39:58.109703+00:00",
   "run_log": [
+    {
+      "timestamp": "2026-04-25T23:39:58.080952+00:00",
+      "new_count": 0,
+      "activities": []
+    },
     {
       "timestamp": "2026-04-25T22:39:07.681361+00:00",
       "new_count": 0,
@@ -12857,42 +12862,6 @@
           "sport": "Walk",
           "distance_km": 1.01,
           "name": "Evening Walk"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-22T15:15:47.462219+00:00",
-      "new_count": 5,
-      "activities": [
-        {
-          "athlete": "Edvinas V.",
-          "sport": "Ride",
-          "distance_km": 3.07,
-          "name": "Afternoon Ride"
-        },
-        {
-          "athlete": "Liudas S.",
-          "sport": "Walk",
-          "distance_km": 9.01,
-          "name": "Afternoon Walk"
-        },
-        {
-          "athlete": "Andrius A.",
-          "sport": "Run",
-          "distance_km": 13.01,
-          "name": "Afternoon Run"
-        },
-        {
-          "athlete": "Gintarė B.",
-          "sport": "Walk",
-          "distance_km": 1.14,
-          "name": "Afternoon Walk"
-        },
-        {
-          "athlete": "Sandra M.",
-          "sport": "Ride",
-          "distance_km": 4.35,
-          "name": "Afternoon Ride"
         }
       ]
     }
