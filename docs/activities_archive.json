@@ -1,5 +1,8 @@
 {
   "fingerprints": [
+    "39bde3b486d41440e22338a3e99aeb1a",
+    "38fdab4d4bd53451e1d9c998d7059865",
+    "c2306cc0f19851eae142e430195d22aa",
     "8696298e4d6d91054c360271b5a2e5a7",
     "0b5bc91746b45b2bbb58f04f0b4298b0",
     "f337bb85d65f69efb2a06265e5d9f795",
@@ -965,6 +968,58 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Ieva",
+        "lastname": "S."
+      },
+      "name": "Evening Walk",
+      "distance": 1078.0,
+      "moving_time": 949,
+      "elapsed_time": 1085,
+      "total_elevation_gain": 6.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin Forerunner 255 Music",
+      "_fetched_date": "2026-04-25"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Ieva",
+        "lastname": "S."
+      },
+      "name": "Afternoon Ride",
+      "distance": 2650.4,
+      "moving_time": 1084,
+      "elapsed_time": 1219,
+      "total_elevation_gain": 7.0,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": null,
+      "device_name": "Garmin Forerunner 255 Music",
+      "_fetched_date": "2026-04-25"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Liudas",
+        "lastname": "S."
+      },
+      "name": "Afternoon Walk",
+      "distance": 1341.6,
+      "moving_time": 1012,
+      "elapsed_time": 1064,
+      "total_elevation_gain": 20.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Samsung Galaxy Ultra",
+      "_fetched_date": "2026-04-25"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -16376,6 +16431,30 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-25T15:41:01.617232+00:00",
+      "new_count": 3,
+      "activities": [
+        {
+          "athlete": "Ieva S.",
+          "sport": "Walk",
+          "distance_km": 1.08,
+          "name": "Evening Walk"
+        },
+        {
+          "athlete": "Ieva S.",
+          "sport": "Ride",
+          "distance_km": 2.65,
+          "name": "Afternoon Ride"
+        },
+        {
+          "athlete": "Liudas S.",
+          "sport": "Walk",
+          "distance_km": 1.34,
+          "name": "Afternoon Walk"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-25T14:43:21.321332+00:00",
       "new_count": 3,
       "activities": [
@@ -17449,11 +17528,6 @@
     },
     {
       "timestamp": "2026-04-21T23:36:43.530948+00:00",
-      "new_count": 0,
-      "activities": []
-    },
-    {
-      "timestamp": "2026-04-21T22:39:18.582761+00:00",
       "new_count": 0,
       "activities": []
     }
