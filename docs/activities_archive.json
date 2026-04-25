@@ -1,5 +1,8 @@
 {
   "fingerprints": [
+    "8696298e4d6d91054c360271b5a2e5a7",
+    "0b5bc91746b45b2bbb58f04f0b4298b0",
+    "f337bb85d65f69efb2a06265e5d9f795",
     "d37c40d4d132c4ce2b55e6c3b3a2b8d6",
     "df59d6ac6945f12039a17a9d5132fc7a",
     "5ad250ebcdd688199f045a8c76f1cbbc",
@@ -962,6 +965,57 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Gintarė",
+        "lastname": "B."
+      },
+      "name": "Afternoon Walk",
+      "distance": 1435.8,
+      "moving_time": 1686,
+      "elapsed_time": 1705,
+      "total_elevation_gain": 14.5,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Samsung Health",
+      "_fetched_date": "2026-04-25"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Paulius",
+        "lastname": "R."
+      },
+      "name": "Afternoon Walk",
+      "distance": 3305.3,
+      "moving_time": 1922,
+      "elapsed_time": 2238,
+      "total_elevation_gain": 20.6,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-25"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Augustė",
+        "lastname": "J."
+      },
+      "name": "Afternoon Walk",
+      "distance": 2600.9,
+      "moving_time": 2506,
+      "elapsed_time": 8855,
+      "total_elevation_gain": 22.1,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-25"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -16322,6 +16376,30 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-25T14:43:21.321332+00:00",
+      "new_count": 3,
+      "activities": [
+        {
+          "athlete": "Gintarė B.",
+          "sport": "Walk",
+          "distance_km": 1.44,
+          "name": "Afternoon Walk"
+        },
+        {
+          "athlete": "Paulius R.",
+          "sport": "Walk",
+          "distance_km": 3.31,
+          "name": "Afternoon Walk"
+        },
+        {
+          "athlete": "Augustė J.",
+          "sport": "Walk",
+          "distance_km": 2.6,
+          "name": "Afternoon Walk"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-25T13:09:08.248690+00:00",
       "new_count": 5,
       "activities": [
@@ -17376,11 +17454,6 @@
     },
     {
       "timestamp": "2026-04-21T22:39:18.582761+00:00",
-      "new_count": 0,
-      "activities": []
-    },
-    {
-      "timestamp": "2026-04-21T21:51:33.940684+00:00",
       "new_count": 0,
       "activities": []
     }
