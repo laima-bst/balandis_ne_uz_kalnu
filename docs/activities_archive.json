@@ -1,5 +1,10 @@
 {
   "fingerprints": [
+    "ade527f35897b672e585f704966c3c31",
+    "4668a533757dfb82024a91724657afd9",
+    "f5d8233822870f1ee9475ac2eb244a90",
+    "3bcbc0f2159f18b03407eccb855947d9",
+    "8e5caa87d0b9eea1c947566609ace939",
     "39bde3b486d41440e22338a3e99aeb1a",
     "38fdab4d4bd53451e1d9c998d7059865",
     "c2306cc0f19851eae142e430195d22aa",
@@ -968,6 +973,93 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Liudas",
+        "lastname": "S."
+      },
+      "name": "Evening Walk",
+      "distance": 1034.3,
+      "moving_time": 752,
+      "elapsed_time": 771,
+      "total_elevation_gain": 11.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Samsung Galaxy Ultra",
+      "_fetched_date": "2026-04-25"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Liudas",
+        "lastname": "S."
+      },
+      "name": "Evening Walk",
+      "distance": 1577.3,
+      "moving_time": 1084,
+      "elapsed_time": 1280,
+      "total_elevation_gain": 0.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Samsung Galaxy Ultra",
+      "_fetched_date": "2026-04-25"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Aurelija",
+        "lastname": "S."
+      },
+      "name": "Reikalai reikaliukai",
+      "distance": 5309.5,
+      "moving_time": 3415,
+      "elapsed_time": 4019,
+      "total_elevation_gain": 59.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin Venu 3S",
+      "_fetched_date": "2026-04-25"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Sandra",
+        "lastname": "M."
+      },
+      "name": "Afternoon Ride",
+      "distance": 31916.0,
+      "moving_time": 7670,
+      "elapsed_time": 10696,
+      "total_elevation_gain": 277.0,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": null,
+      "device_name": "Garmin Venu 2 Plus",
+      "_fetched_date": "2026-04-25"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Benediktas",
+        "lastname": "B."
+      },
+      "name": "Afternoon Gravel Ride",
+      "distance": 86614.0,
+      "moving_time": 14253,
+      "elapsed_time": 15766,
+      "total_elevation_gain": 1112.0,
+      "type": "Ride",
+      "sport_type": "GravelRide",
+      "workout_type": null,
+      "device_name": "Garmin Edge Explore 2",
+      "_fetched_date": "2026-04-25"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -16431,6 +16523,42 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-25T16:44:25.367816+00:00",
+      "new_count": 5,
+      "activities": [
+        {
+          "athlete": "Liudas S.",
+          "sport": "Walk",
+          "distance_km": 1.03,
+          "name": "Evening Walk"
+        },
+        {
+          "athlete": "Liudas S.",
+          "sport": "Walk",
+          "distance_km": 1.58,
+          "name": "Evening Walk"
+        },
+        {
+          "athlete": "Aurelija S.",
+          "sport": "Walk",
+          "distance_km": 5.31,
+          "name": "Reikalai reikaliukai"
+        },
+        {
+          "athlete": "Sandra M.",
+          "sport": "Ride",
+          "distance_km": 31.92,
+          "name": "Afternoon Ride"
+        },
+        {
+          "athlete": "Benediktas B.",
+          "sport": "GravelRide",
+          "distance_km": 86.61,
+          "name": "Afternoon Gravel Ride"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-25T15:41:01.617232+00:00",
       "new_count": 3,
       "activities": [
@@ -17523,11 +17651,6 @@
     },
     {
       "timestamp": "2026-04-22T02:44:19.130299+00:00",
-      "new_count": 0,
-      "activities": []
-    },
-    {
-      "timestamp": "2026-04-21T23:36:43.530948+00:00",
       "new_count": 0,
       "activities": []
     }
