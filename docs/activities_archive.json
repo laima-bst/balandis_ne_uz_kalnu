@@ -1,5 +1,6 @@
 {
   "fingerprints": [
+    "045517d6024d9de1880fcbf00b7a8814",
     "1c7ff40fb9ac6fcde18713ae94898e6c",
     "6b4f606ad3fd9da363f4dc731591305c",
     "361e4c89514f73a84078678e07521362",
@@ -955,6 +956,24 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Augustinas",
+        "lastname": "T."
+      },
+      "name": "3",
+      "distance": 115740.0,
+      "moving_time": 15888,
+      "elapsed_time": 16123,
+      "total_elevation_gain": 808.0,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": 12,
+      "device_name": "Wahoo ELEMNT ROAM",
+      "_fetched_date": "2026-04-25"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -16194,6 +16213,18 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-25T10:54:16.534464+00:00",
+      "new_count": 1,
+      "activities": [
+        {
+          "athlete": "Augustinas T.",
+          "sport": "Ride",
+          "distance_km": 115.74,
+          "name": "3"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-25T09:57:13.706105+00:00",
       "new_count": 1,
       "activities": [
@@ -17253,48 +17284,6 @@
           "sport": "Walk",
           "distance_km": 2.36,
           "name": "Night Walk"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-21T17:05:04.287754+00:00",
-      "new_count": 6,
-      "activities": [
-        {
-          "athlete": "Paulius R.",
-          "sport": "Walk",
-          "distance_km": 3.13,
-          "name": "Evening Walk"
-        },
-        {
-          "athlete": "Aurelija S.",
-          "sport": "Tennis",
-          "distance_km": 0.37,
-          "name": "Evening Tennis"
-        },
-        {
-          "athlete": "Andrius A.",
-          "sport": "Walk",
-          "distance_km": 1.01,
-          "name": "Evening Walk"
-        },
-        {
-          "athlete": "Augustinas T.",
-          "sport": "Ride",
-          "distance_km": 12.91,
-          "name": "Evening Ride"
-        },
-        {
-          "athlete": "Sandra M.",
-          "sport": "Walk",
-          "distance_km": 1.04,
-          "name": "Evening Walk"
-        },
-        {
-          "athlete": "Greta N.",
-          "sport": "Walk",
-          "distance_km": 4.19,
-          "name": "Afternoon Walk"
         }
       ]
     }
