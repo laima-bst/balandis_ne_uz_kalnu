@@ -1,5 +1,7 @@
 {
   "fingerprints": [
+    "6b4f606ad3fd9da363f4dc731591305c",
+    "361e4c89514f73a84078678e07521362",
     "640b798b070686713ff323db874e30f9",
     "f792c6216d0080caab3f5e01f06cc86a",
     "ef9d5a8a2ac5b39a4a3010139bb1e1cd",
@@ -952,6 +954,41 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Azuolas",
+        "lastname": "S."
+      },
+      "name": "Lunch Run",
+      "distance": 5004.2,
+      "moving_time": 1698,
+      "elapsed_time": 1739,
+      "total_elevation_gain": 11.1,
+      "type": "Run",
+      "sport_type": "Run",
+      "workout_type": null,
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-25"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Aurelija",
+        "lastname": "S."
+      },
+      "name": "Lunch Walk",
+      "distance": 1689.5,
+      "moving_time": 1244,
+      "elapsed_time": 3586,
+      "total_elevation_gain": 30.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin Venu 2 Plus",
+      "_fetched_date": "2026-04-25"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -16139,6 +16176,24 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-25T08:55:53.126647+00:00",
+      "new_count": 2,
+      "activities": [
+        {
+          "athlete": "Azuolas S.",
+          "sport": "Run",
+          "distance_km": 5.0,
+          "name": "Lunch Run"
+        },
+        {
+          "athlete": "Aurelija S.",
+          "sport": "Walk",
+          "distance_km": 1.69,
+          "name": "Lunch Walk"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-25T07:20:42.493581+00:00",
       "new_count": 2,
       "activities": [
@@ -17264,18 +17319,6 @@
           "sport": "Ride",
           "distance_km": 9.38,
           "name": "Afternoon Ride"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-21T13:45:45.147404+00:00",
-      "new_count": 1,
-      "activities": [
-        {
-          "athlete": "Augustinas T.",
-          "sport": "Walk",
-          "distance_km": 2.47,
-          "name": "Lunch Walk"
         }
       ]
     }
