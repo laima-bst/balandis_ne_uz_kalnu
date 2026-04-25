@@ -1,5 +1,10 @@
 {
   "fingerprints": [
+    "d37c40d4d132c4ce2b55e6c3b3a2b8d6",
+    "df59d6ac6945f12039a17a9d5132fc7a",
+    "5ad250ebcdd688199f045a8c76f1cbbc",
+    "74861b5f26c6db100b76fcea9972b810",
+    "96bba9b6bce7ede623f9437bff1fe164",
     "d62791e559347fe01dfd810803d1fe3b",
     "045517d6024d9de1880fcbf00b7a8814",
     "1c7ff40fb9ac6fcde18713ae94898e6c",
@@ -957,6 +962,92 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Liudas",
+        "lastname": "S."
+      },
+      "name": "Afternoon Walk",
+      "distance": 1397.0,
+      "moving_time": 1091,
+      "elapsed_time": 1091,
+      "total_elevation_gain": 0.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Samsung Galaxy Ultra",
+      "_fetched_date": "2026-04-25"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Aurelija",
+        "lastname": "S."
+      },
+      "name": "Afternoon Tennis 🎾",
+      "distance": 241.2,
+      "moving_time": 5358,
+      "elapsed_time": 5358,
+      "total_elevation_gain": 0,
+      "type": "Workout",
+      "sport_type": "Tennis",
+      "workout_type": null,
+      "device_name": "Garmin Venu 3S",
+      "_fetched_date": "2026-04-25"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Greta",
+        "lastname": "N."
+      },
+      "name": "Afternoon Walk",
+      "distance": 1878.5,
+      "moving_time": 2066,
+      "elapsed_time": 2694,
+      "total_elevation_gain": 17.4,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-25"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Matas",
+        "lastname": "A."
+      },
+      "name": "Lunch Walk",
+      "distance": 8076.4,
+      "moving_time": 6231,
+      "elapsed_time": 14511,
+      "total_elevation_gain": 52.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-25"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Paulius",
+        "lastname": "R."
+      },
+      "name": "Morning Walk",
+      "distance": 2851.1,
+      "moving_time": 1738,
+      "elapsed_time": 1786,
+      "total_elevation_gain": 2.8,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Wear OS by Google",
+      "_fetched_date": "2026-04-25"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -16231,6 +16322,42 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-25T13:09:08.248690+00:00",
+      "new_count": 5,
+      "activities": [
+        {
+          "athlete": "Liudas S.",
+          "sport": "Walk",
+          "distance_km": 1.4,
+          "name": "Afternoon Walk"
+        },
+        {
+          "athlete": "Aurelija S.",
+          "sport": "Tennis",
+          "distance_km": 0.24,
+          "name": "Afternoon Tennis 🎾"
+        },
+        {
+          "athlete": "Greta N.",
+          "sport": "Walk",
+          "distance_km": 1.88,
+          "name": "Afternoon Walk"
+        },
+        {
+          "athlete": "Matas A.",
+          "sport": "Walk",
+          "distance_km": 8.08,
+          "name": "Lunch Walk"
+        },
+        {
+          "athlete": "Paulius R.",
+          "sport": "Walk",
+          "distance_km": 2.85,
+          "name": "Morning Walk"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-25T11:40:04.031947+00:00",
       "new_count": 1,
       "activities": [
@@ -17256,30 +17383,6 @@
       "timestamp": "2026-04-21T21:51:33.940684+00:00",
       "new_count": 0,
       "activities": []
-    },
-    {
-      "timestamp": "2026-04-21T20:55:44.039614+00:00",
-      "new_count": 3,
-      "activities": [
-        {
-          "athlete": "Stasius F.",
-          "sport": "Run",
-          "distance_km": 6.17,
-          "name": "Night Run"
-        },
-        {
-          "athlete": "Paulius R.",
-          "sport": "Run",
-          "distance_km": 15.11,
-          "name": "Evening Run"
-        },
-        {
-          "athlete": "Augustė J.",
-          "sport": "Swim",
-          "distance_km": 0.38,
-          "name": "Evening Swim"
-        }
-      ]
     }
   ]
 }
