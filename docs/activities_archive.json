@@ -1,5 +1,7 @@
 {
   "fingerprints": [
+    "640b798b070686713ff323db874e30f9",
+    "f792c6216d0080caab3f5e01f06cc86a",
     "ef9d5a8a2ac5b39a4a3010139bb1e1cd",
     "bebcdc82961df9f125f4a6d3b1359f0e",
     "f55a7f7c373eaff2ffc4f36dbba6809f",
@@ -950,6 +952,41 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Gintarė",
+        "lastname": "B."
+      },
+      "name": "Morning Walk",
+      "distance": 2679.0,
+      "moving_time": 3087,
+      "elapsed_time": 3170,
+      "total_elevation_gain": 32.5,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Samsung Health",
+      "_fetched_date": "2026-04-25"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Žilvinas",
+        "lastname": "P."
+      },
+      "name": "12 sav. iki HM / varžybų savaitė",
+      "distance": 5513.5,
+      "moving_time": 1963,
+      "elapsed_time": 1970,
+      "total_elevation_gain": 29.0,
+      "type": "Run",
+      "sport_type": "Run",
+      "workout_type": null,
+      "device_name": "Garmin Forerunner 955",
+      "_fetched_date": "2026-04-25"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -16102,6 +16139,24 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-25T07:20:42.493581+00:00",
+      "new_count": 2,
+      "activities": [
+        {
+          "athlete": "Gintarė B.",
+          "sport": "Walk",
+          "distance_km": 2.68,
+          "name": "Morning Walk"
+        },
+        {
+          "athlete": "Žilvinas P.",
+          "sport": "Run",
+          "distance_km": 5.51,
+          "name": "12 sav. iki HM / varžybų savaitė"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-25T05:13:42.708004+00:00",
       "new_count": 1,
       "activities": [
@@ -17220,36 +17275,6 @@
           "athlete": "Augustinas T.",
           "sport": "Walk",
           "distance_km": 2.47,
-          "name": "Lunch Walk"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-21T11:09:42.089063+00:00",
-      "new_count": 4,
-      "activities": [
-        {
-          "athlete": "Gertrūda G.",
-          "sport": "Walk",
-          "distance_km": 3.06,
-          "name": "Lunch Walk"
-        },
-        {
-          "athlete": "Donatas J.",
-          "sport": "Walk",
-          "distance_km": 2.01,
-          "name": "Lunch Walk"
-        },
-        {
-          "athlete": "Liudas S.",
-          "sport": "Run",
-          "distance_km": 12.01,
-          "name": "Lunch Run"
-        },
-        {
-          "athlete": "Andrius A.",
-          "sport": "Walk",
-          "distance_km": 3.68,
           "name": "Lunch Walk"
         }
       ]
