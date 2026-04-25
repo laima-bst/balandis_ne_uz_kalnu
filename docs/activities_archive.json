@@ -1,5 +1,6 @@
 {
   "fingerprints": [
+    "a643b407c1db9563ffefe099a19996a0",
     "d17e1734e4c9d36ea31753c83b4ba7c7",
     "6dc537563148111cf150a1ac7ce8d9a5",
     "4ce55a14307b9653ea4c13dac126d614",
@@ -980,6 +981,23 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Tautvydas",
+        "lastname": "Ž."
+      },
+      "name": "Morning Hike",
+      "distance": 24836.9,
+      "moving_time": 17333,
+      "elapsed_time": 21026,
+      "total_elevation_gain": 120.1,
+      "type": "Hike",
+      "sport_type": "Hike",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-25"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -16651,6 +16669,18 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-25T19:49:22.209623+00:00",
+      "new_count": 1,
+      "activities": [
+        {
+          "athlete": "Tautvydas Ž.",
+          "sport": "Hike",
+          "distance_km": 24.84,
+          "name": "Morning Hike"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-25T18:56:47.560607+00:00",
       "new_count": 4,
       "activities": [
@@ -17780,24 +17810,6 @@
           "sport": "Walk",
           "distance_km": 2.8,
           "name": "Lunch Walk"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-22T07:51:54.534253+00:00",
-      "new_count": 2,
-      "activities": [
-        {
-          "athlete": "Donatas J.",
-          "sport": "Walk",
-          "distance_km": 1.18,
-          "name": "Morning Walk"
-        },
-        {
-          "athlete": "Edvinas V.",
-          "sport": "Ride",
-          "distance_km": 3.15,
-          "name": "Morning Ride"
         }
       ]
     }
