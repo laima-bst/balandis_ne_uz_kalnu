@@ -1,5 +1,9 @@
 {
   "fingerprints": [
+    "d17e1734e4c9d36ea31753c83b4ba7c7",
+    "6dc537563148111cf150a1ac7ce8d9a5",
+    "4ce55a14307b9653ea4c13dac126d614",
+    "7209244614c2c48859d4511fd6e46170",
     "9f8a1d0a3c279f83b7382c43e3c27eff",
     "023d6cb02e4d9a6f9e226f8fa95b5341",
     "279a0c25c795ed7c9bf673bffd903716",
@@ -976,6 +980,74 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Liudas",
+        "lastname": "S."
+      },
+      "name": "Night Walk",
+      "distance": 1220.2,
+      "moving_time": 835,
+      "elapsed_time": 835,
+      "total_elevation_gain": 0.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Samsung Galaxy Ultra",
+      "_fetched_date": "2026-04-25"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Gintarė",
+        "lastname": "B."
+      },
+      "name": "Evening Walk",
+      "distance": 2027.3,
+      "moving_time": 1418,
+      "elapsed_time": 1418,
+      "total_elevation_gain": 26.6,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Samsung Health",
+      "_fetched_date": "2026-04-25"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Liudas",
+        "lastname": "S."
+      },
+      "name": "Evening Walk",
+      "distance": 1868.5,
+      "moving_time": 1434,
+      "elapsed_time": 1434,
+      "total_elevation_gain": 24.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Samsung Galaxy Ultra",
+      "_fetched_date": "2026-04-25"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Augustinas",
+        "lastname": "T."
+      },
+      "name": "Evening Walk",
+      "distance": 7216.6,
+      "moving_time": 6272,
+      "elapsed_time": 6869,
+      "total_elevation_gain": 104.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "COROS APEX 4",
+      "_fetched_date": "2026-04-25"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -16579,6 +16651,36 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-25T18:56:47.560607+00:00",
+      "new_count": 4,
+      "activities": [
+        {
+          "athlete": "Liudas S.",
+          "sport": "Walk",
+          "distance_km": 1.22,
+          "name": "Night Walk"
+        },
+        {
+          "athlete": "Gintarė B.",
+          "sport": "Walk",
+          "distance_km": 2.03,
+          "name": "Evening Walk"
+        },
+        {
+          "athlete": "Liudas S.",
+          "sport": "Walk",
+          "distance_km": 1.87,
+          "name": "Evening Walk"
+        },
+        {
+          "athlete": "Augustinas T.",
+          "sport": "Walk",
+          "distance_km": 7.22,
+          "name": "Evening Walk"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-25T17:38:50.910161+00:00",
       "new_count": 3,
       "activities": [
@@ -17696,36 +17798,6 @@
           "sport": "Ride",
           "distance_km": 3.15,
           "name": "Morning Ride"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-22T05:27:50.702658+00:00",
-      "new_count": 4,
-      "activities": [
-        {
-          "athlete": "Daina G.",
-          "sport": "Walk",
-          "distance_km": 2.63,
-          "name": "Morning Walk"
-        },
-        {
-          "athlete": "Augustinas T.",
-          "sport": "Ride",
-          "distance_km": 14.03,
-          "name": "Morning Ride"
-        },
-        {
-          "athlete": "Sandra M.",
-          "sport": "Ride",
-          "distance_km": 4.24,
-          "name": "Morning Ride"
-        },
-        {
-          "athlete": "Andrius A.",
-          "sport": "Walk",
-          "distance_km": 1.23,
-          "name": "Morning Walk"
         }
       ]
     }
