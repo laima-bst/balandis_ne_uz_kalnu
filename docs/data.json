@@ -11715,8 +11715,13 @@
       "points": 27.5
     }
   ],
-  "generated_at": "2026-04-25T19:49:22.236878+00:00",
+  "generated_at": "2026-04-25T20:41:02.899271+00:00",
   "run_log": [
+    {
+      "timestamp": "2026-04-25T20:41:02.872405+00:00",
+      "new_count": 0,
+      "activities": []
+    },
     {
       "timestamp": "2026-04-25T19:49:22.209623+00:00",
       "new_count": 1,
@@ -12840,24 +12845,6 @@
           "athlete": "Augustinas T.",
           "sport": "Walk",
           "distance_km": 2.5,
-          "name": "Lunch Walk"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-22T09:23:14.540387+00:00",
-      "new_count": 2,
-      "activities": [
-        {
-          "athlete": "Liudas S.",
-          "sport": "Ride",
-          "distance_km": 2.47,
-          "name": "To gym"
-        },
-        {
-          "athlete": "Azuolas S.",
-          "sport": "Walk",
-          "distance_km": 2.8,
           "name": "Lunch Walk"
         }
       ]
