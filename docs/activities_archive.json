@@ -1,5 +1,6 @@
 {
   "fingerprints": [
+    "1c7ff40fb9ac6fcde18713ae94898e6c",
     "6b4f606ad3fd9da363f4dc731591305c",
     "361e4c89514f73a84078678e07521362",
     "640b798b070686713ff323db874e30f9",
@@ -954,6 +955,23 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Aurelija",
+        "lastname": "S."
+      },
+      "name": "Deserto 🥐",
+      "distance": 2418.1,
+      "moving_time": 1402,
+      "elapsed_time": 1504,
+      "total_elevation_gain": 18.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin Venu 3S",
+      "_fetched_date": "2026-04-25"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -16176,6 +16194,18 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-25T09:57:13.706105+00:00",
+      "new_count": 1,
+      "activities": [
+        {
+          "athlete": "Aurelija S.",
+          "sport": "Walk",
+          "distance_km": 2.42,
+          "name": "Deserto 🥐"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-25T08:55:53.126647+00:00",
       "new_count": 2,
       "activities": [
@@ -17265,60 +17295,6 @@
           "sport": "Walk",
           "distance_km": 4.19,
           "name": "Afternoon Walk"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-21T15:15:34.562726+00:00",
-      "new_count": 8,
-      "activities": [
-        {
-          "athlete": "Viktorija M.",
-          "sport": "Walk",
-          "distance_km": 1.09,
-          "name": "Afternoon Walk"
-        },
-        {
-          "athlete": "Edvinas V.",
-          "sport": "Ride",
-          "distance_km": 3.11,
-          "name": "Afternoon Ride"
-        },
-        {
-          "athlete": "Viktorija M.",
-          "sport": "Walk",
-          "distance_km": 2.87,
-          "name": "Afternoon Walk"
-        },
-        {
-          "athlete": "Riskman G.",
-          "sport": "Ride",
-          "distance_km": 12.47,
-          "name": "Afternoon Ride"
-        },
-        {
-          "athlete": "Daina G.",
-          "sport": "Walk",
-          "distance_km": 4.63,
-          "name": "Afternoon Walk"
-        },
-        {
-          "athlete": "Antanas R.",
-          "sport": "Swim",
-          "distance_km": 2.02,
-          "name": "Afternoon Swim"
-        },
-        {
-          "athlete": "Gintarė B.",
-          "sport": "Walk",
-          "distance_km": 1.21,
-          "name": "Afternoon Walk"
-        },
-        {
-          "athlete": "Sandra M.",
-          "sport": "Ride",
-          "distance_km": 9.38,
-          "name": "Afternoon Ride"
         }
       ]
     }
