@@ -11787,8 +11787,13 @@
       "points": 27.5
     }
   ],
-  "generated_at": "2026-04-25T21:38:34.719491+00:00",
+  "generated_at": "2026-04-25T22:39:07.709030+00:00",
   "run_log": [
+    {
+      "timestamp": "2026-04-25T22:39:07.681361+00:00",
+      "new_count": 0,
+      "activities": []
+    },
     {
       "timestamp": "2026-04-25T21:38:34.692124+00:00",
       "new_count": 6,
@@ -12888,18 +12893,6 @@
           "sport": "Ride",
           "distance_km": 4.35,
           "name": "Afternoon Ride"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-22T13:46:19.617079+00:00",
-      "new_count": 1,
-      "activities": [
-        {
-          "athlete": "Daina G.",
-          "sport": "Walk",
-          "distance_km": 4.58,
-          "name": "Afternoon Walk"
         }
       ]
     }
