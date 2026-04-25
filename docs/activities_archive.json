@@ -1,5 +1,6 @@
 {
   "fingerprints": [
+    "ef9d5a8a2ac5b39a4a3010139bb1e1cd",
     "bebcdc82961df9f125f4a6d3b1359f0e",
     "f55a7f7c373eaff2ffc4f36dbba6809f",
     "fdbda8d672f1e274342e2161cd3573d9",
@@ -949,6 +950,24 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Andrius",
+        "lastname": "A."
+      },
+      "name": "Morning Run",
+      "distance": 5399.3,
+      "moving_time": 1974,
+      "elapsed_time": 2010,
+      "total_elevation_gain": 35.0,
+      "type": "Run",
+      "sport_type": "Run",
+      "workout_type": null,
+      "device_name": "Garmin fēnix 7",
+      "_fetched_date": "2026-04-25"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -16083,6 +16102,18 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-25T05:13:42.708004+00:00",
+      "new_count": 1,
+      "activities": [
+        {
+          "athlete": "Andrius A.",
+          "sport": "Run",
+          "distance_km": 5.4,
+          "name": "Morning Run"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-25T02:37:20.711006+00:00",
       "new_count": 0,
       "activities": []
@@ -17220,30 +17251,6 @@
           "sport": "Walk",
           "distance_km": 3.68,
           "name": "Lunch Walk"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-21T09:44:40.935844+00:00",
-      "new_count": 3,
-      "activities": [
-        {
-          "athlete": "Augustė J.",
-          "sport": "Walk",
-          "distance_km": 1.22,
-          "name": "Lunch Walk"
-        },
-        {
-          "athlete": "Paulius R.",
-          "sport": "Walk",
-          "distance_km": 3.7,
-          "name": "Lunch Walk"
-        },
-        {
-          "athlete": "Azuolas S.",
-          "sport": "Walk",
-          "distance_km": 1.01,
-          "name": "Morning Walk"
         }
       ]
     }
