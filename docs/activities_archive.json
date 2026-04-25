@@ -1,5 +1,6 @@
 {
   "fingerprints": [
+    "d62791e559347fe01dfd810803d1fe3b",
     "045517d6024d9de1880fcbf00b7a8814",
     "1c7ff40fb9ac6fcde18713ae94898e6c",
     "6b4f606ad3fd9da363f4dc731591305c",
@@ -956,6 +957,23 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Edvinas",
+        "lastname": "V."
+      },
+      "name": "Lunch Walk",
+      "distance": 1819.5,
+      "moving_time": 1502,
+      "elapsed_time": 5514,
+      "total_elevation_gain": 22.7,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-25"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -16213,6 +16231,18 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-25T11:40:04.031947+00:00",
+      "new_count": 1,
+      "activities": [
+        {
+          "athlete": "Edvinas V.",
+          "sport": "Walk",
+          "distance_km": 1.82,
+          "name": "Lunch Walk"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-25T10:54:16.534464+00:00",
       "new_count": 1,
       "activities": [
@@ -17248,42 +17278,6 @@
           "sport": "Swim",
           "distance_km": 0.38,
           "name": "Evening Swim"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-21T19:15:44.114600+00:00",
-      "new_count": 5,
-      "activities": [
-        {
-          "athlete": "Azuolas S.",
-          "sport": "Walk",
-          "distance_km": 1.04,
-          "name": "Evening Walk"
-        },
-        {
-          "athlete": "Benediktas B.",
-          "sport": "Ride",
-          "distance_km": 39.98,
-          "name": "Evening Ride"
-        },
-        {
-          "athlete": "Daina G.",
-          "sport": "Walk",
-          "distance_km": 3.85,
-          "name": "Walky walky"
-        },
-        {
-          "athlete": "Sandra M.",
-          "sport": "Walk",
-          "distance_km": 1.32,
-          "name": "Night Walk"
-        },
-        {
-          "athlete": "Sandra M.",
-          "sport": "Walk",
-          "distance_km": 2.36,
-          "name": "Night Walk"
         }
       ]
     }
