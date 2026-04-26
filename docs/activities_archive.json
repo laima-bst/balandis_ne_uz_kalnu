@@ -1,5 +1,6 @@
 {
   "fingerprints": [
+    "65db2dd4e434a524e4fe7bc8e5891632",
     "c8a20db6e82703f086260e63d357c534",
     "6fdd95d8f67e07b24003467484f87e18",
     "c91a2b7b47e2a9d09f56170949d85e86",
@@ -1000,6 +1001,23 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Gertrūda",
+        "lastname": "G."
+      },
+      "name": "Afternoon Walk",
+      "distance": 5615.1,
+      "moving_time": 4066,
+      "elapsed_time": 4603,
+      "total_elevation_gain": 30.8,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-26"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -17018,6 +17036,18 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-26T14:46:03.448761+00:00",
+      "new_count": 1,
+      "activities": [
+        {
+          "athlete": "Gertrūda G.",
+          "sport": "Walk",
+          "distance_km": 5.62,
+          "name": "Afternoon Walk"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-26T13:11:35.132702+00:00",
       "new_count": 2,
       "activities": [
@@ -18044,48 +18074,6 @@
           "sport": "Walk",
           "distance_km": 1.16,
           "name": "Morning Walk"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-23T06:07:18.210568+00:00",
-      "new_count": 6,
-      "activities": [
-        {
-          "athlete": "Edvinas V.",
-          "sport": "Ride",
-          "distance_km": 2.66,
-          "name": "Morning Ride"
-        },
-        {
-          "athlete": "Riskman G.",
-          "sport": "Ride",
-          "distance_km": 16.94,
-          "name": "Morning Ride"
-        },
-        {
-          "athlete": "Daina G.",
-          "sport": "Walk",
-          "distance_km": 2.67,
-          "name": "Morning Walk"
-        },
-        {
-          "athlete": "Augustinas T.",
-          "sport": "Ride",
-          "distance_km": 12.88,
-          "name": "Morning Ride"
-        },
-        {
-          "athlete": "Sandra M.",
-          "sport": "Walk",
-          "distance_km": 3.93,
-          "name": "Morning Walk"
-        },
-        {
-          "athlete": "Andrius A.",
-          "sport": "Run",
-          "distance_km": 5.8,
-          "name": "Morning Run"
         }
       ]
     }
