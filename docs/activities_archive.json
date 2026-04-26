@@ -1,5 +1,6 @@
 {
   "fingerprints": [
+    "e81fa161a7ca5ef383251358709eb5c9",
     "db8ae65d8594bad514084d3bb5cfe328",
     "7f7cea2cb078393ff0b2bad7e44952fb",
     "12658f246348caa57a76aa035b6d5737",
@@ -987,6 +988,24 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Andrius",
+        "lastname": "A."
+      },
+      "name": "Morning Run",
+      "distance": 1159.2,
+      "moving_time": 369,
+      "elapsed_time": 385,
+      "total_elevation_gain": 7.0,
+      "type": "Run",
+      "sport_type": "Run",
+      "workout_type": null,
+      "device_name": "Garmin fēnix 7",
+      "_fetched_date": "2026-04-26"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -16777,6 +16796,18 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-26T05:42:23.965164+00:00",
+      "new_count": 1,
+      "activities": [
+        {
+          "athlete": "Andrius A.",
+          "sport": "Run",
+          "distance_km": 1.16,
+          "name": "Morning Run"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-26T02:54:23.693070+00:00",
       "new_count": 0,
       "activities": []
@@ -17770,48 +17801,6 @@
           "sport": "Swim",
           "distance_km": 2.02,
           "name": "Afternoon Swim"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-22T19:17:03.037551+00:00",
-      "new_count": 6,
-      "activities": [
-        {
-          "athlete": "Paulius R.",
-          "sport": "Walk",
-          "distance_km": 12.99,
-          "name": "Evening Walk"
-        },
-        {
-          "athlete": "Valentinas A.",
-          "sport": "Ride",
-          "distance_km": 51.48,
-          "name": "Afternoon Ride"
-        },
-        {
-          "athlete": "Andrius A.",
-          "sport": "Walk",
-          "distance_km": 1.33,
-          "name": "Evening Walk"
-        },
-        {
-          "athlete": "Ieva S.",
-          "sport": "Run",
-          "distance_km": 6.02,
-          "name": "Evening Run"
-        },
-        {
-          "athlete": "Sandra M.",
-          "sport": "Walk",
-          "distance_km": 2.2,
-          "name": "Evening Walk"
-        },
-        {
-          "athlete": "Augustinas T.",
-          "sport": "Ride",
-          "distance_km": 47.78,
-          "name": "Afternoon Ride"
         }
       ]
     }
