@@ -1,5 +1,9 @@
 {
   "fingerprints": [
+    "c91a2b7b47e2a9d09f56170949d85e86",
+    "1000b331997c109edfdcc869f913bebd",
+    "ce782cd7a47014be07d4e01233fb9dfe",
+    "2acc8fe3794b4ea5de915a009744c611",
     "183b93256602b31cbe007c5ad3516d28",
     "5c6d22f475344a52309219e244630155",
     "0a4720b965c7dcc6fd029e6b005d9083",
@@ -994,6 +998,75 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Liudas",
+        "lastname": "S."
+      },
+      "name": "Lunch Walk",
+      "distance": 1709.8,
+      "moving_time": 963,
+      "elapsed_time": 1645,
+      "total_elevation_gain": 13.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Samsung Galaxy Ultra",
+      "_fetched_date": "2026-04-26"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Donatas",
+        "lastname": "J."
+      },
+      "name": "Lunch Walk",
+      "distance": 3413.7,
+      "moving_time": 2581,
+      "elapsed_time": 3328,
+      "total_elevation_gain": 72.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin Forerunner 255 Music",
+      "_fetched_date": "2026-04-26"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Greta",
+        "lastname": "N."
+      },
+      "name": "Morning Walk",
+      "distance": 1699.6,
+      "moving_time": 1164,
+      "elapsed_time": 8349,
+      "total_elevation_gain": 22.1,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-26"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Paulius",
+        "lastname": "R."
+      },
+      "name": "Morning Run",
+      "distance": 22778.2,
+      "moving_time": 7730,
+      "elapsed_time": 8152,
+      "total_elevation_gain": 135.9,
+      "type": "Run",
+      "sport_type": "Run",
+      "workout_type": null,
+      "device_name": "Wear OS by Google",
+      "_fetched_date": "2026-04-26"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -16907,6 +16980,36 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-26T10:48:38.629633+00:00",
+      "new_count": 4,
+      "activities": [
+        {
+          "athlete": "Liudas S.",
+          "sport": "Walk",
+          "distance_km": 1.71,
+          "name": "Lunch Walk"
+        },
+        {
+          "athlete": "Donatas J.",
+          "sport": "Walk",
+          "distance_km": 3.41,
+          "name": "Lunch Walk"
+        },
+        {
+          "athlete": "Greta N.",
+          "sport": "Walk",
+          "distance_km": 1.7,
+          "name": "Morning Walk"
+        },
+        {
+          "athlete": "Paulius R.",
+          "sport": "Run",
+          "distance_km": 22.78,
+          "name": "Morning Run"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-26T09:03:41.412599+00:00",
       "new_count": 2,
       "activities": [
@@ -17932,11 +18035,6 @@
     },
     {
       "timestamp": "2026-04-22T23:55:47.040046+00:00",
-      "new_count": 0,
-      "activities": []
-    },
-    {
-      "timestamp": "2026-04-22T22:59:01.283038+00:00",
       "new_count": 0,
       "activities": []
     }
