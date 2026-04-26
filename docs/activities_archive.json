@@ -1,5 +1,7 @@
 {
   "fingerprints": [
+    "b39ed0cab7b437113dc276f2e9ab3540",
+    "f51b684a2b1593e61f65ca60d3bbc6cc",
     "075902d73868ffd63304141d95daf088",
     "37dbb2a0e3fb63ba00af553c2a91406c",
     "527884e77d4b0d7a3db887451f670d5d",
@@ -1008,6 +1010,41 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Donatas",
+        "lastname": "J."
+      },
+      "name": "Evening Walk",
+      "distance": 2488.7,
+      "moving_time": 2381,
+      "elapsed_time": 2581,
+      "total_elevation_gain": 47.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin Forerunner 255 Music",
+      "_fetched_date": "2026-04-26"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Anton",
+        "lastname": "S."
+      },
+      "name": "Evening Ride",
+      "distance": 7942.5,
+      "moving_time": 2015,
+      "elapsed_time": 3263,
+      "total_elevation_gain": 29.9,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": null,
+      "device_name": "Fitbit Inspire 3",
+      "_fetched_date": "2026-04-26"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -17162,6 +17199,24 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-26T17:40:24.700401+00:00",
+      "new_count": 2,
+      "activities": [
+        {
+          "athlete": "Donatas J.",
+          "sport": "Walk",
+          "distance_km": 2.49,
+          "name": "Evening Walk"
+        },
+        {
+          "athlete": "Anton S.",
+          "sport": "Ride",
+          "distance_km": 7.94,
+          "name": "Evening Ride"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-26T16:47:36.289359+00:00",
       "new_count": 5,
       "activities": [
@@ -18164,30 +18219,6 @@
           "sport": "Walk",
           "distance_km": 2.0,
           "name": "Evening Walk"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-23T11:59:28.492087+00:00",
-      "new_count": 3,
-      "activities": [
-        {
-          "athlete": "Augustė J.",
-          "sport": "Walk",
-          "distance_km": 1.85,
-          "name": "Afternoon Walk"
-        },
-        {
-          "athlete": "Arturas K.",
-          "sport": "Walk",
-          "distance_km": 2.71,
-          "name": "Lunch Walk"
-        },
-        {
-          "athlete": "Augustinas T.",
-          "sport": "Walk",
-          "distance_km": 2.69,
-          "name": "Lunch Walk"
         }
       ]
     }
