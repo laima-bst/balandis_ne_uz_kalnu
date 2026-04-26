@@ -1,5 +1,7 @@
 {
   "fingerprints": [
+    "183b93256602b31cbe007c5ad3516d28",
+    "5c6d22f475344a52309219e244630155",
     "0a4720b965c7dcc6fd029e6b005d9083",
     "0e9463d03867411fa896ebf22b6019f2",
     "fc3271844f51fafb209ad30f15e72af8",
@@ -992,6 +994,41 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Donatas",
+        "lastname": "J."
+      },
+      "name": "test",
+      "distance": 1573.0,
+      "moving_time": 246,
+      "elapsed_time": 246,
+      "total_elevation_gain": 0,
+      "type": "VirtualRide",
+      "sport_type": "VirtualRide",
+      "device_name": "Kinomap Ride",
+      "_fetched_date": "2026-04-26"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Andrius",
+        "lastname": "A."
+      },
+      "name": "Morning Run",
+      "distance": 42201.2,
+      "moving_time": 9835,
+      "elapsed_time": 9835,
+      "total_elevation_gain": 249.0,
+      "type": "Run",
+      "sport_type": "Run",
+      "workout_type": null,
+      "device_name": "Garmin fēnix 7",
+      "_fetched_date": "2026-04-26"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -16870,6 +16907,24 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-26T09:03:41.412599+00:00",
+      "new_count": 2,
+      "activities": [
+        {
+          "athlete": "Donatas J.",
+          "sport": "VirtualRide",
+          "distance_km": 1.57,
+          "name": "test"
+        },
+        {
+          "athlete": "Andrius A.",
+          "sport": "Run",
+          "distance_km": 42.2,
+          "name": "Morning Run"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-26T07:43:01.095452+00:00",
       "new_count": 4,
       "activities": [
@@ -17882,11 +17937,6 @@
     },
     {
       "timestamp": "2026-04-22T22:59:01.283038+00:00",
-      "new_count": 0,
-      "activities": []
-    },
-    {
-      "timestamp": "2026-04-22T21:58:45.583901+00:00",
       "new_count": 0,
       "activities": []
     }
