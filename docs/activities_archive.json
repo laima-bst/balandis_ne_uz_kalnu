@@ -1,5 +1,7 @@
 {
   "fingerprints": [
+    "c8a20db6e82703f086260e63d357c534",
+    "6fdd95d8f67e07b24003467484f87e18",
     "c91a2b7b47e2a9d09f56170949d85e86",
     "1000b331997c109edfdcc869f913bebd",
     "ce782cd7a47014be07d4e01233fb9dfe",
@@ -998,6 +1000,42 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Valentinas",
+        "lastname": "A."
+      },
+      "name": "Morning Ride",
+      "distance": 133312.0,
+      "moving_time": 17548,
+      "elapsed_time": 20725,
+      "total_elevation_gain": 696.0,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": null,
+      "device_name": "Wahoo ELEMNT BOLT",
+      "_fetched_date": "2026-04-26"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Augustinas",
+        "lastname": "T."
+      },
+      "name": "Morning Ride",
+      "distance": 142941.0,
+      "moving_time": 18745,
+      "elapsed_time": 22101,
+      "total_elevation_gain": 761.0,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": 10,
+      "device_name": "Wahoo ELEMNT ROAM",
+      "_fetched_date": "2026-04-26"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -16980,6 +17018,24 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-26T13:11:35.132702+00:00",
+      "new_count": 2,
+      "activities": [
+        {
+          "athlete": "Valentinas A.",
+          "sport": "Ride",
+          "distance_km": 133.31,
+          "name": "Morning Ride"
+        },
+        {
+          "athlete": "Augustinas T.",
+          "sport": "Ride",
+          "distance_km": 142.94,
+          "name": "Morning Ride"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-26T11:40:39.038551+00:00",
       "new_count": 0,
       "activities": []
@@ -18032,11 +18088,6 @@
           "name": "Morning Run"
         }
       ]
-    },
-    {
-      "timestamp": "2026-04-23T03:27:17.351444+00:00",
-      "new_count": 0,
-      "activities": []
     }
   ]
 }
