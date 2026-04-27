@@ -1,5 +1,6 @@
 {
   "fingerprints": [
+    "e317bfaeb7a9ecfc7a5a2294fa706aee",
     "77fd959f0207caa35a2b59dfc33fb07e",
     "316b83f19a427f54d488c5679426b9a6",
     "adc79bec0d4284273682f6565f08670f",
@@ -1043,6 +1044,23 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Arturas",
+        "lastname": "K."
+      },
+      "name": "Neradau pardavimo vietos :(",
+      "distance": 1085.0,
+      "moving_time": 679,
+      "elapsed_time": 679,
+      "total_elevation_gain": 5.6,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-27"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -17804,6 +17822,18 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-27T21:04:46.548221+00:00",
+      "new_count": 1,
+      "activities": [
+        {
+          "athlete": "Arturas K.",
+          "sport": "Walk",
+          "distance_km": 1.08,
+          "name": "Neradau pardavimo vietos :("
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-27T19:26:07.027235+00:00",
       "new_count": 7,
       "activities": [
@@ -18654,48 +18684,6 @@
           "sport": "Run",
           "distance_km": 16.04,
           "name": "Evening Run"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-24T17:51:10.954092+00:00",
-      "new_count": 6,
-      "activities": [
-        {
-          "athlete": "Donatas J.",
-          "sport": "Walk",
-          "distance_km": 1.35,
-          "name": "Evening Walk"
-        },
-        {
-          "athlete": "Liudas S.",
-          "sport": "Walk",
-          "distance_km": 1.01,
-          "name": "Evening Walk"
-        },
-        {
-          "athlete": "Paulius R.",
-          "sport": "Walk",
-          "distance_km": 2.27,
-          "name": "Evening Walk"
-        },
-        {
-          "athlete": "Augustinas T.",
-          "sport": "Walk",
-          "distance_km": 2.55,
-          "name": "Evening Walk"
-        },
-        {
-          "athlete": "Benediktas B.",
-          "sport": "GravelRide",
-          "distance_km": 44.94,
-          "name": "Evening Gravel Ride"
-        },
-        {
-          "athlete": "Donatas J.",
-          "sport": "Ride",
-          "distance_km": 72.7,
-          "name": "Afternoon Ride"
         }
       ]
     }
