@@ -17677,6 +17677,11 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-27T17:27:04.728013+00:00",
+      "new_count": 0,
+      "activities": []
+    },
+    {
       "timestamp": "2026-04-27T15:55:45.478239+00:00",
       "new_count": 8,
       "activities": [
@@ -18551,24 +18556,6 @@
           "athlete": "Gintarė B.",
           "sport": "Walk",
           "distance_km": 1.46,
-          "name": "Afternoon Walk"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-24T14:01:14.995464+00:00",
-      "new_count": 2,
-      "activities": [
-        {
-          "athlete": "Andrius A.",
-          "sport": "Ride",
-          "distance_km": 5.46,
-          "name": "Afternoon Ride"
-        },
-        {
-          "athlete": "Greta N.",
-          "sport": "Walk",
-          "distance_km": 4.43,
           "name": "Afternoon Walk"
         }
       ]
