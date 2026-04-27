@@ -17822,6 +17822,11 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-27T22:54:46.475490+00:00",
+      "new_count": 0,
+      "activities": []
+    },
+    {
       "timestamp": "2026-04-27T21:04:46.548221+00:00",
       "new_count": 1,
       "activities": [
@@ -18674,18 +18679,6 @@
       "timestamp": "2026-04-24T19:54:49.701006+00:00",
       "new_count": 0,
       "activities": []
-    },
-    {
-      "timestamp": "2026-04-24T18:55:53.002574+00:00",
-      "new_count": 1,
-      "activities": [
-        {
-          "athlete": "Paulius R.",
-          "sport": "Run",
-          "distance_km": 16.04,
-          "name": "Evening Run"
-        }
-      ]
     }
   ]
 }
