@@ -1,5 +1,10 @@
 {
   "fingerprints": [
+    "6f12ae4d5f38b092f2e94175196d37a7",
+    "7fbfb7554f1667cb5b6b40032748e73d",
+    "6ac0e60793638e9856039ca6712d966d",
+    "c45d3b081ea6a6ae17f403409d560c3c",
+    "591a24a7fca6014cb57ad9cc1c7ca599",
     "1d4722c3485c0e982eb61be37789818d",
     "b9b6c3bdcf20bfd5fa75bccb159bfca4",
     "87925927478e1f6a8cd0253706eda895",
@@ -1022,6 +1027,92 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Liudas",
+        "lastname": "S."
+      },
+      "name": "Afternoon Run",
+      "distance": 2291.8,
+      "moving_time": 814,
+      "elapsed_time": 916,
+      "total_elevation_gain": 11.0,
+      "type": "Run",
+      "sport_type": "Run",
+      "workout_type": null,
+      "device_name": "Samsung Galaxy Ultra",
+      "_fetched_date": "2026-04-27"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Greta",
+        "lastname": "N."
+      },
+      "name": "Iki dėkui stotelės",
+      "distance": 1827.4,
+      "moving_time": 1791,
+      "elapsed_time": 2423,
+      "total_elevation_gain": 27.5,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-27"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Andrius",
+        "lastname": "A."
+      },
+      "name": "Lunch Walk",
+      "distance": 3032.9,
+      "moving_time": 2112,
+      "elapsed_time": 2640,
+      "total_elevation_gain": 39.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin fēnix 7",
+      "_fetched_date": "2026-04-27"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Donatas",
+        "lastname": "J."
+      },
+      "name": "Lunch Walk",
+      "distance": 2087.9,
+      "moving_time": 1518,
+      "elapsed_time": 2150,
+      "total_elevation_gain": 36.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin Forerunner 255 Music",
+      "_fetched_date": "2026-04-27"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Paulius",
+        "lastname": "R."
+      },
+      "name": "Lunch Walk",
+      "distance": 2955.7,
+      "moving_time": 1817,
+      "elapsed_time": 4061,
+      "total_elevation_gain": 57.3,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Wear OS by Google",
+      "_fetched_date": "2026-04-27"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -17421,6 +17512,42 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-27T11:45:21.135838+00:00",
+      "new_count": 5,
+      "activities": [
+        {
+          "athlete": "Liudas S.",
+          "sport": "Run",
+          "distance_km": 2.29,
+          "name": "Afternoon Run"
+        },
+        {
+          "athlete": "Greta N.",
+          "sport": "Walk",
+          "distance_km": 1.83,
+          "name": "Iki dėkui stotelės"
+        },
+        {
+          "athlete": "Andrius A.",
+          "sport": "Walk",
+          "distance_km": 3.03,
+          "name": "Lunch Walk"
+        },
+        {
+          "athlete": "Donatas J.",
+          "sport": "Walk",
+          "distance_km": 2.09,
+          "name": "Lunch Walk"
+        },
+        {
+          "athlete": "Paulius R.",
+          "sport": "Walk",
+          "distance_km": 2.96,
+          "name": "Lunch Walk"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-27T09:20:15.555547+00:00",
       "new_count": 3,
       "activities": [
@@ -18320,18 +18447,6 @@
           "sport": "Ride",
           "distance_km": 5.78,
           "name": "Morning Ride"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-24T08:09:38.808258+00:00",
-      "new_count": 1,
-      "activities": [
-        {
-          "athlete": "Liudas S.",
-          "sport": "Ride",
-          "distance_km": 2.49,
-          "name": "To gym"
         }
       ]
     }
