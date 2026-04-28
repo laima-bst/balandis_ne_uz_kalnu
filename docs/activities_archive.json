@@ -1,5 +1,8 @@
 {
   "fingerprints": [
+    "a155176471474296c0ae37ae44341a7e",
+    "09a8671e6d50b7d78472d2f1a295a711",
+    "536040069845b4658a7d0d4b5fe900ad",
     "52f3e4ecf126d6c7a419bf44242889e7",
     "2b5656b3329a9feabc35d130d20eb769",
     "793a39624428598f12f2190a358de8d2",
@@ -1060,6 +1063,57 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Donatas",
+        "lastname": "J."
+      },
+      "name": "Afternoon Walk",
+      "distance": 1302.9,
+      "moving_time": 1139,
+      "elapsed_time": 1407,
+      "total_elevation_gain": 30.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin Forerunner 255 Music",
+      "_fetched_date": "2026-04-28"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Daina",
+        "lastname": "G."
+      },
+      "name": "Afternoon Walk",
+      "distance": 3897.6,
+      "moving_time": 2049,
+      "elapsed_time": 3217,
+      "total_elevation_gain": 28.5,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-28"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Valentinas",
+        "lastname": "A."
+      },
+      "name": "Lunch Walk",
+      "distance": 2282.8,
+      "moving_time": 1382,
+      "elapsed_time": 3259,
+      "total_elevation_gain": 89.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "COROS VERTIX",
+      "_fetched_date": "2026-04-28"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -18115,6 +18169,30 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-28T14:12:21.373333+00:00",
+      "new_count": 3,
+      "activities": [
+        {
+          "athlete": "Donatas J.",
+          "sport": "Walk",
+          "distance_km": 1.3,
+          "name": "Afternoon Walk"
+        },
+        {
+          "athlete": "Daina G.",
+          "sport": "Walk",
+          "distance_km": 3.9,
+          "name": "Afternoon Walk"
+        },
+        {
+          "athlete": "Valentinas A.",
+          "sport": "Walk",
+          "distance_km": 2.28,
+          "name": "Lunch Walk"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-28T11:46:56.671832+00:00",
       "new_count": 9,
       "activities": [
@@ -19060,11 +19138,6 @@
           "name": "Morning Run"
         }
       ]
-    },
-    {
-      "timestamp": "2026-04-25T02:37:20.711006+00:00",
-      "new_count": 0,
-      "activities": []
     }
   ]
 }
