@@ -1,5 +1,11 @@
 {
   "fingerprints": [
+    "1bcf4a299cc6bf5adf1e4b121687f6cd",
+    "e8dd25f87bbae56f422e8ad0f82fd8e1",
+    "6cefbb6cbfb1e3406c85fba4d307a381",
+    "35d6b70ef8887dbfdcc873be85f2d069",
+    "c87098e0d56ad19425037f06e2acf377",
+    "d7733b42d4fec28e8844045280d8dc87",
     "a155176471474296c0ae37ae44341a7e",
     "09a8671e6d50b7d78472d2f1a295a711",
     "536040069845b4658a7d0d4b5fe900ad",
@@ -1063,6 +1069,111 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Edvinas",
+        "lastname": "V."
+      },
+      "name": "Afternoon Ride",
+      "distance": 20134.1,
+      "moving_time": 4846,
+      "elapsed_time": 5373,
+      "total_elevation_gain": 152.9,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": null,
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-28"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Donatas",
+        "lastname": "J."
+      },
+      "name": "Kinomap - 🇫🇷 KinoTour Stage 5 🚴🏼‍♂️",
+      "distance": 33004.0,
+      "moving_time": 3816,
+      "elapsed_time": 3816,
+      "total_elevation_gain": 179.0,
+      "type": "VirtualRide",
+      "sport_type": "VirtualRide",
+      "device_name": "Kinomap Ride",
+      "_fetched_date": "2026-04-28"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Greta",
+        "lastname": "N."
+      },
+      "name": "Afternoon Walk",
+      "distance": 2103.6,
+      "moving_time": 2095,
+      "elapsed_time": 2903,
+      "total_elevation_gain": 16.9,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-28"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Valentinas",
+        "lastname": "A."
+      },
+      "name": "Afternoon Ride",
+      "distance": 53190.8,
+      "moving_time": 8161,
+      "elapsed_time": 8775,
+      "total_elevation_gain": 405.0,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": null,
+      "device_name": "Wahoo ELEMNT BOLT",
+      "_fetched_date": "2026-04-28"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Sandra",
+        "lastname": "M."
+      },
+      "name": "Afternoon Walk",
+      "distance": 3781.3,
+      "moving_time": 2498,
+      "elapsed_time": 2594,
+      "total_elevation_gain": 27.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin Venu 2 Plus",
+      "_fetched_date": "2026-04-28"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Andrius",
+        "lastname": "A."
+      },
+      "name": "Afternoon Ride",
+      "distance": 5979.4,
+      "moving_time": 1278,
+      "elapsed_time": 1522,
+      "total_elevation_gain": 55.0,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": null,
+      "device_name": "Garmin fēnix 7",
+      "_fetched_date": "2026-04-28"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -18169,6 +18280,48 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-28T16:54:01.947444+00:00",
+      "new_count": 6,
+      "activities": [
+        {
+          "athlete": "Edvinas V.",
+          "sport": "Ride",
+          "distance_km": 20.13,
+          "name": "Afternoon Ride"
+        },
+        {
+          "athlete": "Donatas J.",
+          "sport": "VirtualRide",
+          "distance_km": 33.0,
+          "name": "Kinomap - 🇫🇷 KinoTour Stage 5 🚴🏼‍♂️"
+        },
+        {
+          "athlete": "Greta N.",
+          "sport": "Walk",
+          "distance_km": 2.1,
+          "name": "Afternoon Walk"
+        },
+        {
+          "athlete": "Valentinas A.",
+          "sport": "Ride",
+          "distance_km": 53.19,
+          "name": "Afternoon Ride"
+        },
+        {
+          "athlete": "Sandra M.",
+          "sport": "Walk",
+          "distance_km": 3.78,
+          "name": "Afternoon Walk"
+        },
+        {
+          "athlete": "Andrius A.",
+          "sport": "Ride",
+          "distance_km": 5.98,
+          "name": "Afternoon Ride"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-28T14:12:21.373333+00:00",
       "new_count": 3,
       "activities": [
@@ -19124,18 +19277,6 @@
           "sport": "Run",
           "distance_km": 5.51,
           "name": "12 sav. iki HM / varžybų savaitė"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-25T05:13:42.708004+00:00",
-      "new_count": 1,
-      "activities": [
-        {
-          "athlete": "Andrius A.",
-          "sport": "Run",
-          "distance_km": 5.4,
-          "name": "Morning Run"
         }
       ]
     }
