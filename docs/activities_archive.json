@@ -1,5 +1,6 @@
 {
   "fingerprints": [
+    "0f7fbe012088ae4caec1a0cd088fcaf0",
     "b23497fd146f8ddf17fc5d21da9a2a61",
     "8e0469de4ab622733fc3ec437947c27d",
     "363b33838630589453b232deafc50144",
@@ -1081,6 +1082,23 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Donatas",
+        "lastname": "J."
+      },
+      "name": "Kinomap - 🚴🏼‍♂️ World Championships 2023 Glasgow - Elite Time Trial 🌈",
+      "distance": 63814.0,
+      "moving_time": 8434,
+      "elapsed_time": 8434,
+      "total_elevation_gain": 0,
+      "type": "VirtualRide",
+      "sport_type": "VirtualRide",
+      "device_name": "Kinomap Ride",
+      "_fetched_date": "2026-04-28"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -18500,6 +18518,18 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-28T21:59:52.444909+00:00",
+      "new_count": 1,
+      "activities": [
+        {
+          "athlete": "Donatas J.",
+          "sport": "VirtualRide",
+          "distance_km": 63.81,
+          "name": "Kinomap - 🚴🏼‍♂️ World Championships 2023 Glasgow - Elite Time Trial 🌈"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-28T20:18:11.133483+00:00",
       "new_count": 8,
       "activities": [
@@ -19533,18 +19563,6 @@
           "sport": "Ride",
           "distance_km": 115.74,
           "name": "3"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-25T09:57:13.706105+00:00",
-      "new_count": 1,
-      "activities": [
-        {
-          "athlete": "Aurelija S.",
-          "sport": "Walk",
-          "distance_km": 2.42,
-          "name": "Deserto 🥐"
         }
       ]
     }

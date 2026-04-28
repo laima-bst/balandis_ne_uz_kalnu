@@ -110,6 +110,55 @@
       "rank": 2
     },
     {
+      "name": "Balandžio dvasia",
+      "color": "#3498db",
+      "total_points": 2518.2,
+      "total_distance_km": 1864.11,
+      "activity_count": 171,
+      "members": [
+        "Donatas J.",
+        "Ne L.",
+        "Gintarė B.",
+        "Aurelija S.",
+        "Arunas M."
+      ],
+      "member_count": 5,
+      "points_per_person": 503.6,
+      "member_details": [
+        {
+          "name": "Donatas J.",
+          "points": 1604.1,
+          "pct_of_team": 63.7
+        },
+        {
+          "name": "Gintarė B.",
+          "points": 541.6,
+          "pct_of_team": 21.5
+        },
+        {
+          "name": "Arunas M.",
+          "points": 154.5,
+          "pct_of_team": 6.1
+        },
+        {
+          "name": "Aurelija S.",
+          "points": 133.7,
+          "pct_of_team": 5.3
+        },
+        {
+          "name": "Ne L.",
+          "points": 84.3,
+          "pct_of_team": 3.3
+        }
+      ],
+      "distance_by_group": {
+        "run_walk": 327.1,
+        "ride": 1537.0,
+        "swim": 0.0
+      },
+      "rank": 3
+    },
+    {
       "name": "Nešam Kudašių",
       "color": "#f39c12",
       "total_points": 2495.4,
@@ -155,55 +204,6 @@
         "run_walk": 348.1,
         "ride": 1420.2,
         "swim": 2.1
-      },
-      "rank": 3
-    },
-    {
-      "name": "Balandžio dvasia",
-      "color": "#3498db",
-      "total_points": 2454.4,
-      "total_distance_km": 1800.3,
-      "activity_count": 170,
-      "members": [
-        "Donatas J.",
-        "Ne L.",
-        "Gintarė B.",
-        "Aurelija S.",
-        "Arunas M."
-      ],
-      "member_count": 5,
-      "points_per_person": 490.9,
-      "member_details": [
-        {
-          "name": "Donatas J.",
-          "points": 1540.3,
-          "pct_of_team": 62.8
-        },
-        {
-          "name": "Gintarė B.",
-          "points": 541.6,
-          "pct_of_team": 22.1
-        },
-        {
-          "name": "Arunas M.",
-          "points": 154.5,
-          "pct_of_team": 6.3
-        },
-        {
-          "name": "Aurelija S.",
-          "points": 133.7,
-          "pct_of_team": 5.4
-        },
-        {
-          "name": "Ne L.",
-          "points": 84.3,
-          "pct_of_team": 3.4
-        }
-      ],
-      "distance_by_group": {
-        "run_walk": 327.1,
-        "ride": 1473.2,
-        "swim": 0.0
       },
       "rank": 4
     },
@@ -911,20 +911,20 @@
       "rankings": {
         "Nemiegantys Balandžiai": 1,
         "Tardigrada": 2,
-        "Nešam Kudašių": 3,
-        "Balandžio dvasia": 4,
+        "Balandžio dvasia": 3,
+        "Nešam Kudašių": 4,
         "Sūkuriai": 5
       },
       "points": {
         "Nemiegantys Balandžiai": 3932.6,
-        "Balandžio dvasia": 2454.4,
+        "Balandžio dvasia": 2518.2,
         "Tardigrada": 2960.7,
         "Sūkuriai": 1535.0,
         "Nešam Kudašių": 2495.4
       },
       "points_per_person": {
         "Nemiegantys Balandžiai": 655.4,
-        "Balandžio dvasia": 490.9,
+        "Balandžio dvasia": 503.6,
         "Tardigrada": 592.1,
         "Sūkuriai": 307.0,
         "Nešam Kudašių": 499.1
@@ -964,15 +964,15 @@
     },
     {
       "name": "Donatas J.",
-      "total_points": 1540.3,
-      "activity_count": 72,
-      "total_distance_km": 1382.43,
+      "total_points": 1604.1,
+      "activity_count": 73,
+      "total_distance_km": 1446.24,
       "total_elevation_m": 10323.0,
       "by_type": {
         "VirtualRide": {
-          "count": 5,
-          "points": 183.9,
-          "distance_km": 183.79999999999998
+          "count": 6,
+          "points": 247.70000000000002,
+          "distance_km": 247.60999999999999
         },
         "Walk": {
           "count": 44,
@@ -988,7 +988,7 @@
       "rank": 2,
       "points_by_group": {
         "run_walk": 236.2,
-        "ride": 1304.1,
+        "ride": 1367.9,
         "swim": 0.0
       }
     },
@@ -1644,6 +1644,18 @@
     }
   ],
   "activities": [
+    {
+      "athlete_key": "donatas_j.",
+      "athlete_name": "Donatas J.",
+      "name": "Kinomap - 🚴🏼‍♂️ World Championships 2023 Glasgow - Elite Time Trial 🌈",
+      "sport_type": "VirtualRide",
+      "start_date": null,
+      "_fetched_date": "2026-04-28",
+      "distance_km": 63.81,
+      "elevation_m": 0,
+      "moving_time_s": 8434,
+      "points": 63.8
+    },
     {
       "athlete_key": "sandra_m.",
       "athlete_name": "Sandra M.",
@@ -12961,8 +12973,20 @@
       "points": 27.5
     }
   ],
-  "generated_at": "2026-04-28T20:18:11.296709+00:00",
+  "generated_at": "2026-04-28T21:59:52.474851+00:00",
   "run_log": [
+    {
+      "timestamp": "2026-04-28T21:59:52.444909+00:00",
+      "new_count": 1,
+      "activities": [
+        {
+          "athlete": "Donatas J.",
+          "sport": "VirtualRide",
+          "distance_km": 63.81,
+          "name": "Kinomap - 🚴🏼‍♂️ World Championships 2023 Glasgow - Elite Time Trial 🌈"
+        }
+      ]
+    },
     {
       "timestamp": "2026-04-28T20:18:11.133483+00:00",
       "new_count": 8,
@@ -13997,18 +14021,6 @@
           "sport": "Ride",
           "distance_km": 115.74,
           "name": "3"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-25T09:57:13.706105+00:00",
-      "new_count": 1,
-      "activities": [
-        {
-          "athlete": "Aurelija S.",
-          "sport": "Walk",
-          "distance_km": 2.42,
-          "name": "Deserto 🥐"
         }
       ]
     }
