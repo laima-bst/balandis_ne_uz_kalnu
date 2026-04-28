@@ -1,5 +1,6 @@
 {
   "fingerprints": [
+    "f519a1d5421093dfd55cc783df335fe7",
     "d0175397bcf9dbd4f9873a35e6887140",
     "49286c0f5c72a5853c1991e17ba232c1",
     "fea7d4e5cc13601ac518aa1e74e93a6b",
@@ -1050,6 +1051,23 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Paulius",
+        "lastname": "R."
+      },
+      "name": "Morning Walk",
+      "distance": 1339.3,
+      "moving_time": 766,
+      "elapsed_time": 1083,
+      "total_elevation_gain": 0.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Wear OS by Google",
+      "_fetched_date": "2026-04-28"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -17933,6 +17951,18 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-28T09:23:34.086331+00:00",
+      "new_count": 1,
+      "activities": [
+        {
+          "athlete": "Paulius R.",
+          "sport": "Walk",
+          "distance_km": 1.34,
+          "name": "Morning Walk"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-28T06:35:49.054497+00:00",
       "new_count": 4,
       "activities": [
@@ -18814,11 +18844,6 @@
     },
     {
       "timestamp": "2026-04-24T23:40:53.116459+00:00",
-      "new_count": 0,
-      "activities": []
-    },
-    {
-      "timestamp": "2026-04-24T22:40:26.833779+00:00",
       "new_count": 0,
       "activities": []
     }
