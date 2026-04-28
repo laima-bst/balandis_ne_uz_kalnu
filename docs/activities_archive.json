@@ -1,5 +1,7 @@
 {
   "fingerprints": [
+    "84c1f8d04698a944ef3939b1a1eaec56",
+    "da857e8438840cc0da9bcb602e4b3312",
     "e317bfaeb7a9ecfc7a5a2294fa706aee",
     "77fd959f0207caa35a2b59dfc33fb07e",
     "316b83f19a427f54d488c5679426b9a6",
@@ -1044,6 +1046,41 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Andrius",
+        "lastname": "A."
+      },
+      "name": "Morning Ride",
+      "distance": 5700.4,
+      "moving_time": 1121,
+      "elapsed_time": 1121,
+      "total_elevation_gain": 35.0,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": null,
+      "device_name": "Garmin fēnix 7",
+      "_fetched_date": "2026-04-28"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Daina",
+        "lastname": "G."
+      },
+      "name": "Morning Walk",
+      "distance": 2587.8,
+      "moving_time": 1515,
+      "elapsed_time": 2948,
+      "total_elevation_gain": 45.5,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-28"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -17822,6 +17859,24 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-28T03:56:03.067400+00:00",
+      "new_count": 2,
+      "activities": [
+        {
+          "athlete": "Andrius A.",
+          "sport": "Ride",
+          "distance_km": 5.7,
+          "name": "Morning Ride"
+        },
+        {
+          "athlete": "Daina G.",
+          "sport": "Walk",
+          "distance_km": 2.59,
+          "name": "Morning Walk"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-27T23:56:27.394700+00:00",
       "new_count": 0,
       "activities": []
@@ -18674,11 +18729,6 @@
           "name": "Penktadienio vakaras"
         }
       ]
-    },
-    {
-      "timestamp": "2026-04-24T20:54:35.833971+00:00",
-      "new_count": 0,
-      "activities": []
     }
   ]
 }
