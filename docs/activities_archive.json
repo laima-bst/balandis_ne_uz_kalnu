@@ -1,5 +1,9 @@
 {
   "fingerprints": [
+    "5e8762edfc6cf6f0c11fd8dc3dbdf803",
+    "c29fb154ac109b3a1178077c0dd3046c",
+    "5c9a1b5652beb7e5d5163e15d6e76235",
+    "cc11568b3db8c6863d5d32154302134f",
     "1bcf4a299cc6bf5adf1e4b121687f6cd",
     "e8dd25f87bbae56f422e8ad0f82fd8e1",
     "6cefbb6cbfb1e3406c85fba4d307a381",
@@ -1069,6 +1073,75 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Andrius",
+        "lastname": "A."
+      },
+      "name": "Evening Walk",
+      "distance": 1921.0,
+      "moving_time": 1372,
+      "elapsed_time": 1611,
+      "total_elevation_gain": 15.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin fēnix 7",
+      "_fetched_date": "2026-04-28"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Azuolas",
+        "lastname": "S."
+      },
+      "name": "Evening Walk",
+      "distance": 1032.8,
+      "moving_time": 662,
+      "elapsed_time": 1158,
+      "total_elevation_gain": 28.2,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-28"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Donatas",
+        "lastname": "J."
+      },
+      "name": "Kinomap - Santa-Monica to Long Beach",
+      "distance": 40563.0,
+      "moving_time": 5640,
+      "elapsed_time": 5640,
+      "total_elevation_gain": 356.7,
+      "type": "VirtualRide",
+      "sport_type": "VirtualRide",
+      "device_name": "Kinomap Ride",
+      "_fetched_date": "2026-04-28"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Augustinas",
+        "lastname": "T."
+      },
+      "name": "Afternoon Ride",
+      "distance": 71556.2,
+      "moving_time": 10547,
+      "elapsed_time": 11323,
+      "total_elevation_gain": 482.0,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": null,
+      "device_name": "Wahoo ELEMNT ROAM",
+      "_fetched_date": "2026-04-28"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -18280,6 +18353,36 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-28T18:19:24.641002+00:00",
+      "new_count": 4,
+      "activities": [
+        {
+          "athlete": "Andrius A.",
+          "sport": "Walk",
+          "distance_km": 1.92,
+          "name": "Evening Walk"
+        },
+        {
+          "athlete": "Azuolas S.",
+          "sport": "Walk",
+          "distance_km": 1.03,
+          "name": "Evening Walk"
+        },
+        {
+          "athlete": "Donatas J.",
+          "sport": "VirtualRide",
+          "distance_km": 40.56,
+          "name": "Kinomap - Santa-Monica to Long Beach"
+        },
+        {
+          "athlete": "Augustinas T.",
+          "sport": "Ride",
+          "distance_km": 71.56,
+          "name": "Afternoon Ride"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-28T16:54:01.947444+00:00",
       "new_count": 6,
       "activities": [
@@ -19259,24 +19362,6 @@
           "sport": "Walk",
           "distance_km": 1.69,
           "name": "Lunch Walk"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-25T07:20:42.493581+00:00",
-      "new_count": 2,
-      "activities": [
-        {
-          "athlete": "Gintarė B.",
-          "sport": "Walk",
-          "distance_km": 2.68,
-          "name": "Morning Walk"
-        },
-        {
-          "athlete": "Žilvinas P.",
-          "sport": "Run",
-          "distance_km": 5.51,
-          "name": "12 sav. iki HM / varžybų savaitė"
         }
       ]
     }
