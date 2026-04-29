@@ -1,5 +1,10 @@
 {
   "fingerprints": [
+    "4721456491040c98d01d5c0d322059a3",
+    "851f4f61c7592c3f838e74bb2f07b90a",
+    "c8cc21ed48c477d0bc15a213056002c1",
+    "66334524cc9ecc15ebebc450289f04c7",
+    "7f792494bf5dc09e5cb09545eaf04217",
     "5089dff800b6fa3a80d4425276ecc3df",
     "8925f7e72fc23b877324b0133593e5d6",
     "3c276b5c0dc11b92dff865e5603defd9",
@@ -1123,6 +1128,92 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Arturas",
+        "lastname": "K."
+      },
+      "name": "Night Walk",
+      "distance": 2179.3,
+      "moving_time": 1381,
+      "elapsed_time": 1396,
+      "total_elevation_gain": 17.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin Epix Gen2",
+      "_fetched_date": "2026-04-29"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Azuolas",
+        "lastname": "S."
+      },
+      "name": "Evening Run",
+      "distance": 8152.6,
+      "moving_time": 2803,
+      "elapsed_time": 2803,
+      "total_elevation_gain": 45.2,
+      "type": "Run",
+      "sport_type": "Run",
+      "workout_type": null,
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-29"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Arturas",
+        "lastname": "K."
+      },
+      "name": "Evening Walk",
+      "distance": 6317.7,
+      "moving_time": 4514,
+      "elapsed_time": 5392,
+      "total_elevation_gain": 53.4,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin Epix Gen2",
+      "_fetched_date": "2026-04-29"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Paulius",
+        "lastname": "R."
+      },
+      "name": "Evening Walk",
+      "distance": 10453.3,
+      "moving_time": 6493,
+      "elapsed_time": 6830,
+      "total_elevation_gain": 145.1,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Wear OS by Google",
+      "_fetched_date": "2026-04-29"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Antanas",
+        "lastname": "R."
+      },
+      "name": "Evening Walk",
+      "distance": 2112.8,
+      "moving_time": 1525,
+      "elapsed_time": 1603,
+      "total_elevation_gain": 34.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin fēnix 7",
+      "_fetched_date": "2026-04-29"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -19265,6 +19356,42 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-29T20:10:52.802041+00:00",
+      "new_count": 5,
+      "activities": [
+        {
+          "athlete": "Arturas K.",
+          "sport": "Walk",
+          "distance_km": 2.18,
+          "name": "Night Walk"
+        },
+        {
+          "athlete": "Azuolas S.",
+          "sport": "Run",
+          "distance_km": 8.15,
+          "name": "Evening Run"
+        },
+        {
+          "athlete": "Arturas K.",
+          "sport": "Walk",
+          "distance_km": 6.32,
+          "name": "Evening Walk"
+        },
+        {
+          "athlete": "Paulius R.",
+          "sport": "Walk",
+          "distance_km": 10.45,
+          "name": "Evening Walk"
+        },
+        {
+          "athlete": "Antanas R.",
+          "sport": "Walk",
+          "distance_km": 2.11,
+          "name": "Evening Walk"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-29T18:12:36.653209+00:00",
       "new_count": 5,
       "activities": [
@@ -20395,18 +20522,6 @@
       "timestamp": "2026-04-25T20:41:02.872405+00:00",
       "new_count": 0,
       "activities": []
-    },
-    {
-      "timestamp": "2026-04-25T19:49:22.209623+00:00",
-      "new_count": 1,
-      "activities": [
-        {
-          "athlete": "Tautvydas Ž.",
-          "sport": "Hike",
-          "distance_km": 24.84,
-          "name": "Morning Hike"
-        }
-      ]
     }
   ]
 }
