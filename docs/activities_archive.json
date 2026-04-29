@@ -1,5 +1,13 @@
 {
   "fingerprints": [
+    "ee436d80999f162b909917104c5968d0",
+    "a4fcc0926af027a00d4660ae688a7a21",
+    "58dc1657ac2923366ac71daec7485762",
+    "447e1b446b87c3d677b0c8a3a8516d38",
+    "343145cb4feb4a3b3be10edbb199f106",
+    "819d837a9c83645b286eb87c6c65d717",
+    "0c996e63bf95cce23d880bc410887a9a",
+    "3683d512ac5089a4ac63e13142c017c7",
     "3faa8d4dc07597bdcc562f9c0f1d7cf5",
     "0f7fbe012088ae4caec1a0cd088fcaf0",
     "b23497fd146f8ddf17fc5d21da9a2a61",
@@ -1083,6 +1091,147 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Donatas",
+        "lastname": "J."
+      },
+      "name": "Morning Walk",
+      "distance": 1098.3,
+      "moving_time": 988,
+      "elapsed_time": 1005,
+      "total_elevation_gain": 2.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin Forerunner 255 Music",
+      "_fetched_date": "2026-04-29"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Greta",
+        "lastname": "N."
+      },
+      "name": "Morning Walk",
+      "distance": 1442.0,
+      "moving_time": 967,
+      "elapsed_time": 1179,
+      "total_elevation_gain": 2.5,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-29"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Edvinas",
+        "lastname": "V."
+      },
+      "name": "Morning Ride",
+      "distance": 2653.9,
+      "moving_time": 579,
+      "elapsed_time": 603,
+      "total_elevation_gain": 0.0,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": null,
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-29"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Sandra",
+        "lastname": "M."
+      },
+      "name": "Morning Walk",
+      "distance": 3843.3,
+      "moving_time": 2359,
+      "elapsed_time": 2535,
+      "total_elevation_gain": 28.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin Venu 2 Plus",
+      "_fetched_date": "2026-04-29"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Augustinas",
+        "lastname": "T."
+      },
+      "name": "Morning Ride",
+      "distance": 40325.6,
+      "moving_time": 5852,
+      "elapsed_time": 5904,
+      "total_elevation_gain": 204.0,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": null,
+      "device_name": "Wahoo ELEMNT ROAM",
+      "_fetched_date": "2026-04-29"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Laima",
+        "lastname": "A."
+      },
+      "name": "Morning Workout",
+      "distance": 0.0,
+      "moving_time": 5161,
+      "elapsed_time": 5161,
+      "total_elevation_gain": 0,
+      "type": "Workout",
+      "sport_type": "Workout",
+      "workout_type": null,
+      "device_name": "COROS PACE 2",
+      "_fetched_date": "2026-04-29"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Edvinas",
+        "lastname": "V."
+      },
+      "name": "Morning Run",
+      "distance": 6472.7,
+      "moving_time": 2304,
+      "elapsed_time": 2400,
+      "total_elevation_gain": 47.7,
+      "type": "Run",
+      "sport_type": "Run",
+      "workout_type": null,
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-29"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Andrius",
+        "lastname": "A."
+      },
+      "name": "Morning Ride",
+      "distance": 13789.4,
+      "moving_time": 2586,
+      "elapsed_time": 2649,
+      "total_elevation_gain": 89.0,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": null,
+      "device_name": "Garmin fēnix 7",
+      "_fetched_date": "2026-04-29"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -18536,6 +18685,60 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-29T06:25:05.907537+00:00",
+      "new_count": 8,
+      "activities": [
+        {
+          "athlete": "Donatas J.",
+          "sport": "Walk",
+          "distance_km": 1.1,
+          "name": "Morning Walk"
+        },
+        {
+          "athlete": "Greta N.",
+          "sport": "Walk",
+          "distance_km": 1.44,
+          "name": "Morning Walk"
+        },
+        {
+          "athlete": "Edvinas V.",
+          "sport": "Ride",
+          "distance_km": 2.65,
+          "name": "Morning Ride"
+        },
+        {
+          "athlete": "Sandra M.",
+          "sport": "Walk",
+          "distance_km": 3.84,
+          "name": "Morning Walk"
+        },
+        {
+          "athlete": "Augustinas T.",
+          "sport": "Ride",
+          "distance_km": 40.33,
+          "name": "Morning Ride"
+        },
+        {
+          "athlete": "Laima A.",
+          "sport": "Workout",
+          "distance_km": 0.0,
+          "name": "Morning Workout"
+        },
+        {
+          "athlete": "Edvinas V.",
+          "sport": "Run",
+          "distance_km": 6.47,
+          "name": "Morning Run"
+        },
+        {
+          "athlete": "Andrius A.",
+          "sport": "Ride",
+          "distance_km": 13.79,
+          "name": "Morning Ride"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-29T03:50:38.342493+00:00",
       "new_count": 1,
       "activities": [
@@ -19538,42 +19741,6 @@
           "sport": "Walk",
           "distance_km": 2.6,
           "name": "Afternoon Walk"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-25T13:09:08.248690+00:00",
-      "new_count": 5,
-      "activities": [
-        {
-          "athlete": "Liudas S.",
-          "sport": "Walk",
-          "distance_km": 1.4,
-          "name": "Afternoon Walk"
-        },
-        {
-          "athlete": "Aurelija S.",
-          "sport": "Tennis",
-          "distance_km": 0.24,
-          "name": "Afternoon Tennis 🎾"
-        },
-        {
-          "athlete": "Greta N.",
-          "sport": "Walk",
-          "distance_km": 1.88,
-          "name": "Afternoon Walk"
-        },
-        {
-          "athlete": "Matas A.",
-          "sport": "Walk",
-          "distance_km": 8.08,
-          "name": "Lunch Walk"
-        },
-        {
-          "athlete": "Paulius R.",
-          "sport": "Walk",
-          "distance_km": 2.85,
-          "name": "Morning Walk"
         }
       ]
     }
