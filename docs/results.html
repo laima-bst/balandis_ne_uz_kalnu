@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=1100, user-scalable=yes, minimum-scale=0.1" />
+  <title>Balandis ne už kalnų 2026 — Rezultatai</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <style>
+    :root {
+      --bg:      #f5f5f5;
+      --card:    #ffffff;
+      --primary: #fc4c02;
+      --text:    #1a1a1a;
+      --muted:   #666;
+      --border:  #e5e5e5;
+      --gold:    #f5a623;
+      --silver:  #9b9b9b;
+      --bronze:  #c47a3a;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+    }
+
+    /* ---- Hero ---- */
+    .hero {
+      background: linear-gradient(135deg, #fc4c02 0%, #e63900 100%);
+      color: white;
+      text-align: center;
+      padding: 4rem 2rem 3rem;
+    }
+    .hero .badge {
+      display: inline-block;
+      background: rgba(255,255,255,0.2);
+      border-radius: 20px;
+      padding: 0.3rem 1rem;
+      font-size: 0.85rem;
+      font-weight: 600;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      margin-bottom: 1rem;
+    }
+    .hero h1 {
+      font-size: 2.8rem;
+      font-weight: 800;
+      margin-bottom: 0.5rem;
+      line-height: 1.1;
+    }
+    .hero .subtitle {
+      font-size: 1.1rem;
+      opacity: 0.85;
+      margin-bottom: 2.5rem;
+    }
+    .hero-stats {
+      display: flex;
+      justify-content: center;
+      gap: 3rem;
+      flex-wrap: wrap;
+    }
+    .hero-stat { text-align: center; }
+    .hero-stat .value {
+      font-size: 2.2rem;
+      font-weight: 800;
+      display: block;
+    }
+    .hero-stat .label {
+      font-size: 0.8rem;
+      opacity: 0.8;
+      text-transform: uppercase;
+      letter-spacing: .06em;
+    }
+
+    /* ---- Layout ---- */
+    main {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 2.5rem 1rem;
+      display: grid;
+      gap: 1.5rem;
+    }
+
+    /* ---- Cards ---- */
+    .card {
+      background: var(--card);
+      border-radius: 14px;
+      border: 1px solid var(--border);
+      padding: 1.5rem 1.75rem;
+      box-shadow: 0 2px 8px rgba(0,0,0,.05);
+    }
+    .card h2 {
+      font-size: 0.8rem;
+      font-weight: 700;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: .08em;
+      margin-bottom: 1.25rem;
+    }
+
+    /* ---- Podium ---- */
+    .podium {
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      gap: 1rem;
+      margin-bottom: 2rem;
+    }
+    .podium-team {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .podium-name {
+      font-weight: 700;
+      font-size: 0.95rem;
+      text-align: center;
+      max-width: 130px;
+    }
+    .podium-ppp {
+      font-size: 1.1rem;
+      font-weight: 800;
+      color: var(--primary);
+    }
+    .podium-label { font-size: 0.75rem; color: var(--muted); }
+    .podium-block {
+      width: 120px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2rem;
+      border-radius: 10px 10px 0 0;
+    }
+    .podium-block.p1 { height: 130px; background: linear-gradient(180deg, #fff8e1, #ffe082); border: 2px solid #f5a623; }
+    .podium-block.p2 { height: 100px; background: linear-gradient(180deg, #f5f5f5, #e0e0e0); border: 2px solid #9b9b9b; }
+    .podium-block.p3 { height: 75px;  background: linear-gradient(180deg, #fbe9e7, #ffccbc); border: 2px solid #c47a3a; }
+    .podium-rank { font-size: 2rem; }
+
+    /* ---- Team table ---- */
+    .team-table { width: 100%; border-collapse: collapse; }
+    .team-table th {
+      text-align: left;
+      font-size: 0.72rem;
+      font-weight: 700;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: .06em;
+      padding: 0.5rem 0.75rem;
+      border-bottom: 2px solid var(--border);
+    }
+    .team-table td {
+      padding: 0.9rem 0.75rem;
+      border-bottom: 1px solid var(--border);
+      font-size: 0.95rem;
+      vertical-align: middle;
+    }
+    .team-table tr:last-child td { border-bottom: none; }
+    .color-dot {
+      display: inline-block;
+      width: 12px; height: 12px;
+      border-radius: 3px;
+      margin-right: 8px;
+      vertical-align: middle;
+    }
+    .ppp-val { font-weight: 800; font-size: 1.05rem; color: var(--primary); }
+    .dist-group { font-size: 0.82rem; color: var(--muted); line-height: 1.7; }
+
+    /* ---- Individual podium row ---- */
+    .ind-podium {
+      display: flex;
+      gap: 1rem;
+      margin-bottom: 1.25rem;
+      flex-wrap: wrap;
+    }
+    .ind-card {
+      flex: 1;
+      min-width: 200px;
+      border-radius: 12px;
+      padding: 1.1rem 1.25rem;
+      border: 1px solid var(--border);
+      position: relative;
+    }
+    .ind-card.rank-1 { background: linear-gradient(135deg, #fff8e1, #fffde7); border-color: #f5a623; }
+    .ind-card.rank-2 { background: linear-gradient(135deg, #f5f5f5, #fafafa); border-color: #9b9b9b; }
+    .ind-card.rank-3 { background: linear-gradient(135deg, #fbe9e7, #fff3e0); border-color: #c47a3a; }
+    .ind-rank { font-size: 1.8rem; position: absolute; top: 0.75rem; right: 1rem; }
+    .ind-name { font-weight: 700; font-size: 1.05rem; margin-bottom: 0.2rem; }
+    .ind-team { font-size: 0.8rem; color: var(--muted); margin-bottom: 0.6rem; }
+    .ind-pts { font-size: 1.6rem; font-weight: 800; color: var(--primary); }
+    .ind-pts-label { font-size: 0.75rem; color: var(--muted); }
+    .ind-meta { font-size: 0.82rem; color: var(--muted); margin-top: 0.4rem; }
+
+    /* ---- Full individual table ---- */
+    .ind-table { width: 100%; border-collapse: collapse; }
+    .ind-table th {
+      text-align: left;
+      font-size: 0.72rem; font-weight: 700;
+      color: var(--muted); text-transform: uppercase; letter-spacing: .06em;
+      padding: 0.5rem 0.75rem;
+      border-bottom: 2px solid var(--border);
+    }
+    .ind-table td {
+      padding: 0.7rem 0.75rem;
+      border-bottom: 1px solid var(--border);
+      font-size: 0.92rem;
+    }
+    .ind-table tr:last-child td { border-bottom: none; }
+    .ind-table .pts { font-weight: 700; color: var(--primary); }
+    .medal { font-size: 1.1rem; }
+
+    /* ---- Highlights grid ---- */
+    .highlights {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1rem;
+    }
+    .highlight-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.25rem;
+      text-align: center;
+      box-shadow: 0 1px 4px rgba(0,0,0,.04);
+    }
+    .highlight-icon { font-size: 2rem; margin-bottom: 0.4rem; }
+    .highlight-title { font-size: 0.72rem; color: var(--muted); text-transform: uppercase; letter-spacing: .06em; margin-bottom: 0.5rem; }
+    .highlight-val { font-size: 1.3rem; font-weight: 800; color: var(--text); }
+    .highlight-name { font-size: 0.85rem; color: var(--primary); font-weight: 600; margin-top: 0.2rem; }
+
+    /* ---- Bump chart ---- */
+    .bump-wrap { position: relative; height: 340px; }
+
+    /* ---- Sport leaders ---- */
+    .sport-leaders { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; }
+    .sport-leader-card {
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.1rem 1.25rem;
+      background: var(--card);
+      box-shadow: 0 1px 4px rgba(0,0,0,.04);
+    }
+    .sport-leader-icon { font-size: 1.8rem; margin-bottom: 0.4rem; }
+    .sport-leader-type { font-size: 0.72rem; color: var(--muted); text-transform: uppercase; letter-spacing: .06em; margin-bottom: 0.5rem; }
+    .sport-leader-name { font-weight: 700; font-size: 1rem; }
+    .sport-leader-pts { font-size: 1.4rem; font-weight: 800; color: var(--primary); }
+    .sport-leader-meta { font-size: 0.82rem; color: var(--muted); margin-top: 0.2rem; }
+
+    /* ---- Footer ---- */
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      color: var(--muted);
+      font-size: 0.82rem;
+    }
+  </style>
+</head>
+<body>
+
+<div id="loading" style="text-align:center;padding:4rem;color:#666">Kraunama...</div>
+<div id="app" style="display:none">
+
+  <!-- Hero -->
+  <div class="hero">
+    <div class="badge">🏅 Rezultatai</div>
+    <h1 id="comp-name"></h1>
+    <p class="subtitle" id="comp-dates"></p>
+    <div class="hero-stats">
+      <div class="hero-stat">
+        <span class="value" id="stat-athletes"></span>
+        <span class="label">Dalyviai</span>
+      </div>
+      <div class="hero-stat">
+        <span class="value" id="stat-activities"></span>
+        <span class="label">Aktyvumai</span>
+      </div>
+      <div class="hero-stat">
+        <span class="value" id="stat-distance"></span>
+        <span class="label">Kilometrai</span>
+      </div>
+      <div class="hero-stat">
+        <span class="value" id="stat-days"></span>
+        <span class="label">Dienos</span>
+      </div>
+    </div>
+  </div>
+
+  <main>
+
+    <!-- Team podium -->
+    <div class="card">
+      <h2>Komandų įskaitа — taškai / asmuo</h2>
+      <div class="podium" id="podium"></div>
+      <div style="overflow-x:auto">
+        <table class="team-table" id="team-table"></table>
+      </div>
+    </div>
+
+    <!-- Team progression chart -->
+    <div class="card">
+      <h2>Komandų kelias</h2>
+      <div class="bump-wrap"><canvas id="chart-bump"></canvas></div>
+    </div>
+
+    <!-- Sport leaders -->
+    <div class="card">
+      <h2>Sporto šakų lyderiai</h2>
+      <div class="sport-leaders" id="sport-leaders"></div>
+    </div>
+
+    <!-- Individual podium + full table -->
+    <div class="card">
+      <h2>Asmeninė įskaita</h2>
+      <div class="ind-podium" id="ind-podium"></div>
+      <div style="overflow-x:auto">
+        <table class="ind-table" id="ind-table"></table>
+      </div>
+    </div>
+
+    <!-- Highlights -->
+    <div class="card">
+      <h2>Įdomūs faktai</h2>
+      <div class="highlights" id="highlights"></div>
+    </div>
+
+  </main>
+
+  <footer id="footer"></footer>
+</div>
+
+<script>
+async function init() {
+  const resp = await fetch("data.json");
+  const data = await resp.json();
+  render(data);
+  document.getElementById("loading").style.display = "none";
+  document.getElementById("app").style.display = "block";
+}
+
+function fmt(n) { return Number(n).toLocaleString("lt-LT"); }
+
+function render(data) {
+  const teams = data.teams || [];
+  const lb    = data.leaderboard || [];
+  const dr    = data.daily_rankings || [];
+
+  // ---- Hero ----
+  document.getElementById("comp-name").textContent = data.competition.name;
+  document.getElementById("comp-dates").textContent =
+    `${data.competition.start_date} — ${data.competition.end_date}`;
+
+  const totalActs = lb.reduce((s, a) => s + a.activity_count, 0);
+  const totalDist = lb.reduce((s, a) => s + a.total_distance_km, 0);
+  const days = dr.length;
+
+  document.getElementById("stat-athletes").textContent   = lb.length;
+  document.getElementById("stat-activities").textContent = fmt(totalActs);
+  document.getElementById("stat-distance").textContent   = fmt(Math.round(totalDist)) + " km";
+  document.getElementById("stat-days").textContent       = days;
+
+  // ---- Podium ----
+  const medalEmoji = ["🥇","🥈","🥉"];
+  const podiumOrder = [1, 0, 2]; // silver left, gold centre, bronze right
+  const podiumClasses = ["p2","p1","p3"];
+  const podiumEl = document.getElementById("podium");
+  podiumOrder.forEach((ti, pi) => {
+    const t = teams[ti];
+    if (!t) return;
+    const div = document.createElement("div");
+    div.className = "podium-team";
+    div.innerHTML = `
+      <div class="podium-name" style="color:${t.color}">${t.name}</div>
+      <div class="podium-ppp">${t.points_per_person} pts/p</div>
+      <div class="podium-block ${podiumClasses[pi]}">
+        <span class="podium-rank">${medalEmoji[ti]}</span>
+      </div>
+      <div class="podium-label">${t.total_points} taškų iš viso</div>`;
+    podiumEl.appendChild(div);
+  });
+
+  // ---- Team table ----
+  const ttEl = document.getElementById("team-table");
+  ttEl.innerHTML = `
+    <thead><tr>
+      <th>#</th><th>Komanda</th>
+      <th>Taškai / asmuo</th><th>Iš viso</th>
+      <th>Nariai</th><th>Aktyvumai</th>
+      <th>🏃 Bėgimas/Ėjimas</th><th>🚴 Dviratis</th><th>🏊 Plaukimas</th>
+    </tr></thead>
+    <tbody>${teams.map(t => {
+      const dbg = t.distance_by_group || {};
+      return `<tr>
+        <td><strong>${t.rank}</strong></td>
+        <td>
+          <span class="color-dot" style="background:${t.color}"></span>
+          <strong>${t.name}</strong>
+        </td>
+        <td><span class="ppp-val">${t.points_per_person}</span></td>
+        <td>${t.total_points}</td>
+        <td>${t.member_count}</td>
+        <td>${t.activity_count}</td>
+        <td>${dbg.run_walk || 0} km</td>
+        <td>${dbg.ride || 0} km</td>
+        <td>${dbg.swim || 0} km</td>
+      </tr>`;
+    }).join("")}</tbody>`;
+
+  // ---- Bump chart ----
+  const allDates = dr.map(d => d.date);
+  const teamColors = {};
+  teams.forEach(t => teamColors[t.name] = t.color);
+
+  const datasets = teams.map(t => {
+    const pts = dr.map(d => {
+      const ppp = d.points_per_person?.[t.name];
+      return (ppp !== undefined && ppp !== null) ? ppp : null;
+    });
+    return {
+      label: t.name,
+      data: pts,
+      borderColor: t.color,
+      backgroundColor: t.color,
+      borderWidth: 3,
+      pointRadius: 4,
+      pointHoverRadius: 7,
+      pointBackgroundColor: t.color,
+      tension: 0.3,
+      fill: false,
+      spanGaps: false,
+    };
+  });
+
+  new Chart(document.getElementById("chart-bump"), {
+    type: "line",
+    data: {
+      labels: allDates.map(d => {
+        const [, , day] = d.split("-");
+        return `Bal ${parseInt(day)}`;
+      }),
+      datasets,
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      scales: {
+        y: {
+          beginAtZero: true,
+          ticks: { callback: v => `${v} pts/p` },
+          grid: { color: "#f0f0f0" },
+        },
+        x: { grid: { display: false }, ticks: { maxTicksLimit: 15 } },
+      },
+      plugins: {
+        legend: { position: "bottom", labels: { boxWidth: 12 } },
+        tooltip: {
+          filter: item => item.parsed.y !== null,
+          callbacks: { label: ctx => ` ${ctx.dataset.label}: ${ctx.parsed.y} pts/p` },
+        },
+      },
+    },
+  });
+
+  // ---- Sport leaders ----
+  const sportGroups = [
+    { key: "run_walk", icon: "🏃", label: "Bėgimas ir Ėjimas",
+      sports: new Set(["Run","Walk","Hike","VirtualRun","TrailRun"]) },
+    { key: "ride",     icon: "🚴", label: "Dviratis",
+      sports: new Set(["Ride","VirtualRide","GravelRide","MountainBikeRide","EBikeRide"]) },
+    { key: "swim",     icon: "🏊", label: "Plaukimas",
+      sports: new Set(["Swim"]) },
+  ];
+  const slEl = document.getElementById("sport-leaders");
+  sportGroups.forEach(g => {
+    const sorted = lb
+      .map(a => ({ ...a, grp_pts: a.points_by_group?.[g.key] || 0 }))
+      .filter(a => a.grp_pts > 0)
+      .sort((a, b) => b.grp_pts - a.grp_pts);
+    if (!sorted.length) return;
+    const leader = sorted[0];
+    let grpDist = 0, grpCount = 0;
+    Object.entries(leader.by_type || {}).forEach(([sport, stats]) => {
+      if (g.sports.has(sport)) {
+        grpDist  += stats.distance_km || 0;
+        grpCount += stats.count || 0;
+      }
+    });
+    const teamColor = teams.find(t =>
+      (t.members || []).some(m => m.toLowerCase().replace(/ /g,"_") === leader.name.toLowerCase().replace(/ /g,"_"))
+    )?.color || "#fc4c02";
+    const div = document.createElement("div");
+    div.className = "sport-leader-card";
+    div.innerHTML = `
+      <div class="sport-leader-icon">${g.icon}</div>
+      <div class="sport-leader-type">${g.label}</div>
+      <div class="sport-leader-name" style="color:${teamColor}">🥇 ${leader.name}</div>
+      <div class="sport-leader-pts">${leader.grp_pts} pts</div>
+      <div class="sport-leader-meta">${grpCount} aktyvumų · ${grpDist.toFixed(1)} km</div>
+      ${sorted.length > 1 ? `<div class="sport-leader-meta" style="margin-top:0.4rem">🥈 ${sorted[1].name} — ${sorted[1].grp_pts} pts</div>` : ""}
+      ${sorted.length > 2 ? `<div class="sport-leader-meta">🥉 ${sorted[2].name} — ${sorted[2].grp_pts} pts</div>` : ""}`;
+    slEl.appendChild(div);
+  });
+
+  // ---- Individual podium ----
+  const teamOfAthlete = {};
+  teams.forEach(t => (t.members || []).forEach(m => teamOfAthlete[m] = t));
+  const ipEl = document.getElementById("ind-podium");
+  lb.slice(0, 3).forEach((a, i) => {
+    const team = teamOfAthlete[a.name];
+    const div = document.createElement("div");
+    div.className = `ind-card rank-${i+1}`;
+    div.innerHTML = `
+      <div class="ind-rank">${["🥇","🥈","🥉"][i]}</div>
+      <div class="ind-name">${a.name}</div>
+      <div class="ind-team" style="color:${team?.color || "#666"}">${team?.name || ""}</div>
+      <div class="ind-pts">${a.total_points}</div>
+      <div class="ind-pts-label">taškų</div>
+      <div class="ind-meta">${a.activity_count} aktyvumai · ${a.total_distance_km.toFixed(1)} km</div>`;
+    ipEl.appendChild(div);
+  });
+
+  // ---- Individual table ----
+  const medals = {1:"🥇",2:"🥈",3:"🥉"};
+  const itEl = document.getElementById("ind-table");
+  itEl.innerHTML = `
+    <thead><tr>
+      <th>#</th><th>Sportininkas</th><th>Komanda</th>
+      <th>Taškai</th><th>Aktyvumai</th><th>Atstumas</th>
+    </tr></thead>
+    <tbody>${lb.map(a => {
+      const team = teamOfAthlete[a.name];
+      const medal = medals[a.rank] || "";
+      return `<tr>
+        <td>${medal || a.rank}</td>
+        <td><strong>${a.name}</strong></td>
+        <td style="color:${team?.color||"#666"};font-weight:600">${team?.name||"—"}</td>
+        <td class="pts">${a.total_points}</td>
+        <td>${a.activity_count}</td>
+        <td>${a.total_distance_km.toFixed(1)} km</td>
+      </tr>`;
+    }).join("")}</tbody>`;
+
+  // ---- Highlights ----
+  const mostActs = lb.reduce((a, b) => a.activity_count > b.activity_count ? a : b);
+  const mostDist = lb.reduce((a, b) => a.total_distance_km > b.total_distance_km ? a : b);
+  const mostElev = lb.reduce((a, b) => a.total_elevation_m > b.total_elevation_m ? a : b);
+  const topTeam  = teams[0];
+  const mostSwim = lb.filter(a => (a.points_by_group?.swim||0) > 0)
+                     .sort((a,b) => b.points_by_group.swim - a.points_by_group.swim)[0];
+
+  const highlights = [
+    { icon:"🏃", title:"Daugiausiai aktyvumų",    val: mostActs.activity_count + " aktyvumai", name: mostActs.name },
+    { icon:"📏", title:"Daugiausiai kilometrų",    val: mostDist.total_distance_km.toFixed(0) + " km", name: mostDist.name },
+    { icon:"⛰️", title:"Daugiausiai kilimo metrų", val: Math.round(mostElev.total_elevation_m) + " m", name: mostElev.name },
+    { icon:"🏆", title:"Geriausia komanda (pts/p)", val: topTeam.points_per_person + " pts/p", name: topTeam.name },
+    { icon:"🚴", title:"Daugiausiai km dviračiu",  val: teams.reduce((a,b)=>(a.distance_by_group?.ride||0)>(b.distance_by_group?.ride||0)?a:b).distance_by_group.ride + " km",
+      name: teams.reduce((a,b)=>(a.distance_by_group?.ride||0)>(b.distance_by_group?.ride||0)?a:b).name },
+    ...(mostSwim ? [{ icon:"🏊", title:"Plaukimo lyderis", val: mostSwim.points_by_group.swim + " pts", name: mostSwim.name }] : []),
+  ];
+
+  const hlEl = document.getElementById("highlights");
+  highlights.forEach(h => {
+    const div = document.createElement("div");
+    div.className = "highlight-card";
+    div.innerHTML = `
+      <div class="highlight-icon">${h.icon}</div>
+      <div class="highlight-title">${h.title}</div>
+      <div class="highlight-val">${h.val}</div>
+      <div class="highlight-name">${h.name}</div>`;
+    hlEl.appendChild(div);
+  });
+
+  // ---- Footer ----
+  document.getElementById("footer").innerHTML =
+    `Duomenys atnaujinti: ${new Date(data.generated_at).toLocaleString("lt-LT")} · Balandis ne už kalnų 2026`;
+}
+
+init();
+</script>
+</body>
+</html>
