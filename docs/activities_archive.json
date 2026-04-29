@@ -1,5 +1,9 @@
 {
   "fingerprints": [
+    "86dd54af3fafa7202a988b1b2a3e573d",
+    "4124b35f18b757ff5347935d6b70051f",
+    "4c892f59171e06fae7198cc9a3bff707",
+    "0d81f1ca7491ed6140a6af7807a18391",
     "ee436d80999f162b909917104c5968d0",
     "a4fcc0926af027a00d4660ae688a7a21",
     "58dc1657ac2923366ac71daec7485762",
@@ -1091,6 +1095,74 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Arturas",
+        "lastname": "K."
+      },
+      "name": "Morning Walk",
+      "distance": 4395.4,
+      "moving_time": 2799,
+      "elapsed_time": 2905,
+      "total_elevation_gain": 30.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin Epix Gen2",
+      "_fetched_date": "2026-04-29"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Paulius",
+        "lastname": "R."
+      },
+      "name": "Morning Walk",
+      "distance": 4572.2,
+      "moving_time": 2817,
+      "elapsed_time": 3479,
+      "total_elevation_gain": 81.8,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Wear OS by Google",
+      "_fetched_date": "2026-04-29"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Ne",
+        "lastname": "L."
+      },
+      "name": "Morning Walk",
+      "distance": 1685.2,
+      "moving_time": 1029,
+      "elapsed_time": 1093,
+      "total_elevation_gain": 8.3,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-29"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Viktorija",
+        "lastname": "M."
+      },
+      "name": "Morning Walk",
+      "distance": 1245.9,
+      "moving_time": 629,
+      "elapsed_time": 1334,
+      "total_elevation_gain": 3.4,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-29"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -18685,6 +18757,36 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-29T09:10:30.102846+00:00",
+      "new_count": 4,
+      "activities": [
+        {
+          "athlete": "Arturas K.",
+          "sport": "Walk",
+          "distance_km": 4.4,
+          "name": "Morning Walk"
+        },
+        {
+          "athlete": "Paulius R.",
+          "sport": "Walk",
+          "distance_km": 4.57,
+          "name": "Morning Walk"
+        },
+        {
+          "athlete": "Ne L.",
+          "sport": "Walk",
+          "distance_km": 1.69,
+          "name": "Morning Walk"
+        },
+        {
+          "athlete": "Viktorija M.",
+          "sport": "Walk",
+          "distance_km": 1.25,
+          "name": "Morning Walk"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-29T06:25:05.907537+00:00",
       "new_count": 8,
       "activities": [
@@ -19716,30 +19818,6 @@
           "athlete": "Liudas S.",
           "sport": "Walk",
           "distance_km": 1.34,
-          "name": "Afternoon Walk"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-25T14:43:21.321332+00:00",
-      "new_count": 3,
-      "activities": [
-        {
-          "athlete": "Gintarė B.",
-          "sport": "Walk",
-          "distance_km": 1.44,
-          "name": "Afternoon Walk"
-        },
-        {
-          "athlete": "Paulius R.",
-          "sport": "Walk",
-          "distance_km": 3.31,
-          "name": "Afternoon Walk"
-        },
-        {
-          "athlete": "Augustė J.",
-          "sport": "Walk",
-          "distance_km": 2.6,
           "name": "Afternoon Walk"
         }
       ]
