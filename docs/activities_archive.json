@@ -1,5 +1,6 @@
 {
   "fingerprints": [
+    "3faa8d4dc07597bdcc562f9c0f1d7cf5",
     "0f7fbe012088ae4caec1a0cd088fcaf0",
     "b23497fd146f8ddf17fc5d21da9a2a61",
     "8e0469de4ab622733fc3ec437947c27d",
@@ -1082,6 +1083,23 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Daina",
+        "lastname": "G."
+      },
+      "name": "Morning Walk",
+      "distance": 2601.2,
+      "moving_time": 1463,
+      "elapsed_time": 2811,
+      "total_elevation_gain": 45.9,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-29"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -18518,6 +18536,18 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-29T03:50:38.342493+00:00",
+      "new_count": 1,
+      "activities": [
+        {
+          "athlete": "Daina G.",
+          "sport": "Walk",
+          "distance_km": 2.6,
+          "name": "Morning Walk"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-28T23:56:16.171540+00:00",
       "new_count": 0,
       "activities": []
@@ -19544,18 +19574,6 @@
           "sport": "Walk",
           "distance_km": 2.85,
           "name": "Morning Walk"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-25T11:40:04.031947+00:00",
-      "new_count": 1,
-      "activities": [
-        {
-          "athlete": "Edvinas V.",
-          "sport": "Walk",
-          "distance_km": 1.82,
-          "name": "Lunch Walk"
         }
       ]
     }
