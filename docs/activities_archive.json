@@ -1,5 +1,10 @@
 {
   "fingerprints": [
+    "5089dff800b6fa3a80d4425276ecc3df",
+    "8925f7e72fc23b877324b0133593e5d6",
+    "3c276b5c0dc11b92dff865e5603defd9",
+    "f4b9510002695053aeca2ac2aa5b517b",
+    "5213a449b0fac68f8595bb5e76991cce",
     "5417ba667b9ef60d4e3a48bb104403f8",
     "8dfefb7a85a1a0f9db391da03fdf6870",
     "d6ee65d60caad159d13e96cbd9d274f3",
@@ -1118,6 +1123,91 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Andrius",
+        "lastname": "A."
+      },
+      "name": "Evening Walk",
+      "distance": 2007.9,
+      "moving_time": 1434,
+      "elapsed_time": 1471,
+      "total_elevation_gain": 15.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin fēnix 7",
+      "_fetched_date": "2026-04-29"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Augustė",
+        "lastname": "J."
+      },
+      "name": "Evening Walk",
+      "distance": 3661.2,
+      "moving_time": 2200,
+      "elapsed_time": 2615,
+      "total_elevation_gain": 21.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-29"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Sandra",
+        "lastname": "M."
+      },
+      "name": "Evening Walk",
+      "distance": 1679.2,
+      "moving_time": 1158,
+      "elapsed_time": 1223,
+      "total_elevation_gain": 6.4,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-29"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Donatas",
+        "lastname": "J."
+      },
+      "name": "Kinomap - Cycling'Art Eagle in Munich",
+      "distance": 83639.0,
+      "moving_time": 11154,
+      "elapsed_time": 11154,
+      "total_elevation_gain": 0,
+      "type": "VirtualRide",
+      "sport_type": "VirtualRide",
+      "device_name": "Kinomap Ride",
+      "_fetched_date": "2026-04-29"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Valentinas",
+        "lastname": "A."
+      },
+      "name": "Virtual ride",
+      "distance": 54249.4,
+      "moving_time": 8193,
+      "elapsed_time": 8193,
+      "total_elevation_gain": 0,
+      "type": "VirtualRide",
+      "sport_type": "VirtualRide",
+      "device_name": "Tacx App",
+      "_fetched_date": "2026-04-29"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -19175,6 +19265,42 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-29T18:12:36.653209+00:00",
+      "new_count": 5,
+      "activities": [
+        {
+          "athlete": "Andrius A.",
+          "sport": "Walk",
+          "distance_km": 2.01,
+          "name": "Evening Walk"
+        },
+        {
+          "athlete": "Augustė J.",
+          "sport": "Walk",
+          "distance_km": 3.66,
+          "name": "Evening Walk"
+        },
+        {
+          "athlete": "Sandra M.",
+          "sport": "Walk",
+          "distance_km": 1.68,
+          "name": "Evening Walk"
+        },
+        {
+          "athlete": "Donatas J.",
+          "sport": "VirtualRide",
+          "distance_km": 83.64,
+          "name": "Kinomap - Cycling'Art Eagle in Munich"
+        },
+        {
+          "athlete": "Valentinas A.",
+          "sport": "VirtualRide",
+          "distance_km": 54.25,
+          "name": "Virtual ride"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-29T16:42:11.865143+00:00",
       "new_count": 15,
       "activities": [
@@ -20279,36 +20405,6 @@
           "sport": "Hike",
           "distance_km": 24.84,
           "name": "Morning Hike"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-25T18:56:47.560607+00:00",
-      "new_count": 4,
-      "activities": [
-        {
-          "athlete": "Liudas S.",
-          "sport": "Walk",
-          "distance_km": 1.22,
-          "name": "Night Walk"
-        },
-        {
-          "athlete": "Gintarė B.",
-          "sport": "Walk",
-          "distance_km": 2.03,
-          "name": "Evening Walk"
-        },
-        {
-          "athlete": "Liudas S.",
-          "sport": "Walk",
-          "distance_km": 1.87,
-          "name": "Evening Walk"
-        },
-        {
-          "athlete": "Augustinas T.",
-          "sport": "Walk",
-          "distance_km": 7.22,
-          "name": "Evening Walk"
         }
       ]
     }
