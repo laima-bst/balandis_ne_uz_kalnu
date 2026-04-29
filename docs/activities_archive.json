@@ -19375,6 +19375,11 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-29T23:56:11.138698+00:00",
+      "new_count": 0,
+      "activities": []
+    },
+    {
       "timestamp": "2026-04-29T21:59:57.647440+00:00",
       "new_count": 1,
       "activities": [
@@ -20506,48 +20511,6 @@
       "timestamp": "2026-04-25T22:39:07.681361+00:00",
       "new_count": 0,
       "activities": []
-    },
-    {
-      "timestamp": "2026-04-25T21:38:34.692124+00:00",
-      "new_count": 6,
-      "activities": [
-        {
-          "athlete": "Antanas R.",
-          "sport": "Walk",
-          "distance_km": 2.01,
-          "name": "Night Walk"
-        },
-        {
-          "athlete": "Paulius R.",
-          "sport": "Walk",
-          "distance_km": 12.97,
-          "name": "Night Walk"
-        },
-        {
-          "athlete": "Antanas R.",
-          "sport": "Walk",
-          "distance_km": 2.0,
-          "name": "Afternoon Walk"
-        },
-        {
-          "athlete": "Antanas R.",
-          "sport": "Walk",
-          "distance_km": 1.64,
-          "name": "Afternoon Walk"
-        },
-        {
-          "athlete": "Antanas R.",
-          "sport": "Swim",
-          "distance_km": 2.0,
-          "name": "Afternoon Swim"
-        },
-        {
-          "athlete": "Antanas R.",
-          "sport": "Walk",
-          "distance_km": 2.0,
-          "name": "Lunch Walk"
-        }
-      ]
     }
   ]
 }
