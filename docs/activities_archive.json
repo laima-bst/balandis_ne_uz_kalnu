@@ -1,5 +1,8 @@
 {
   "fingerprints": [
+    "6643aa7e7d49d8591723d81071844e7d",
+    "bdb7d18ec1e2e8b00ad308ad8d36b3a2",
+    "b445966a901c326acfc30ed28f582b8d",
     "00c796f2ac720ee82e7e8d0451240344",
     "1acb19ecd5c14becd413b7a182ef4cd6",
     "ae1d0e023e4ed54d50d858af7ba3ff7b",
@@ -1100,6 +1103,58 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Andrius",
+        "lastname": "A."
+      },
+      "name": "Afternoon Ride",
+      "distance": 16846.5,
+      "moving_time": 2888,
+      "elapsed_time": 2888,
+      "total_elevation_gain": 132.0,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": null,
+      "device_name": "Garmin fēnix 7",
+      "_fetched_date": "2026-04-29"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Daina",
+        "lastname": "G."
+      },
+      "name": "Afternoon Walk",
+      "distance": 2818.6,
+      "moving_time": 1629,
+      "elapsed_time": 3046,
+      "total_elevation_gain": 26.4,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-29"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Valentinas",
+        "lastname": "A."
+      },
+      "name": "Lunch Walk",
+      "distance": 2225.7,
+      "moving_time": 1380,
+      "elapsed_time": 3853,
+      "total_elevation_gain": 114.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "COROS VERTIX",
+      "_fetched_date": "2026-04-29"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -18847,6 +18902,30 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-29T14:02:19.297734+00:00",
+      "new_count": 3,
+      "activities": [
+        {
+          "athlete": "Andrius A.",
+          "sport": "Ride",
+          "distance_km": 16.85,
+          "name": "Afternoon Ride"
+        },
+        {
+          "athlete": "Daina G.",
+          "sport": "Walk",
+          "distance_km": 2.82,
+          "name": "Afternoon Walk"
+        },
+        {
+          "athlete": "Valentinas A.",
+          "sport": "Walk",
+          "distance_km": 2.23,
+          "name": "Lunch Walk"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-29T11:39:02.318778+00:00",
       "new_count": 5,
       "activities": [
@@ -19885,42 +19964,6 @@
           "sport": "Ride",
           "distance_km": 40.2,
           "name": "Evening Ride"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-25T16:44:25.367816+00:00",
-      "new_count": 5,
-      "activities": [
-        {
-          "athlete": "Liudas S.",
-          "sport": "Walk",
-          "distance_km": 1.03,
-          "name": "Evening Walk"
-        },
-        {
-          "athlete": "Liudas S.",
-          "sport": "Walk",
-          "distance_km": 1.58,
-          "name": "Evening Walk"
-        },
-        {
-          "athlete": "Aurelija S.",
-          "sport": "Walk",
-          "distance_km": 5.31,
-          "name": "Reikalai reikaliukai"
-        },
-        {
-          "athlete": "Sandra M.",
-          "sport": "Ride",
-          "distance_km": 31.92,
-          "name": "Afternoon Ride"
-        },
-        {
-          "athlete": "Benediktas B.",
-          "sport": "GravelRide",
-          "distance_km": 86.61,
-          "name": "Afternoon Gravel Ride"
         }
       ]
     }
