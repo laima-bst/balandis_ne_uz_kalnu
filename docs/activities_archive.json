@@ -1,5 +1,11 @@
 {
   "fingerprints": [
+    "88001dd41390ff4fa462e04f4b63d245",
+    "8397df83e55c7424cfe1c7247c2d4b73",
+    "d122bcfb32ebe0acc2496fee3932a0b2",
+    "c81f9fec312c1ee5987dad1520b41db4",
+    "3a341acaeb184c4d130461a24686dfc8",
+    "55a9f98c9489b47a9be78b456e93c19d",
     "d203b7d9fad3a4ec698239a424361611",
     "452c8d9a729b1ccc8a1ab529afb10eb2",
     "00e5effcffcb9b2eb91d22f8670b947c",
@@ -1136,6 +1142,109 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Viktorija",
+        "lastname": "M."
+      },
+      "name": "Lunch Walk",
+      "distance": 746.8,
+      "moving_time": 426,
+      "elapsed_time": 449,
+      "total_elevation_gain": 8.3,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-30"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Arturas",
+        "lastname": "K."
+      },
+      "name": "Lunch Walk",
+      "distance": 1013.8,
+      "moving_time": 618,
+      "elapsed_time": 618,
+      "total_elevation_gain": 10.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin Epix Gen2",
+      "_fetched_date": "2026-04-30"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Greta",
+        "lastname": "N."
+      },
+      "name": "Morning Walk",
+      "distance": 1012.5,
+      "moving_time": 830,
+      "elapsed_time": 853,
+      "total_elevation_gain": 16.3,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-30"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Paulius",
+        "lastname": "R."
+      },
+      "name": "Morning Run",
+      "distance": 17735.7,
+      "moving_time": 5426,
+      "elapsed_time": 5445,
+      "total_elevation_gain": 97.9,
+      "type": "Run",
+      "sport_type": "Run",
+      "workout_type": null,
+      "device_name": "Wear OS by Google",
+      "_fetched_date": "2026-04-30"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Liudas",
+        "lastname": "S."
+      },
+      "name": "Morning Walk",
+      "distance": 2100.2,
+      "moving_time": 1223,
+      "elapsed_time": 1627,
+      "total_elevation_gain": 8.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Samsung Galaxy Ultra",
+      "_fetched_date": "2026-04-30"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Greta",
+        "lastname": "N."
+      },
+      "name": "Morning Walk",
+      "distance": 1408.6,
+      "moving_time": 1403,
+      "elapsed_time": 1425,
+      "total_elevation_gain": 8.1,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-30"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -19503,6 +19612,48 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-30T09:12:52.613429+00:00",
+      "new_count": 6,
+      "activities": [
+        {
+          "athlete": "Viktorija M.",
+          "sport": "Walk",
+          "distance_km": 0.75,
+          "name": "Lunch Walk"
+        },
+        {
+          "athlete": "Arturas K.",
+          "sport": "Walk",
+          "distance_km": 1.01,
+          "name": "Lunch Walk"
+        },
+        {
+          "athlete": "Greta N.",
+          "sport": "Walk",
+          "distance_km": 1.01,
+          "name": "Morning Walk"
+        },
+        {
+          "athlete": "Paulius R.",
+          "sport": "Run",
+          "distance_km": 17.74,
+          "name": "Morning Run"
+        },
+        {
+          "athlete": "Liudas S.",
+          "sport": "Walk",
+          "distance_km": 2.1,
+          "name": "Morning Walk"
+        },
+        {
+          "athlete": "Greta N.",
+          "sport": "Walk",
+          "distance_km": 1.41,
+          "name": "Morning Walk"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-30T06:28:45.755496+00:00",
       "new_count": 6,
       "activities": [
@@ -20678,11 +20829,6 @@
           "name": "Morning Run"
         }
       ]
-    },
-    {
-      "timestamp": "2026-04-26T02:54:23.693070+00:00",
-      "new_count": 0,
-      "activities": []
     }
   ]
 }
