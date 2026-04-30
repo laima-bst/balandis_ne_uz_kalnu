@@ -1,5 +1,8 @@
 {
   "fingerprints": [
+    "36f4528ac73a91c63b14ddea17eb0fd6",
+    "f80f20017382f4a552922405066c96f0",
+    "70a736b28c465d9f2bfdb111d55c225b",
     "c7431eff95027f93f999c98064186992",
     "8ff6a2bf8a951a2cc0e6d1d4851ba24c",
     "19fbaa0cd315777db1eb8e5975b3dd77",
@@ -1159,6 +1162,58 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Azuolas",
+        "lastname": "S."
+      },
+      "name": "Evening Walk",
+      "distance": 1293.7,
+      "moving_time": 955,
+      "elapsed_time": 1794,
+      "total_elevation_gain": 12.5,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Strava App",
+      "_fetched_date": "2026-04-30"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Augustė",
+        "lastname": "J."
+      },
+      "name": "Evening Swim",
+      "distance": 675.0,
+      "moving_time": 3603,
+      "elapsed_time": 4202,
+      "total_elevation_gain": 0,
+      "type": "Swim",
+      "sport_type": "Swim",
+      "device_name": "COROS APEX",
+      "_fetched_date": "2026-04-30"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Benediktas",
+        "lastname": "B."
+      },
+      "name": "Evening Ride",
+      "distance": 27680.4,
+      "moving_time": 4108,
+      "elapsed_time": 4108,
+      "total_elevation_gain": 362.0,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": null,
+      "device_name": "Garmin Edge Explore 2",
+      "_fetched_date": "2026-04-30"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -19920,6 +19975,30 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-30T18:02:40.194220+00:00",
+      "new_count": 3,
+      "activities": [
+        {
+          "athlete": "Azuolas S.",
+          "sport": "Walk",
+          "distance_km": 1.29,
+          "name": "Evening Walk"
+        },
+        {
+          "athlete": "Augustė J.",
+          "sport": "Swim",
+          "distance_km": 0.68,
+          "name": "Evening Swim"
+        },
+        {
+          "athlete": "Benediktas B.",
+          "sport": "Ride",
+          "distance_km": 27.68,
+          "name": "Evening Ride"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-30T16:14:06.862114+00:00",
       "new_count": 3,
       "activities": [
@@ -21167,36 +21246,6 @@
       "timestamp": "2026-04-26T11:40:39.038551+00:00",
       "new_count": 0,
       "activities": []
-    },
-    {
-      "timestamp": "2026-04-26T10:48:38.629633+00:00",
-      "new_count": 4,
-      "activities": [
-        {
-          "athlete": "Liudas S.",
-          "sport": "Walk",
-          "distance_km": 1.71,
-          "name": "Lunch Walk"
-        },
-        {
-          "athlete": "Donatas J.",
-          "sport": "Walk",
-          "distance_km": 3.41,
-          "name": "Lunch Walk"
-        },
-        {
-          "athlete": "Greta N.",
-          "sport": "Walk",
-          "distance_km": 1.7,
-          "name": "Morning Walk"
-        },
-        {
-          "athlete": "Paulius R.",
-          "sport": "Run",
-          "distance_km": 22.78,
-          "name": "Morning Run"
-        }
-      ]
     }
   ]
 }
