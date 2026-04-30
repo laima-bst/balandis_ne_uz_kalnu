@@ -1,5 +1,10 @@
 {
   "fingerprints": [
+    "966f7430b90a5b594d2d5ba7ea389ac4",
+    "2dd981db065f38caa862ff838d99dee4",
+    "3d2230cc7004ae9608ff4c6699cb814c",
+    "9cc9f3f2aec1ca8f779f341cf7a0fc20",
+    "f42ba8c836e6a17f4437b5fc2cfb93ed",
     "36f4528ac73a91c63b14ddea17eb0fd6",
     "f80f20017382f4a552922405066c96f0",
     "70a736b28c465d9f2bfdb111d55c225b",
@@ -1162,6 +1167,93 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Andrius",
+        "lastname": "A."
+      },
+      "name": "Night Walk",
+      "distance": 1623.5,
+      "moving_time": 1187,
+      "elapsed_time": 1251,
+      "total_elevation_gain": 13.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin fēnix 7",
+      "_fetched_date": "2026-04-30"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Aurelija",
+        "lastname": "S."
+      },
+      "name": "Evening Tennis",
+      "distance": 327.8,
+      "moving_time": 5408,
+      "elapsed_time": 5408,
+      "total_elevation_gain": 0,
+      "type": "Workout",
+      "sport_type": "Tennis",
+      "workout_type": null,
+      "device_name": "Garmin Venu 3S",
+      "_fetched_date": "2026-04-30"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Augustinas",
+        "lastname": "T."
+      },
+      "name": "Evening Ride",
+      "distance": 25171.3,
+      "moving_time": 4432,
+      "elapsed_time": 4669,
+      "total_elevation_gain": 165.0,
+      "type": "Ride",
+      "sport_type": "Ride",
+      "workout_type": null,
+      "device_name": "Wahoo ELEMNT ROAM",
+      "_fetched_date": "2026-04-30"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Valentinas",
+        "lastname": "A."
+      },
+      "name": "Evening Walk",
+      "distance": 9879.0,
+      "moving_time": 7407,
+      "elapsed_time": 10405,
+      "total_elevation_gain": 212.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "COROS VERTIX",
+      "_fetched_date": "2026-04-30"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Valentinas",
+        "lastname": "A."
+      },
+      "name": "Lunch Walk",
+      "distance": 2010.8,
+      "moving_time": 1338,
+      "elapsed_time": 3463,
+      "total_elevation_gain": 59.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "COROS VERTIX",
+      "_fetched_date": "2026-04-30"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -19975,6 +20067,42 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-30T20:05:22.430167+00:00",
+      "new_count": 5,
+      "activities": [
+        {
+          "athlete": "Andrius A.",
+          "sport": "Walk",
+          "distance_km": 1.62,
+          "name": "Night Walk"
+        },
+        {
+          "athlete": "Aurelija S.",
+          "sport": "Tennis",
+          "distance_km": 0.33,
+          "name": "Evening Tennis"
+        },
+        {
+          "athlete": "Augustinas T.",
+          "sport": "Ride",
+          "distance_km": 25.17,
+          "name": "Evening Ride"
+        },
+        {
+          "athlete": "Valentinas A.",
+          "sport": "Walk",
+          "distance_km": 9.88,
+          "name": "Evening Walk"
+        },
+        {
+          "athlete": "Valentinas A.",
+          "sport": "Walk",
+          "distance_km": 2.01,
+          "name": "Lunch Walk"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-30T18:02:40.194220+00:00",
       "new_count": 3,
       "activities": [
@@ -21241,11 +21369,6 @@
           "name": "Morning Ride"
         }
       ]
-    },
-    {
-      "timestamp": "2026-04-26T11:40:39.038551+00:00",
-      "new_count": 0,
-      "activities": []
     }
   ]
 }
