@@ -20067,6 +20067,11 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-30T21:43:35.093859+00:00",
+      "new_count": 0,
+      "activities": []
+    },
+    {
       "timestamp": "2026-04-30T20:05:22.430167+00:00",
       "new_count": 5,
       "activities": [
@@ -21349,24 +21354,6 @@
           "sport": "Walk",
           "distance_km": 5.62,
           "name": "Afternoon Walk"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-26T13:11:35.132702+00:00",
-      "new_count": 2,
-      "activities": [
-        {
-          "athlete": "Valentinas A.",
-          "sport": "Ride",
-          "distance_km": 133.31,
-          "name": "Morning Ride"
-        },
-        {
-          "athlete": "Augustinas T.",
-          "sport": "Ride",
-          "distance_km": 142.94,
-          "name": "Morning Ride"
         }
       ]
     }
