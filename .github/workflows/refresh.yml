@@ -2,8 +2,13 @@ name: Refresh competition data
 
 on:
   schedule:
-    # Every hour at :59 — last run of the day lands at 23:59 Lithuania time (EEST, UTC+3)
-    - cron: "59 * * * *"
+    # Scheduled runs on April 30 at :59, Lithuania time (EEST = UTC+3)
+    - cron: "59 10 30 4 *"  # 13:59 EEST
+    - cron: "59 12 30 4 *"  # 15:59 EEST
+    - cron: "59 14 30 4 *"  # 17:59 EEST
+    - cron: "59 16 30 4 *"  # 19:59 EEST
+    - cron: "59 18 30 4 *"  # 21:59 EEST
+    - cron: "59 20 30 4 *"  # 23:59 EEST — final run
   workflow_dispatch:  # Also allows manual trigger from the GitHub UI
 
 jobs:
@@ -32,11 +37,19 @@ jobs:
           STRAVA_TOKEN_EXPIRES_AT: ${{ secrets.STRAVA_TOKEN_EXPIRES_AT }}
         run: python scripts/fetch_and_update.py
 
+      - name: Replace index.html with banner on final run (23:59 EEST)
+        if: github.event_name == 'schedule'
+        run: |
+          if [ "$(date -u +%H)" = "20" ]; then
+            cp docs/banner_preview.html docs/index.html
+            echo "Banner deployed — competition page closed."
+          fi
+
       - name: Commit updated data.json
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/data.json docs/activities_archive.json
+          git add docs/data.json docs/activities_archive.json docs/index.html
           # Only commit if anything changed
           git diff --staged --quiet || git commit -m "chore: refresh competition data [skip ci]"
           git push
