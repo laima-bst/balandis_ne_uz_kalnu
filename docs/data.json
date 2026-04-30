@@ -8,53 +8,53 @@
     {
       "name": "Nemiegantys Balandžiai",
       "color": "#e74c3c",
-      "total_points": 4208.8,
-      "total_distance_km": 1924.92,
-      "activity_count": 377,
+      "total_points": 4251.7,
+      "total_distance_km": 1939.23,
+      "activity_count": 380,
       "members": [
-        "Edvinas V.",
-        "Viktorija M.",
+        "Liudas S.",
         "Andrius A.",
         "Sandra M.",
-        "Liudas S.",
+        "Edvinas V.",
+        "Viktorija M.",
         "Tautvydas Ž."
       ],
       "member_count": 6,
-      "points_per_person": 701.5,
+      "points_per_person": 708.6,
       "member_details": [
         {
           "name": "Andrius A.",
-          "points": 1752.8,
-          "pct_of_team": 41.6
-        },
-        {
-          "name": "Liudas S.",
-          "points": 795.9,
-          "pct_of_team": 18.9
+          "points": 1760.9,
+          "pct_of_team": 41.4
         },
         {
           "name": "Sandra M.",
-          "points": 789.3,
-          "pct_of_team": 18.8
+          "points": 813.3,
+          "pct_of_team": 19.1
+        },
+        {
+          "name": "Liudas S.",
+          "points": 806.7,
+          "pct_of_team": 19.0
         },
         {
           "name": "Edvinas V.",
           "points": 350.5,
-          "pct_of_team": 8.3
+          "pct_of_team": 8.2
         },
         {
           "name": "Viktorija M.",
           "points": 306.5,
-          "pct_of_team": 7.3
+          "pct_of_team": 7.2
         },
         {
           "name": "Tautvydas Ž.",
           "points": 213.8,
-          "pct_of_team": 5.1
+          "pct_of_team": 5.0
         }
       ],
       "distance_by_group": {
-        "run_walk": 1137.2,
+        "run_walk": 1151.5,
         "ride": 787.1,
         "swim": 0.6
       },
@@ -964,14 +964,14 @@
         "Sūkuriai": 5
       },
       "points": {
-        "Nemiegantys Balandžiai": 4208.8,
+        "Nemiegantys Balandžiai": 4251.7,
         "Balandžio dvasia": 2645.2,
         "Tardigrada": 3176.7,
         "Sūkuriai": 1566.1,
         "Nešam Kudašių": 2720.8
       },
       "points_per_person": {
-        "Nemiegantys Balandžiai": 701.5,
+        "Nemiegantys Balandžiai": 708.6,
         "Balandžio dvasia": 529.0,
         "Tardigrada": 635.3,
         "Sūkuriai": 313.2,
@@ -982,20 +982,20 @@
   "leaderboard": [
     {
       "name": "Andrius A.",
-      "total_points": 1752.8,
-      "activity_count": 90,
-      "total_distance_km": 650.76,
-      "total_elevation_m": 4450.0,
+      "total_points": 1760.9,
+      "activity_count": 91,
+      "total_distance_km": 653.46,
+      "total_elevation_m": 4486.0,
       "by_type": {
+        "Walk": {
+          "count": 40,
+          "points": 289.69999999999993,
+          "distance_km": 96.54999999999998
+        },
         "Run": {
           "count": 36,
           "points": 1371.2,
           "distance_km": 457.0200000000001
-        },
-        "Walk": {
-          "count": 39,
-          "points": 281.5999999999999,
-          "distance_km": 93.85
         },
         "Ride": {
           "count": 15,
@@ -1005,7 +1005,7 @@
       },
       "rank": 1,
       "points_by_group": {
-        "run_walk": 1652.8,
+        "run_walk": 1660.9,
         "ride": 100.0,
         "swim": 0.0
       }
@@ -1131,16 +1131,41 @@
       }
     },
     {
-      "name": "Liudas S.",
-      "total_points": 795.9,
-      "activity_count": 84,
-      "total_distance_km": 326.59,
-      "total_elevation_m": 1389.0,
+      "name": "Sandra M.",
+      "total_points": 813.3,
+      "activity_count": 92,
+      "total_distance_km": 489.44,
+      "total_elevation_m": 4404.0,
       "by_type": {
         "Walk": {
-          "count": 49,
-          "points": 461.6999999999999,
-          "distance_km": 153.89999999999998
+          "count": 61,
+          "points": 485.1999999999998,
+          "distance_km": 161.75
+        },
+        "Ride": {
+          "count": 31,
+          "points": 328.1,
+          "distance_km": 327.68999999999994
+        }
+      },
+      "rank": 6,
+      "points_by_group": {
+        "run_walk": 485.2,
+        "ride": 328.1,
+        "swim": 0.0
+      }
+    },
+    {
+      "name": "Liudas S.",
+      "total_points": 806.7,
+      "activity_count": 85,
+      "total_distance_km": 330.2,
+      "total_elevation_m": 1399.0,
+      "by_type": {
+        "Walk": {
+          "count": 50,
+          "points": 472.4999999999999,
+          "distance_km": 157.51
         },
         "Ride": {
           "count": 21,
@@ -1158,36 +1183,11 @@
           "distance_km": 0.62
         }
       },
-      "rank": 6,
-      "points_by_group": {
-        "run_walk": 690.5,
-        "ride": 96.0,
-        "swim": 9.4
-      }
-    },
-    {
-      "name": "Sandra M.",
-      "total_points": 789.3,
-      "activity_count": 91,
-      "total_distance_km": 481.44,
-      "total_elevation_m": 4306.0,
-      "by_type": {
-        "Walk": {
-          "count": 60,
-          "points": 461.1999999999999,
-          "distance_km": 153.75
-        },
-        "Ride": {
-          "count": 31,
-          "points": 328.1,
-          "distance_km": 327.68999999999994
-        }
-      },
       "rank": 7,
       "points_by_group": {
-        "run_walk": 461.2,
-        "ride": 328.1,
-        "swim": 0.0
+        "run_walk": 701.3,
+        "ride": 96.0,
+        "swim": 9.4
       }
     },
     {
@@ -1697,6 +1697,42 @@
     }
   ],
   "activities": [
+    {
+      "athlete_key": "liudas_s.",
+      "athlete_name": "Liudas S.",
+      "name": "Evening Walk",
+      "sport_type": "Walk",
+      "start_date": null,
+      "_fetched_date": "2026-04-30",
+      "distance_km": 3.61,
+      "elevation_m": 10.0,
+      "moving_time_s": 2243,
+      "points": 10.8
+    },
+    {
+      "athlete_key": "andrius_a.",
+      "athlete_name": "Andrius A.",
+      "name": "Afternoon Walk",
+      "sport_type": "Walk",
+      "start_date": null,
+      "_fetched_date": "2026-04-30",
+      "distance_km": 2.7,
+      "elevation_m": 36.0,
+      "moving_time_s": 1926,
+      "points": 8.1
+    },
+    {
+      "athlete_key": "sandra_m.",
+      "athlete_name": "Sandra M.",
+      "name": "Afternoon Walk",
+      "sport_type": "Walk",
+      "start_date": null,
+      "_fetched_date": "2026-04-30",
+      "distance_km": 8.0,
+      "elevation_m": 98.0,
+      "moving_time_s": 5539,
+      "points": 24.0
+    },
     {
       "athlete_key": "gintarė_b.",
       "athlete_name": "Gintarė B.",
@@ -13890,8 +13926,32 @@
       "points": 27.5
     }
   ],
-  "generated_at": "2026-04-30T15:01:40.510010+00:00",
+  "generated_at": "2026-04-30T16:14:06.895342+00:00",
   "run_log": [
+    {
+      "timestamp": "2026-04-30T16:14:06.862114+00:00",
+      "new_count": 3,
+      "activities": [
+        {
+          "athlete": "Liudas S.",
+          "sport": "Walk",
+          "distance_km": 3.61,
+          "name": "Evening Walk"
+        },
+        {
+          "athlete": "Andrius A.",
+          "sport": "Walk",
+          "distance_km": 2.7,
+          "name": "Afternoon Walk"
+        },
+        {
+          "athlete": "Sandra M.",
+          "sport": "Walk",
+          "distance_km": 8.0,
+          "name": "Afternoon Walk"
+        }
+      ]
+    },
     {
       "timestamp": "2026-04-30T15:01:40.476971+00:00",
       "new_count": 7,
@@ -15143,24 +15203,6 @@
           "athlete": "Paulius R.",
           "sport": "Run",
           "distance_km": 22.78,
-          "name": "Morning Run"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-26T09:03:41.412599+00:00",
-      "new_count": 2,
-      "activities": [
-        {
-          "athlete": "Donatas J.",
-          "sport": "VirtualRide",
-          "distance_km": 1.57,
-          "name": "test"
-        },
-        {
-          "athlete": "Andrius A.",
-          "sport": "Run",
-          "distance_km": 42.2,
           "name": "Morning Run"
         }
       ]

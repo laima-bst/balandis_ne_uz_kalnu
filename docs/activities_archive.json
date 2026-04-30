@@ -1,5 +1,8 @@
 {
   "fingerprints": [
+    "c7431eff95027f93f999c98064186992",
+    "8ff6a2bf8a951a2cc0e6d1d4851ba24c",
+    "19fbaa0cd315777db1eb8e5975b3dd77",
     "e84b52028ac6185a1173a4c0ae7606de",
     "a6cf398e987c76e4be497f8ce31c3ef1",
     "89c335ddff1fed4345cd263cf971387b",
@@ -1156,6 +1159,57 @@
     "45295e80138c883c73b7eec94c0ce2cb"
   ],
   "activities": [
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Liudas",
+        "lastname": "S."
+      },
+      "name": "Evening Walk",
+      "distance": 3613.3,
+      "moving_time": 2243,
+      "elapsed_time": 2704,
+      "total_elevation_gain": 10.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Samsung Galaxy Ultra",
+      "_fetched_date": "2026-04-30"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Andrius",
+        "lastname": "A."
+      },
+      "name": "Afternoon Walk",
+      "distance": 2695.2,
+      "moving_time": 1926,
+      "elapsed_time": 2915,
+      "total_elevation_gain": 36.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin fēnix 7",
+      "_fetched_date": "2026-04-30"
+    },
+    {
+      "resource_state": 2,
+      "athlete": {
+        "resource_state": 2,
+        "firstname": "Sandra",
+        "lastname": "M."
+      },
+      "name": "Afternoon Walk",
+      "distance": 7996.5,
+      "moving_time": 5539,
+      "elapsed_time": 6603,
+      "total_elevation_gain": 98.0,
+      "type": "Walk",
+      "sport_type": "Walk",
+      "device_name": "Garmin Venu 2 Plus",
+      "_fetched_date": "2026-04-30"
+    },
     {
       "resource_state": 2,
       "athlete": {
@@ -19866,6 +19920,30 @@
   ],
   "run_log": [
     {
+      "timestamp": "2026-04-30T16:14:06.862114+00:00",
+      "new_count": 3,
+      "activities": [
+        {
+          "athlete": "Liudas S.",
+          "sport": "Walk",
+          "distance_km": 3.61,
+          "name": "Evening Walk"
+        },
+        {
+          "athlete": "Andrius A.",
+          "sport": "Walk",
+          "distance_km": 2.7,
+          "name": "Afternoon Walk"
+        },
+        {
+          "athlete": "Sandra M.",
+          "sport": "Walk",
+          "distance_km": 8.0,
+          "name": "Afternoon Walk"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-30T15:01:40.476971+00:00",
       "new_count": 7,
       "activities": [
@@ -21116,24 +21194,6 @@
           "athlete": "Paulius R.",
           "sport": "Run",
           "distance_km": 22.78,
-          "name": "Morning Run"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-26T09:03:41.412599+00:00",
-      "new_count": 2,
-      "activities": [
-        {
-          "athlete": "Donatas J.",
-          "sport": "VirtualRide",
-          "distance_km": 1.57,
-          "name": "test"
-        },
-        {
-          "athlete": "Andrius A.",
-          "sport": "Run",
-          "distance_km": 42.2,
           "name": "Morning Run"
         }
       ]
